@@ -1,0 +1,57 @@
+{
+    "items" : [{
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    },
+    {
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    },
+    {
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    },
+    {
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    },
+    {
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    },
+    {
+      "name" : "Carbon",
+      "icon" : "",
+      "symbol" : "C",
+      "rarity" : "Common",
+      "basevalue" : "",
+      "type" : "Resource",
+      "group" : "Neutral"
+    }
+  ]
+}
