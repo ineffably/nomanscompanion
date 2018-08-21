@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import Home from './components/Home';
 import {
   Route,
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
 
-const Home = () => {
-  return (<div>Home</div>);
-};
-
 export default class App extends Component {
+  constructor(){
+    super();
+  }
+
   render() {
     return (
       <Router>
