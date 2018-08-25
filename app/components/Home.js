@@ -1,33 +1,52 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import AllItemsList from './AllItemsList';
+import { TextField, CssBaseline } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 
-export default class Home extends Component {
-  constructor(){
+const styles = {
+  textField: {
+    maxWidth: 345,
+    display: 'flex'
+  }
+};
+
+class Home extends Component {
+  constructor() {
     super();
-    this.state = { items: {}, refining: {}, crafting: {} };
+    this.state = { items: [], refining: [], crafting: [], filter: '' };
   }
 
-  async componentDidMount(){
-    const itemResponse = await fetch('../data/Items.json');
-    const items = await itemResponse.json();
-    const refiningResponse = await fetch('../data/Refining.json');
-    const refiningJson = await refiningResponse.json();
-    this.setState({items: items, refining: refiningJson});
+  async componentDidMount() {
+    const itemResponse = await fetch('../data/Data.json');
+    const data = await itemResponse.json();
+    this.setState({ items: data.Items, refining: data.Refining, crafting: data.Crafting });
   }
 
-  renderAllItems(){
-    const allItems = this.state.items;
-    const itemNames = Object.keys(this.state.items);
-    return itemNames.map((name, i) => {
-      const item = allItems[name];
-      return(<div key={i}>{item.Name}</div>);
-    });
+  applyFilter(value){
+    this.setState({filter: value});
   }
 
-  render(){
-    return(
+  render() {
+    const { classes } = this.props;
+    return (
       <div>
-        <h3>Home Page</h3>
-        {this.renderAllItems()}
+        <CssBaseline />
+        <TextField
+          id="itemFilter"
+          label="Item Search"
+          placeholder="Enter Item Name"
+          className={classes.textField}
+          margin="normal"
+          onChange={(ev) => {this.applyFilter(ev.target.value);}}
+        />
+        <AllItemsList itemArray={this.state.items} filter={this.state.filter} />
       </div>);
   }
 }
+
+Home.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(Home);

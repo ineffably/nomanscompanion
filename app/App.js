@@ -5,6 +5,7 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 export default class App extends Component {
   constructor(){
@@ -15,6 +16,7 @@ export default class App extends Component {
     return (
       <Router>
         <div className="App">
+          <CssBaseline />
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
