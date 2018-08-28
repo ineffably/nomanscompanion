@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { List, ListItem, ListItemText, Avatar } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+// import { Redirect } from 'react-router';
+// import { withRouter } from 'react-router-dom';
 
 const styles = {
   listItem: {
@@ -11,13 +13,14 @@ const styles = {
 
 class AllItemsList extends Component {
 
-  handleToggle(item){
-    return () => (console.log(item.Name));
+  handleToggle(item) {
+    return () => {
+      this.props.history.push(`/items/${item.Name}`);
+    };
   }
 
-  renderItem(item){
+  renderItem(item) {
     const { classes } = this.props;
-
     return (<ListItem
       key={item.Name}
       role={undefined}
@@ -26,7 +29,7 @@ class AllItemsList extends Component {
       onClick={this.handleToggle(item)}
       className={classes.listItem}
     >
-      <Avatar alt="{item.Name}" src="images/dioxite.png" />
+      <Avatar alt="{item.Name}" src={`${item.image}`} />
       <ListItemText primary={`${item.Name}`} />
     </ListItem>);
   }
@@ -34,13 +37,13 @@ class AllItemsList extends Component {
   render() {
     const { itemArray, filter } = this.props;
     let items = itemArray;
-    if(filter.length > 0) {
+    if (filter.length > 0) {
       items = itemArray.filter(item => item.Name.toLowerCase().indexOf(filter.toLowerCase()) > -1);
     }
-    
+
     return (
       <List>
-        {items.map((item) => {return this.renderItem(item);})}
+        {items.map((item) => { return this.renderItem(item); })}
       </List>
     );
   }
@@ -49,7 +52,8 @@ class AllItemsList extends Component {
 AllItemsList.propTypes = {
   filter: PropTypes.string.isRequired,
   itemArray: PropTypes.array.isRequired,
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  history: PropTypes.object
 };
 
 export default withStyles(styles)(AllItemsList);

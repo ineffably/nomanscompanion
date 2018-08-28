@@ -1,24 +1,52 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Card, CardContent, Typography, CardMedia } from '@material-ui/core';
+import { Card, CardContent, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   card: {
-    maxWidth: 345,
-    display: 'flex'
+    height: 300,
+    width: 300,
+    backgroundColor: '#fff',
+    padding: '10px',
+    display: 'flex',
+    flexDirection: 'column'
   },
   media: {
     height: 140,
   },
-  cover: {
-    verticalAlign: 'middle',
-    width: 50,
-    height: 50,
+  content: {
+    position: 'relative',
+    flexGrow: 1,
+    backgroundColor: '#777',
+    margin: 0,
+    padding: 0
   },
-  details: {
-    display: 'flex',
-    flexDirection: 'column',
+  cover: {
+    position: 'relative',
+    width: '100%',
+    height: '100%',
+    backgroundSize: '100%',
+    'background-size': '100%'
+  },
+  title: {
+    backgroundColor: '#fff'
+  },
+  cost: {
+    padding: '10px 13px',
+    position: 'absolute',
+    color: '#fff',
+    right: 0,
+    bottom: 0
+  },
+  symbol: {
+    opacity: 0.8,
+    margin: '10px 10px',
+    color: '#333',
+    backgroundColor: '#FFF',
+    borderRadius: '15px',
+    width: '40px',
+    textAlign: 'center'
   }
 };
 
@@ -27,16 +55,17 @@ class ItemCard extends Component {
     const { item, classes } = this.props;
     return (
       <Card className={classes.card}>
-        <CardMedia
-          className={classes.cover}
-          image="images/dioxite.png"
-          title='{item.name}'
-        />
-        <div className={classes.details}>
-          <CardContent>
-            <Typography variant="title">{item.Name}</Typography>
-          </CardContent>
-        </div>
+        <CardContent className={classes.content} style={{ background: `url('${item.image}') no-repeat center center #777` }}>
+          <Typography variant="headline" className={classes.title}>
+            {item.Name}
+          </Typography>
+          <Typography variant="headline" className={classes.symbol}>
+            {item.Symbol}
+          </Typography>
+          <Typography variant="headline" className={classes.cost}>
+            {item.BaseValue}
+          </Typography>
+        </CardContent>
       </Card>);
   }
 }

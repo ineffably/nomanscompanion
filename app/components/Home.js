@@ -14,13 +14,7 @@ const styles = {
 class Home extends Component {
   constructor() {
     super();
-    this.state = { items: [], refining: [], crafting: [], filter: '' };
-  }
-
-  async componentDidMount() {
-    const itemResponse = await fetch('../data/Data.json');
-    const data = await itemResponse.json();
-    this.setState({ items: data.Items, refining: data.Refining, crafting: data.Crafting });
+    this.state = { filter: '' };
   }
 
   applyFilter(value){
@@ -40,13 +34,15 @@ class Home extends Component {
           margin="normal"
           onChange={(ev) => {this.applyFilter(ev.target.value);}}
         />
-        <AllItemsList itemArray={this.state.items} filter={this.state.filter} />
+        <AllItemsList itemArray={this.props.items} filter={this.state.filter} history={this.props.history} />
       </div>);
   }
 }
 
 Home.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  items: PropTypes.array.isRequired,
+  history: PropTypes.object
 };
 
 export default withStyles(styles)(Home);
