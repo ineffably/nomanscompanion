@@ -4,14 +4,18 @@ import { Card, CardContent, Typography, Avatar, ButtonBase } from '@material-ui/
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
-  card: {},
+  card: {
+    minWidth: 220,
+    padding: 0
+  },
   content: {
     display: 'flex',
-    flexFlow: 'row'
+    flexFlow: 'row',
+    paddingBottom: '16 !important'
   },
   avatar: {},
   title: {
-    lineHeight: 3
+    lineHeight: '24px'
   },
   cost: {}
 };
@@ -40,7 +44,7 @@ Item.propTypes = {
   classes: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
   item: PropTypes.object,
-  count: PropTypes.number
+  count: PropTypes.any
 };
 
 export default withStyles(styles)(Item);
