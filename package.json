@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot"
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
