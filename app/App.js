@@ -15,7 +15,7 @@ export default class App extends Component {
   }
 
   setupImages(items) {
-    const imagePath = '/images';
+    const imagePath = 'images';
     items.forEach(item => {
       item.image = item.Name.replace(/ +?/g, '');
       item.image = [imagePath, '/', item.image.toLowerCase(), '.png'].join('');
