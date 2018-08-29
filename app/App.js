@@ -23,7 +23,7 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
-    const itemResponse = await fetch('../data/Data.json');
+    const itemResponse = await fetch('data/Data.json');
     const data = await itemResponse.json();
     this.setupImages(data.Items);
     this.setState({ data: data, items: data.Items, refining: data.Refining, crafting: data.Crafting });
