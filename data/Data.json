@@ -1261,7 +1261,7 @@
     },
     {
       "Output": "Heat Capacitor",
-      "Input1": "Frost Crystals",
+      "Input1": "Frost Crystal",
       "Count1": 100,
       "Input2": "Solanium",
       "Count2": 200,
@@ -1405,7 +1405,7 @@
     },
     {
       "Output": "Glass",
-      "Input1": "Frost Crystals",
+      "Input1": "Frost Crystal",
       "Count1": 50,
       "Input2": "",
       "Count2": "",
