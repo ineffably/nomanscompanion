@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import ItemView from './components/ItemView';
+import RawTables from './RawTables';
 
 export default class App extends Component {
   constructor(){
@@ -39,6 +40,7 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
               <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
+              <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
             </Switch>
           </div>
         </div>

@@ -1,0 +1,91 @@
+{
+	"Data": {
+		"template": "GcPurchaseableSpecials",
+		"Property": {
+			"name": "Table",
+			"$t": "",
+			"Property": [
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "SPEC_EMOTE01"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "SPEC_DECAL01"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "SPEC_DECAL02"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "SPEC_DECAL03"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_BLOB_B"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_BLOB_S"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_BLOB_G"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_ASTRO_B"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_ASTRO_S"
+					}
+				},
+				{
+					"value": "NMSString0x10.xml",
+					"$t": "",
+					"Property": {
+						"name": "Value",
+						"value": "STATUE_ASTRO_G"
+					}
+				}
+			]
+		}
+	}
+}

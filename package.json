@@ -1,10 +1,10 @@
 {
-  "name": "nmscalc",
+  "name": "nomanscompanion",
   "version": "1.0.0",
-  "description": "",
+  "description": "No Man's Sky Companion",
   "main": "index.js",
   "scripts": {
-    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "dev": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "build": "webpack"
   },
   "author": "",
@@ -31,6 +31,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.8.6"
   }
 }
