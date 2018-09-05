@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Item from './Item';
-import utils from '../nmsutils';
+import {getItemFromName} from '../nmsutils';
 
 const styles = {
   paper: {
@@ -16,10 +16,10 @@ class BluePrint extends Component {
     const { recipe, classes, data, history } = this.props;
     return (
       <Paper className={classes.paper}>
-        <div><Item item={utils.getItemFromName(recipe.Output, data)} count={recipe.Count} history={history}/></div>
-        <div><Item item={utils.getItemFromName(recipe.Input1, data)} count={recipe.Count1} history={history}/></div>
-        <div><Item item={utils.getItemFromName(recipe.Input2, data)} count={recipe.Count2} history={history} /></div>
-        <div><Item item={utils.getItemFromName(recipe.Input3, data)} count={recipe.Count3} history={history} /></div>
+        <div><Item item={getItemFromName(recipe.Output, data)} count={recipe.Count} history={history}/></div>
+        <div><Item item={getItemFromName(recipe.Input1, data)} count={recipe.Count1} history={history}/></div>
+        <div><Item item={getItemFromName(recipe.Input2, data)} count={recipe.Count2} history={history} /></div>
+        <div><Item item={getItemFromName(recipe.Input3, data)} count={recipe.Count3} history={history} /></div>
       </Paper>);
   }
 }

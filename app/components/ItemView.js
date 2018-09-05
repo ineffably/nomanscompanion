@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ItemCard from './ItemCard';
 import CraftedBy from './CraftedBy';
-import utils from '../nmsutils';
+import {getItemFromName} from '../nmsutils';
 import RefinedFrom from './RefinedFrom';
 
 export default class ItemView extends Component {
@@ -11,7 +11,7 @@ export default class ItemView extends Component {
       return(<div></div>);
     }
 
-    const item = utils.getItemFromName(this.props.match.params.name, this.props.data);
+    const item = getItemFromName(this.props.match.params.name, this.props.data);
     return (
       <div>
         <ItemCard item={item} {...this.props} />
