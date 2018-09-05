@@ -6,51 +6,68 @@ function getItemFromName(name, data) {
   return null;
 }
 
-function transformRawTableFormat(leaf, parent) {
-  let result = parent || {};
-  if (leaf.name && leaf.value) {
-    result[leaf.name] = leaf.value;
-  }
+function translateColor(rawColor) {
+  const r = parseFloat(rawColor.R) * 255;
+  const g = parseFloat(rawColor.G) * 255;
+  const b = parseFloat(rawColor.B) * 255;
+  const a = parseFloat(rawColor.A);
+  return `rgb(${r}, ${g}, ${b}, ${a})`;
+}
 
-  if(leaf.value && leaf.value.indexOf('.xml') >= 0 ) {
-    leaf.lookup = leaf.value;
-    delete leaf.value;
+function translateIcon(rawFilePath) {
+  const parts = rawFilePath.split('/');
+  const fileName = parts[parts.length-1].replace('.DDS', '.png');
+  return fileName;
+}
+
+function transformTable(leaf, parent) {
+  let result = parent || {};
+  // single key/value pairs combine into an object
+  if (leaf.name && leaf.value && 
+    typeof leaf.value === 'string' && leaf.value.indexOf('.xml') === -1) {
+    result[leaf.name] = leaf.value;
+    return result;
   }
 
   if (leaf.Property) {
-    const obj = transformRawTableFormat(leaf.Property, leaf);
-    if (Array.isArray(leaf.Property)) {
+    if (!Array.isArray(leaf.Property)) {
       if (leaf.name) {
+        if(leaf.Property.name === 'Value'){
+          result[leaf.name] = leaf.Property.value;
+        }
+        else {
+          result[leaf.name] = transformTable(leaf.Property, {});
+        }
+      }
+      else {
+        const obj = transformTable(leaf.Property, {});
+        result = {...result, ...obj};
+      }
+    }
+    else {
+      const obj = transformTable(leaf.Property, {});
+      if(leaf.name){
         result[leaf.name] = obj;
       }
       else {
         result = {...result, ...obj};
       }
     }
-    else {
-      if(leaf.Property.name === 'Value') {
-        result[leaf.name] = leaf.Property.value;
-      }
-      else {
-        result[leaf.name] = obj;
-      }
-    }
-    
-    delete (result.$t);
-    // delete (leaf.Property);
-    // delete (result.Property);
-    return result;
   }
 
   if (Array.isArray(leaf)) {
-    const newObj = {};
-    leaf.forEach((node) => {
-      transformRawTableFormat(node, newObj);
-    });
-    return newObj;
+    const obj = leaf.reduce((ag, cur) => {
+      return {...ag, ...transformTable(cur, {})};
+    }, {});
+    result = {...result, ...obj};
   }
 
   return result;
 }
 
-export { getItemFromName, transformRawTableFormat };
+export { 
+  getItemFromName, 
+  transformTable,
+  translateIcon,
+  translateColor
+};

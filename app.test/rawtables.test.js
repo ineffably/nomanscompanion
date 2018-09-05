@@ -1,11 +1,11 @@
-import { transformRawTableFormat } from '../app/nmsutils';
+import { transformTable, translateIcon, translateColor } from '../app/nmsutils';
 
 describe('Transform Tables', () => {
   it('converts name and value to object', () => {
     const testTable = {
       name: 'SpaceStationMarkup', value: '0'
     };
-    const result = transformRawTableFormat(testTable);
+    const result = transformTable(testTable);
     expect(result.SpaceStationMarkup).toEqual('0');
   });
 
@@ -16,7 +16,7 @@ describe('Transform Tables', () => {
         { name: 'BaseValue', value: '800' }
       ]
     };
-    const result = transformRawTableFormat(testTable.Property);
+    const result = transformTable(testTable.Property);
     expect(result.SpaceStationMarkup).toEqual('0');
     expect(result.BaseValue).toEqual('800');
   });
@@ -45,7 +45,7 @@ describe('Transform Tables', () => {
         }
       ]
     };
-    const result = transformRawTableFormat(testTable);
+    const result = transformTable(testTable);
     expect(result.Colour).toBeDefined;
     expect(result.Colour.R).toEqual('0.9529412');
   });
@@ -91,7 +91,7 @@ describe('Transform Tables', () => {
         Icon: { Filename: 'TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CASING.DDS' }
       }
     };
-    const result = transformRawTableFormat(testTable);
+    const result = transformTable(testTable);
     expect(result.Table).toBeDefined();
     expect(result.Table.Subtitle).toBeDefined();
     expect(result.Table.Subtitle).toEqual(expected.Table.Subtitle);
@@ -113,7 +113,7 @@ describe('Transform Tables', () => {
       }
     };
 
-    const result = transformRawTableFormat(testTable);
+    const result = transformTable(testTable);
     expect(result.Icon).toBeDefined();
     expect(result.Icon.Filename).toBeDefined();
   });
@@ -155,11 +155,76 @@ describe('Transform Tables', () => {
       }
     };
 
-    const result = transformRawTableFormat(testTable);
+    const result = transformTable(testTable);
     expect(result.Requirements).toBeDefined();
     expect(result.Requirements.Amount).toBeDefined();
     expect(result.Requirements.ID).toBeDefined();
     expect(result.Requirements.ID).toEqual(expected.Requirements.ID);
     expect(result.Requirements.Amount).toEqual(expected.Requirements.Amount);
+  });
+
+  it('transforms table format', () => {
+    const testTable = {
+      'Data': {
+        'template': 'TkLocalisationTable',
+        'Property': {
+          'name': 'Table',
+          '$t': '',
+          'Property': [
+            {
+              'value': 'TkLocalisationEntry.xml',
+              '$t': '',
+              'Property': [
+                {
+                  'name': 'Id',
+                  'value': 'NAMEGEN_PLANET_ADORN_1'
+                },
+                {
+                  'name': 'English',
+                  'value': 'VariableSizeString.xml',
+                  '$t': '',
+                  'Property': {
+                    'name': 'Value',
+                    'value': 'Prime'
+                  }
+                },
+                {
+                  'name': 'French',
+                  'value': 'VariableSizeString.xml',
+                  '$t': '',
+                  'Property': {
+                    'name': 'Value',
+                    'value': ''
+                  }
+                }]
+            }
+          ]
+        }
+      }
+    };
+
+    const expectedResults = {
+      'Table': {
+        Id: 'NAMEGEN_PLANET_ADORN_1',
+        English: 'Prime',
+        French: ''
+      }
+    };
+
+    const result = transformTable(testTable.Data, {});
+    // console.log(JSON.stringify(result, null, 2));
+    expect(result.Table).toBeDefined();
+    expect(result.Table).toEqual(expectedResults.Table);
+
+  });
+
+  it('can translate icons and paths from dds to png', () => {
+    const result = translateIcon('TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CASING.DDS');
+    expect(result).toEqual('PRODUCT.CASING.png');
+  });
+
+  it('converts raw rgb values into CSS rgb values', () => {
+    const result = translateColor({ 'R': '0.9529412', 'G': '0.6627451', 'B': '0.1372549', 'A': '1' });
+    expect(result).toEqual('rgb(243.000006, 169.0000005, 34.9999995, 1)');
   });
 });
