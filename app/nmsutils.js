@@ -6,6 +6,10 @@ function getItemFromName(name, data) {
   return null;
 }
 
+function lookupString(languageData, value) {
+  return languageData.data[value];  
+}
+
 function translateColor(rawColor) {
   const r = parseFloat(rawColor.R) * 255;
   const g = parseFloat(rawColor.G) * 255;
@@ -69,5 +73,6 @@ export {
   getItemFromName, 
   transformTable,
   translateIcon,
-  translateColor
+  translateColor,
+  lookupString
 };
