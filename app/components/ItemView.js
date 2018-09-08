@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ItemCard from './ItemCard';
 import CraftedBy from './CraftedBy';
-import {getItemFromName} from '../nmsutils';
 import RefinedFrom from './RefinedFrom';
 
 export default class ItemView extends Component {
   render() {
-    if(!this.props.data.Items){
-      return(<div></div>);
+    if (this.props.products.length === 0) {
+      return (<div></div>);
     }
 
-    const item = getItemFromName(this.props.match.params.name, this.props.data);
+    const nameParam = this.props.match.params.name;
+    const item = this.props.products.filter((product) => {
+      return product.Name ? product.Name.toLowerCase() === nameParam.toLowerCase() : false;
+    })[0];
+    console.log('item', item);
     return (
       <div>
         <ItemCard item={item} {...this.props} />
@@ -23,5 +26,6 @@ export default class ItemView extends Component {
 
 ItemView.propTypes = {
   match: PropTypes.object.isRequired,
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
+  products: PropTypes.array.isRequired
 };

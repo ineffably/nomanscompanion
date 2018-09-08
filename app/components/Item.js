@@ -32,7 +32,7 @@ class Item extends Component {
       <Card className={classes.card}>
         <CardContent className={classes.content}>
           <ButtonBase onClick={() => {this.props.history.push(`/items/${item.Name}`);}}>
-            <Avatar className={classes.avatar} alt="{item.Name}" src={`${item.image}`} />
+            <Avatar className={classes.avatar} alt={item.NameLower} src={`${item.image}`} />
             <Typography className={classes.title}>{itemText}</Typography>
           </ButtonBase>
         </CardContent>

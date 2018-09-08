@@ -7,7 +7,11 @@ function getItemFromName(name, data) {
 }
 
 function lookupString(languageData, value) {
-  return languageData.data[value];  
+  const result = languageData.data[value];
+  if(!result){
+    console.log('lang not found', value);
+  }
+  return result || value;
 }
 
 function translateColor(rawColor) {

@@ -55,7 +55,7 @@ class ItemCard extends Component {
     const { item, classes } = this.props;
     return (
       <Card className={classes.card}>
-        <CardContent className={classes.content} style={{ background: `url('${item.image}') no-repeat center center #777` }}>
+        <CardContent className={classes.content} style={{ background: `url('icons/${item.Icon.Filename}') no-repeat center center ${item.ColorRGB}` }}>
           <Typography variant="headline" className={classes.title}>
             {item.Name}
           </Typography>

@@ -1,0 +1,2343 @@
+{
+  "data": [
+    {
+      "Name": "TECH1_NAME",
+      "NameLower": "TECH1_NAME_L",
+      "ID": "TECH1",
+      "Symbol": "TECH1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.COMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "TECH1_SUBTITLE",
+      "Description": "TECH1_DESCRIPTION",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2862745",
+        "B": "0.6392157",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "28",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.145834E-06",
+      "NormalisedValueOffWorld": "1.145834E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TECHUNCOMMON1_NAME",
+      "NameLower": "TECHUNCOMMON1_NAME_L",
+      "ID": "TECHUNCOMMON1",
+      "Symbol": "TECHUNCOMMON1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.UNCOMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "TECHUNCOMMON1_SUBTITLE",
+      "Description": "TECHUNCOMMON1_DESCRIPTION",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2862745",
+        "B": "0.6392157",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "55",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Uncommon"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.673612E-06",
+      "NormalisedValueOffWorld": "2.673612E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TECHRARE1_NAME",
+      "NameLower": "TECHRARE1_NAME_L",
+      "ID": "TECHRARE1",
+      "Symbol": "TECHRARE1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.RARE1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "TECHRARE1_SUBTITLE",
+      "Description": "TECHRARE1_DESCRIPTION",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2862745",
+        "B": "0.6392157",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "83",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.20139E-06",
+      "NormalisedValueOffWorld": "4.20139E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "COM1_NAME",
+      "NameLower": "COM1_NAME_L",
+      "ID": "COM1",
+      "Symbol": "COM1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.COMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "COM1_SUBTITLE",
+      "Description": "COM1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5607843",
+        "G": "0.5686275",
+        "B": "0.5803922",
+        "A": "1"
+      },
+      "BaseValue": "14",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.819446E-07",
+      "NormalisedValueOffWorld": "3.819446E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "COMUNCOMMON1_NAME",
+      "NameLower": "COMUNCOMMON1_NAME_L",
+      "ID": "COMUNCOMMON1",
+      "Symbol": "COMUNCOMMON1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.UNCOMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "COMUNCOMMON1_SUBTITLE",
+      "Description": "COMUNCOMMON1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Uncommon"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.909723E-06",
+      "NormalisedValueOffWorld": "1.909723E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "COMRARE1_NAME",
+      "NameLower": "COMRARE1_NAME_L",
+      "ID": "COMRARE1",
+      "Symbol": "COMRARE1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.RARE1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "COMRARE1_SUBTITLE",
+      "Description": "COMRARE1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.055557E-06",
+      "NormalisedValueOffWorld": "3.055557E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "FUEL1_NAME",
+      "NameLower": "FUEL1_NAME_L",
+      "ID": "FUEL1",
+      "Symbol": "FUEL1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.COMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "FUEL1_SUBTITLE",
+      "Description": "FUEL1_DESCRIPTION",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "7",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "0",
+      "NormalisedValueOffWorld": "0",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "FUELUNCOMMON1_NAME",
+      "NameLower": "FUELUNCOMMON1_NAME_L",
+      "ID": "FUELUNCOMMON1",
+      "Symbol": "FUELUNCOMMON1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.UNCOMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "FUELUNCOMMON1_SUBTITLE",
+      "Description": "FUELUNCOMMON1_DESCRIPTION",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "21",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Uncommon"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.638892E-07",
+      "NormalisedValueOffWorld": "7.638892E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "FUELRARE1_NAME",
+      "NameLower": "FUELRARE1_NAME_L",
+      "ID": "FUELRARE1",
+      "Symbol": "FUELRARE1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.RARE1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "FUELRARE1_SUBTITLE",
+      "Description": "FUELRARE1_DESCRIPTION",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.909723E-06",
+      "NormalisedValueOffWorld": "1.909723E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE1_NAME",
+      "NameLower": "TRADEABLE1_NAME_L",
+      "ID": "TRADEABLE1",
+      "Symbol": "TRADEABLE1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON3.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE1_SUBTITLE",
+      "Description": "TRADEABLE1_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9333333",
+        "G": "0.2235294",
+        "B": "0.145098",
+        "A": "1"
+      },
+      "BaseValue": "96",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.965279E-06",
+      "NormalisedValueOffWorld": "4.965279E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE2_NAME",
+      "NameLower": "TRADEABLE2_NAME_L",
+      "ID": "TRADEABLE2",
+      "Symbol": "TRADEABLE2_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE2_SUBTITLE",
+      "Description": "TRADEABLE2_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9137255",
+        "G": "0.6352941",
+        "B": "0.5372549",
+        "A": "1"
+      },
+      "BaseValue": "110",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "5.729169E-06",
+      "NormalisedValueOffWorld": "5.729169E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE3_NAME",
+      "NameLower": "TRADEABLE3_NAME_L",
+      "ID": "TRADEABLE3",
+      "Symbol": "TRADEABLE3_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE3_SUBTITLE",
+      "Description": "TRADEABLE3_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.6588235",
+        "G": "0.6078432",
+        "B": "0.5254902",
+        "A": "1"
+      },
+      "BaseValue": "138",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.256947E-06",
+      "NormalisedValueOffWorld": "7.256947E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE4_NAME",
+      "NameLower": "TRADEABLE4_NAME_L",
+      "ID": "TRADEABLE4",
+      "Symbol": "TRADEABLE4_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.UNCOMMON1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE4_SUBTITLE",
+      "Description": "TRADEABLE4_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9137255",
+        "G": "0.9215686",
+        "B": "0.9254902",
+        "A": "1"
+      },
+      "BaseValue": "165",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "8.784726E-06",
+      "NormalisedValueOffWorld": "8.784726E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE5_NAME",
+      "NameLower": "TRADEABLE5_NAME_L",
+      "ID": "TRADEABLE5",
+      "Symbol": "TRADEABLE5_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.UNCOMMON2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE5_SUBTITLE",
+      "Description": "TRADEABLE5_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "BaseValue": "220",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.184028E-05",
+      "NormalisedValueOffWorld": "1.184028E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TRADEABLE6_NAME",
+      "NameLower": "TRADEABLE6_NAME_L",
+      "ID": "TRADEABLE6",
+      "Symbol": "TRADEABLE6_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.RARE1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "TRADEABLE6_SUBTITLE",
+      "Description": "TRADEABLE6_DESCRIPTION",
+      "Colour": {
+        "R": "0.372549",
+        "G": "0.8",
+        "B": "0.5764706",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7568628",
+        "G": "1",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "BaseValue": "275",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.489584E-05",
+      "NormalisedValueOffWorld": "1.489584E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "NEWPROD8_NAME",
+      "NameLower": "NEWPROD8_NAME_L",
+      "ID": "TRADEABLE7",
+      "Symbol": "NEWPROD8_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "PRECIOUS_ELEMENT_SUBTITLE",
+      "Description": "NEWPROD8_DESC",
+      "Colour": {
+        "R": "0.4431373",
+        "G": "0.09411765",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "303",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.642362E-05",
+      "NormalisedValueOffWorld": "1.642362E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "NEWPROD15_NAME",
+      "NameLower": "NEWPROD15_NAME_L",
+      "ID": "TRADEABLE8",
+      "Symbol": "NEWPROD15_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE4.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "PRECIOUS_ELEMENT_SUBTITLE",
+      "Description": "NEWPROD15_DESC",
+      "Colour": {
+        "R": "0.4431373",
+        "G": "0.09411765",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "289",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.565973E-05",
+      "NormalisedValueOffWorld": "1.565973E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "NEWPROD9_NAME",
+      "NameLower": "NEWPROD9_NAME_L",
+      "ID": "TRADEABLE9",
+      "Symbol": "NEWPROD9_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE3.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "PRECIOUS_ELEMENT_SUBTITLE",
+      "Description": "NEWPROD9_DESC",
+      "Colour": {
+        "R": "0.4431373",
+        "G": "0.09411765",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "303",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.642362E-05",
+      "NormalisedValueOffWorld": "1.642362E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "NEWPROD16_NAME",
+      "NameLower": "NEWPROD16_NAME_L",
+      "ID": "TRADEABLE10",
+      "Symbol": "NEWPROD16_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "PRECIOUS_ELEMENT_SUBTITLE",
+      "Description": "NEWPROD16_DESC",
+      "Colour": {
+        "R": "0.4431373",
+        "G": "0.09411765",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "309",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Rare"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.680556E-05",
+      "NormalisedValueOffWorld": "1.680556E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_BLUESYSTEM_NAME",
+      "NameLower": "SUB_BLUESYSTEM_NAME_L",
+      "ID": "SUBBLUESYS",
+      "Symbol": "SUB_BLUESYSTEM_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBBLUESYS.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_BLUESYSTEM_SUBTITLE",
+      "Description": "SUB_BLUESYSTEM_DESC",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2196078",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "275",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.489584E-05",
+      "NormalisedValueOffWorld": "1.489584E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_REDSYSTEM_NAME",
+      "NameLower": "SUB_REDSYSTEM_NAME_L",
+      "ID": "SUBREDSYS",
+      "Symbol": "SUB_REDSYSTEM_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBREDSYS.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_REDSYSTEM_SUBTITLE",
+      "Description": "SUB_REDSYSTEM_DESC",
+      "Colour": {
+        "R": "0.4823529",
+        "G": "0",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8156863",
+        "G": "0.1176471",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "289",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.565973E-05",
+      "NormalisedValueOffWorld": "1.565973E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_GREENSYSTEM_NAME",
+      "NameLower": "SUB_GREENSYSTEM_NAME_L",
+      "ID": "SUBGREENSYS",
+      "Symbol": "SUB_GREENSYSTEM_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBGREENSYS.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_GREENSYSTEM_SUBTITLE",
+      "Description": "SUB_GREENSYSTEM_DESC",
+      "Colour": {
+        "R": "0.2117647",
+        "G": "0.3803922",
+        "B": "0.1098039",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5254902",
+        "G": "0.6901961",
+        "B": "0.2392157",
+        "A": "1"
+      },
+      "BaseValue": "303",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.642362E-05",
+      "NormalisedValueOffWorld": "1.642362E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_TOXIC_NAME",
+      "NameLower": "UI_PLANTSUB_TOXIC_NAME_L",
+      "ID": "SUBTOXIC",
+      "Symbol": "UI_PLANTSUB_TOXIC_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBTOXIC.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_TOXIC_DESC",
+      "Colour": {
+        "R": "0",
+        "G": "0.6509804",
+        "B": "0.3019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.4156863",
+        "G": "0.8156863",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "16",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "5.069446E-07",
+      "NormalisedValueOffWorld": "5.069446E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_SNOW_NAME",
+      "NameLower": "UI_PLANTSUB_SNOW_NAME_L",
+      "ID": "SUBSNOW",
+      "Symbol": "UI_PLANTSUB_SNOW_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBSNOW.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_SNOW_DESC",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.3098039",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.5764706",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "BaseValue": "12",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.847223E-07",
+      "NormalisedValueOffWorld": "2.847223E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_RADIO_NAME",
+      "NameLower": "UI_PLANTSUB_RADIO_NAME_L",
+      "ID": "SUBRADIOACTIVE",
+      "Symbol": "UI_PLANTSUB_RADIO_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBRADIOACTIVE.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_RADIO_DESC",
+      "Colour": {
+        "R": "0.772549",
+        "G": "0.5294118",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7803922",
+        "G": "0.7254902",
+        "B": "0.1058824",
+        "A": "1"
+      },
+      "BaseValue": "16",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "5.069446E-07",
+      "NormalisedValueOffWorld": "5.069446E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_BARREN_NAME",
+      "NameLower": "UI_PLANTSUB_BARREN_NAME_L",
+      "ID": "SUBBARREN",
+      "Symbol": "UI_PLANTSUB_BARREN_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBBARREN.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_BARREN_DESC",
+      "Colour": {
+        "R": "0.1372549",
+        "G": "0.5882353",
+        "B": "0.1490196",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8823529",
+        "G": "0.5843138",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "BaseValue": "28",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.173612E-06",
+      "NormalisedValueOffWorld": "1.173612E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_SCORCHED_NAME",
+      "NameLower": "UI_PLANTSUB_SCORCHED_NAME_L",
+      "ID": "SUBSCORCHED",
+      "Symbol": "UI_PLANTSUB_SCORCHED_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBSCORCHED.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_SCORCHED_DESC",
+      "Colour": {
+        "R": "0.7254902",
+        "G": "0.2627451",
+        "B": "0.09411765",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9490196",
+        "G": "0.427451",
+        "B": "0.08235294",
+        "A": "1"
+      },
+      "BaseValue": "70",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.506946E-06",
+      "NormalisedValueOffWorld": "3.506946E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_LUSH_NAME",
+      "NameLower": "UI_PLANTSUB_LUSH_NAME_L",
+      "ID": "SUBLUSH",
+      "Symbol": "UI_PLANTSUB_LUSH_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBLUSH.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_LUSH_DESC",
+      "Colour": {
+        "R": "0.7254902",
+        "G": "0.2627451",
+        "B": "0.09411765",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9490196",
+        "G": "0.427451",
+        "B": "0.08235294",
+        "A": "1"
+      },
+      "BaseValue": "32",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.395834E-06",
+      "NormalisedValueOffWorld": "1.395834E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_CAVE_NAME",
+      "NameLower": "UI_PLANTSUB_CAVE_NAME_L",
+      "ID": "SUBCAVE",
+      "Symbol": "UI_PLANTSUB_CAVE_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBCAVE.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_CAVE_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.909723E-06",
+      "NormalisedValueOffWorld": "1.909723E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_WATER_NAME",
+      "NameLower": "UI_PLANTSUB_WATER_NAME_L",
+      "ID": "SUBWATER",
+      "Symbol": "UI_PLANTSUB_WATER_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBWATER.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_WATER_DESC",
+      "Colour": {
+        "R": "0",
+        "G": "0.3607843",
+        "B": "0.5137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3490196",
+        "G": "0.6078432",
+        "B": "0.7137255",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.909723E-06",
+      "NormalisedValueOffWorld": "1.909723E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_DEADCREATURE_NAME",
+      "NameLower": "UI_PLANTSUB_DEADCREATURE_NAME_L",
+      "ID": "SUBCREATURE",
+      "Symbol": "UI_PLANTSUB_DEADCREATURE_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBCREATURE.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_DEADCREATURE_DESC",
+      "Colour": {
+        "R": "0.3176471",
+        "G": "0.1529412",
+        "B": "0.254902",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7137255",
+        "G": "0.3490196",
+        "B": "0.572549",
+        "A": "1"
+      },
+      "BaseValue": "40",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.840279E-06",
+      "NormalisedValueOffWorld": "1.840279E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_PLANTSUB_CREATUREPOOP_NAME",
+      "NameLower": "UI_PLANTSUB_CREATUREPOOP_NAME_L",
+      "ID": "SUBPOOP",
+      "Symbol": "UI_PLANTSUB_CREATUREPOOP_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBPOOP.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_PLANTSUB_SUBTITLE",
+      "Description": "UI_PLANTSUB_CREATUREPOOP_DESC",
+      "Colour": {
+        "R": "0.4745098",
+        "G": "0.3137255",
+        "B": "0.1803922",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.4745098",
+        "G": "0.3137255",
+        "B": "0.1803922",
+        "A": "1"
+      },
+      "BaseValue": "30",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Uncommon"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.284723E-06",
+      "NormalisedValueOffWorld": "1.284723E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_DEADDRONE_NAME",
+      "NameLower": "SUB_DEADDRONE_NAME_L",
+      "ID": "SUBDRONE",
+      "Symbol": "SUB_DEADDRONE_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBDRONE.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_DEADDRONE_SUBTITLE",
+      "Description": "SUB_DEADDRONE_DESC",
+      "Colour": {
+        "R": "0.3019608",
+        "G": "0.1607843",
+        "B": "0.3411765",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5490196",
+        "G": "0.2941177",
+        "B": "0.6235294",
+        "A": "1"
+      },
+      "BaseValue": "138",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.256947E-06",
+      "NormalisedValueOffWorld": "7.256947E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_DEADSHIP_NAME",
+      "NameLower": "SUB_DEADSHIP_NAME_L",
+      "ID": "SUBSHIP",
+      "Symbol": "SUB_DEADSHIP_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE1/SUBSTANCE.SUBSHIP.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_DEADSHIP_SUBTITLE",
+      "Description": "SUB_DEADSHIP_DESC",
+      "Colour": {
+        "R": "0.3294118",
+        "G": "0.05098039",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.6235294",
+        "G": "0.5490196",
+        "B": "0.2941177",
+        "A": "1"
+      },
+      "BaseValue": "138",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.256947E-06",
+      "NormalisedValueOffWorld": "7.256947E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_GAS_1_NAME",
+      "NameLower": "UI_GAS_1_NAME_L",
+      "ID": "GAS1",
+      "Symbol": "UI_GAS_1_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_GAS_SUBTITLE",
+      "Description": "UI_GAS_1_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_GAS_2_NAME",
+      "NameLower": "UI_GAS_2_NAME_L",
+      "ID": "GAS2",
+      "Symbol": "UI_GAS_2_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_GAS_SUBTITLE",
+      "Description": "UI_GAS_2_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_GAS_3_NAME",
+      "NameLower": "UI_GAS_3_NAME_L",
+      "ID": "GAS3",
+      "Symbol": "UI_GAS_3_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.3.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_GAS_SUBTITLE",
+      "Description": "UI_GAS_3_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_MAINTAIN_SUB1_NAME",
+      "NameLower": "UI_MAINTAIN_SUB1_NAME_L",
+      "ID": "SPACEGUNK1",
+      "Symbol": "UI_MAINTAIN_SUB_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_MAINTAIN_SUB_SUB",
+      "Description": "UI_MAINTAIN_SUB1_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_MAINTAIN_SUB2_NAME",
+      "NameLower": "UI_MAINTAIN_SUB2_NAME_L",
+      "ID": "SPACEGUNK2",
+      "Symbol": "UI_MAINTAIN_SUB_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_MAINTAIN_SUB_SUB",
+      "Description": "UI_MAINTAIN_SUB2_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_MAINTAIN_SUB3_NAME",
+      "NameLower": "UI_MAINTAIN_SUB3_NAME_L",
+      "ID": "SPACEGUNK3",
+      "Symbol": "UI_MAINTAIN_SUB_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.3.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_MAINTAIN_SUB_SUB",
+      "Description": "UI_MAINTAIN_SUB3_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_MAINTAIN_SUB4_NAME",
+      "NameLower": "UI_MAINTAIN_SUB4_NAME_L",
+      "ID": "SPACEGUNK4",
+      "Symbol": "UI_MAINTAIN_SUB_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.4.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_MAINTAIN_SUB_SUB",
+      "Description": "UI_MAINTAIN_SUB4_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "UI_MAINTAIN_SUB5_NAME",
+      "NameLower": "UI_MAINTAIN_SUB5_NAME_L",
+      "ID": "SPACEGUNK5",
+      "Symbol": "UI_MAINTAIN_SUB_SYM",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.5.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "UI_MAINTAIN_SUB_SUB",
+      "Description": "UI_MAINTAIN_SUB5_DESC",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.29167E-07",
+      "NormalisedValueOffWorld": "7.29167E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "TECH_FRAGMENT_NAME",
+      "NameLower": "TECH_FRAGMENT_NAME_L",
+      "ID": "TECHFRAG",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/NANITE.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "TECH_FRAGMENT_SUBTITLE",
+      "Description": "TECH_FRAGMENT_DESC",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.2078431",
+        "B": "0.3058824",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.2078431",
+        "B": "0.3058824",
+        "A": "1"
+      },
+      "BaseValue": "100",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "0.25",
+        "HighPriceMod": "0.5",
+        "BuyBaseMarkup": "0.2",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "0.00030003",
+      "NormalisedValueOffWorld": "0.00030003",
+      "tradeCategory": {
+        "TradingClass": "Mineral"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_VEHICLESUB1_NAME",
+      "NameLower": "SUB_VEHICLESUB1_NAME_L",
+      "ID": "VEHICLESUB1",
+      "Symbol": "SUB_VEHICLESUB1_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/UPDATE2.VEHSUB1.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_VEHICLESUB1_SUBTITLE",
+      "Description": "SUB_VEHICLESUB1_DESC",
+      "Colour": {
+        "R": "0.1294118",
+        "G": "0.5058824",
+        "B": "0.2",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1294118",
+        "G": "0.5058824",
+        "B": "0.2",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "0.25",
+        "HighPriceMod": "0.5",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.145834E-06",
+      "NormalisedValueOffWorld": "1.145834E-06",
+      "tradeCategory": {
+        "TradingClass": "Mineral"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    },
+    {
+      "Name": "SUB_VEHICLESUB2_NAME",
+      "NameLower": "SUB_VEHICLESUB2_NAME_L",
+      "ID": "VEHICLESUB2",
+      "Symbol": "SUB_VEHICLESUB2_SYMBOL",
+      "Icon": {
+        "Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/UPDATE2.VEHSUB2.DDS"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "SUB_VEHICLESUB2_SUBTITLE",
+      "Description": "SUB_VEHICLESUB2_DESC",
+      "Colour": {
+        "R": "0",
+        "G": "0.2313726",
+        "B": "0.3098039",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0",
+        "G": "0.2313726",
+        "B": "0.3098039",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": {
+        "Rarity": "Common"
+      },
+      "Legality": {
+        "Legality": "Legal"
+      },
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "0.25",
+        "HighPriceMod": "0.5",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.145834E-06",
+      "NormalisedValueOffWorld": "1.145834E-06",
+      "tradeCategory": {
+        "TradingClass": "Mineral"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25"
+    }
+  ]
+}

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { List, ListItem, ListItemText, Avatar } from '@material-ui/core';
+import { List, ListItem, ListItemText } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
-// import { Redirect } from 'react-router';
-// import { withRouter } from 'react-router-dom';
 
 const styles = {
   listItem: {
@@ -19,31 +17,45 @@ class AllItemsList extends Component {
     };
   }
 
-  renderItem(item) {
+  renderItem(item, key) {
     const { classes } = this.props;
     return (<ListItem
-      key={item.Name}
+      key={key}
       role={undefined}
       dense
       button
       onClick={this.handleToggle(item)}
       className={classes.listItem}
     >
-      <Avatar alt="{item.Name}" src={`${item.image}`} />
-      <ListItemText primary={`${item.Name}`} />
+      <div style={{backgroundColor: item.ColorRGB}}>
+        <img src={`icons/${item.Icon.Filename}`} style={{width: '100px'}} />
+      </div>
+      <ListItemText primary={`${item.NameLower}`} />
     </ListItem>);
   }
 
   render() {
     const { itemArray, filter } = this.props;
+    if(itemArray.length === 0){
+      return(<div></div>);
+    }
+    
     let items = itemArray;
-    if (filter.length > 0) {
-      items = itemArray.filter(item => item.Name.toLowerCase().indexOf(filter.toLowerCase()) > -1);
+    if (filter.length > 0 && items) {
+      items = items.filter(item => {
+        if(item.NameLower) {
+          return item.NameLower.toLowerCase().indexOf(filter.toLowerCase()) > -1;
+        }
+        else {
+          console.log('NameLower Not Found', item);
+        }
+        return false;
+      });
     }
 
     return (
       <List>
-        {items.map((item) => { return this.renderItem(item); })}
+        {items.map((item, i) => { return this.renderItem(item, i); })}
       </List>
     );
   }
@@ -53,7 +65,8 @@ AllItemsList.propTypes = {
   filter: PropTypes.string.isRequired,
   itemArray: PropTypes.array.isRequired,
   classes: PropTypes.object.isRequired,
-  history: PropTypes.object
+  history: PropTypes.object,
+  products: PropTypes.array
 };
 
 export default withStyles(styles)(AllItemsList);

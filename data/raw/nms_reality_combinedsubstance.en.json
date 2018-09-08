@@ -1,0 +1,2755 @@
+{
+  "data": [
+    {
+      "Name": "CARBON",
+      "NameLower": "Carbon",
+      "ID": "FUEL1",
+      "Symbol": "C",
+      "Icon": {
+        "Filename": "SUBSTANCE.FUEL.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Unrefined Organic Element",
+      "Description": "The building block of all organic life. Of critical importance to space travellers, as Carbon is used to <FUEL>recharge mining equipment<>.\n \nThe <TECHNOLOGY>Mining Laser<> will harvest Carbon from trees, plants, and all other forms of vegetable.",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "12",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.487181E-07",
+      "NormalisedValueOffWorld": "4.487181E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_FUEL1_OBJ_TIP",
+      "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
+      "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
+    },
+    {
+      "Name": "CONDENSED CARBON",
+      "NameLower": "Condensed Carbon",
+      "ID": "FUEL2",
+      "Symbol": "C+",
+      "Icon": {
+        "Filename": "SUBSTANCE.FUEL.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Organic Element",
+      "Description": "Advanced material, processed from regular <FUEL>carbon<> in a <TECHNOLOGY>Refiner<>.\n\nThe increased molecule density offers a substantially improved energy-per-gram ratio.\n\nOccasionally found in crystalline form. Harvesting large crystals may require a <TECHNOLOGY>Advanced Mining Laser<>.",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "24",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.217949E-06",
+      "NormalisedValueOffWorld": "1.217949E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_FUEL2_OBJ_TIP",
+      "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
+      "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
+    },
+    {
+      "Name": "OXYGEN",
+      "NameLower": "Oxygen",
+      "ID": "OXYGEN",
+      "Symbol": "O2",
+      "Icon": {
+        "Filename": "SUBSTANCE.AIR.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Concentrated Liquid Fuel",
+      "Description": "Integral to the atmospheric filtering technology at the heart of the exosuit <FUEL>life support system<>.\n\nExosuit material processing allows oxygen to be harvested directly from appropriate planetary flora.\n\nOther plantlife may be scanned with the <TECHNOLOGY>Analysis Visor<> to reveal alternative oxygen supplies.",
+      "Colour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7333333",
+        "G": "0.2196078",
+        "B": "0.1882353",
+        "A": "1"
+      },
+      "BaseValue": "34",
+      "Category": {
+        "SubstanceCategory": "Fuel"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.858975E-06",
+      "NormalisedValueOffWorld": "1.858975E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_OXYGEN_OBJ_TIP",
+      "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
+      "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
+    },
+    {
+      "Name": "DI-HYDROGEN",
+      "NameLower": "Di-hydrogen",
+      "ID": "LAUNCHSUB",
+      "Symbol": "H",
+      "Icon": {
+        "Filename": "SUBSTANCE.LAUNCHSUB.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "High Energy Substance",
+      "Description": "A stable, crystalline form of hydrogen remarkable both for its extreme energy density and its stability at atmospheric pressures.\n\nCommon to all worlds, Di-hydrogen is found in the form of large <TECHNOLOGY>blue crystals<>. It is a key component of <COMMODITY>Starship Launch Fuel<>.",
+      "Colour": {
+        "R": "0.2078431",
+        "G": "0.3529412",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.2078431",
+        "G": "0.3529412",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "BaseValue": "34",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.858975E-06",
+      "NormalisedValueOffWorld": "1.858975E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_LAUNCHSUB_OBJ_TIP",
+      "WorldColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)",
+      "ColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)"
+    },
+    {
+      "Name": "DEUTERIUM",
+      "NameLower": "Deuterium",
+      "ID": "LAUNCHSUB2",
+      "Symbol": "D",
+      "Icon": {
+        "Filename": "SUBSTANCE.LAUNCHSUB.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "High Energy Substance",
+      "Description": "A stable hydrogen isotope used heavily in both small-scale fusion reactors and neutron-scattering shield technology.\n\nDeuterium very rarely occurs naturally. Most of the galaxy's supply comes from the processing of <TECHNOLOGY>Di-hydrogen<> in <TECHNOLOGY>Refiners<>.",
+      "Colour": {
+        "R": "0.2078431",
+        "G": "0.3529412",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.2078431",
+        "G": "0.3529412",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "BaseValue": "34",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.858975E-06",
+      "NormalisedValueOffWorld": "1.858975E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_LAUNCHSUB2_OBJ_TIP",
+      "WorldColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)",
+      "ColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)"
+    },
+    {
+      "Name": "TRITIUM",
+      "NameLower": "Tritium",
+      "ID": "ROCKETSUB",
+      "Symbol": "H3",
+      "Icon": {
+        "Filename": "SUBSTANCE.ROCKETSUB.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Neutron-Rich Fuel Element",
+      "Description": "Radioactive isotope commonly used to fuel the fusion reactor at the heart of starship <TECHNOLOGY>Pulse Engines<>.\n\nAbundant in interstellar asteroid fields, Tritium can be <COMMODITY>mined from asteroids<> using starship weaponry.",
+      "Colour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3490196",
+        "G": "0.6078432",
+        "B": "0.7137255",
+        "A": "1"
+      },
+      "BaseValue": "6",
+      "Category": {
+        "SubstanceCategory": "Exotic"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "6.410259E-08",
+      "NormalisedValueOffWorld": "6.410259E-08",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_ROCKETSUB_OBJ_TIP",
+      "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
+      "ColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)"
+    },
+    {
+      "Name": "FERRITE DUST",
+      "NameLower": "Ferrite Dust",
+      "ID": "LAND1",
+      "Symbol": "Fe",
+      "Icon": {
+        "Filename": "SUBSTANCE.LAND.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Metallic Mineral Extract",
+      "Description": "An abundant mineral element, found in <EARTH>rock formations<> and other areas of geological interest. Easily extracted using a <TECHNOLOGY>Mining Laser<>.\n\nTypically requires processing in a <TECHNOLOGY>Refiner<> before use in construction or technology manufacture.",
+      "Colour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "14",
+      "Category": {
+        "SubstanceCategory": "Metal"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "5.769232E-07",
+      "NormalisedValueOffWorld": "5.769232E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_LAND1_OBJ_TIP",
+      "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
+      "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
+    },
+    {
+      "Name": "PURE FERRITE",
+      "NameLower": "Pure Ferrite",
+      "ID": "LAND2",
+      "Symbol": "Fe+",
+      "Icon": {
+        "Filename": "SUBSTANCE.LAND.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "Processed Metallic Minerals",
+      "Description": "Processed metal, free of dust and pebbles. Used to construct a wide variety of <EARTH>structures<> and <TECHNOLOGY>technologies<>.\n\nTypically purified from Ferrite dust using a <TECHNOLOGY>Refiner<>, but can occasionally be found in large deposits. Collection may require an <TECHNOLOGY>Advanced Mining Laser<>.",
+      "Colour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "28",
+      "Category": {
+        "SubstanceCategory": "Metal"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.474359E-06",
+      "NormalisedValueOffWorld": "1.474359E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_LAND2_OBJ_TIP",
+      "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
+      "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
+    },
+    {
+      "Name": "MAGNETISED FERRITE",
+      "NameLower": "Magnetised Ferrite",
+      "ID": "LAND3",
+      "Symbol": "Fe++",
+      "Icon": {
+        "Filename": "SUBSTANCE.LAND.3.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "Charged Metallic Element",
+      "Description": "Highly processed metal, requiring several stages of processing in a <TECHNOLOGY>Refiner<>.\n\nUsed in the creation of advanced structures and technologies. Avoid ingestion.",
+      "Colour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.8627451",
+        "B": "0.8196079",
+        "A": "1"
+      },
+      "BaseValue": "82",
+      "Category": {
+        "SubstanceCategory": "Metal"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "10",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.935899E-06",
+      "NormalisedValueOffWorld": "4.935899E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_LAND3_OBJ_TIP",
+      "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
+      "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
+    },
+    {
+      "Name": "SODIUM",
+      "NameLower": "Sodium",
+      "ID": "CATALYST1",
+      "Symbol": "Na",
+      "Icon": {
+        "Filename": "SUBSTANCE.CATALYST.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Unrefined Catalytic Element",
+      "Description": "A powerful <CATALYST>catalyst<>, useful for charging <COMMODITY>defensive technologies<> such as shields or hazard protection.\n \nExosuit material handling technology allows automatic harvesting from appropriate <CATALYST<>sodium-rich flora<>.\n\nA vital ingredient in the creation of many advanced devices, products and components.",
+      "Colour": {
+        "R": "0.9490196",
+        "G": "0.427451",
+        "B": "0.08235294",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5607843",
+        "G": "0.5686275",
+        "B": "0.5803922",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Catalyst"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.307693E-06",
+      "NormalisedValueOffWorld": "2.307693E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_CATALYST1_OBJ_TIP",
+      "WorldColorRGB": "rgb(142.9999965, 145.0000125, 148.000011, 1)",
+      "ColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)"
+    },
+    {
+      "Name": "SODIUM NITRATE",
+      "NameLower": "Sodium Nitrate",
+      "ID": "CATALYST2",
+      "Symbol": "Na+",
+      "Icon": {
+        "Filename": "SUBSTANCE.CATALYST.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Catalytic Element",
+      "Description": "An <CATALYST>advanced catalyst<>, useful for charging <COMMODITY>defensive technologies<> such as shields or hazard protection.\n \nCreated in a <TECHNOLOGY>Refiner<>, or occasionally found in crystalline form on a planet's surface.\n\nOffers a substantially improved energy-per-gram ratio over regular Sodium.",
+      "Colour": {
+        "R": "0.9490196",
+        "G": "0.427451",
+        "B": "0.08235294",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "BaseValue": "82",
+      "Category": {
+        "SubstanceCategory": "Catalyst"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.935899E-06",
+      "NormalisedValueOffWorld": "4.935899E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_CATALYST2_OBJ_TIP",
+      "WorldColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)",
+      "ColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)"
+    },
+    {
+      "Name": "COBALT",
+      "NameLower": "Cobalt",
+      "ID": "CAVE1",
+      "Symbol": "Co",
+      "Icon": {
+        "Filename": "SUBSTANCE.CAVE.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Subterranean Mineral",
+      "Description": "Mined from <TECHNOLOGY>underground minerals<>, cobalt is found in plentiful supply in caves and caverns. Useful in the manufacture of <COMMODITY>Ion Batteries<>.\n\nIt is used in the creation of several technologies and structures, and can be processed in a <TECHNOLOGY>Refiner<> to make the most of its inherent charge.",
+      "Colour": {
+        "R": "0",
+        "G": "0.3607843",
+        "B": "0.5137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3490196",
+        "G": "0.6078432",
+        "B": "0.7137255",
+        "A": "1"
+      },
+      "BaseValue": "198",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.23718E-05",
+      "NormalisedValueOffWorld": "1.23718E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_CAVE1_OBJ_TIP",
+      "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
+      "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
+    },
+    {
+      "Name": "IONISED COBALT",
+      "NameLower": "Ionised Cobalt",
+      "ID": "CAVE2",
+      "Symbol": "Co+",
+      "Icon": {
+        "Filename": "SUBSTANCE.CAVE.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Processed Subterranean Mineral",
+      "Description": "A highly energised form of <TECHNOLOGY>Cobalt<>, this processed metal can be used to create <COMMODITY>Advanced Ion Batteries<>, a conveniently portable source of energy for the <TECHNOLOGY>Exosuit<>.\n\nIn widespread use as a key component in the creation of <TECHNOLOGY>advanced technologies and structures<>.",
+      "Colour": {
+        "R": "0",
+        "G": "0.3607843",
+        "B": "0.5137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3490196",
+        "G": "0.6078432",
+        "B": "0.7137255",
+        "A": "1"
+      },
+      "BaseValue": "401",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "4",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.538462E-05",
+      "NormalisedValueOffWorld": "2.538462E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_CAVE2_OBJ_TIP",
+      "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
+      "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
+    },
+    {
+      "Name": "SALT",
+      "NameLower": "Salt",
+      "ID": "WATER1",
+      "Symbol": "NaCl",
+      "Icon": {
+        "Filename": "SUBSTANCE.WATER.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Aquatic Mineral Extract",
+      "Description": "A naturally occuring salt, found in abundance in <TECHNOLOGY>underwater minerals<>.\n\nCan be processed in a <TECHNOLOGY>Refiner<> to create <TRADEABLE>Chlorine<>. This refined form is used in the manufacture of advanced products and technologies.",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.5411765",
+        "B": "0.2588235",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.5411765",
+        "B": "0.2588235",
+        "A": "1"
+      },
+      "BaseValue": "299",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.884616E-05",
+      "NormalisedValueOffWorld": "1.884616E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_WATER1_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)",
+      "ColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)"
+    },
+    {
+      "Name": "CHLORINE",
+      "NameLower": "Chlorine",
+      "ID": "WATER2",
+      "Symbol": "Cl",
+      "Icon": {
+        "Filename": "SUBSTANCE.WATER.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Processed Aquatic Mineral",
+      "Description": "A reactive element most easily harvested by processing the salt-infused minerals found in <TECHNOLOGY>oceans<>.\n\nUsed in the manufacture of advanced technologies.",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.5411765",
+        "B": "0.2588235",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.5411765",
+        "B": "0.2588235",
+        "A": "1"
+      },
+      "BaseValue": "602",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.826924E-05",
+      "NormalisedValueOffWorld": "3.826924E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_WATER2_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)",
+      "ColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)"
+    },
+    {
+      "Name": "COPPER",
+      "NameLower": "Copper",
+      "ID": "YELLOW2",
+      "Symbol": "Cu",
+      "Icon": {
+        "Filename": "SUBSTANCE.YELLOW.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Yellow",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets.\n\nCopper is found on planets orbiting <CATALYST>yellow stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<> for use in the manufacture of advanced technologies.",
+      "Colour": {
+        "R": "0.8980392",
+        "G": "0.5647059",
+        "B": "0.003921569",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "BaseValue": "121",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.4359E-06",
+      "NormalisedValueOffWorld": "7.4359E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_YELLOW2_OBJ_TIP",
+      "WorldColorRGB": "rgb(255, 195.00000450000002, 85.9999995, 1)",
+      "ColorRGB": "rgb(228.999996, 144.0000045, 1.0000000949999999, 1)"
+    },
+    {
+      "Name": "CADMIUM",
+      "NameLower": "Cadmium",
+      "ID": "RED2",
+      "Symbol": "Cd",
+      "Icon": {
+        "Filename": "SUBSTANCE.RED.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Red",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets.\n\nCadmium is found on planets orbiting <FUEL>red stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<> for use in the manufacture of advanced technologies.",
+      "Colour": {
+        "R": "0.4823529",
+        "G": "0",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8156863",
+        "G": "0.1176471",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "234",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.467949E-05",
+      "NormalisedValueOffWorld": "1.467949E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_RED2_OBJ_TIP",
+      "WorldColorRGB": "rgb(208.00000649999998, 30.000010500000002, 30.000010500000002, 1)",
+      "ColorRGB": "rgb(122.9999895, 0, 0, 1)"
+    },
+    {
+      "Name": "EMERIL",
+      "NameLower": "Emeril",
+      "ID": "GREEN2",
+      "Symbol": "Em",
+      "Icon": {
+        "Filename": "SUBSTANCE.GREEN.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Green",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star.\n\nEmeril is found on planets orbiting <TRADEABLE>green stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<> for use in the manufacture of advanced technologies.",
+      "Colour": {
+        "R": "0.2117647",
+        "G": "0.3803922",
+        "B": "0.1098039",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5254902",
+        "G": "0.6901961",
+        "B": "0.2392157",
+        "A": "1"
+      },
+      "BaseValue": "348",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.198719E-05",
+      "NormalisedValueOffWorld": "2.198719E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_GREEN2_OBJ_TIP",
+      "WorldColorRGB": "rgb(134.000001, 176.0000055, 61.0000035, 1)",
+      "ColorRGB": "rgb(53.9999985, 97.000011, 27.9999945, 1)"
+    },
+    {
+      "Name": "INDIUM",
+      "NameLower": "Indium",
+      "ID": "BLUE2",
+      "Symbol": "In",
+      "Icon": {
+        "Filename": "SUBSTANCE.BLUE.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Blue",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets.\n\nIndium is found on planets orbiting <TECHNOLOGY>blue stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<> for use in the manufacture of advanced technologies.",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2196078",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "464",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "4",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.942309E-05",
+      "NormalisedValueOffWorld": "2.942309E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_BLUE2_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 163.00000350000002, 237.99999150000002, 1)",
+      "ColorRGB": "rgb(1.0000000949999999, 55.999989, 125.0000055, 1)"
+    },
+    {
+      "Name": "CHROMATIC METAL",
+      "NameLower": "Chromatic Metal",
+      "ID": "STELLAR2",
+      "Symbol": "Ch",
+      "Icon": {
+        "Filename": "SUBSTANCE.STELLAR.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Highly Refined Stellar Metal",
+      "Description": "A processed metal alloy, created in a <TECHNOLOGY>Refiner<> from the <STELLAR>stellar metals<>: <COMMODITY>Copper<>, <FUEL>Cadmium<>, <TRADEABLE>Emeril<> and <TECHNOLOGY>Indium<>.\n\nThe <SPECIAL>rarer<> the stellar metal, the more Chromatic Metal it will produce.\n\nThis valuable metal is used in the creation of many <TECHNOLOGY>advanced technologies<>.",
+      "Colour": {
+        "R": "0.1490196",
+        "G": "0",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1490196",
+        "G": "0",
+        "B": "0",
+        "A": "1"
+      },
+      "BaseValue": "245",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.538462E-05",
+      "NormalisedValueOffWorld": "1.538462E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_STELLAR2_OBJ_TIP",
+      "WorldColorRGB": "rgb(37.999998, 0, 0, 1)",
+      "ColorRGB": "rgb(37.999998, 0, 0, 1)"
+    },
+    {
+      "Name": "NANITE CLUSTER",
+      "NameLower": "Nanite Cluster",
+      "ID": "TECHFRAG",
+      "Symbol": "∞",
+      "Icon": {
+        "Filename": "NANITE.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Technological Currency",
+      "Description": "A dense miasma of <TECHNOLOGY>Nanites<>, undulating in its potentiality. These clusters are stable, but unrestricted nanite foam can produce undesirable runaway reactions in the presence of organic matter.\n\nUsed in the construction of advanced technologies. Highly valuable to specialist traders.",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.2078431",
+        "B": "0.3058824",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.2078431",
+        "B": "0.3058824",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "4",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "0.25",
+        "HighPriceMod": "0.5",
+        "BuyBaseMarkup": "0.2",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.442308E-06",
+      "NormalisedValueOffWorld": "1.442308E-06",
+      "tradeCategory": {
+        "TradingClass": "Mineral"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "PinObjectiveTip": "UI_PIN_TECHFRAG_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 52.9999905, 78.000012, 1)",
+      "ColorRGB": "rgb(30.000010500000002, 52.9999905, 78.000012, 1)"
+    },
+    {
+      "Name": "PARAFFINIUM",
+      "NameLower": "Paraffinium",
+      "ID": "LUSH1",
+      "Symbol": "Pf",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.LUSH.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <TRADEABLE>tropical environment<>.",
+      "Colour": {
+        "R": "0.3058824",
+        "G": "0.2509804",
+        "B": "0.3098039",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3058824",
+        "G": "0.2509804",
+        "B": "0.3098039",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_LUSH1_OBJ_TIP",
+      "WorldColorRGB": "rgb(78.000012, 64.000002, 78.9999945, 1)",
+      "ColorRGB": "rgb(78.000012, 64.000002, 78.9999945, 1)"
+    },
+    {
+      "Name": "PYRITE",
+      "NameLower": "Pyrite",
+      "ID": "DUSTY1",
+      "Symbol": "Py",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.DUSTY.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <FUEL>desert environment<>.",
+      "Colour": {
+        "R": "0.8980392",
+        "G": "0.4392157",
+        "B": "0.007843138",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8823529",
+        "G": "0.5843138",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_DUSTY1_OBJ_TIP",
+      "WorldColorRGB": "rgb(224.9999895, 149.000019, 29.000002499999997, 1)",
+      "ColorRGB": "rgb(228.999996, 112.00000349999999, 2.0000001899999997, 1)"
+    },
+    {
+      "Name": "AMMONIA",
+      "NameLower": "Ammonia",
+      "ID": "TOXIC1",
+      "Symbol": "NH3",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.TOXIC.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <TRADEABLE>toxic environment<>.",
+      "Colour": {
+        "R": "0",
+        "G": "0.6509804",
+        "B": "0.3019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.4156863",
+        "G": "0.8156863",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_TOXIC1_OBJ_TIP",
+      "WorldColorRGB": "rgb(106.0000065, 208.00000649999998, 30.000010500000002, 1)",
+      "ColorRGB": "rgb(0, 166.000002, 77.00000399999999, 1)"
+    },
+    {
+      "Name": "URANIUM",
+      "NameLower": "Uranium",
+      "ID": "RADIO1",
+      "Symbol": "U",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.RADIO.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <CATALYST>radioactive environment<>.",
+      "Colour": {
+        "R": "1",
+        "G": "0.6784314",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "1",
+        "G": "0.6784314",
+        "B": "0",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_RADIO1_OBJ_TIP",
+      "WorldColorRGB": "rgb(255, 173.000007, 0, 1)",
+      "ColorRGB": "rgb(255, 173.000007, 0, 1)"
+    },
+    {
+      "Name": "DIOXITE",
+      "NameLower": "Dioxite",
+      "ID": "COLD1",
+      "Symbol": "CO2",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.COLD.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <TECHNOLOGY>frozen environment<>.",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.3098039",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.5764706",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_COLD1_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 147.00000300000002, 208.00000649999998, 1)",
+      "ColorRGB": "rgb(30.000010500000002, 78.9999945, 208.00000649999998, 1)"
+    },
+    {
+      "Name": "PHOSPHORUS",
+      "NameLower": "Phosphorus",
+      "ID": "HOT1",
+      "Symbol": "P",
+      "Icon": {
+        "Filename": "SUBSTANCE.BIOME.HOT.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Localised Earth Element",
+      "Description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an <TECHNOLOGY>Analysis Visor<>.\n\nTypically found on planets with a <FUEL>scorched environment<>.",
+      "Colour": {
+        "R": "0.8588235",
+        "G": "0.1411765",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8588235",
+        "G": "0.1411765",
+        "B": "0",
+        "A": "1"
+      },
+      "BaseValue": "62",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "3.653847E-06",
+      "NormalisedValueOffWorld": "3.653847E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_HOT1_OBJ_TIP",
+      "WorldColorRGB": "rgb(218.9999925, 36.0000075, 0, 1)",
+      "ColorRGB": "rgb(218.9999925, 36.0000075, 0, 1)"
+    },
+    {
+      "Name": "MORDITE",
+      "NameLower": "Mordite",
+      "ID": "CREATURE1",
+      "Symbol": "Mo",
+      "Icon": {
+        "Filename": "SUBSTANCE.CREATURE.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Substance",
+      "Description": "Despite much study, little is known about this haunting, crystalline compound.\n\nIt is released from the cadavers of dying creatures, but can also be specifically <TRADEABLE>cultivated<> and harvested from the <SPECIAL>Mordite Root<> plant.",
+      "Colour": {
+        "R": "0.3176471",
+        "G": "0.1529412",
+        "B": "0.254902",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7137255",
+        "G": "0.3490196",
+        "B": "0.572549",
+        "A": "1"
+      },
+      "BaseValue": "40",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.24359E-06",
+      "NormalisedValueOffWorld": "2.24359E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_CREATURE1_OBJ_TIP",
+      "WorldColorRGB": "rgb(182.0000025, 88.99999799999999, 145.99999499999998, 1)",
+      "ColorRGB": "rgb(81.0000105, 39.000006, 65.00001, 1)"
+    },
+    {
+      "Name": "PUGNEUM",
+      "NameLower": "Pugneum",
+      "ID": "ROBOT1",
+      "Symbol": "Pg",
+      "Icon": {
+        "Filename": "SUBSTANCE.ROBOT.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Anomalous Material",
+      "Description": "This oily, unsettling liquid leaks from the circuitry of <SPECIAL>Sentinels<>.\n\nPrized by the <FUEL>Vy'keen<>, Pugneum is thought to share some essential properties with <TECHNOLOGY>Nanites<>. It hums in a sinister fashion upon contact with organic matter.",
+      "Colour": {
+        "R": "0.3019608",
+        "G": "0.1607843",
+        "B": "0.3411765",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5490196",
+        "G": "0.2941177",
+        "B": "0.6235294",
+        "A": "1"
+      },
+      "BaseValue": "138",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "8.493593E-06",
+      "NormalisedValueOffWorld": "8.493593E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_ROBOT1_OBJ_TIP",
+      "WorldColorRGB": "rgb(139.999998, 75.0000135, 158.999997, 1)",
+      "ColorRGB": "rgb(77.00000399999999, 40.999996499999995, 87.0000075, 1)"
+    },
+    {
+      "Name": "SILVER",
+      "NameLower": "Silver",
+      "ID": "ASTEROID1",
+      "Symbol": "Ag",
+      "Icon": {
+        "Filename": "SUBSTANCE.ASTEROID.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "Valuable Asteroid Mineral",
+      "Description": "Valuable interstellar trading mineral, typically <COMMODITY>mined from asteroids<>. Occasionally found in underground planetary deposits.\n\nPrized by people in all systems for its lustre and shine.",
+      "Colour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5411765",
+        "G": "0.4980392",
+        "B": "0.4470588",
+        "A": "1"
+      },
+      "BaseValue": "101",
+      "Category": {
+        "SubstanceCategory": "Exotic"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "6.153848E-06",
+      "NormalisedValueOffWorld": "6.153848E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_ASTEROID1_OBJ_TIP",
+      "WorldColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)",
+      "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
+    },
+    {
+      "Name": "GOLD",
+      "NameLower": "Gold",
+      "ID": "ASTEROID2",
+      "Symbol": "Au",
+      "Icon": {
+        "Filename": "SUBSTANCE.ASTEROID.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Valuable Asteroid Mineral",
+      "Description": "Highly valuable interstellar trading mineral, typically <COMMODITY>mined from asteroids<>. Occasionally found in underground planetary deposits.\n\nUniversally prized for its beauty and versatility.",
+      "Colour": {
+        "R": "0.6666667",
+        "G": "0.4313726",
+        "B": "0.02352941",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.6666667",
+        "G": "0.4313726",
+        "B": "0.02352941",
+        "A": "1"
+      },
+      "BaseValue": "202",
+      "Category": {
+        "SubstanceCategory": "Exotic"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.262821E-05",
+      "NormalisedValueOffWorld": "1.262821E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_ASTEROID2_OBJ_TIP",
+      "WorldColorRGB": "rgb(170.00000849999998, 110.000013, 5.99999955, 1)",
+      "ColorRGB": "rgb(170.00000849999998, 110.000013, 5.99999955, 1)"
+    },
+    {
+      "Name": "PLATINUM",
+      "NameLower": "Platinum",
+      "ID": "ASTEROID3",
+      "Symbol": "Pt",
+      "Icon": {
+        "Filename": "SUBSTANCE.ASTEROID.3.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN"
+      },
+      "Subtitle": "Valuable Asteroid Mineral",
+      "Description": "Extremely valuable interstellar trading mineral, typically <COMMODITY>mined from asteroids<>. Occasionally found in underground planetary deposits.\n\nUniversally prized for its hardiness and versatility.",
+      "Colour": {
+        "R": "0.3137255",
+        "G": "0.4588235",
+        "B": "0.4588235",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3137255",
+        "G": "0.4588235",
+        "B": "0.4588235",
+        "A": "1"
+      },
+      "BaseValue": "303",
+      "Category": {
+        "SubstanceCategory": "Exotic"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.910257E-05",
+      "NormalisedValueOffWorld": "1.910257E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_REFINE_OBJ",
+      "PinObjectiveTip": "UI_PIN_ASTEROID3_OBJ_TIP",
+      "WorldColorRGB": "rgb(80.0000025, 116.9999925, 116.9999925, 1)",
+      "ColorRGB": "rgb(80.0000025, 116.9999925, 116.9999925, 1)"
+    },
+    {
+      "Name": "SULPHURINE",
+      "NameLower": "Sulphurine",
+      "ID": "GAS1",
+      "Symbol": "Su",
+      "Icon": {
+        "Filename": "GAS.3.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Compressed Atmospheric Gas",
+      "Description": "A pungent atmospheric <TRADEABLE>gas<>. High concentrations are extremely hazardous to organic life.\n\nWith the aid of <TECHNOLOGY>specialised machinery<>, can be extracted from the atmospheres of <FUEL>Scorched<> and <SPECIAL>Desert<> planets.",
+      "Colour": {
+        "R": "0.1490196",
+        "G": "0.3686275",
+        "B": "0.227451",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1490196",
+        "G": "0.3686275",
+        "B": "0.227451",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_PROCESS_OBJ",
+      "PinObjectiveTip": "UI_PIN_GAS1_OBJ_TIP",
+      "WorldColorRGB": "rgb(37.999998, 94.0000125, 58.000004999999994, 1)",
+      "ColorRGB": "rgb(37.999998, 94.0000125, 58.000004999999994, 1)"
+    },
+    {
+      "Name": "RADON",
+      "NameLower": "Radon",
+      "ID": "GAS2",
+      "Symbol": "Rn",
+      "Icon": {
+        "Filename": "GAS.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Compressed Atmospheric Gas",
+      "Description": "A colourless, odourless <TRADEABLE>gas<> with a relatively short half-life. \n\nFound in both <COMMODITY>Radioactive<> and <TECHNOLOGY>Frozen<> atmospheres, this gas is produced by the decay of other high-energy elements.",
+      "Colour": {
+        "R": "0.2980392",
+        "G": "0.2156863",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.2980392",
+        "G": "0.2156863",
+        "B": "0.5019608",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_PROCESS_OBJ",
+      "PinObjectiveTip": "UI_PIN_GAS2_OBJ_TIP",
+      "WorldColorRGB": "rgb(75.999996, 55.0000065, 128.000004, 1)",
+      "ColorRGB": "rgb(75.999996, 55.0000065, 128.000004, 1)"
+    },
+    {
+      "Name": "NITROGEN",
+      "NameLower": "Nitrogen",
+      "ID": "GAS3",
+      "Symbol": "N",
+      "Icon": {
+        "Filename": "GAS.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Compressed Atmospheric Gas",
+      "Description": "A reactive atmospheric <TRADEABLE>gas<> found wherever there is organic life.\n\nNitrogen is readily harvested from the atmospheres of <TRADEABLE>Lush<> and <TRADEABLE>Toxic<> planets.",
+      "Colour": {
+        "R": "0.8705882",
+        "G": "0.572549",
+        "B": "0.1215686",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8705882",
+        "G": "0.572549",
+        "B": "0.1215686",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Earth"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_PROCESS_OBJ",
+      "PinObjectiveTip": "UI_PIN_GAS3_OBJ_TIP",
+      "WorldColorRGB": "rgb(221.99999100000002, 145.99999499999998, 30.999993, 1)",
+      "ColorRGB": "rgb(221.99999100000002, 145.99999499999998, 30.999993, 1)"
+    },
+    {
+      "Name": "ACTIVATED COPPER",
+      "NameLower": "Activated Copper",
+      "ID": "EX_YELLOW",
+      "Symbol": "Cu",
+      "Icon": {
+        "Filename": "SUBSTANCE.EXYELLOW.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Yellow",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star.\n\nThis Copper has been activated by the extreme conditions in which it was formed, and is highly valuable.\n\nCopper is found on planets orbiting <CATALYST>yellow stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<>.",
+      "Colour": {
+        "R": "0.8980392",
+        "G": "0.5647059",
+        "B": "0.003921569",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "1",
+        "G": "0.7647059",
+        "B": "0.3372549",
+        "A": "1"
+      },
+      "BaseValue": "245",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "2",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.538462E-05",
+      "NormalisedValueOffWorld": "1.538462E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_EX_YELLOW_OBJ_TIP",
+      "WorldColorRGB": "rgb(255, 195.00000450000002, 85.9999995, 1)",
+      "ColorRGB": "rgb(228.999996, 144.0000045, 1.0000000949999999, 1)"
+    },
+    {
+      "Name": "ACTIVATED CADMIUM",
+      "NameLower": "Activated Cadmium",
+      "ID": "EX_RED",
+      "Symbol": "Cd",
+      "Icon": {
+        "Filename": "SUBSTANCE.EXRED.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Red",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star.\n\nThis Cadmium has been activated by the extreme conditions in which it was formed, and is highly valuable.\n\nCadmium is found on planets orbiting <FUEL>red stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<>.",
+      "Colour": {
+        "R": "0.4823529",
+        "G": "0",
+        "B": "0",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8156863",
+        "G": "0.1176471",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "450",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "3",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.852565E-05",
+      "NormalisedValueOffWorld": "2.852565E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_EX_RED_OBJ_TIP",
+      "WorldColorRGB": "rgb(208.00000649999998, 30.000010500000002, 30.000010500000002, 1)",
+      "ColorRGB": "rgb(122.9999895, 0, 0, 1)"
+    },
+    {
+      "Name": "ACTIVATED EMERIL",
+      "NameLower": "Activated Emeril",
+      "ID": "EX_GREEN",
+      "Symbol": "Em",
+      "Icon": {
+        "Filename": "SUBSTANCE.EXGREEN.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Green",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star.\n\nThis Emeril has been activated by the extreme conditions in which it was formed, and is highly valuable.\n\nEmeril is found on planets orbiting <TRADEABLE>green stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<>.",
+      "Colour": {
+        "R": "0.2117647",
+        "G": "0.3803922",
+        "B": "0.1098039",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5254902",
+        "G": "0.6901961",
+        "B": "0.2392157",
+        "A": "1"
+      },
+      "BaseValue": "696",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "4",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.429489E-05",
+      "NormalisedValueOffWorld": "4.429489E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_EX_GREEN_OBJ_TIP",
+      "WorldColorRGB": "rgb(134.000001, 176.0000055, 61.0000035, 1)",
+      "ColorRGB": "rgb(53.9999985, 97.000011, 27.9999945, 1)"
+    },
+    {
+      "Name": "ACTIVATED INDIUM",
+      "NameLower": "Activated Indium",
+      "ID": "EX_BLUE",
+      "Symbol": "In",
+      "Icon": {
+        "Filename": "SUBSTANCE.EXBLUE.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Refined Stellar Metal: Blue",
+      "Description": "A <STELLAR>chromatic metal<>, generated by fusion in the heart of a star.\n\nIndium is found on planets orbiting <TECHNOLOGY>blue stars<>, and can be placed in a <TECHNOLOGY>Refiner<> to create purified <STELLAR>Chromatic Metal<>.\n\nThis Indium has been activated by the extreme conditions in which it was formed, and is highly valuable.",
+      "Colour": {
+        "R": "0.003921569",
+        "G": "0.2196078",
+        "B": "0.4901961",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.6392157",
+        "B": "0.9333333",
+        "A": "1"
+      },
+      "BaseValue": "949",
+      "Category": {
+        "SubstanceCategory": "Stellar"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "5",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "6.051284E-05",
+      "NormalisedValueOffWorld": "6.051284E-05",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_EX_BLUE_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 163.00000350000002, 237.99999150000002, 1)",
+      "ColorRGB": "rgb(1.0000000949999999, 55.999989, 125.0000055, 1)"
+    },
+    {
+      "Name": "FUNGAL MOULD",
+      "NameLower": "Fungal Mould",
+      "ID": "PLANT_TOXIC",
+      "Symbol": "Ml",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.TOXIC.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "An oddly-glowing substance, harvested from the gills of <TRADEABLE>Fungal Clusters<>.\n\nThe host plant requires a <TRADEABLE>toxic climate<> to thrive in the wild, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>.",
+      "Colour": {
+        "R": "0",
+        "G": "0.6509804",
+        "B": "0.3019608",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.4156863",
+        "G": "0.8156863",
+        "B": "0.1176471",
+        "A": "1"
+      },
+      "BaseValue": "16",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.051285E-07",
+      "NormalisedValueOffWorld": "7.051285E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_TOXIC_OBJ_TIP",
+      "WorldColorRGB": "rgb(106.0000065, 208.00000649999998, 30.000010500000002, 1)",
+      "ColorRGB": "rgb(0, 166.000002, 77.00000399999999, 1)"
+    },
+    {
+      "Name": "FROST CRYSTAL",
+      "NameLower": "Frost Crystal",
+      "ID": "PLANT_SNOW",
+      "Symbol": "Fc",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.SNOW.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A beautiful blue crystal, this organic compound possesses both great hardiness and a shimmering translucence. It is harvested from the leaves of <TRADEABLE>Frostwort<>.\n\nFrostwort requires <TECHNOLOGY>frozen conditions<> to thrive in the wild, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>.",
+      "Colour": {
+        "R": "0.1176471",
+        "G": "0.3098039",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.1176471",
+        "G": "0.5764706",
+        "B": "0.8156863",
+        "A": "1"
+      },
+      "BaseValue": "12",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.487181E-07",
+      "NormalisedValueOffWorld": "4.487181E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_SNOW_OBJ_TIP",
+      "WorldColorRGB": "rgb(30.000010500000002, 147.00000300000002, 208.00000649999998, 1)",
+      "ColorRGB": "rgb(30.000010500000002, 78.9999945, 208.00000649999998, 1)"
+    },
+    {
+      "Name": "GAMMA ROOT",
+      "NameLower": "Gamma Root",
+      "ID": "PLANT_RADIO",
+      "Symbol": "Gr",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.RADIO.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A strange substance that seems to slowly shift the air around it. It is found in the roots of the <TRADEABLE>Gamma Weed plant<>.\n\nGamma Weed requires <COMMODITY>high background radiation<> to thrive in the wild, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>.",
+      "Colour": {
+        "R": "0.772549",
+        "G": "0.5294118",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.7803922",
+        "G": "0.7254902",
+        "B": "0.1058824",
+        "A": "1"
+      },
+      "BaseValue": "16",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "7.051285E-07",
+      "NormalisedValueOffWorld": "7.051285E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_RADIO_OBJ_TIP",
+      "WorldColorRGB": "rgb(199.000011, 185.000001, 27.000012, 1)",
+      "ColorRGB": "rgb(196.999995, 135.000009, 29.000002499999997, 1)"
+    },
+    {
+      "Name": "CACTUS FLESH",
+      "NameLower": "Cactus Flesh",
+      "ID": "PLANT_DUST",
+      "Symbol": "Cc",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.DUSTY.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "Succulent, edible cactus flesh from the <TRADEABLE>Echinocactus plant<>. As well as being juicy on the tongue, the flesh has many industrial uses.\n\nThe Echinocactus thrives only on <FUEL>desert planets<>, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>..",
+      "Colour": {
+        "R": "0.1372549",
+        "G": "0.5882353",
+        "B": "0.1490196",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.8823529",
+        "G": "0.5843138",
+        "B": "0.1137255",
+        "A": "1"
+      },
+      "BaseValue": "28",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.474359E-06",
+      "NormalisedValueOffWorld": "1.474359E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_DUST_OBJ_TIP",
+      "WorldColorRGB": "rgb(224.9999895, 149.000019, 29.000002499999997, 1)",
+      "ColorRGB": "rgb(34.9999995, 150.0000015, 37.999998, 1)"
+    },
+    {
+      "Name": "SOLANIUM",
+      "NameLower": "Solanium",
+      "ID": "PLANT_HOT",
+      "Symbol": "So",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.HOT.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A powerful chemical that has resisted attempts at synthesis. It can be harvested from the bark of the <TRADEABLE>Solar Vine<>.\n\nThe vine requires a <FUEL>hot climate<> to thrive in the wild, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>.",
+      "Colour": {
+        "R": "0.7254902",
+        "G": "0.2627451",
+        "B": "0.09411765",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.9490196",
+        "G": "0.427451",
+        "B": "0.08235294",
+        "A": "1"
+      },
+      "BaseValue": "70",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "4.166668E-06",
+      "NormalisedValueOffWorld": "4.166668E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_HOT_OBJ_TIP",
+      "WorldColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)",
+      "ColorRGB": "rgb(185.000001, 67.0000005, 24.000000749999998, 1)"
+    },
+    {
+      "Name": "STAR BULB",
+      "NameLower": "Star Bulb",
+      "ID": "PLANT_LUSH",
+      "Symbol": "Sb",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.LUSH.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A beautiful gemstone, this prized product is the engorged, luminescent berry of the <TRADEABLE>Star Bramble<>.\n\nThe host plant requires <TRADEABLE>lush conditions<> to thrive in the wild, but can be farmed in all environments with the aid of a <TECHNOLOGY>Hydroponics Tray<>.",
+      "Colour": {
+        "R": "0.1254902",
+        "G": "0.5529412",
+        "B": "0.6705883",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.6078432",
+        "G": "0.8235294",
+        "B": "0.8352941",
+        "A": "1"
+      },
+      "BaseValue": "32",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.73077E-06",
+      "NormalisedValueOffWorld": "1.73077E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_LUSH_OBJ_TIP",
+      "WorldColorRGB": "rgb(155.00001600000002, 209.99999699999998, 212.9999955, 1)",
+      "ColorRGB": "rgb(32.000001, 141.000006, 171.00001650000002, 1)"
+    },
+    {
+      "Name": "MARROW BULB",
+      "NameLower": "Marrow Bulb",
+      "ID": "PLANT_CAVE",
+      "Symbol": "Bu",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.CAVE.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/ROCKDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A glowing organic bulb, harvested from the <TRADEABLE>Cave Marrow plant<> found growing <TECHNOLOGY>underground<>.\n\nThe Cave Marrow has proved resistant to domestication, and no farmable cultivars are known to exist. As such, marrow bulbs must be harvested by hand in the wild.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.323719E-06",
+      "NormalisedValueOffWorld": "2.323719E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_CAVE_OBJ_TIP",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    },
+    {
+      "Name": "KELP SAC",
+      "NameLower": "Kelp Sac",
+      "ID": "PLANT_WATER",
+      "Symbol": "Ke",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.WATER.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A rubbery, luminescent sac harvested from <TECHNOLOGY>underwater<> <TRADEABLE>Candle Kelp<> plants.\n\nAgricultural science has not yet tamed the Candle Kelp. As such, these sacs cannot be farmed.",
+      "Colour": {
+        "R": "0",
+        "G": "0.3607843",
+        "B": "0.5137255",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.3490196",
+        "G": "0.6078432",
+        "B": "0.7137255",
+        "A": "1"
+      },
+      "BaseValue": "41",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "2.323719E-06",
+      "NormalisedValueOffWorld": "2.323719E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_WATER_OBJ_TIP",
+      "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
+      "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
+    },
+    {
+      "Name": "COPRITE",
+      "NameLower": "Coprite",
+      "ID": "PLANT_POOP",
+      "Symbol": "Cr",
+      "Icon": {
+        "Filename": "SUBSTANCE.PLANT.POOP.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN"
+      },
+      "Subtitle": "Harvested Agricultural Substance",
+      "Description": "A foul-smelling compound that can be harvested from the <TRADEABLE>Coprite Flower<>, or less desirably from the faecal matter of some species.\n\nCreatures can be fed to encourage the formation and deposition of coprite crystals.",
+      "Colour": {
+        "R": "0.4745098",
+        "G": "0.3137255",
+        "B": "0.1803922",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.4745098",
+        "G": "0.3137255",
+        "B": "0.1803922",
+        "A": "1"
+      },
+      "BaseValue": "30",
+      "Category": {
+        "SubstanceCategory": "Flora"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "1.602565E-06",
+      "NormalisedValueOffWorld": "1.602565E-06",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_GATHER_OBJ",
+      "PinObjectiveTip": "UI_PIN_PLANT_POOP_OBJ_TIP",
+      "WorldColorRGB": "rgb(120.99999899999999, 80.0000025, 46.000011, 1)",
+      "ColorRGB": "rgb(120.99999899999999, 80.0000025, 46.000011, 1)"
+    },
+    {
+      "Name": "RESIDUAL GOOP",
+      "NameLower": "Residual Goop",
+      "ID": "SPACEGUNK1",
+      "Symbol": "Jn",
+      "Icon": {
+        "Filename": "SPACEGUNK.1.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Junk",
+      "Description": "A pulsating, foul smelling goop that builds up in poorly-maintained machinery.\n\nSkin contact is not advised.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    },
+    {
+      "Name": "RUNAWAY MOULD",
+      "NameLower": "Runaway Mould",
+      "ID": "SPACEGUNK2",
+      "Symbol": "Jn",
+      "Icon": {
+        "Filename": "SPACEGUNK.2.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Junk",
+      "Description": "An out of control mould growth that builds up in poorly-maintained machinery.\n\nLikely to be several different species of mould, merged together into one super-colony.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Common",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    },
+    {
+      "Name": "RUSTED METAL",
+      "NameLower": "Rusted Metal",
+      "ID": "SPACEGUNK3",
+      "Symbol": "Jn",
+      "Icon": {
+        "Filename": "SPACEGUNK.3.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Junk",
+      "Description": "Handfuls of corroded metal, the result of years of poor maintenance.\n\nHandle with care.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    },
+    {
+      "Name": "LIVING SLIME",
+      "NameLower": "Living Slime",
+      "ID": "SPACEGUNK4",
+      "Symbol": "Jn",
+      "Icon": {
+        "Filename": "SPACEGUNK.4.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Junk",
+      "Description": "A heavy, oozing slime. It is moving gently, as if it has a heartbeat of its own.\n\nNutrient source: <FUEL>unknown<>.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Uncommon",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    },
+    {
+      "Name": "VISCOUS FLUIDS",
+      "NameLower": "Viscous Fluids",
+      "ID": "SPACEGUNK5",
+      "Symbol": "Jn",
+      "Icon": {
+        "Filename": "SPACEGUNK.5.png"
+      },
+      "DebrisFile": {
+        "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN"
+      },
+      "Subtitle": "Junk",
+      "Description": "An unnaturally thick liquid of dubious colour. Its origins are impossible to fathom.\n\nAppears to have some mild magnetic properties.",
+      "Colour": {
+        "R": "0.3568628",
+        "G": "0.4352941",
+        "B": "0.2078431",
+        "A": "1"
+      },
+      "WorldColour": {
+        "R": "0.5882353",
+        "G": "0.7137255",
+        "B": "0.3490196",
+        "A": "1"
+      },
+      "BaseValue": "20",
+      "Category": {
+        "SubstanceCategory": "Special"
+      },
+      "Rarity": "Rare",
+      "Legality": "Legal",
+      "ChargeValue": "1",
+      "StackMultiplier": "1",
+      "Cost": {
+        "SpaceStationMarkup": "0",
+        "LowPriceMod": "-0.1",
+        "HighPriceMod": "0.1",
+        "BuyBaseMarkup": "0.25",
+        "BuyMarkupMod": "0"
+      },
+      "NormalisedValueOnWorld": "9.615387E-07",
+      "NormalisedValueOffWorld": "9.615387E-07",
+      "tradeCategory": {
+        "TradingClass": "None"
+      },
+      "WikiEnabled": "True",
+      "EconomyInfluenceMultiplier": "0.25",
+      "PinObjective": "UI_FIND_OBJ",
+      "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
+      "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
+    }
+  ]
+}

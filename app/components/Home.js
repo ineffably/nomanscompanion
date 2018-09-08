@@ -34,7 +34,7 @@ class Home extends Component {
           margin="normal"
           onChange={(ev) => {this.applyFilter(ev.target.value);}}
         />
-        <AllItemsList itemArray={this.props.items} filter={this.state.filter} history={this.props.history} />
+        <AllItemsList itemArray={this.props.products} filter={this.state.filter} history={this.props.history} />
       </div>);
   }
 }
@@ -42,7 +42,8 @@ class Home extends Component {
 Home.propTypes = {
   classes: PropTypes.object.isRequired,
   items: PropTypes.array.isRequired,
-  history: PropTypes.object
+  history: PropTypes.object,
+  products: PropTypes.array
 };
 
 export default withStyles(styles)(Home);

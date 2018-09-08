@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactTable from 'react-table';
-import { translateIcon, translateColor, lookupString } from './nmsutils';
 
 export default class RawTables extends Component {
   constructor() {
@@ -14,13 +13,8 @@ export default class RawTables extends Component {
   }
 
   async componentDidMount() {
-    const productTableJson = await this.requestJson('data/raw/nms_reality_gcproducttable.transformed.json');
-    const languageTable1Json = await this.requestJson('data/nms_loc1_english.transformed.json');
-    const languageTable4Json = await this.requestJson('data/nms_loc4_english.transformed.json');
-    const languageTableUpdate3Json = await this.requestJson('data/nms_update3_english.transformed.json');
-
-    const languageTable = {...languageTable4Json.data, ...languageTable1Json.data, ...languageTableUpdate3Json.data};
-    this.setState({ productTable: productTableJson, languageTable: {data: languageTable} });
+    const productTableJsonEnglish = await this.requestJson('data/raw/nms_reality_gcproducttable.en.transformed.json');
+    this.setState({ productTable: productTableJsonEnglish });
   }
 
   getColumns() {
@@ -34,36 +28,20 @@ export default class RawTables extends Component {
     // Level : 0
     // ProceduralType.ProceduralProductCategory : Loot
 
-    const columns = ['Name', 'Subtitle', 'Colour', 'Icon', 'SubstanceCategory', 'Type', 'BaseValue', 'Rarity', 'Legality', 
+    const columns = ['NameLower', 'Subtitle', 'ColorRGB', 'Icon', 'SubstanceCategory', 'Type', 'BaseValue', 'Rarity', 'Legality', 
       'Consumable', 'ChargeValue', 'StackMultiplier', 'DefaultCraftAmount', 'CraftAmountStepSize'];
     const results = columns.map(el => {
       return {
         Header: el,
         id: el,
         accessor: o => {
-          if(el === 'Rarity' || el === 'Legality') {
-            return(<div>{o[el][el]}</div>);
-          }
-          if(el === 'Type'){
-            return(<div>{o[el].ProductCategory}</div>);
-          }
-          if(el === 'SubstanceCategory'){
-            return (<div>{o[el].SubstanceCategory}</div>);
-          }
-          if (el === 'Name' || el === 'Subtitle') {
-            const value = lookupString(this.state.languageTable, o[el]) || o[el];
-            return(<div>{value}</div>);
-          }
-          if (el === 'Colour') {
-            const color = translateColor(o[el]);
-            return(<div style={{width: '50px', height: '50px', backgroundColor: color}}></div>);
+          const item = o[el];
+          if (el === 'ColorRGB') {
+            return(<div style={{width: '50px', height: '50px', backgroundColor: item}}></div>);
           }
           if (el === 'Icon') {
-            const src = translateIcon(o[el].Filename);
-            return(<img src={`icons/${src}`} style={{width: '50px'}} />);
+            return(<img src={`icons/${item.Filename}`} style={{width: '50px'}} />);
           }
-          const item = o[el];
-          
           return(<div>{typeof item === 'object' ? JSON.stringify(item) : item }</div>);
         }
       };
