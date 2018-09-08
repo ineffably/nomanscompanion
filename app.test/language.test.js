@@ -17,8 +17,6 @@ describe('Transform Language', () => {
     const result = languageJson.Data.Property.Property.map(el => {return transformTable(el);});
     const final = {};
     result.forEach(el => {final[el.Id] = el[language];});
-    // const data = { data: final };
-    // fs.writeFileSync(__dirname + '/../data/nms_loc1_english.transformed.json', JSON.stringify(data));
     expect(final.SCAN_NO_TECH).toEqual('No scan technology installed');
   });
 });

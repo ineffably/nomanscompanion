@@ -1,4 +1,5 @@
 import { transformTable, translateIcon, translateColor } from '../app/nmsutils';
+import { testRequirements } from './testItems';
 
 describe('Transform Tables', () => {
   it('converts name and value to object', () => {
@@ -91,6 +92,7 @@ describe('Transform Tables', () => {
         Icon: { Filename: 'TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CASING.DDS' }
       }
     };
+
     const result = transformTable(testTable);
     expect(result.Table).toBeDefined();
     expect(result.Table.Subtitle).toBeDefined();
@@ -99,7 +101,6 @@ describe('Transform Tables', () => {
     expect(result.Table.Description).toEqual(expected.Table.Description);
     expect(result.Table.Icon).toBeDefined();
     expect(result.Table.Icon.Filename).toEqual(expected.Table.Icon.Filename);
-
   });
 
   it('doenst puke on partials', () => {
@@ -204,11 +205,11 @@ describe('Transform Tables', () => {
     };
 
     const expectedResults = {
-      'Table': {
+      'Table': [{
         Id: 'NAMEGEN_PLANET_ADORN_1',
         English: 'Prime',
         French: ''
-      }
+      }]
     };
 
     const result = transformTable(testTable.Data, {});
@@ -226,5 +227,12 @@ describe('Transform Tables', () => {
   it('converts raw rgb values into CSS rgb values', () => {
     const result = translateColor({ 'R': '0.9529412', 'G': '0.6627451', 'B': '0.1372549', 'A': '1' });
     expect(result).toEqual('rgb(243.000006, 169.0000005, 34.9999995, 1)');
+  });
+
+  it('generates requirements from properties correctly', () => {
+    const result = transformTable(testRequirements, {});
+    expect(result.Id).toBeDefined();
+    expect(result.Requirements).toBeDefined();
+    expect(result.Requirements.length).toEqual(2);
   });
 });

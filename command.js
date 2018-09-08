@@ -89,6 +89,16 @@ function combineSubstanceFiles() {
   fs.writeFileSync(__dirname + '/data/raw/nms_reality_combinedsubstance.json', JSON.stringify(combinedLanguages, null, 2));
 }
 
+function combineProductFiles() {
+  const loc1 = fs.readFileSync(__dirname + '/data/raw/nms_reality_gcproducttable.transformed.json');
+  const loc2 = fs.readFileSync(__dirname + '/data/raw/nms_u3reality_gcproducttable.transformed.json');
+  const loc1Json = JSON.parse(loc1);
+  const loc2Json = JSON.parse(loc2);
+
+  const combinedLanguages = {...loc1Json, loc2Json};
+  fs.writeFileSync(__dirname + '/data/raw/nms_reality_combinedproducts.json', JSON.stringify(combinedLanguages, null, 2));
+}
+
 command.version('0.1')
   .option('-t, --transpose', 'transpose all the things')
   .option('-l, --language', 'apply language files')
@@ -111,19 +121,23 @@ if (command.transpose) {
   transposeTable(
     __dirname + '/data/raw/NMS_REALITY_GCPRODUCTTABLE.json',
     __dirname + '/data/raw/nms_reality_gcproducttable.transformed.json',
+  );  
+  transposeTable(
+    __dirname + '/data/raw/NMS_U3REALITY_GCPRODUCTTABLE.json',
+    __dirname + '/data/raw/nms_u3reality_gcproducttable.transformed.json',
   );
 
   transposeTable(
     __dirname + '/data/raw/NMS_REALITY_GCSUBSTANCETABLE.json',
     __dirname + '/data/raw/nms_reality_gcsubstancetable.transformed.json',
   );
-
   transposeTable(
     __dirname + '/data/raw/NMS_U3REALITY_GCSUBSTANCETABLE.json',
     __dirname + '/data/raw/nms_u3reality_gcsubstancetable.transformed.json',
   );
 
   combineSubstanceFiles();
+  combineProductFiles();
 }
 
 if (command.language) {
@@ -134,5 +148,10 @@ if (command.language) {
   applyLangAndLookups(
     __dirname + '/data/raw/nms_reality_combinedsubstance.json',
     __dirname + '/data/raw/nms_reality_combinedsubstance.en.json'
+  );  
+  
+  applyLangAndLookups(
+    __dirname + '/data/raw/nms_reality_combinedproducts.json',
+    __dirname + '/data/raw/nms_reality_combinedproducts.en.json'
   );
 }

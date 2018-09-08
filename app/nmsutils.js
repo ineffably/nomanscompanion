@@ -8,7 +8,7 @@ function getItemFromName(name, data) {
 
 function lookupString(languageData, value) {
   const result = languageData.data[value];
-  if(!result){
+  if (!result) {
     console.log('lang not found', value);
   }
   return result || value;
@@ -24,14 +24,15 @@ function translateColor(rawColor) {
 
 function translateIcon(rawFilePath) {
   const parts = rawFilePath.split('/');
-  const fileName = parts[parts.length-1].replace('.DDS', '.png');
+  const fileName = parts[parts.length - 1].replace('.DDS', '.png');
   return fileName;
 }
 
 function transformTable(leaf, parent) {
   let result = parent || {};
   // single key/value pairs combine into an object
-  if (leaf.name && leaf.value && 
+
+  if (leaf.name && leaf.value &&
     typeof leaf.value === 'string' && leaf.value.indexOf('.xml') === -1) {
     result[leaf.name] = leaf.value;
     return result;
@@ -40,7 +41,7 @@ function transformTable(leaf, parent) {
   if (leaf.Property) {
     if (!Array.isArray(leaf.Property)) {
       if (leaf.name) {
-        if(leaf.Property.name === 'Value'){
+        if (leaf.Property.name === 'Value') {
           result[leaf.name] = leaf.Property.value;
         }
         else {
@@ -49,32 +50,40 @@ function transformTable(leaf, parent) {
       }
       else {
         const obj = transformTable(leaf.Property, {});
-        result = {...result, ...obj};
+        result = { ...result, ...obj };
       }
     }
     else {
       const obj = transformTable(leaf.Property, {});
-      if(leaf.name){
-        result[leaf.name] = obj;
+      if (leaf.name) {
+        if (leaf.Property[0].Property && Array.isArray(leaf.Property[0].Property)) {
+          const mapResults = leaf.Property.map(o => transformTable(o, {}));
+          result[leaf.name] = mapResults;
+        }
+        else {
+          result[leaf.name] = obj;
+        }
       }
       else {
-        result = {...result, ...obj};
+        result = { ...result, ...obj };
       }
     }
   }
 
   if (Array.isArray(leaf)) {
     const obj = leaf.reduce((ag, cur) => {
-      return {...ag, ...transformTable(cur, {})};
+      const t = transformTable(cur, {});
+      const r = { ...ag, ...t };
+      return r;
     }, {});
-    result = {...result, ...obj};
+    result = { ...result, ...obj };
   }
 
   return result;
 }
 
-export { 
-  getItemFromName, 
+export {
+  getItemFromName,
   transformTable,
   translateIcon,
   translateColor,
