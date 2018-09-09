@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets=latest",
-    "command" : "babel-node --presets=latest command.js",
+    "command": "babel-node --presets=latest command.js",
     "dev": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "build": "webpack",
     "test": "jest"

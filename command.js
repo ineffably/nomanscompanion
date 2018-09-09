@@ -179,12 +179,6 @@ if (command.language) {
   const languageTable = { data: getLanguageTable() };
 
   applyLangAndLookups(
-    __dirname + '/data/raw/nms_reality_gcproducttable.transformed.json',
-    __dirname + '/data/raw/nms_reality_gcproducttable.en.transformed.json',
-    languageTable
-  );
-
-  applyLangAndLookups(
     __dirname + '/data/raw/nms_reality_combinedsubstance.json',
     __dirname + '/data/raw/nms_reality_combinedsubstance.en.json',
     languageTable

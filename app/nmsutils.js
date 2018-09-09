@@ -1,17 +1,28 @@
 function getItemFromField(value, data, field = 'Name') {
-  return data.filter(item => item[field].toLowerCase() === value.toLowerCase())[0];
+  
+  return data.filter(item => { 
+    return item[field] && item[field].toLowerCase() === value.toLowerCase();
+  })[0];
 }
 
-// function getCraftFromItem(item) {
-//   if(!item.Requirements){return;}
+function getCraftFromItem(item, data) {
+  if(!item.Requirements){return;}
 
-//   const reqs = item.Requirements.map((req) => {
-//     return { in: req.ID, count: req.Amount };
-//   }).reduce((prev, cur, i) => {
-//     const r = {};
-//     return {...pref, {}}
-//   }, {});
-// }
+  const reqs = item.Requirements.reduce((prev, cur, i) => {
+    const obj = {};
+    obj['In'+(i+1)+''] = getItemFromField(cur.ID, data, 'ID'),
+    obj['In'+(i+1)+'Count'] = parseInt(cur.Amount, 10);
+    return {...prev, ...obj };
+  }, {});
+
+  const results = {
+    Output: item, 
+    Count: item.DefaultCraftAmount, 
+    ...reqs
+  };
+  
+  return results;
+}
 
 function getRefinementTables(realityData) {
   const tables = realityData.data.reduce((ar, cur) => {
@@ -105,5 +116,6 @@ export {
   translateColor,
   lookupString,
   getRefinementTables,
-  getItemFromField
+  getItemFromField,
+  getCraftFromItem
 };

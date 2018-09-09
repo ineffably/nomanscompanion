@@ -25,11 +25,12 @@ export default class App extends Component {
   }
 
   async loadProductsAndSubstances() {
-    const productData = await fetch('data/raw/nms_reality_gcproducttable.en.transformed.json');
+    const productData = await fetch('data/raw/nms_reality_combinedproducts.en.json');
     const productJson = await productData.json();
     const substanceData = await fetch('data/raw/nms_reality_combinedsubstance.en.json');
     const substanceJson = await substanceData.json();
     const combined = productJson.data.concat(substanceJson.data);
+    
     console.log('Product Count:', productJson.data.length);
     console.log('Substance Count:', substanceJson.data.length);
     console.log('AllItems Count:', combined.length);

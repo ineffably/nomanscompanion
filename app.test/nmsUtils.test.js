@@ -1,4 +1,4 @@
-import { transformTable, translateIcon, translateColor, getItemFromField } from '../app/nmsutils';
+import { transformTable, translateIcon, translateColor, getItemFromField, getCraftFromItem } from '../app/nmsutils';
 import { testRequirements } from './testItems';
 import fs from 'fs';
 
@@ -6,8 +6,10 @@ let itemData = [];
 
 describe('NMS Utils', () => {
   beforeAll(() => {
-    const file = fs.readFileSync(__dirname + '/../data/raw/nms_reality_gcproducttable.en.transformed.json');
-    itemData = JSON.parse(file).data;
+    const productJson = JSON.parse(fs.readFileSync(__dirname + '/../data/raw/nms_reality_combinedproducts.en.json'));
+    const substanceJson = JSON.parse(fs.readFileSync(__dirname + '/../data/raw/nms_reality_combinedsubstance.en.json'));
+    itemData = productJson.data.concat(substanceJson.data);
+    itemData.forEach((item) => {item.Id = item.ID || item.Id;});
   });
 
   it('can translate icons and paths from dds to png', () => {
@@ -43,4 +45,24 @@ describe('NMS Utils', () => {
     const item = getItemFromField('wowowow',  itemData);
     expect(item).toBeUndefined();
   });
+
+  it('converts the recipe correctly', () => {
+    const item = getItemFromField('ACID',  itemData);
+    const recipe = getCraftFromItem(item, itemData);
+    const expectedResults = {
+      Output: item,
+      Count: item.DefaultCraftAmount,
+      In1: getItemFromField('CREATURE1', itemData, 'Id'),
+      In1Count: 25,
+      In2: getItemFromField('PLANT_TOXIC', itemData, 'ID'),
+      In2Count: 600
+    };
+
+    expect(recipe).toBeDefined();
+    expect(recipe.Output.Name).toEqual(expectedResults.Output.Name);
+    expect(recipe.In2Count).toEqual(expectedResults.In2Count);
+    expect(recipe.Count).toEqual(expectedResults.Count);
+
+  });
+
 });

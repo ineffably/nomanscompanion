@@ -1,27 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-// import BluePrint from './BluePrint';
+import { getCraftFromItem } from '../nmsutils';
 import { Typography } from '@material-ui/core';
 
 export default class CraftedBy extends Component {
   render(){
-    const { item } = this.props;
+    const { item, products } = this.props;
     // const reqs = item.Requirements;
-    
 
+    const blueprint = getCraftFromItem(item, products);
 
-    const bluePrint = {
-      Output: item,
-      Input1: {},
-      Input2: item.Requirements[1],
-      Input3: item.Requirements[2]
-    };
-
-    console.log(bluePrint);
+    console.log(blueprint);
     
     return(<div>
       <Typography variant="headline" component="h2">Crafting:</Typography>
-      
+
     </div>);
 
     // return(<div>
