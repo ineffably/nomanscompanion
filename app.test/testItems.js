@@ -297,6 +297,106 @@ const testRequirements = {
   ]
 };
 
+const testRoot = {
+  'Data': {
+    'template': 'GcRealityManagerData',
+    'Property': [
+      {
+        'name': 'RealityIteration',
+        'value': '0'
+      },
+      {
+        'name': 'DiscoveryWorth',
+        '$t': '',
+        'Property': [
+          {
+            'value': 'GcDiscoveryWorth.xml',
+            '$t': '',
+            'Property': [
+              {
+                'name': 'Record',
+                '$t': '',
+                'Property': [
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  }
+                ]
+              },
+              {
+                'name': 'OnScan',
+                '$t': '',
+                'Property': [
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  }
+                ]
+              },
+              {
+                'name': 'Mission',
+                'value': '0'
+              }
+            ]
+          },
+          {
+            'value': 'GcDiscoveryWorth.xml',
+            '$t': '',
+            'Property': [
+              {
+                'name': 'Record',
+                '$t': '',
+                'Property': [
+                  {
+                    'value': '15'
+                  },
+                  {
+                    'value': '15'
+                  },
+                  {
+                    'value': '15'
+                  }
+                ]
+              },
+              {
+                'name': 'OnScan',
+                '$t': '',
+                'Property': [
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  },
+                  {
+                    'value': '0'
+                  }
+                ]
+              },
+              {
+                'name': 'Mission',
+                'value': '0'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+};
+
+
 export {
-  testRequirements
+  testRequirements,
+  testRoot
 };

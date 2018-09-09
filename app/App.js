@@ -8,11 +8,12 @@ import {
 import CssBaseline from '@material-ui/core/CssBaseline';
 import ItemView from './components/ItemView';
 import RawTables from './RawTables';
+import { getRefinementTables } from './nmsutils';
 
 export default class App extends Component {
   constructor(){
     super();
-    this.state = { data: {}, items: [], refining: [], crafting: [], products: [] };
+    this.state = { refineData: {}, products: [] };
   }
 
   setupImages(items) {
@@ -45,10 +46,10 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
-    const itemResponse = await fetch('data/Data.json');
-    const data = await itemResponse.json();
-    const productDataJson = await this.loadProductsAndSubstances();
-    this.setState({ data: data, products: productDataJson, items: data.Items, refining: data.Refining, crafting: data.Crafting });
+    const realityDataJson = await (await fetch('data/defaultreality.transformed.json')).json();
+    const refineData = getRefinementTables(realityDataJson);
+    const items = await this.loadProductsAndSubstances();
+    this.setState({ refineData: refineData, products: items });
   }
 
   render() {

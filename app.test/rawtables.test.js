@@ -1,5 +1,4 @@
-import { transformTable, translateIcon, translateColor } from '../app/nmsutils';
-import { testRequirements } from './testItems';
+import { transformTable } from '../app/nmsutils';
 
 describe('Transform Tables', () => {
   it('converts name and value to object', () => {
@@ -219,20 +218,4 @@ describe('Transform Tables', () => {
 
   });
 
-  it('can translate icons and paths from dds to png', () => {
-    const result = translateIcon('TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CASING.DDS');
-    expect(result).toEqual('PRODUCT.CASING.png');
-  });
-
-  it('converts raw rgb values into CSS rgb values', () => {
-    const result = translateColor({ 'R': '0.9529412', 'G': '0.6627451', 'B': '0.1372549', 'A': '1' });
-    expect(result).toEqual('rgb(243.000006, 169.0000005, 34.9999995, 1)');
-  });
-
-  it('generates requirements from properties correctly', () => {
-    const result = transformTable(testRequirements, {});
-    expect(result.Id).toBeDefined();
-    expect(result.Requirements).toBeDefined();
-    expect(result.Requirements.length).toEqual(2);
-  });
 });

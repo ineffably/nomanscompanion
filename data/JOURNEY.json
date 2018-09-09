@@ -1,0 +1,1652 @@
+{
+	"Data": {
+		"template": "GcJourney",
+		"Property": {
+			"name": "Categories",
+			"$t": "",
+			"Property": [
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Journey"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "None"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "UI_JOURNEY_MILESTONES"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "JOURNEY_TITLE"
+						},
+						{
+							"name": "DescriptionID",
+							"value": ""
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/JOURNEY.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/JOURNEY.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals"
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Race"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "Gek"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "TRA_RACE_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "TRA_RACE_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "TRA_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.GEK.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.GEK.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.GEKNONE.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.GEKBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.GEKSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.GEKGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Words"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Systems"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Race"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "Vykeen"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "WAR_RACE_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "WAR_RACE_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "WAR_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.VYKEEN.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.VYKEEN.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.VYKEENOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.VYKEENBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.VYKEENSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.VYKEENGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Words"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Systems"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Race"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "Korvax"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "EXP_RACE_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "EXP_RACE_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "EXP_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.KORVAX.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.KORVAX.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.KORVAXNONE.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.KORVAXBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.KORVAXSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.KORVAXGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Words"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WORDSGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Systems"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANETGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Guild"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "TradeGuild"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "TRA_GUILD_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "TRA_GUILD_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "TRA_GUILD_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.TRADEGUILD.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.TRADEGUILD.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MERCHNONE.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MERCHBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MERCHSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MERCHGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Units"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.UNITSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.UNITSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.UNITSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.UNITSGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Plants"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANTSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANTSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANTSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PLANTSGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Guild"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "WarriorGuild"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "WAR_GUILD_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "WAR_GUILD_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "WAR_GUILD_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.WARRIORGUILD.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.WARRIORGUILD.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARRIORNONE.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARRIORBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARRIORSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARRIORGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Sentinels"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.SENTINELSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.SENTINELSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.SENTINELSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.SENTINELSGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Pirates"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PIRATESOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PIRATESBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PIRATESSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.PIRATESGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"value": "GcJourneyCategory.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Type",
+							"value": "GcJourneyCategoryType.xml",
+							"$t": "",
+							"Property": {
+								"name": "CategoryType",
+								"value": "Guild"
+							}
+						},
+						{
+							"name": "Faction",
+							"value": "GcMissionFaction.xml",
+							"$t": "",
+							"Property": {
+								"name": "MissionFaction",
+								"value": "ExplorerGuild"
+							}
+						},
+						{
+							"name": "NameIDLower",
+							"value": "EXP_GUILD_NAME_L"
+						},
+						{
+							"name": "NameIDUpper",
+							"value": "EXP_GUILD_NAME"
+						},
+						{
+							"name": "DescriptionID",
+							"value": "EXP_GUILD_DESC"
+						},
+						{
+							"name": "IconOn",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.ON.DDS"
+							}
+						},
+						{
+							"name": "IconOff",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.OFF.DDS"
+							}
+						},
+						{
+							"name": "Medals",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Standings"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.EXPLORERNONE.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.EXPLORERBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.EXPLORERSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.EXPLORERGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "Missions"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.MEDALGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "RaceCreatures"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.CREATUREOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.CREATUREBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.CREATURESILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.CREATURESGOLD.DDS"
+											}
+										}
+									]
+								},
+								{
+									"value": "GcJourneyMedal.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Type",
+											"value": "GcJourneyMedalType.xml",
+											"$t": "",
+											"Property": {
+												"name": "MedalType",
+												"value": "DistanceWarped"
+											}
+										},
+										{
+											"name": "None",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARPSOFF.DDS"
+											}
+										},
+										{
+											"name": "Bronze",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARPSBRONZE.DDS"
+											}
+										},
+										{
+											"name": "Silver",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARPSSILVER.DDS"
+											}
+										},
+										{
+											"name": "Gold",
+											"value": "TkTextureResource.xml",
+											"$t": "",
+											"Property": {
+												"name": "Filename",
+												"value": "TEXTURES/UI/FRONTEND/ICONS/RANK/MEDAL.WARPSGOLD.DDS"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

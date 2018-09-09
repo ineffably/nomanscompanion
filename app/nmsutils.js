@@ -1,9 +1,26 @@
-function getItemFromName(name, data) {
-  const item = data.Items.filter(item => item.Name === name);
-  if (item.length > 0) {
-    return item[0];
-  }
-  return null;
+function getItemFromField(value, data, field = 'Name') {
+  return data.filter(item => item[field].toLowerCase() === value.toLowerCase())[0];
+}
+
+// function getCraftFromItem(item) {
+//   if(!item.Requirements){return;}
+
+//   const reqs = item.Requirements.map((req) => {
+//     return { in: req.ID, count: req.Amount };
+//   }).reduce((prev, cur, i) => {
+//     const r = {};
+//     return {...pref, {}}
+//   }, {});
+// }
+
+function getRefinementTables(realityData) {
+  const tables = realityData.data.reduce((ar, cur) => {
+    if(cur.RefinerRecipeTable1Input || cur.RefinerRecipeTable2Input || cur.RefinerRecipeTable3Input)
+      return {...ar, ...cur};
+    else
+      return {...ar};
+  }, {});
+  return tables;
 }
 
 function lookupString(languageData, value) {
@@ -83,9 +100,10 @@ function transformTable(leaf, parent) {
 }
 
 export {
-  getItemFromName,
   transformTable,
   translateIcon,
   translateColor,
-  lookupString
+  lookupString,
+  getRefinementTables,
+  getItemFromField
 };

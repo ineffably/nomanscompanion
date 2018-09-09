@@ -41,7 +41,6 @@ class Home extends Component {
 
 Home.propTypes = {
   classes: PropTypes.object.isRequired,
-  items: PropTypes.array.isRequired,
   history: PropTypes.object,
   products: PropTypes.array
 };
