@@ -1,5 +1,4 @@
 function getItemFromField(value, data, field = 'Name') {
-  
   return data.filter(item => { 
     return item[field] && item[field].toLowerCase() === value.toLowerCase();
   })[0];

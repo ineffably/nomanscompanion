@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Item from './Item';
-import { getItemFromName } from '../nmsutils';
 
 const styles = {
   paper: {
@@ -13,19 +12,19 @@ const styles = {
 
 class BluePrint extends Component {
   render() {
-    const { blueprint, classes, products, history } = this.props;
+    const { blueprint, classes, history } = this.props;
+    
     return (
       <Paper className={classes.paper}>
-        <div><Item item={getItemFromName(blueprint.Output, products)} history={history}/></div>
-        <div><Item item={getItemFromName(blueprint.Input1, products)} count={blueprint.Count1} history={history}/></div>
-        <div><Item item={getItemFromName(blueprint.Input2, products)} count={blueprint.Count2} history={history} /></div>
-        <div><Item item={getItemFromName(blueprint.Input3, products)} count={blueprint.Count3} history={history} /></div>
+        <div><Item item={blueprint.Output} count={blueprint.Count} history={history}/></div>
+        <div><Item item={blueprint.In1} count={blueprint.In1Count} history={history}/></div>
+        <div><Item item={blueprint.In2} count={blueprint.In2Count} history={history}/></div>
+        <div><Item item={blueprint.In3} count={blueprint.In3Count} history={history}/></div>
       </Paper>);
   }
 }
 
 BluePrint.propTypes = {
-  products: PropTypes.object.isRequired,
   classes: PropTypes.object.isRequired,
   blueprint: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired
