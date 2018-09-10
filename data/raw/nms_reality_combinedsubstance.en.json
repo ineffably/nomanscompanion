@@ -49,6 +49,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_FUEL1_OBJ_TIP",
+      "Id": "FUEL1",
       "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
       "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
     },
@@ -101,6 +102,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_FUEL2_OBJ_TIP",
+      "Id": "FUEL2",
       "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
       "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
     },
@@ -153,6 +155,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_OXYGEN_OBJ_TIP",
+      "Id": "OXYGEN",
       "WorldColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)",
       "ColorRGB": "rgb(186.9999915, 55.999989, 48.000001499999996, 1)"
     },
@@ -205,6 +208,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_LAUNCHSUB_OBJ_TIP",
+      "Id": "LAUNCHSUB",
       "WorldColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)",
       "ColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)"
     },
@@ -257,6 +261,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_LAUNCHSUB2_OBJ_TIP",
+      "Id": "LAUNCHSUB2",
       "WorldColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)",
       "ColorRGB": "rgb(52.9999905, 90.000006, 125.0000055, 1)"
     },
@@ -309,6 +314,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_ROCKETSUB_OBJ_TIP",
+      "Id": "ROCKETSUB",
       "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
       "ColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)"
     },
@@ -361,6 +367,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_LAND1_OBJ_TIP",
+      "Id": "LAND1",
       "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
       "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
     },
@@ -413,6 +420,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_LAND2_OBJ_TIP",
+      "Id": "LAND2",
       "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
       "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
     },
@@ -465,6 +473,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_LAND3_OBJ_TIP",
+      "Id": "LAND3",
       "WorldColorRGB": "rgb(221.99999100000002, 220.0000005, 209.0000145, 1)",
       "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
     },
@@ -517,6 +526,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_CATALYST1_OBJ_TIP",
+      "Id": "CATALYST1",
       "WorldColorRGB": "rgb(142.9999965, 145.0000125, 148.000011, 1)",
       "ColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)"
     },
@@ -569,6 +579,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_CATALYST2_OBJ_TIP",
+      "Id": "CATALYST2",
       "WorldColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)",
       "ColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)"
     },
@@ -621,6 +632,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_CAVE1_OBJ_TIP",
+      "Id": "CAVE1",
       "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
       "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
     },
@@ -673,6 +685,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_CAVE2_OBJ_TIP",
+      "Id": "CAVE2",
       "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
       "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
     },
@@ -725,6 +738,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_WATER1_OBJ_TIP",
+      "Id": "WATER1",
       "WorldColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)",
       "ColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)"
     },
@@ -777,6 +791,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_WATER2_OBJ_TIP",
+      "Id": "WATER2",
       "WorldColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)",
       "ColorRGB": "rgb(30.000010500000002, 138.00000749999998, 65.99999249999999, 1)"
     },
@@ -829,6 +844,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_YELLOW2_OBJ_TIP",
+      "Id": "YELLOW2",
       "WorldColorRGB": "rgb(255, 195.00000450000002, 85.9999995, 1)",
       "ColorRGB": "rgb(228.999996, 144.0000045, 1.0000000949999999, 1)"
     },
@@ -881,6 +897,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_RED2_OBJ_TIP",
+      "Id": "RED2",
       "WorldColorRGB": "rgb(208.00000649999998, 30.000010500000002, 30.000010500000002, 1)",
       "ColorRGB": "rgb(122.9999895, 0, 0, 1)"
     },
@@ -933,6 +950,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_GREEN2_OBJ_TIP",
+      "Id": "GREEN2",
       "WorldColorRGB": "rgb(134.000001, 176.0000055, 61.0000035, 1)",
       "ColorRGB": "rgb(53.9999985, 97.000011, 27.9999945, 1)"
     },
@@ -985,6 +1003,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_BLUE2_OBJ_TIP",
+      "Id": "BLUE2",
       "WorldColorRGB": "rgb(30.000010500000002, 163.00000350000002, 237.99999150000002, 1)",
       "ColorRGB": "rgb(1.0000000949999999, 55.999989, 125.0000055, 1)"
     },
@@ -1037,6 +1056,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_STELLAR2_OBJ_TIP",
+      "Id": "STELLAR2",
       "WorldColorRGB": "rgb(37.999998, 0, 0, 1)",
       "ColorRGB": "rgb(37.999998, 0, 0, 1)"
     },
@@ -1089,6 +1109,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
       "PinObjectiveTip": "UI_PIN_TECHFRAG_OBJ_TIP",
+      "Id": "TECHFRAG",
       "WorldColorRGB": "rgb(30.000010500000002, 52.9999905, 78.000012, 1)",
       "ColorRGB": "rgb(30.000010500000002, 52.9999905, 78.000012, 1)"
     },
@@ -1141,6 +1162,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_LUSH1_OBJ_TIP",
+      "Id": "LUSH1",
       "WorldColorRGB": "rgb(78.000012, 64.000002, 78.9999945, 1)",
       "ColorRGB": "rgb(78.000012, 64.000002, 78.9999945, 1)"
     },
@@ -1193,6 +1215,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_DUSTY1_OBJ_TIP",
+      "Id": "DUSTY1",
       "WorldColorRGB": "rgb(224.9999895, 149.000019, 29.000002499999997, 1)",
       "ColorRGB": "rgb(228.999996, 112.00000349999999, 2.0000001899999997, 1)"
     },
@@ -1245,6 +1268,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_TOXIC1_OBJ_TIP",
+      "Id": "TOXIC1",
       "WorldColorRGB": "rgb(106.0000065, 208.00000649999998, 30.000010500000002, 1)",
       "ColorRGB": "rgb(0, 166.000002, 77.00000399999999, 1)"
     },
@@ -1297,6 +1321,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_RADIO1_OBJ_TIP",
+      "Id": "RADIO1",
       "WorldColorRGB": "rgb(255, 173.000007, 0, 1)",
       "ColorRGB": "rgb(255, 173.000007, 0, 1)"
     },
@@ -1349,6 +1374,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_COLD1_OBJ_TIP",
+      "Id": "COLD1",
       "WorldColorRGB": "rgb(30.000010500000002, 147.00000300000002, 208.00000649999998, 1)",
       "ColorRGB": "rgb(30.000010500000002, 78.9999945, 208.00000649999998, 1)"
     },
@@ -1401,6 +1427,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_HOT1_OBJ_TIP",
+      "Id": "HOT1",
       "WorldColorRGB": "rgb(218.9999925, 36.0000075, 0, 1)",
       "ColorRGB": "rgb(218.9999925, 36.0000075, 0, 1)"
     },
@@ -1453,6 +1480,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_CREATURE1_OBJ_TIP",
+      "Id": "CREATURE1",
       "WorldColorRGB": "rgb(182.0000025, 88.99999799999999, 145.99999499999998, 1)",
       "ColorRGB": "rgb(81.0000105, 39.000006, 65.00001, 1)"
     },
@@ -1505,6 +1533,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_ROBOT1_OBJ_TIP",
+      "Id": "ROBOT1",
       "WorldColorRGB": "rgb(139.999998, 75.0000135, 158.999997, 1)",
       "ColorRGB": "rgb(77.00000399999999, 40.999996499999995, 87.0000075, 1)"
     },
@@ -1557,6 +1586,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_ASTEROID1_OBJ_TIP",
+      "Id": "ASTEROID1",
       "WorldColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)",
       "ColorRGB": "rgb(138.00000749999998, 126.99999600000001, 113.999994, 1)"
     },
@@ -1609,6 +1639,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_ASTEROID2_OBJ_TIP",
+      "Id": "ASTEROID2",
       "WorldColorRGB": "rgb(170.00000849999998, 110.000013, 5.99999955, 1)",
       "ColorRGB": "rgb(170.00000849999998, 110.000013, 5.99999955, 1)"
     },
@@ -1661,6 +1692,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_REFINE_OBJ",
       "PinObjectiveTip": "UI_PIN_ASTEROID3_OBJ_TIP",
+      "Id": "ASTEROID3",
       "WorldColorRGB": "rgb(80.0000025, 116.9999925, 116.9999925, 1)",
       "ColorRGB": "rgb(80.0000025, 116.9999925, 116.9999925, 1)"
     },
@@ -1713,6 +1745,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_PROCESS_OBJ",
       "PinObjectiveTip": "UI_PIN_GAS1_OBJ_TIP",
+      "Id": "GAS1",
       "WorldColorRGB": "rgb(37.999998, 94.0000125, 58.000004999999994, 1)",
       "ColorRGB": "rgb(37.999998, 94.0000125, 58.000004999999994, 1)"
     },
@@ -1765,6 +1798,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_PROCESS_OBJ",
       "PinObjectiveTip": "UI_PIN_GAS2_OBJ_TIP",
+      "Id": "GAS2",
       "WorldColorRGB": "rgb(75.999996, 55.0000065, 128.000004, 1)",
       "ColorRGB": "rgb(75.999996, 55.0000065, 128.000004, 1)"
     },
@@ -1817,6 +1851,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_PROCESS_OBJ",
       "PinObjectiveTip": "UI_PIN_GAS3_OBJ_TIP",
+      "Id": "GAS3",
       "WorldColorRGB": "rgb(221.99999100000002, 145.99999499999998, 30.999993, 1)",
       "ColorRGB": "rgb(221.99999100000002, 145.99999499999998, 30.999993, 1)"
     },
@@ -1869,6 +1904,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_EX_YELLOW_OBJ_TIP",
+      "Id": "EX_YELLOW",
       "WorldColorRGB": "rgb(255, 195.00000450000002, 85.9999995, 1)",
       "ColorRGB": "rgb(228.999996, 144.0000045, 1.0000000949999999, 1)"
     },
@@ -1921,6 +1957,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_EX_RED_OBJ_TIP",
+      "Id": "EX_RED",
       "WorldColorRGB": "rgb(208.00000649999998, 30.000010500000002, 30.000010500000002, 1)",
       "ColorRGB": "rgb(122.9999895, 0, 0, 1)"
     },
@@ -1973,6 +2010,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_EX_GREEN_OBJ_TIP",
+      "Id": "EX_GREEN",
       "WorldColorRGB": "rgb(134.000001, 176.0000055, 61.0000035, 1)",
       "ColorRGB": "rgb(53.9999985, 97.000011, 27.9999945, 1)"
     },
@@ -2025,6 +2063,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_EX_BLUE_OBJ_TIP",
+      "Id": "EX_BLUE",
       "WorldColorRGB": "rgb(30.000010500000002, 163.00000350000002, 237.99999150000002, 1)",
       "ColorRGB": "rgb(1.0000000949999999, 55.999989, 125.0000055, 1)"
     },
@@ -2077,6 +2116,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_TOXIC_OBJ_TIP",
+      "Id": "PLANT_TOXIC",
       "WorldColorRGB": "rgb(106.0000065, 208.00000649999998, 30.000010500000002, 1)",
       "ColorRGB": "rgb(0, 166.000002, 77.00000399999999, 1)"
     },
@@ -2129,6 +2169,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_SNOW_OBJ_TIP",
+      "Id": "PLANT_SNOW",
       "WorldColorRGB": "rgb(30.000010500000002, 147.00000300000002, 208.00000649999998, 1)",
       "ColorRGB": "rgb(30.000010500000002, 78.9999945, 208.00000649999998, 1)"
     },
@@ -2181,6 +2222,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_RADIO_OBJ_TIP",
+      "Id": "PLANT_RADIO",
       "WorldColorRGB": "rgb(199.000011, 185.000001, 27.000012, 1)",
       "ColorRGB": "rgb(196.999995, 135.000009, 29.000002499999997, 1)"
     },
@@ -2233,6 +2275,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_DUST_OBJ_TIP",
+      "Id": "PLANT_DUST",
       "WorldColorRGB": "rgb(224.9999895, 149.000019, 29.000002499999997, 1)",
       "ColorRGB": "rgb(34.9999995, 150.0000015, 37.999998, 1)"
     },
@@ -2285,6 +2328,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_HOT_OBJ_TIP",
+      "Id": "PLANT_HOT",
       "WorldColorRGB": "rgb(241.99999799999998, 109.000005, 20.9999997, 1)",
       "ColorRGB": "rgb(185.000001, 67.0000005, 24.000000749999998, 1)"
     },
@@ -2337,6 +2381,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_LUSH_OBJ_TIP",
+      "Id": "PLANT_LUSH",
       "WorldColorRGB": "rgb(155.00001600000002, 209.99999699999998, 212.9999955, 1)",
       "ColorRGB": "rgb(32.000001, 141.000006, 171.00001650000002, 1)"
     },
@@ -2389,6 +2434,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_CAVE_OBJ_TIP",
+      "Id": "PLANT_CAVE",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     },
@@ -2441,6 +2487,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_WATER_OBJ_TIP",
+      "Id": "PLANT_WATER",
       "WorldColorRGB": "rgb(88.99999799999999, 155.00001600000002, 182.0000025, 1)",
       "ColorRGB": "rgb(0, 91.9999965, 131.0000025, 1)"
     },
@@ -2493,6 +2540,7 @@
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_GATHER_OBJ",
       "PinObjectiveTip": "UI_PIN_PLANT_POOP_OBJ_TIP",
+      "Id": "PLANT_POOP",
       "WorldColorRGB": "rgb(120.99999899999999, 80.0000025, 46.000011, 1)",
       "ColorRGB": "rgb(120.99999899999999, 80.0000025, 46.000011, 1)"
     },
@@ -2544,6 +2592,7 @@
       "WikiEnabled": "True",
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
+      "Id": "SPACEGUNK1",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     },
@@ -2595,6 +2644,7 @@
       "WikiEnabled": "True",
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
+      "Id": "SPACEGUNK2",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     },
@@ -2646,6 +2696,7 @@
       "WikiEnabled": "True",
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
+      "Id": "SPACEGUNK3",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     },
@@ -2697,6 +2748,7 @@
       "WikiEnabled": "True",
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
+      "Id": "SPACEGUNK4",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     },
@@ -2748,6 +2800,7 @@
       "WikiEnabled": "True",
       "EconomyInfluenceMultiplier": "0.25",
       "PinObjective": "UI_FIND_OBJ",
+      "Id": "SPACEGUNK5",
       "WorldColorRGB": "rgb(150.0000015, 182.0000025, 88.99999799999999, 1)",
       "ColorRGB": "rgb(91.000014, 110.99999550000001, 52.9999905, 1)"
     }

@@ -47,7 +47,7 @@ class AllItemsList extends Component {
           return item.NameLower.toLowerCase().indexOf(filter.toLowerCase()) > -1;
         }
         else {
-          console.log('NameLower Not Found', item);
+          console.error('NameLower Not Found', item);
         }
         return false;
       });

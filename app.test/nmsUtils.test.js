@@ -1,5 +1,5 @@
 import { transformTable, translateIcon, translateColor, getItemFromField, getCraftFromItem } from '../app/nmsutils';
-import { testRequirements } from './testItems';
+import { testRequirements, cwireRequirementsTest } from './testItems';
 import fs from 'fs';
 
 let itemData = [];
@@ -9,7 +9,6 @@ describe('NMS Utils', () => {
     const productJson = JSON.parse(fs.readFileSync(__dirname + '/../data/raw/nms_reality_combinedproducts.en.json'));
     const substanceJson = JSON.parse(fs.readFileSync(__dirname + '/../data/raw/nms_reality_combinedsubstance.en.json'));
     itemData = productJson.data.concat(substanceJson.data);
-    itemData.forEach((item) => {item.Id = item.ID || item.Id;});
   });
 
   it('can translate icons and paths from dds to png', () => {
@@ -46,6 +45,12 @@ describe('NMS Utils', () => {
     expect(item).toBeUndefined();
   });
 
+  it('returns SUBWATER from Id', () => {
+    const item = getItemFromField('SUBWATER',  itemData, 'Id');
+    expect(item).toBeDefined;
+    expect(item.Id).toEqual('SUBWATER');
+  });
+
   it('converts the recipe correctly', () => {
     const item = getItemFromField('ACID',  itemData);
     const recipe = getCraftFromItem(item, itemData);
@@ -63,6 +68,15 @@ describe('NMS Utils', () => {
     expect(recipe.In2Count).toEqual(expectedResults.In2Count);
     expect(recipe.Count).toEqual(expectedResults.Count);
 
+  });
+
+  it('converts recipe correctly for a single item', () => {
+    const results = transformTable(cwireRequirementsTest, {});
+    const recipe = getCraftFromItem(results, itemData);
+    expect(results.Requirements).toBeDefined();
+    expect(recipe).toBeDefined();
+    expect(recipe.Output.Name).toEqual(results.Name);
+    expect(recipe.In1).toBeDefined();
   });
 
 });

@@ -212,7 +212,6 @@ describe('Transform Tables', () => {
     };
 
     const result = transformTable(testTable.Data, {});
-    // console.log(JSON.stringify(result, null, 2));
     expect(result.Table).toBeDefined();
     expect(result.Table).toEqual(expectedResults.Table);
 

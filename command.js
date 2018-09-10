@@ -9,7 +9,7 @@ function transposeTableFromRoot(inFile, outFile) {
   const json = JSON.parse(file);
   let mapFrom = json.Data.Property;
   const result = mapFrom.map(el => { return transformTable(el); });
-  const data = {data: result};
+  const data = { data: result };
   console.log(`writing file: ${outFile}`);
   fs.writeFileSync(outFile, JSON.stringify(data, null, 2));
 }
@@ -18,7 +18,7 @@ function transposeTable(inFile, outFile) {
   console.log(`reading file: ${inFile}`);
   const file = fs.readFileSync(inFile);
   const json = JSON.parse(file);
-  let mapFrom = json.Data.Property.Property;
+  const mapFrom = Array.isArray(json.Data.Property) ? json.Data.Property[0].Property : json.Data.Property.Property;
   const result = mapFrom.map(el => { return transformTable(el); });
   const data = { data: result };
   console.log(`writing file: ${outFile}`);
@@ -46,17 +46,17 @@ function getLanguageTable() {
   const update3 = fs.readFileSync(__dirname + '/data/nms_update3_english.transformed.json');
   const update3Json = JSON.parse(update3);
 
-  const results =  { ...loc1Json.data, ...loc4Json.data, ...update3Json.data };
+  const results = { ...loc1Json.data, ...loc4Json.data, ...update3Json.data };
   fs.writeFile(__dirname + '/data/en.json', JSON.stringify({ data: results }, null, 2));
   return results;
 }
 
-function applyLangToRecipes(langTable){
+function applyLangToRecipes(langTable) {
   const realityFile = fs.readFileSync(__dirname + '/data/defaultreality.transformed.json');
   const realityJson = JSON.parse(realityFile);
   // const refinements = getRefinementTables(realityJson);
-  const refinementTables = realityJson.data.filter((el) => { 
-    return (el.RefinerRecipeTable1Input || el.RefinerRecipeTable2Input || el.RefinerRecipeTable3Input); 
+  const refinementTables = realityJson.data.filter((el) => {
+    return (el.RefinerRecipeTable1Input || el.RefinerRecipeTable2Input || el.RefinerRecipeTable3Input);
   });
   refinementTables.forEach((el) => {
     const recipes = el[Object.keys(el)[0]];
@@ -67,16 +67,18 @@ function applyLangToRecipes(langTable){
   fs.writeFileSync(__dirname + '/data/defaultreality.en.transformed.json', JSON.stringify(realityJson, null, 2));
 }
 
-function applyLangAndLookups(inFile, outFile, 
+function applyLangAndLookups(inFile, outFile,
   languageTable = { data: getLanguageTable() }) {
+  console.log('reading file ', inFile);
   const itemTable = fs.readFileSync(inFile);
   const jsonTable = JSON.parse(itemTable);
 
   const table = jsonTable.data.map((el) => {
-    if(el.Symbol){
+    el.Id = el.ID || el.Id;
+    if (el.Symbol) {
       el.Symbol = lookupString(languageTable, el.Symbol);
     }
-    if(el.WorldColour) {
+    if (el.WorldColour) {
       el.WorldColorRGB = translateColor(el.WorldColour);
     }
     el.Icon.Filename = translateIcon(el.Icon.Filename);
@@ -87,19 +89,19 @@ function applyLangAndLookups(inFile, outFile,
     el.Description = lookupString(languageTable, el.Description);
     el.Rarity = el.Rarity ? el.Rarity.Rarity : el.Rarity;
     el.Legality = el.Legality ? el.Legality.Legality : el.Legality;
-    if(el.ProceduralType){
+    if (el.ProceduralType) {
       el.ProceduralType = el.ProceduralType ? el.ProceduralType.ProceduralProductCategory : el.ProceduralType;
     }
-    if(el.Type){
+    if (el.Type) {
       el.Type = el.Type ? el.Type.ProductCategory : el.Type;
     }
-    if(el.SubstanceCategory){
+    if (el.SubstanceCategory) {
       el.SubstanceCategory = el.SubstanceCategory ? el.SubstanceCategory.SubstanceCategory : el.SubstanceCategory;
     }
     return el;
   });
-
   const tableJson = JSON.stringify({ data: table }, null, 2);
+  console.log('writing file', outFile);
   fs.writeFileSync(outFile, tableJson);
 }
 
@@ -108,8 +110,14 @@ function combineSubstanceFiles() {
   const loc2 = fs.readFileSync(__dirname + '/data/raw/nms_u3reality_gcsubstancetable.transformed.json');
   const loc1Json = JSON.parse(loc1);
   const loc2Json = JSON.parse(loc2);
+  const ids = loc1Json.data.reduce((prev, cur) => {
+    prev.push(cur.Id);
+    return prev;
+  }, []);
 
-  const combinedLanguages = {...loc1Json, loc2Json};
+  const loc2Filtered = loc2Json.data.filter((el) => !ids.includes(el.Id));
+
+  const combinedLanguages = { data: loc1Json.data.concat(loc2Filtered) };
   fs.writeFileSync(__dirname + '/data/raw/nms_reality_combinedsubstance.json', JSON.stringify(combinedLanguages, null, 2));
 }
 
@@ -119,7 +127,15 @@ function combineProductFiles() {
   const loc1Json = JSON.parse(loc1);
   const loc2Json = JSON.parse(loc2);
 
-  const combinedLanguages = {...loc1Json, loc2Json};
+  const ids = loc1Json.data.reduce((prev, cur) => {
+    prev.push(cur.Id);
+    return prev;
+  }, []);
+
+  console.log(ids.length);
+  const loc2Filtered = loc2Json.data.filter((el) => !ids.includes(el.Id));
+
+  const combinedLanguages = { data: loc1Json.data.concat(loc2Filtered) };
   fs.writeFileSync(__dirname + '/data/raw/nms_reality_combinedproducts.json', JSON.stringify(combinedLanguages, null, 2));
 }
 
@@ -130,8 +146,9 @@ command.version('0.1')
   .parse(process.argv);
 
 if (command.run) {
-  const languageTable = { data: getLanguageTable() };
-  applyLangToRecipes(languageTable);
+  // const languageTable = { data: getLanguageTable() };
+  combineSubstanceFiles();
+  combineProductFiles();
 }
 
 if (command.transpose) {
@@ -151,7 +168,7 @@ if (command.transpose) {
   transposeTable(
     __dirname + '/data/raw/NMS_REALITY_GCPRODUCTTABLE.json',
     __dirname + '/data/raw/nms_reality_gcproducttable.transformed.json',
-  );  
+  );
   transposeTable(
     __dirname + '/data/raw/NMS_U3REALITY_GCPRODUCTTABLE.json',
     __dirname + '/data/raw/nms_u3reality_gcproducttable.transformed.json',

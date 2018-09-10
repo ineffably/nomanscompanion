@@ -31,9 +31,9 @@ export default class App extends Component {
     const substanceJson = await substanceData.json();
     const combined = productJson.data.concat(substanceJson.data);
     
-    console.log('Product Count:', productJson.data.length);
-    console.log('Substance Count:', substanceJson.data.length);
-    console.log('AllItems Count:', combined.length);
+    console.info('Product Count:', productJson.data.length);
+    console.info('Substance Count:', substanceJson.data.length);
+    console.info('AllItems Count:', combined.length);
     
     return combined.sort((a,b) => {
       if(!a.NameLower){

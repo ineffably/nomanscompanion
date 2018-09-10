@@ -1,15 +1,16 @@
 function getItemFromField(value, data, field = 'Name') {
-  return data.filter(item => { 
+  return data.filter(item => {
     return item[field] && item[field].toLowerCase() === value.toLowerCase();
   })[0];
 }
 
 function getCraftFromItem(item, data) {
   if(!item.Requirements){return;}
-
-  const reqs = item.Requirements.reduce((prev, cur, i) => {
+  const requirements = Array.isArray(item.Requirements) ? item.Requirements : [item.Requirements];
+  const reqs = requirements.reduce((prev, cur, i) => {
     const obj = {};
-    obj['In'+(i+1)+''] = getItemFromField(cur.ID, data, 'ID'),
+    const item = getItemFromField(cur.ID, data, 'Id');
+    obj['In'+(i+1)+''] = item;
     obj['In'+(i+1)+'Count'] = parseInt(cur.Amount, 10);
     return {...prev, ...obj };
   }, {});
@@ -19,7 +20,6 @@ function getCraftFromItem(item, data) {
     Count: item.DefaultCraftAmount, 
     ...reqs
   };
-  
   return results;
 }
 
@@ -36,7 +36,7 @@ function getRefinementTables(realityData) {
 function lookupString(languageData, value) {
   const result = languageData.data[value];
   if (!result) {
-    console.log('lang not found', value);
+    console.info('lang not found', value);
   }
   return result || value;
 }
