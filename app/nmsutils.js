@@ -4,17 +4,47 @@ function getItemFromField(value, data, field = 'Name') {
   })[0];
 }
 
-function getCraftFromItem(item, data) {
-  if(!item.Requirements){return;}
-  const requirements = Array.isArray(item.Requirements) ? item.Requirements : [item.Requirements];
+function getRefinerRecipe(recipe, allItems){
+  let recipeIngredients = recipe.Ingredients;
+  if(!recipeIngredients){
+    return null;
+  }
+  if(!Array.isArray(recipe.Ingredients)){
+    recipeIngredients = [recipeIngredients];
+  }
+  const ingredients = getBlueprintFromRequirement(recipeIngredients, allItems);
+  const bluePrint = { 
+    Output: getItemFromField(recipe.Result.Id, allItems, 'Id'),
+    Count: recipe.Result.Amount,
+    Time: recipe.TimeToMake,
+    Name: recipe.Name
+  };
+
+  return {...bluePrint, ...ingredients};
+}
+
+function getCraftingTable(itemData = []) {
+  const results = itemData.filter(item => item.IsCraftable).map(item => {
+    return getCraftFromItem(item, itemData);
+  });
+  return results;
+}
+
+function getBlueprintFromRequirement(requirements, allItems){
   const reqs = requirements.reduce((prev, cur, i) => {
     const obj = {};
-    const item = getItemFromField(cur.ID, data, 'Id');
+    const item = getItemFromField((cur.ID || cur.Id), allItems, 'Id');
     obj['In'+(i+1)+''] = item;
     obj['In'+(i+1)+'Count'] = parseInt(cur.Amount, 10);
     return {...prev, ...obj };
   }, {});
+  return reqs;
+}
 
+function getCraftFromItem(item, allItems) {
+  if(!item.Requirements){return;}
+  const requirements = Array.isArray(item.Requirements) ? item.Requirements : [item.Requirements];
+  const reqs = getBlueprintFromRequirement(requirements, allItems);
   const results = {
     Output: item, 
     Count: item.DefaultCraftAmount, 
@@ -116,5 +146,8 @@ export {
   lookupString,
   getRefinementTables,
   getItemFromField,
-  getCraftFromItem
+  getCraftFromItem,
+  getCraftingTable,
+  getBlueprintFromRequirement,
+  getRefinerRecipe
 };

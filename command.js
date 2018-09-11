@@ -1,5 +1,5 @@
 // const program = require('commander');
-import { transformTable, lookupString, translateColor, translateIcon, getRefinementTables } from './app/nmsutils';
+import { transformTable, lookupString, translateColor, translateIcon } from './app/nmsutils';
 import command from 'commander';
 import fs from 'fs';
 
@@ -61,6 +61,7 @@ function applyLangToRecipes(langTable) {
   refinementTables.forEach((el) => {
     const recipes = el[Object.keys(el)[0]];
     recipes.forEach(recipe => {
+      recipe.Id = recipe.Name;
       recipe.Name = lookupString(langTable, recipe.Name);
     });
   });

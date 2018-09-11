@@ -9,11 +9,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import ItemView from './components/ItemView';
 import RawTables from './RawTables';
 import { getRefinementTables } from './nmsutils';
+import CraftingView from './components/CraftingView';
+import RefinementView from './components/RefinementView';
 
 export default class App extends Component {
   constructor(){
     super();
-    this.state = { refineData: {}, products: [] };
+    this.state = { refinerData: {}, products: [] };
   }
 
   setupImages(items) {
@@ -34,8 +36,9 @@ export default class App extends Component {
     console.info('Product Count:', productJson.data.length);
     console.info('Substance Count:', substanceJson.data.length);
     console.info('AllItems Count:', combined.length);
-    
-    return combined.sort((a,b) => {
+
+    const filtered = combined.filter(item => item.Name !== 'OBSOLETE ITEM');
+    return filtered.sort((a,b) => {
       if(!a.NameLower){
         return 1;
       }
@@ -47,10 +50,10 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
-    const realityDataJson = await (await fetch('data/defaultreality.transformed.json')).json();
-    const refineData = getRefinementTables(realityDataJson);
+    const realityDataJson = await (await fetch('data/defaultreality.en.transformed.json')).json();
+    const refinerData = getRefinementTables(realityDataJson);
     const items = await this.loadProductsAndSubstances();
-    this.setState({ refineData: refineData, products: items });
+    this.setState({ refinerData: refinerData, products: items });
   }
 
   render() {
@@ -63,6 +66,8 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
               <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
+              <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
+              <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
               <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
             </Switch>
           </div>

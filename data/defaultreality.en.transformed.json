@@ -1216,7 +1216,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "100"
-          }
+          },
+          "Id": "RECIPE_ASTEROID1"
         },
         {
           "Name": "Requested Operation: Metal Restructuring",
@@ -1234,7 +1235,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ASTEROID2"
         },
         {
           "Name": "Requested Operation: Reality Warping",
@@ -1252,7 +1254,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "5"
-          }
+          },
+          "Id": "RECIPE_ASTEROID3"
         },
         {
           "Name": "Requested Operation: Reality Filtering",
@@ -1270,7 +1273,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "10"
-          }
+          },
+          "Id": "RECIPE_ROBOT1"
         },
         {
           "Name": "Requested Operation: Assisted Decomposition",
@@ -1288,7 +1292,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "3"
-          }
+          },
+          "Id": "RECIPE_CREATURE1"
         },
         {
           "Name": "Requested Operation: Inefficient Burn",
@@ -1306,7 +1311,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_OXYGEN"
         },
         {
           "Name": "Requested Operation: Condense Di-hydrogen",
@@ -1324,7 +1330,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "30"
-          }
+          },
+          "Id": "RECIPE_LAUNCHFUEL"
         },
         {
           "Name": "Requested Operation: Carbon Melting",
@@ -1342,7 +1349,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_FUELPROD3"
         },
         {
           "Name": "Requested Operation: Rare Metal Detoxification",
@@ -1360,7 +1368,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_LANDPROD3"
         },
         {
           "Name": "Requested Operation: Cobalt Cracking",
@@ -1378,7 +1387,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_CAVEPROD3"
         },
         {
           "Name": "Requested Operation: Chloride De-latticing",
@@ -1396,7 +1406,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_WATERPROD3"
         },
         {
           "Name": "Requested Operation: Sodium Stabilisation",
@@ -1414,7 +1425,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_CATAPROD3"
         },
         {
           "Name": "Requested Operation: Oxygen Decompression",
@@ -1432,7 +1444,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_OXYPROD3"
         },
         {
           "Name": "Requested Operation: Di-hydrogen Cycling",
@@ -1450,7 +1463,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_JELLY"
         },
         {
           "Name": "Requested Operation: Ionise Mineral",
@@ -1468,7 +1482,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_CAVE1"
         },
         {
           "Name": "Requested Operation: Deionise Mineral",
@@ -1486,7 +1501,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_CAVE2"
         },
         {
           "Name": "Requested Operation: Release Carbon",
@@ -1504,7 +1520,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_FUEL2"
         },
         {
           "Name": "Requested Operation: Condense Carbon",
@@ -1522,7 +1539,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_FUEL1"
         },
         {
           "Name": "Requested Operation: Process Sodium",
@@ -1540,7 +1558,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_CATALYST1"
         },
         {
           "Name": "Requested Operation: Free Sodium",
@@ -1558,7 +1577,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_CATALYST2"
         },
         {
           "Name": "Requested Operation: Extract Metallic Elements",
@@ -1576,7 +1596,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_LAND1"
         },
         {
           "Name": "Requested Operation: Magnetise Metal",
@@ -1594,7 +1615,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_LAND2"
         },
         {
           "Name": "Requested Operation: Demagnetise Metal",
@@ -1612,7 +1634,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_LAND3"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1630,7 +1653,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_RED2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1648,7 +1672,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_BLUE2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1666,7 +1691,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_GREEN2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1684,7 +1710,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_YELLOW2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1702,7 +1729,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_RED2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1720,7 +1748,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_BLUE2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1738,7 +1767,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_GREEN2"
         },
         {
           "Name": "Requested Operation: Extract Chromatic Material",
@@ -1756,7 +1786,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_YELLOW2"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1774,7 +1805,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_LUSH1"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1792,7 +1824,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_DUSTY1"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1810,7 +1843,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_TOXIC1"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1828,7 +1862,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_RADIO1"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1846,7 +1881,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_COLD1"
         },
         {
           "Name": "Requested Operation: Ferrite Dust Extraction",
@@ -1864,7 +1900,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_HOT1"
         },
         {
           "Name": "Requested Operation: Concentrate Salt",
@@ -1882,7 +1919,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "2"
-          }
+          },
+          "Id": "RECIPE_WATER1"
         },
         {
           "Name": "Requested Operation: Salt Production",
@@ -1900,7 +1938,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_WATER2"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -1918,7 +1957,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "3"
-          }
+          },
+          "Id": "RECIPE_GAS1"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -1936,7 +1976,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "3"
-          }
+          },
+          "Id": "RECIPE_GAS2"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -1954,7 +1995,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "3"
-          }
+          },
+          "Id": "RECIPE_GAS3"
         },
         {
           "Name": "Requested Operation: Recycle Waste Materials",
@@ -1972,7 +2014,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_SPACEGUNK1"
         },
         {
           "Name": "Requested Operation: Recycle Waste Materials",
@@ -1990,7 +2033,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "5"
-          }
+          },
+          "Id": "RECIPE_SPACEGUNK2"
         },
         {
           "Name": "Requested Operation: Recycle Waste Materials",
@@ -2008,7 +2052,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "5"
-          }
+          },
+          "Id": "RECIPE_SPACEGUNK3"
         },
         {
           "Name": "Requested Operation: Recycle Waste Materials",
@@ -2026,7 +2071,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_SPACEGUNK4"
         },
         {
           "Name": "Requested Operation: Recycle Waste Materials",
@@ -2044,7 +2090,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_SPACEGUNK5"
         },
         {
           "Name": "Requested Operation: Tritium Cycling",
@@ -2062,7 +2109,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "5"
-          }
+          },
+          "Id": "RECIPE_ROCKETSUB"
         },
         {
           "Name": "Requested Operation: Tritium Cycling",
@@ -2073,7 +2121,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "5"
-          }
+          },
+          "Id": "RECIPE_ROCKETSUB"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2091,7 +2140,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_TOXIC"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2109,7 +2159,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_SNOW"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2127,7 +2178,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_RADIO"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2145,7 +2197,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_DUST"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2163,7 +2216,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_HOT"
         },
         {
           "Name": "Requested Operation: Burn Plantlife",
@@ -2181,7 +2235,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_LUSH"
         },
         {
           "Name": "Requested Operation: Extract Organic Sodium",
@@ -2199,7 +2254,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_CAVE"
         },
         {
           "Name": "Requested Operation: Extract Micro-Bubbles",
@@ -2217,7 +2273,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_PLANT_WATER"
         },
         {
           "Name": "Requested Operation: Organic Reassembly",
@@ -2235,7 +2292,8 @@
               "InventoryType": "Substance"
             },
             "Amount": "3"
-          }
+          },
+          "Id": "RECIPE_PLANT_POOP"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2253,7 +2311,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY1"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2271,7 +2330,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY2"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2289,7 +2349,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY3"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2307,7 +2368,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY4"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2325,7 +2387,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY5"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2343,7 +2406,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY6"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2361,7 +2425,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY7"
         },
         {
           "Name": "Requested Operation: Extreme Alloy Separation",
@@ -2379,7 +2444,8 @@
               "InventoryType": "Product"
             },
             "Amount": "1"
-          }
+          },
+          "Id": "RECIPE_ALLOY8"
         }
       ]
     },
@@ -2410,7 +2476,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_POOP_ALCHEMY"
         },
         {
           "Name": "Requested Operation: Transmutation",
@@ -2437,7 +2504,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_ASTEROID_MIX"
         },
         {
           "Name": "Requested Operation: Harness Energy",
@@ -2464,7 +2532,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAUNCHSUB_RADIO"
         },
         {
           "Name": "Requested Operation: Sulphur Injection",
@@ -2491,7 +2560,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAUNCHSUB_GAS1"
         },
         {
           "Name": "Requested Operation: Catalyse Radiation",
@@ -2518,7 +2588,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAUNCHSUB_GAS2"
         },
         {
           "Name": "Requested Operation: Organic Fusion",
@@ -2545,7 +2616,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAUNCHSUB_GAS3"
         },
         {
           "Name": "Requested Operation: Rapid Formation / Evaporation",
@@ -2572,7 +2644,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAUNCHSUB_OXYGEN"
         },
         {
           "Name": "Requested Operation: Assisted Decomposition",
@@ -2599,7 +2672,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CREATURE1"
         },
         {
           "Name": "Requested Operation: Organic Reassembly",
@@ -2626,7 +2700,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP"
         },
         {
           "Name": "Requested Operation: Carbonise Metal",
@@ -2653,7 +2728,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_REINFORCE_METAL"
         },
         {
           "Name": "Requested Operation: Carbonise Metal",
@@ -2680,7 +2756,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_REINFORCE_METAL"
         },
         {
           "Name": "Requested Operation: Carbonise Metal",
@@ -2707,7 +2784,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_REINFORCE_METAL"
         },
         {
           "Name": "Requested Operation: Carbonise Metal",
@@ -2734,7 +2812,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_REINFORCE_METAL"
         },
         {
           "Name": "Requested Operation: Di-hydrogen Cycling",
@@ -2761,7 +2840,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_JELLY"
         },
         {
           "Name": "Requested Operation: Oxidise Metal",
@@ -2788,7 +2868,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RUST"
         },
         {
           "Name": "Requested Operation: Oxidise Metal",
@@ -2815,7 +2896,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RUST"
         },
         {
           "Name": "Requested Operation: Oxygenate Carbon",
@@ -2842,7 +2924,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Oxygenate Carbon",
@@ -2869,7 +2952,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Oxygenate Sodium",
@@ -2896,7 +2980,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Oxygenate Sodium",
@@ -2923,7 +3008,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Catalyse Carbon",
@@ -2950,7 +3036,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL1_CATALYST1"
         },
         {
           "Name": "Requested Operation: Catalyse Carbon",
@@ -2977,7 +3064,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL2_CATALYST1"
         },
         {
           "Name": "Requested Operation: Advanced Carbon Processing",
@@ -3004,7 +3092,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL1_CATALYST2"
         },
         {
           "Name": "Requested Operation: Advanced Carbon Processing",
@@ -3031,7 +3120,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL2_CATALYST2"
         },
         {
           "Name": "Requested Operation: Anomaly / Organic Hybridisation",
@@ -3058,7 +3148,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL1_ROBOT1"
         },
         {
           "Name": "Requested Operation: Anomaly / Organic Hybridisation",
@@ -3085,7 +3176,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL2_ROBOT1"
         },
         {
           "Name": "Requested Operation: Sentinel Catalysation",
@@ -3112,7 +3204,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST1_ROBOT1"
         },
         {
           "Name": "Requested Operation: Sentinel Catalysation",
@@ -3139,7 +3232,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST2_ROBOT1"
         },
         {
           "Name": "Requested Operation: Runaway Decomposition",
@@ -3166,7 +3260,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL1_CREATURE1"
         },
         {
           "Name": "Requested Operation: Runaway Decomposition",
@@ -3193,7 +3288,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUEL2_CREATURE1"
         },
         {
           "Name": "Requested Operation: Fertiliser Synthesis",
@@ -3220,7 +3316,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST1_CREATURE1"
         },
         {
           "Name": "Requested Operation: Fertiliser Synthesis",
@@ -3247,7 +3344,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATALYST2_CREATURE1"
         },
         {
           "Name": "Requested Operation: Matter Expansion",
@@ -3274,7 +3372,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND1_ROBOT1"
         },
         {
           "Name": "Requested Operation: Matter Expansion",
@@ -3301,7 +3400,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND2_ROBOT1"
         },
         {
           "Name": "Requested Operation: Matter Expansion",
@@ -3328,7 +3428,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND3_ROBOT1"
         },
         {
           "Name": "Requested Operation: Chromatic Expansion",
@@ -3355,7 +3456,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RED2_STELLAR2"
         },
         {
           "Name": "Requested Operation: Chromatic Expansion",
@@ -3382,7 +3484,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_BLUE2_STELLAR2"
         },
         {
           "Name": "Requested Operation: Chromatic Expansion",
@@ -3409,7 +3512,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GREEN2_STELLAR2"
         },
         {
           "Name": "Requested Operation: Chromatic Expansion",
@@ -3436,7 +3540,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_YELLOW2_STELLAR2"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3463,7 +3568,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LUSH1_PLANT_LUSH"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3490,7 +3596,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_DUSTY1_PLANT_DUST"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3517,7 +3624,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_TOXIC1_PLANT_TOXIC"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3544,7 +3652,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RADIO1_PLANT_RADIO"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3571,7 +3680,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_COLD1_PLANT_SNOW"
         },
         {
           "Name": "Requested Operation: Organic Expansion",
@@ -3598,7 +3708,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_HOT1_PLANT_HOT"
         },
         {
           "Name": "Requested Operation: Efficient Salt Evaporation",
@@ -3625,7 +3736,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_WATER1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Chlorine Expansion",
@@ -3652,7 +3764,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_WATER2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Efficient Cobalt Ionisation",
@@ -3679,7 +3792,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_CAVE1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Efficient Cobalt Ionisation",
@@ -3706,7 +3820,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_CAVE2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Organic / Anomaly Synthesis",
@@ -3733,7 +3848,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_CREATURE1_ROBOT1"
         },
         {
           "Name": "Requested Operation: Mineral Alchemy",
@@ -3760,7 +3876,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_ASTEROID1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Mineral Alchemy",
@@ -3787,7 +3904,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_ASTEROID2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Mineral Alchemy",
@@ -3814,7 +3932,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_ASTEROID3_OXYGEN"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -3841,7 +3960,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_OXYGEN"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -3868,7 +3988,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_OXYGEN"
         },
         {
           "Name": "Requested Operation: Gas Transfer",
@@ -3895,7 +4016,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS3_OXYGEN"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -3922,7 +4044,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_CATALYST1"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -3949,7 +4072,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_CATALYST1"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -3976,7 +4100,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS3_CATALYST1"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -4003,7 +4128,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_CATALYST2"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -4030,7 +4156,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS3_CATALYST2"
         },
         {
           "Name": "Requested Operation: Bonded Cobalt Extraction",
@@ -4057,7 +4184,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_OXYGEN"
         },
         {
           "Name": "Requested Operation: Bonded Chlorine Extraction",
@@ -4084,7 +4212,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_OXYGEN"
         },
         {
           "Name": "Requested Operation: Oxygenate Microbes",
@@ -4111,7 +4240,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_OXYGEN"
         },
         {
           "Name": "Requested Operation: Pugneum Washing",
@@ -4138,7 +4268,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_ROBOT1"
         },
         {
           "Name": "Requested Operation: Pugneum Washing",
@@ -4165,7 +4296,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_ROBOT1"
         },
         {
           "Name": "Requested Operation: Extract Organic Sodium",
@@ -4192,7 +4324,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_FUEL1"
         },
         {
           "Name": "Requested Operation: Release Captured Oxygen",
@@ -4219,7 +4352,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_FUEL1"
         },
         {
           "Name": "Requested Operation: Feed Microbes",
@@ -4246,7 +4380,8 @@
               },
               "Amount": "2"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_FUEL1"
         },
         {
           "Name": "Requested Operation: Harness Organic Nitrogren",
@@ -4273,7 +4408,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_CATALYST1"
         },
         {
           "Name": "Requested Operation: Harness Organic Nitrogren",
@@ -4300,7 +4436,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_CATALYST1"
         },
         {
           "Name": "Requested Operation: Feed Microbes",
@@ -4327,7 +4464,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_CATALYST1"
         },
         {
           "Name": "Requested Operation: Extract Organic Sodium",
@@ -4354,7 +4492,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_FUEL2"
         },
         {
           "Name": "Requested Operation: Release Captured Oxygen",
@@ -4381,7 +4520,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_FUEL2"
         },
         {
           "Name": "Requested Operation: Feed Microbes",
@@ -4408,7 +4548,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_FUEL2"
         },
         {
           "Name": "Requested Operation: Harness Organic Nitrogren",
@@ -4435,7 +4576,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_CATALYST2"
         },
         {
           "Name": "Requested Operation: Harness Organic Nitrogren",
@@ -4462,7 +4604,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_CATALYST2"
         },
         {
           "Name": "Requested Operation: Feed Microbes",
@@ -4489,7 +4632,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_CATALYST2"
         },
         {
           "Name": "Requested Operation: Ionise Bulbs",
@@ -4516,7 +4660,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_CAVE1"
         },
         {
           "Name": "Requested Operation: Dissolve Natural Salts",
@@ -4543,7 +4688,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_WATER1"
         },
         {
           "Name": "Requested Operation: Ionise Bulbs",
@@ -4570,7 +4716,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_CAVE_CAVE2"
         },
         {
           "Name": "Requested Operation: Dissolve Natural Salts",
@@ -4597,7 +4744,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_WATER_WATER2"
         },
         {
           "Name": "Requested Operation: Pugneum Alchemy",
@@ -4624,7 +4772,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_ROBOT1"
         },
         {
           "Name": "Requested Operation: Feed Microbes",
@@ -4651,7 +4800,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_POOP_CREATURE1"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4678,7 +4828,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4705,7 +4856,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4732,7 +4884,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4759,7 +4912,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -4786,7 +4940,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -4813,7 +4968,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -4840,7 +4996,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -4867,7 +5024,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4894,7 +5052,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4921,7 +5080,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4948,7 +5108,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Stellar / Metal Fusion",
@@ -4975,7 +5136,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LAND_FROM_STELLAR"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -5002,7 +5164,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -5029,7 +5192,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -5056,7 +5220,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Chromatic Metal Fusion",
@@ -5083,7 +5248,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_STELLAR_FROM_LAND"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5110,7 +5276,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5137,7 +5304,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5164,7 +5332,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5191,7 +5360,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5218,7 +5388,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -5245,7 +5416,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5272,7 +5444,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LUSH1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5299,7 +5472,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_DUSTY1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5326,7 +5500,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_TOXIC1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5353,7 +5528,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RADIO1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5380,7 +5556,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_COLD1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5407,7 +5584,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_HOT1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5434,7 +5612,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_LUSH1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5461,7 +5640,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_DUSTY1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5488,7 +5668,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_TOXIC1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5515,7 +5696,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_RADIO1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5542,7 +5724,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_COLD1_LAND1"
         },
         {
           "Name": "Requested Operation: Environmental Element Transfer",
@@ -5569,7 +5752,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_HOT1_LAND1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5596,7 +5780,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_TOXIC_WATER1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5623,7 +5808,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_SNOW_WATER1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5650,7 +5836,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_RADIO_WATER1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5677,7 +5864,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_DUST_WATER1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5704,7 +5892,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_HOT_WATER1"
         },
         {
           "Name": "Requested Operation: Floral Titration",
@@ -5731,7 +5920,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_PLANT_LUSH_WATER1"
         },
         {
           "Name": "Requested Operation: Carbon Crystallisation",
@@ -5758,7 +5948,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUELPROD3_UP"
         },
         {
           "Name": "Requested Operation: Sodium Destabilisation",
@@ -5785,7 +5976,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATAPROD3_UP"
         },
         {
           "Name": "Requested Operation: Chlorine Latticing",
@@ -5812,7 +6004,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_WATERPROD3_UP"
         },
         {
           "Name": "Requested Operation: Cobalt Supercharging",
@@ -5839,7 +6032,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_CAVEPROD3_UP"
         },
         {
           "Name": "Requested Operation: Oxygen Nucleation",
@@ -5866,7 +6060,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_OXYPROD3_UP"
         },
         {
           "Name": "Requested Operation: Rare Metal Detoxification",
@@ -5893,7 +6088,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_LANDPROD3"
         },
         {
           "Name": "Requested Operation: Loosen Bonds",
@@ -5920,7 +6116,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_LAND"
         },
         {
           "Name": "Requested Operation: Metal Enrichment",
@@ -5947,7 +6144,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_LAND"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -5974,7 +6172,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_CATALYST1"
         },
         {
           "Name": "Requested Operation: Loosen Bonds",
@@ -6001,7 +6200,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_LAND"
         },
         {
           "Name": "Requested Operation: Metal Enrichment",
@@ -6028,7 +6228,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_LAND"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -6055,7 +6256,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_CATALYST1"
         },
         {
           "Name": "Requested Operation: Loosen Bonds",
@@ -6082,7 +6284,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_LAND"
         },
         {
           "Name": "Requested Operation: Metal Enrichment",
@@ -6109,7 +6312,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS2_LAND"
         },
         {
           "Name": "Requested Operation: Gas Catalysation",
@@ -6136,7 +6340,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GAS1_CATALYST1"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6163,7 +6368,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6190,7 +6396,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6217,7 +6424,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6244,7 +6452,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6271,7 +6480,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6298,7 +6508,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6325,7 +6536,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6352,7 +6564,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         },
         {
           "Name": "Requested Operation: Encourage Growth",
@@ -6379,7 +6592,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_GROW_PLANT"
         }
       ]
     },
@@ -6417,7 +6631,8 @@
               },
               "Amount": "35"
             }
-          ]
+          ],
+          "Id": "RECIPE_LANDPROD3_UP"
         },
         {
           "Name": "Requested Operation: Transmutation",
@@ -6451,7 +6666,8 @@
               },
               "Amount": "250"
             }
-          ]
+          ],
+          "Id": "RECIPE_ASTEROID_MIX"
         },
         {
           "Name": "Requested Operation: Deep Metal Compression",
@@ -6485,7 +6701,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAND3"
         },
         {
           "Name": "Requested Operation: Deep Metal Compression",
@@ -6519,7 +6736,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAND3"
         },
         {
           "Name": "Requested Operation: Deep Metal Compression",
@@ -6553,7 +6771,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAND3"
         },
         {
           "Name": "Requested Operation: Carbon Crystallisation",
@@ -6587,7 +6806,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_FUELPROD3_UP"
         },
         {
           "Name": "Requested Operation: Rare Metal Fusion",
@@ -6621,7 +6841,8 @@
               },
               "Amount": "25"
             }
-          ]
+          ],
+          "Id": "RECIPE_LANDPROD3_UP"
         },
         {
           "Name": "Requested Operation: Cobalt Supercharging",
@@ -6655,7 +6876,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_CAVEPROD3_UP"
         },
         {
           "Name": "Requested Operation: Chlorine Latticing",
@@ -6689,7 +6911,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_WATERPROD3_UP"
         },
         {
           "Name": "Requested Operation: Sodium Destabilisation",
@@ -6723,7 +6946,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_CATAPROD3_UP"
         },
         {
           "Name": "Requested Operation: Oxygen Nucleation",
@@ -6757,7 +6981,8 @@
               },
               "Amount": "50"
             }
-          ]
+          ],
+          "Id": "RECIPE_OXYPROD3_UP"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6791,7 +7016,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_1"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6825,7 +7051,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_2"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6859,7 +7086,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_3"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6893,7 +7121,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_4"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6927,7 +7156,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_5"
         },
         {
           "Name": "Requested Operation: Artificial Photosynthesis",
@@ -6961,7 +7191,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_OXYGEN_6"
         },
         {
           "Name": "RECIPE_3INPUT_STELLAR2",
@@ -6995,7 +7226,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_STELLAR2"
         },
         {
           "Name": "RECIPE_3INPUT_STELLAR2",
@@ -7029,7 +7261,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_STELLAR2"
         },
         {
           "Name": "RECIPE_3INPUT_STELLAR2",
@@ -7063,7 +7296,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_STELLAR2"
         },
         {
           "Name": "RECIPE_3INPUT_STELLAR2",
@@ -7097,7 +7331,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_STELLAR2"
         },
         {
           "Name": "Requested Operation: Chromatic Alchemy",
@@ -7131,7 +7366,8 @@
               },
               "Amount": "1"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ASTEROID1"
         },
         {
           "Name": "Requested Operation: Chromatic Alchemy",
@@ -7165,7 +7401,8 @@
               },
               "Amount": "250"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ASTEROID3"
         },
         {
           "Name": "Requested Operation: Antimatter Bypass",
@@ -7199,7 +7436,8 @@
               },
               "Amount": "250"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_HYPERFUEL1_1"
         },
         {
           "Name": "Requested Operation: Antimatter Bypass",
@@ -7233,7 +7471,8 @@
               },
               "Amount": "250"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_HYPERFUEL1_2"
         },
         {
           "Name": "Requested Operation: Antimatter Bypass",
@@ -7267,7 +7506,8 @@
               },
               "Amount": "250"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_HYPERFUEL1_3"
         },
         {
           "Name": "Requested Operation: Plasma Pressurisation",
@@ -7301,7 +7541,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_GRENFUEL1_1"
         },
         {
           "Name": "Requested Operation: Plasma Pressurisation",
@@ -7335,7 +7576,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_GRENFUEL1_2"
         },
         {
           "Name": "Requested Operation: Plasma Pressurisation",
@@ -7369,7 +7611,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_GRENFUEL1_3"
         },
         {
           "Name": "Requested Operation: Plasma Pressurisation",
@@ -7403,7 +7646,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_GRENFUEL1_4"
         },
         {
           "Name": "Requested Operation: Advanced Oxygen Capture",
@@ -7437,7 +7681,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_PRODFUEL2"
         },
         {
           "Name": "Requested Operation: Di-hydrogen Capture",
@@ -7471,7 +7716,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAUNCHFUEL_1"
         },
         {
           "Name": "Requested Operation: Di-hydrogen Capture",
@@ -7505,7 +7751,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAUNCHFUEL_2"
         },
         {
           "Name": "Requested Operation: Di-hydrogen Capture",
@@ -7539,7 +7786,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_LAUNCHFUEL_3"
         },
         {
           "Name": "Requested Operation: Ion Capture",
@@ -7573,7 +7821,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_POWERCELL"
         },
         {
           "Name": "Requested Operation: Advanced Ion Capture",
@@ -7607,7 +7856,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_POWERCELL2"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7641,7 +7891,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7675,7 +7926,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7709,7 +7961,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7743,7 +7996,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7777,7 +8031,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7811,7 +8066,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7845,7 +8101,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7879,7 +8136,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7913,7 +8171,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7947,7 +8206,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -7981,7 +8241,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8015,7 +8276,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8049,7 +8311,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8083,7 +8346,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8117,7 +8381,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8151,7 +8416,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8185,7 +8451,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8219,7 +8486,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8253,7 +8521,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8287,7 +8556,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8321,7 +8591,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8355,7 +8626,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8389,7 +8661,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8423,7 +8696,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8457,7 +8731,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8491,7 +8766,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8525,7 +8801,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8559,7 +8836,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8593,7 +8871,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8627,7 +8906,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8661,7 +8941,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8695,7 +8976,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8729,7 +9011,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8763,7 +9046,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8797,7 +9081,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8831,7 +9116,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8865,7 +9151,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8899,7 +9186,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8933,7 +9221,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -8967,7 +9256,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9001,7 +9291,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9035,7 +9326,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9069,7 +9361,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9103,7 +9396,8 @@
               },
               "Amount": "20"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9137,7 +9431,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9171,7 +9466,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9205,7 +9501,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: Alloy Latticing",
@@ -9239,7 +9536,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_ALLOY"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9273,7 +9571,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION1_1"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9307,7 +9606,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION2_1"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9341,7 +9641,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION3_1"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9375,7 +9676,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION1_2"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9409,7 +9711,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION2_2"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9443,7 +9746,8 @@
               },
               "Amount": "10"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION3_2"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9477,7 +9781,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION1_3"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9511,7 +9816,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION2_3"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9545,7 +9851,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION3_3"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9579,7 +9886,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION1_4"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9613,7 +9921,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION2_4"
         },
         {
           "Name": "Requested Operation: High-Speed Sublimation",
@@ -9647,7 +9956,8 @@
               },
               "Amount": "5"
             }
-          ]
+          ],
+          "Id": "RECIPE_3INPUT_REACTION3_4"
         }
       ]
     },
