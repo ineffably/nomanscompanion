@@ -28,14 +28,16 @@ class AllItemsList extends Component {
       className={classes.listItem}
     >
       <div style={{backgroundColor: item.ColorRGB}}>
-        <img src={`icons/${item.Icon.Filename}`} style={{width: '100px'}} />
+        <img src={`icons/${item.Icon.Filename}`} style={{width: '50px'}} />
       </div>
       <ListItemText primary={`${item.NameLower}`} />
     </ListItem>);
   }
 
   render() {
-    const { itemArray, filter } = this.props;
+    const { itemArray, filter, style } = this.props;
+    const listStyle = style || {};
+    
     if(itemArray.length === 0){
       return(<div></div>);
     }
@@ -54,7 +56,7 @@ class AllItemsList extends Component {
     }
 
     return (
-      <List>
+      <List style={listStyle}>
         {items.map((item, i) => { return this.renderItem(item, i); })}
       </List>
     );
@@ -65,8 +67,9 @@ AllItemsList.propTypes = {
   filter: PropTypes.string.isRequired,
   itemArray: PropTypes.array.isRequired,
   classes: PropTypes.object.isRequired,
-  history: PropTypes.object,
-  products: PropTypes.array
+  history: PropTypes.object.isRequired,
+  products: PropTypes.array,
+  style: PropTypes.object
 };
 
 export default withStyles(styles)(AllItemsList);

@@ -6,6 +6,10 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   textField: {
+    root: {
+      borderBottom: 0
+    },
+    borderBottom: '0px',
     maxWidth: 345,
     display: 'flex'
   }

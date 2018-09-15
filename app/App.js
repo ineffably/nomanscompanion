@@ -11,19 +11,12 @@ import RawTables from './RawTables';
 import { getRefinementTables } from './nmsutils';
 import CraftingView from './components/CraftingView';
 import RefinementView from './components/RefinementView';
+import Navbar from './components/Navbar';
 
 export default class App extends Component {
   constructor(){
     super();
     this.state = { refinerData: {}, products: [] };
-  }
-
-  setupImages(items) {
-    const imagePath = 'images';
-    items.forEach(item => {
-      item.image = item.Name.replace(/ +?/g, '');
-      item.image = [imagePath, '/', item.image.toLowerCase(), '.png'].join('');
-    });
   }
 
   async loadProductsAndSubstances() {
@@ -60,7 +53,8 @@ export default class App extends Component {
     const state = {...this.state};
     return (
       <Router>
-        <div className="App">
+        <div className="app">
+          <Navbar {...state} />
           <CssBaseline />
           <div className="container">
             <Switch>
