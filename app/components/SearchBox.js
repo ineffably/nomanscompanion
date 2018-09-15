@@ -2,7 +2,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Select from 'react-select';
+// import Select from 'react-select';
+import AsyncSelect from 'react-select/lib/Async';
 import { withStyles } from '@material-ui/core/styles';
 import { Typography, ListItemIcon, ListItemText } from '@material-ui/core';
 import NoSsr from '@material-ui/core/NoSsr';
@@ -14,7 +15,6 @@ import CancelIcon from '@material-ui/icons/Cancel';
 import { emphasize } from '@material-ui/core/styles/colorManipulator';
 
 const styles = (theme) => {
-  console.log(theme);
   return {
     root: {
       flexGrow: 1,
@@ -48,6 +48,7 @@ const styles = (theme) => {
     },
     singleValue: {
       fontSize: 16,
+      color: '#fff'
     },
     placeholder: {
       position: 'absolute',
@@ -133,7 +134,6 @@ function Placeholder(props) {
 }
 
 function SingleValue(props) {
-  console.log('== singleValue', props);
   return (
     <Typography className={props.selectProps.classes.singleValue} {...props.innerProps}>
       {props.data.value}
@@ -178,22 +178,24 @@ const components = {
   ValueContainer,
 };
 
-class IntegrationReactSelect extends React.Component {
+class SearchBox extends React.Component {
   constructor() {
     super();
     this.state = {
       single: null,
       multi: null,
-      list: []
+      list: [],
+      inputValue: ''
     };
   }
 
-  handleChange(name) {
+  handleChange() {
     return value => {
+      if(!value.value){return;}
       this.props.history.push(`/items/${value.value}`);
-      this.setState({
-        [name]: value,
-      });
+      // this.setState({
+      //   [name]: value,
+      // });
     };
   }
 
@@ -203,16 +205,15 @@ class IntegrationReactSelect extends React.Component {
         return {
           value: item.NameLower,
           label: (<div key={i} style={{ display: 'flex' }}>
-            <ListItemIcon >
+            {<ListItemIcon >
               <div style={{ backgroundColor: item.ColorRGB, width: '50px' }}>
                 <img src={`icons/${item.Icon.Filename}`} style={{ width: '50px' }} />
               </div>
-            </ListItemIcon>
-            <ListItemText>{item.NameLower}</ListItemText>
+            </ListItemIcon>}
+            <ListItemText style={{ alignSelf: 'center', textAlign: 'center' }}>{item.NameLower}</ListItemText>
           </div>)
         };
       });
-
       this.setState({ list: labels });
     }
   }
@@ -228,16 +229,33 @@ class IntegrationReactSelect extends React.Component {
       }),
     };
 
+    const promiseOptions = inputValue => {
+      if (inputValue.length > 1) {
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(list.filter(p => p.value.toUpperCase().includes(inputValue.toUpperCase())));
+          }, 100);
+        });
+      }
+      return new Promise(resolve => {resolve([]);});
+    };
+
     return (
       <div className={classes.root}>
         <NoSsr>
-          <Select
+          <AsyncSelect
+            cacheOptions
+            defaultOptions
             classes={classes}
             styles={selectStyles}
-            options={list}
             components={components}
             value={single}
             onChange={this.handleChange('single')}
+            onInputChange={(value) => {
+              this.setState({ inputValue: value });
+              return value;
+            }}
+            loadOptions={promiseOptions}
             placeholder="Search..."
           />
         </NoSsr>
@@ -246,11 +264,11 @@ class IntegrationReactSelect extends React.Component {
   }
 }
 
-IntegrationReactSelect.propTypes = {
+SearchBox.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired,
   products: PropTypes.array.isRequired,
   history: PropTypes.object.isRequired
 };
 
-export default withStyles(styles, { withTheme: true })(IntegrationReactSelect);
+export default withStyles(styles, { withTheme: true })(SearchBox);

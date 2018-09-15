@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Home from './components/Home';
-import {
-  Route,
-  Switch,
-  HashRouter as Router
-} from 'react-router-dom';
+import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import ItemView from './components/ItemView';
 import RawTables from './RawTables';
@@ -13,10 +9,21 @@ import CraftingView from './components/CraftingView';
 import RefinementView from './components/RefinementView';
 import Navbar from './components/Navbar';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+
 
 const theme = createMuiTheme();
+const styles = (theme) => {
+  console.log(theme);
+  return {
+    app: {
+      marginLeft: theme.spacing.unit
+    }
+  };
+};
 
-export default class App extends Component {
+class App extends Component {
   constructor() {
     super();
     this.state = { refinerData: {}, products: [] };
@@ -56,22 +63,27 @@ export default class App extends Component {
     const state = { ...this.state };
     return (
       <Router>
-        <div className="app">
-          <MuiThemeProvider theme={theme}>
-            <Navbar {...state} />
-            <CssBaseline />
-            <div className="container">
-              <Switch>
-                <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
-                <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
-                <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
-                <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
-                <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
-              </Switch>
-            </div>
-          </MuiThemeProvider>
-        </div>
+        <MuiThemeProvider theme={theme}>
+          <Navbar {...state} />
+          <CssBaseline />
+          <div className={this.props.classes.app}>
+            <Switch>
+              <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
+              <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
+              <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
+              <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
+              <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
+            </Switch>
+          </div>
+        </MuiThemeProvider>
       </Router>
     );
   }
 }
+
+App.propTypes = {
+  classes: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles, { withTheme: true })(App);

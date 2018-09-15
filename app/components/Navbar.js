@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { AppBar, Toolbar, IconButton, Typography, Input, Badge, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core/';
+import { AppBar, Toolbar, IconButton, Typography, Badge, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core/';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import BuildIcon from '@material-ui/icons/Build';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import HomeIcon from '@material-ui/icons/Home';
-import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withRouter } from 'react-router';
-import AllItemsList from './AllItemsList';
-import TestSelect from './_test_select';
+import SearchBox from './SearchBox';
 
 const styles = theme => ({
   root: {
@@ -140,16 +137,10 @@ class Navbar extends Component {
             No Mans Companion
           </Typography>
           <div className={classes.search}>
-            <TestSelect {...this.props} classes={{
+            <SearchBox {...this.props} classes={{
               root: classes.inputRoot,
               input: classes.inputInput,
             }} />
-            {/* <AllItemsList
-              style={{
-                position: 'absolute', display: this.state.showList ? 'block' : 'none',
-                zIndex: 100, maxHeight: '380px', overflow: 'auto', minWidth: '250px', backgroundColor: '#FFFFFFEE'
-              }}
-              itemArray={this.props.products} filter={this.state.filter} history={this.props.history} /> */}
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
