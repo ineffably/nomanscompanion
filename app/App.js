@@ -12,9 +12,12 @@ import { getRefinementTables } from './nmsutils';
 import CraftingView from './components/CraftingView';
 import RefinementView from './components/RefinementView';
 import Navbar from './components/Navbar';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme();
 
 export default class App extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = { refinerData: {}, products: [] };
   }
@@ -25,17 +28,17 @@ export default class App extends Component {
     const substanceData = await fetch('data/raw/nms_reality_combinedsubstance.en.json');
     const substanceJson = await substanceData.json();
     const combined = productJson.data.concat(substanceJson.data);
-    
+
     console.info('Product Count:', productJson.data.length);
     console.info('Substance Count:', substanceJson.data.length);
     console.info('AllItems Count:', combined.length);
 
     const filtered = combined.filter(item => item.Name !== 'OBSOLETE ITEM');
-    return filtered.sort((a,b) => {
-      if(!a.NameLower){
+    return filtered.sort((a, b) => {
+      if (!a.NameLower) {
         return 1;
       }
-      if(a.NameLower === b.NameLower){
+      if (a.NameLower === b.NameLower) {
         return 0;
       }
       return a.NameLower > b.NameLower ? 1 : -1;
@@ -50,21 +53,23 @@ export default class App extends Component {
   }
 
   render() {
-    const state = {...this.state};
+    const state = { ...this.state };
     return (
       <Router>
         <div className="app">
-          <Navbar {...state} />
-          <CssBaseline />
-          <div className="container">
-            <Switch>
-              <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
-              <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
-              <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
-              <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
-              <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
-            </Switch>
-          </div>
+          <MuiThemeProvider theme={theme}>
+            <Navbar {...state} />
+            <CssBaseline />
+            <div className="container">
+              <Switch>
+                <Route exact path="/" render={(props) => <Home {...state} {...props} />} />
+                <Route exact path="/items/:name" render={(props) => <ItemView {...state} {...props} />} />
+                <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
+                <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
+                <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
+              </Switch>
+            </div>
+          </MuiThemeProvider>
         </div>
       </Router>
     );

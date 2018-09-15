@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Select from 'react-select';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
+import { Typography, ListItemIcon, ListItemText } from '@material-ui/core';
 import NoSsr from '@material-ui/core/NoSsr';
 import TextField from '@material-ui/core/TextField';
 import Paper from '@material-ui/core/Paper';
@@ -12,94 +12,61 @@ import Chip from '@material-ui/core/Chip';
 import MenuItem from '@material-ui/core/MenuItem';
 import CancelIcon from '@material-ui/icons/Cancel';
 import { emphasize } from '@material-ui/core/styles/colorManipulator';
-import { Input } from '@material-ui/core';
 
-const suggestions = [
-  { label: 'Afghanistan' },
-  { label: 'Aland Islands' },
-  { label: 'Albania' },
-  { label: 'Algeria' },
-  { label: 'American Samoa' },
-  { label: 'Andorra' },
-  { label: 'Angola' },
-  { label: 'Anguilla' },
-  { label: 'Antarctica' },
-  { label: 'Antigua and Barbuda' },
-  { label: 'Argentina' },
-  { label: 'Armenia' },
-  { label: 'Aruba' },
-  { label: 'Australia' },
-  { label: 'Austria' },
-  { label: 'Azerbaijan' },
-  { label: 'Bahamas' },
-  { label: 'Bahrain' },
-  { label: 'Bangladesh' },
-  { label: 'Barbados' },
-  { label: 'Belarus' },
-  { label: 'Belgium' },
-  { label: 'Belize' },
-  { label: 'Benin' },
-  { label: 'Bermuda' },
-  { label: 'Bhutan' },
-  { label: 'Bolivia, Plurinational State of' },
-  { label: 'Bonaire, Sint Eustatius and Saba' },
-  { label: 'Bosnia and Herzegovina' },
-  { label: 'Botswana' },
-  { label: 'Bouvet Island' },
-  { label: 'Brazil' },
-  { label: 'British Indian Ocean Territory' },
-  { label: 'Brunei Darussalam' },
-].map(suggestion => ({
-  value: suggestion.label,
-  label: suggestion.label,
-}));
-
-const styles = theme => ({
-  root: {
-    flexGrow: 1,
-    // height: 250,
-  },
-  input: {
-    display: 'flex',
-    // padding: 0,
-  },
-  valueContainer: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    flex: 1,
-    // alignItems: 'center',
-  },
-  chip: {
-    // margin: `${theme.spacing.unit / 2}px ${theme.spacing.unit / 4}px`,
-  },
-  chipFocused: {
-    backgroundColor: emphasize(
-      theme.palette.type === 'light' ? theme.palette.grey[300] : theme.palette.grey[700],
-      0.08,
-    ),
-  },
-  noOptionsMessage: {
-    // padding: `${theme.spacing.unit}px ${theme.spacing.unit * 2}px`,
-  },
-  singleValue: {
-    // fontSize: 16,
-  },
-  placeholder: {
-    // position: 'absolute',
-    // left: 2,
-    // fontSize: 16,
-  },
-  paper: {
-    position: 'absolute',
-    zIndex: 1,
-    marginTop: theme.spacing.unit,
-    left: 0,
-    right: 0,
-  },
-  // divider: {
-  //   height: theme.spacing.unit * 2,
-  // },
-});
+const styles = (theme) => {
+  console.log(theme);
+  return {
+    root: {
+      flexGrow: 1,
+      height: 250
+    },
+    input: {
+      display: 'flex',
+      padding: 0,
+      color: '#fff'
+    },
+    input1: {
+      color: '#fff'
+    },
+    valueContainer: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      flex: 1,
+      alignItems: 'center',
+    },
+    chip: {
+      margin: `${theme.spacing.unit / 2}px ${theme.spacing.unit / 4}px`,
+    },
+    chipFocused: {
+      backgroundColor: emphasize(
+        theme.palette.type === 'light' ? theme.palette.grey[300] : theme.palette.grey[700],
+        0.08,
+      ),
+    },
+    noOptionsMessage: {
+      padding: `${theme.spacing.unit}px ${theme.spacing.unit * 2}px`,
+    },
+    singleValue: {
+      fontSize: 16,
+    },
+    placeholder: {
+      position: 'absolute',
+      left: 2,
+      fontSize: 16,
+      color: '#ccc'
+    },
+    paper: {
+      position: 'absolute',
+      zIndex: 1,
+      marginTop: theme.spacing.unit,
+      left: 0,
+      right: 0,
+    },
+    divider: {
+      height: theme.spacing.unit * 2,
+    }
+  };
+};
 
 function NoOptionsMessage(props) {
   return (
@@ -118,32 +85,22 @@ function inputComponent({ inputRef, ...props }) {
 }
 
 function Control(props) {
-  console.log(props);
   return (
-    <Input
-      placeholder="Search…"
-      disableUnderline
-      {...props.innerProps}
-      className={props.selectProps.classes.input}
+    <TextField
+      fullWidth
+      InputProps={{
+        inputComponent,
+        className: props.selectProps.classes.input1,
+        disableUnderline: true,
+        inputProps: {
+          className: props.selectProps.classes.input,
+          inputRef: props.innerRef,
+          children: props.children,
+          ...props.innerProps,
+        },
+      }}
+      {...props.selectProps.textFieldProps}
     />
-
-    // <TextField
-    //   disableUnderline
-    //   styles={{borderBottom: 'none', root: {
-    //     borderBottom: 'none'
-    //   }}}
-    //   fullWidth
-    //   InputProps={{
-    //     inputComponent,
-    //     inputProps: {
-    //       className: props.selectProps.classes.input,
-    //       inputRef: props.innerRef,
-    //       children: props.children,
-    //       ...props.innerProps,
-    //     },
-    //   }}
-    //   {...props.selectProps.textFieldProps}
-    // />
   );
 }
 
@@ -166,7 +123,7 @@ function Option(props) {
 function Placeholder(props) {
   return (
     <Typography
-      color="textSecondary"
+      color="textPrimary"
       className={props.selectProps.classes.placeholder}
       {...props.innerProps}
     >
@@ -176,9 +133,10 @@ function Placeholder(props) {
 }
 
 function SingleValue(props) {
+  console.log('== singleValue', props);
   return (
     <Typography className={props.selectProps.classes.singleValue} {...props.innerProps}>
-      {props.children}
+      {props.data.value}
     </Typography>
   );
 }
@@ -226,26 +184,48 @@ class IntegrationReactSelect extends React.Component {
     this.state = {
       single: null,
       multi: null,
+      list: []
     };
   }
 
   handleChange(name) {
     return value => {
+      this.props.history.push(`/items/${value.value}`);
       this.setState({
         [name]: value,
       });
     };
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.products.length !== prevProps.products.length) {
+      const labels = this.props.products.map((item, i) => {
+        return {
+          value: item.NameLower,
+          label: (<div key={i} style={{ display: 'flex' }}>
+            <ListItemIcon >
+              <div style={{ backgroundColor: item.ColorRGB, width: '50px' }}>
+                <img src={`icons/${item.Icon.Filename}`} style={{ width: '50px' }} />
+              </div>
+            </ListItemIcon>
+            <ListItemText>{item.NameLower}</ListItemText>
+          </div>)
+        };
+      });
+
+      this.setState({ list: labels });
+    }
+  }
+
   render() {
-    const { classes, theme } = this.props;
+    const { classes } = this.props;
+    const { list, single } = this.state;
 
     const selectStyles = {
       input: base => ({
         ...base,
-        color: theme.palette.text.primary,
+        color: '#fff',
       }),
-      borderBottom: '0px'
     };
 
     return (
@@ -254,11 +234,11 @@ class IntegrationReactSelect extends React.Component {
           <Select
             classes={classes}
             styles={selectStyles}
-            options={suggestions}
+            options={list}
             components={components}
-            value={this.state.single}
+            value={single}
             onChange={this.handleChange('single')}
-            placeholder="Search ..."
+            placeholder="Search..."
           />
         </NoSsr>
       </div>
@@ -268,7 +248,9 @@ class IntegrationReactSelect extends React.Component {
 
 IntegrationReactSelect.propTypes = {
   classes: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  products: PropTypes.array.isRequired,
+  history: PropTypes.object.isRequired
 };
 
 export default withStyles(styles, { withTheme: true })(IntegrationReactSelect);

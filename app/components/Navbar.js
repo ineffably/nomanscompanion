@@ -58,18 +58,18 @@ const styles = theme => ({
     justifyContent: 'center',
   },
   inputRoot: {
-    color: 'inherit',
+    color: '#FFF',
     width: '100%',
   },
   inputInput: {
     paddingTop: theme.spacing.unit,
     paddingRight: theme.spacing.unit,
     paddingBottom: theme.spacing.unit,
-    paddingLeft: theme.spacing.unit * 10,
+    // paddingLeft: theme.spacing.unit * 10,
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('md')]: {
-      width: 200,
+      width: 250,
     },
   },
   sectionDesktop: {
@@ -140,33 +140,16 @@ class Navbar extends Component {
             No Mans Companion
           </Typography>
           <div className={classes.search}>
-            <TestSelect classes={{
+            <TestSelect {...this.props} classes={{
               root: classes.inputRoot,
               input: classes.inputInput,
             }} />
-            {/* <Input
-              placeholder="Search…"
-              disableUnderline
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              onChange={(ev) => {
-                this.setState({ filter: ev.target.value });
-              }}
-              onBlur={() => {
-                global.setTimeout(() => {this.setState({ showList: false });}, 100);
-              }}
-              onFocus={() => {
-                this.setState({ showList: true });
-              }}
-            /> */}
-            <AllItemsList
+            {/* <AllItemsList
               style={{
                 position: 'absolute', display: this.state.showList ? 'block' : 'none',
                 zIndex: 100, maxHeight: '380px', overflow: 'auto', minWidth: '250px', backgroundColor: '#FFFFFFEE'
               }}
-              itemArray={this.props.products} filter={this.state.filter} history={this.props.history} />
+              itemArray={this.props.products} filter={this.state.filter} history={this.props.history} /> */}
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
