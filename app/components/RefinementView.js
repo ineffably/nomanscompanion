@@ -9,14 +9,9 @@ const styles = {};
 class CraftingView extends Component{
   render() {
     const { products, refinerData } = this.props;
-    const { RefinerRecipeTable1Input, RefinerRecipeTable2Input, RefinerRecipeTable3Input } = refinerData;
-    if(!RefinerRecipeTable1Input){
-      return(<div></div>);
-    }
     
-    const allRecipes = RefinerRecipeTable1Input.concat(RefinerRecipeTable2Input).concat(RefinerRecipeTable3Input);
-    const list = allRecipes.map((item, i) => {
-      const blueprint = getRefinerRecipe(item, products);
+    const list = refinerData.map((recipe, i) => {
+      const blueprint = getRefinerRecipe(recipe, products);
       if(!blueprint){return(<div></div>);}
       return(
         <BluePrint key={i} blueprint={blueprint} history={this.props.history}/>
@@ -25,14 +20,13 @@ class CraftingView extends Component{
 
     return(
       <div>
-        <h2>Refinement View</h2>
         {list}
       </div>);
   }
 }
 
 CraftingView.propTypes = {
-  refinerData: PropTypes.object.isRequired,
+  refinerData: PropTypes.array.isRequired,
   products: PropTypes.array.isRequired,
   history: PropTypes.object.isRequired
 };

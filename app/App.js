@@ -12,7 +12,6 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
-
 const theme = createMuiTheme();
 const styles = (theme) => {
   return {
@@ -26,7 +25,7 @@ const styles = (theme) => {
 class App extends Component {
   constructor() {
     super();
-    this.state = { refinerData: {}, products: [], craftingTable: [] };
+    this.state = { refinerData: [], products: [], craftingTable: [] };
   }
 
   async loadProductsAndSubstances() {
@@ -53,9 +52,14 @@ class App extends Component {
     });
   }
 
-  async componentDidMount() {
+  async getRefinmentData(){
     const realityDataJson = await (await fetch('data/defaultreality.en.transformed.json')).json();
-    const refinerData = getRefinementTables(realityDataJson);
+    const { RefinerRecipeTable1Input, RefinerRecipeTable2Input, RefinerRecipeTable3Input } = getRefinementTables(realityDataJson);
+    return RefinerRecipeTable1Input.concat(RefinerRecipeTable2Input).concat(RefinerRecipeTable3Input);    
+  }
+
+  async componentDidMount() {
+    const refinerData = await this.getRefinmentData();
     const items = await this.loadProductsAndSubstances();
     this.setState({ refinerData: refinerData, products: items, craftingTable: getCraftingTable(items) });
   }

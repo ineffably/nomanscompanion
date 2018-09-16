@@ -11,6 +11,21 @@ const styles = {
 };
 
 class ItemDetails extends Component {
+
+  cleanDescription(item){
+    let ar;
+    const re = new RegExp('<\\s*[^>]*>(.*?)<>', 'ig');
+    const markers = [];
+    let description = item.Description;
+    while((ar = re.exec(description)) !== null) {
+      markers.push(ar);
+    }
+    markers.forEach((mark) => {
+      description = description.replace(mark[0], mark[1]);
+    });
+    return description;
+  }
+
   render() {
     const { item, classes } = this.props;
     const o = item;
@@ -24,10 +39,11 @@ class ItemDetails extends Component {
       'SubstanceCategory'
     ];
 
+    item._Description = this.Description;
+    item.Description = this.cleanDescription(item);
     const getTableRow = (item, attrib) => {
-      // const value = item[attrib] ? item[attrib] : null;
       return (
-        <tr><td>{attrib}</td><td>{item[attrib]}</td></tr>
+        <tr key={attrib} ><td>{attrib}</td><td>{item[attrib]}</td></tr>
       );
     };
 
@@ -41,8 +57,8 @@ class ItemDetails extends Component {
         <table style={{ border: '2px solid #EEE' }} >
           <tbody>
             {getTableRows(item, values)}
-            <tr><td>{'Category'}</td><td>{item.Category ? item.Category.SubstanceCategory : null}</td></tr>
-            <tr><td>{'TradeCategory'}</td><td>{item.TradeCategory ? item.TradeCategory.TradingClass : null}</td></tr>
+            <tr key={'Category'}><td>{'Category'}</td><td>{item.Category ? item.Category.SubstanceCategory : null}</td></tr>
+            <tr key={'TradeCategory'}><td>{'TradeCategory'}</td><td>{item.TradeCategory ? item.TradeCategory.TradingClass : null}</td></tr>
           </tbody>
         </table>
       </Paper>

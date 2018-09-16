@@ -180,6 +180,12 @@ class Navbar extends Component {
                 </ListItemIcon>
                 <ListItemText primary={'Crafting'} />
               </ListItem>
+              <ListItem button onClick={() => { setTimeout(() => this.props.history.push('/refinement'), 1); }}>
+                <ListItemIcon>
+                  <BuildIcon />
+                </ListItemIcon>
+                <ListItemText primary={'Refinement'} />
+              </ListItem>
             </List>
           </div>
         </div>

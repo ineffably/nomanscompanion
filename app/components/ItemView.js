@@ -6,6 +6,7 @@ import { getItemFromField } from '../nmsutils';
 import { withStyles } from '@material-ui/core/styles';
 import ItemDetails from './ItemDetails';
 import CraftedIn  from './CraftedIn';
+import RefinedFrom from './RefinedFrom';
 
 const styles = {};
 
@@ -18,15 +19,15 @@ class ItemView extends Component {
     if(!item) {
       return(<h2>Item not found</h2>);
     }  
-    console.info(item);
-    
+
     return (
       <div>
         <ItemCard item={item} {...this.props} />
         <ItemDetails item={item} classes={this.props.classes} />
         <CraftedBy item={item} {...this.props} />
+        <RefinedFrom item={item} {...this.props} />
         <CraftedIn item={item} {...this.props} />
-        {/* <RefinedFrom item={item} {...this.props} /> */}
+        <RefinedFrom item={item} {...this.props} isAnIngredient />
       </div>);
   }
 }
@@ -34,7 +35,8 @@ class ItemView extends Component {
 ItemView.propTypes = {
   match: PropTypes.object.isRequired,
   products: PropTypes.array.isRequired,
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  refinerData: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(ItemView);

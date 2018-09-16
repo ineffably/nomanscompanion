@@ -6,20 +6,18 @@ import { getCraftFromItem } from '../nmsutils';
 
 const styles = {};
 
-class CraftingView extends Component{
+class CraftingView extends Component {
   render() {
     const { products } = this.props;
     const list = products.filter(item => item.IsCraftable).map((item, i) => {
       const blueprint = getCraftFromItem(item, products);
-      if(!blueprint){return(<div></div>);}
-      return(
-        <BluePrint key={i} blueprint={blueprint} history={this.props.history}/>
+      if (!blueprint) { return (<div key={item.Id} ></div>); }
+      return (
+        <BluePrint key={item.Id} index={i} blueprint={blueprint} history={this.props.history} />
       );
     });
-    return(
-      <div>
-        {list}
-      </div>);
+    return (
+      <div>{list}</div>);
   }
 }
 

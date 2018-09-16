@@ -77,12 +77,13 @@ function getCraftFromItem(item, allItems) {
 }
 
 function getRefinementTables(realityData) {
-  const tables = realityData.data.reduce((ar, cur) => {
+  const tables = realityData.data.reduce((prev, cur) => {
     if(cur.RefinerRecipeTable1Input || cur.RefinerRecipeTable2Input || cur.RefinerRecipeTable3Input)
-      return {...ar, ...cur};
+      return {...prev, ...cur};
     else
-      return {...ar};
+      return {...prev };
   }, {});
+
   return tables;
 }
 

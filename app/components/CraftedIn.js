@@ -17,9 +17,13 @@ class CraftingView extends Component{
       const blueprint = getCraftFromItem(item, products);
       if(!blueprint){return(<div></div>);}
       return(
-        <BluePrint key={i} blueprint={blueprint} history={this.props.history}/>
+        <BluePrint key={i} index={i} blueprint={blueprint} history={this.props.history}/>
       );
     });
+    if(list.length === 0){
+      return(<div></div>);
+    }
+
     return(
       <div>
         <Typography variant="headline" component="h2">Used in:</Typography>

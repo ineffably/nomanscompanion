@@ -21,14 +21,13 @@ const styles = {
 
 class BluePrint extends Component {
   render() {
-    const { blueprint, classes, history, key } = this.props;
-    
+    const { blueprint, classes, history, index } = this.props;
     return (
-      <Paper className={classes.paper} key={key || ''}>
-        <div><Item item={blueprint.Output} count={blueprint.Count} history={history} target={true}/></div>
-        <div><Item item={blueprint.In1} count={blueprint.In1Count} history={history}/></div>
-        <div><Item item={blueprint.In2} count={blueprint.In2Count} history={history}/></div>
-        <div><Item item={blueprint.In3} count={blueprint.In3Count} history={history}/></div>
+      <Paper className={classes.paper} key={index}>
+        <div key='Output'><Item item={blueprint.Output} count={blueprint.Count} history={history} target={true}/></div>
+        <div key='In1'><Item item={blueprint.In1} count={blueprint.In1Count} history={history}/></div>
+        <div key='In2'><Item item={blueprint.In2} count={blueprint.In2Count} history={history}/></div>
+        <div key='In3'><Item item={blueprint.In3} count={blueprint.In3Count} history={history}/></div>
       </Paper>);
   }
 }
@@ -37,7 +36,7 @@ BluePrint.propTypes = {
   classes: PropTypes.object.isRequired,
   blueprint: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
-  key: PropTypes.any
+  index: PropTypes.number
 };
 
 export default withStyles(styles)(BluePrint);
