@@ -13,7 +13,7 @@ export default class CraftedBy extends Component {
 
     const blueprint = getCraftFromItem(item, products);
     return(<div>
-      <Typography variant="headline" component="h2">Crafting:</Typography>
+      <Typography variant="headline" component="h2">Crafted with:</Typography>
       {blueprint && <BluePrint blueprint={blueprint} history={this.props.history}/>}
     </div>);
   }

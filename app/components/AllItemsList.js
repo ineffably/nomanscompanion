@@ -28,7 +28,7 @@ class AllItemsList extends Component {
       className={classes.listItem}
     >
       <div style={{backgroundColor: item.ColorRGB}}>
-        <img src={`icons/${item.Icon.Filename}`} style={{width: '50px'}} />
+        <img src={`icons/${item.Icon.Filename}`} style={{width: '75px'}} />
       </div>
       <ListItemText primary={`${item.NameLower}`} />
     </ListItem>);

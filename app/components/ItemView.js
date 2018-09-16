@@ -5,6 +5,7 @@ import CraftedBy from './CraftedBy';
 import { getItemFromField } from '../nmsutils';
 import { withStyles } from '@material-ui/core/styles';
 import ItemDetails from './ItemDetails';
+import CraftedIn  from './CraftedIn';
 
 const styles = {};
 
@@ -18,11 +19,13 @@ class ItemView extends Component {
       return(<h2>Item not found</h2>);
     }  
     console.info(item);
+    
     return (
       <div>
         <ItemCard item={item} {...this.props} />
         <ItemDetails item={item} classes={this.props.classes} />
         <CraftedBy item={item} {...this.props} />
+        <CraftedIn item={item} {...this.props} />
         {/* <RefinedFrom item={item} {...this.props} /> */}
       </div>);
   }

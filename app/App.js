@@ -4,7 +4,7 @@ import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import ItemView from './components/ItemView';
 import RawTables from './RawTables';
-import { getRefinementTables } from './nmsutils';
+import { getRefinementTables, getCraftingTable } from './nmsutils';
 import CraftingView from './components/CraftingView';
 import RefinementView from './components/RefinementView';
 import Navbar from './components/Navbar';
@@ -15,7 +15,6 @@ import PropTypes from 'prop-types';
 
 const theme = createMuiTheme();
 const styles = (theme) => {
-  console.log(theme);
   return {
     app: {
       marginLeft: theme.spacing.unit,
@@ -27,7 +26,7 @@ const styles = (theme) => {
 class App extends Component {
   constructor() {
     super();
-    this.state = { refinerData: {}, products: [] };
+    this.state = { refinerData: {}, products: [], craftingTable: [] };
   }
 
   async loadProductsAndSubstances() {
@@ -42,6 +41,7 @@ class App extends Component {
     console.info('AllItems Count:', combined.length);
 
     const filtered = combined.filter(item => item.Name !== 'OBSOLETE ITEM');
+
     return filtered.sort((a, b) => {
       if (!a.NameLower) {
         return 1;
@@ -57,7 +57,7 @@ class App extends Component {
     const realityDataJson = await (await fetch('data/defaultreality.en.transformed.json')).json();
     const refinerData = getRefinementTables(realityDataJson);
     const items = await this.loadProductsAndSubstances();
-    this.setState({ refinerData: refinerData, products: items });
+    this.setState({ refinerData: refinerData, products: items, craftingTable: getCraftingTable(items) });
   }
 
   render() {

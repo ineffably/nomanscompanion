@@ -25,9 +25,32 @@ function getRefinerRecipe(recipe, allItems){
 
 function getCraftingTable(itemData = []) {
   const results = itemData.filter(item => item.IsCraftable).map(item => {
-    return getCraftFromItem(item, itemData);
+    return { 
+      Id: item.Id, 
+      Name: item.Name, 
+      NameLower: item.NameLower,
+      Requirements: item.Requirements
+    };
   });
   return results;
+}
+
+function getRecipesWith(item = {}, craftingTable = []) {
+  const isRequirement = (req) => {
+    if(!req){return;}
+    return item.Id === req.ID;
+  };
+
+  const result = craftingTable.filter(o => {
+    if(Array.isArray(o.Requirements)){
+      const isin = o.Requirements.filter(isRequirement);
+      return isin.length > 0;
+    }
+    else {
+      return isRequirement(o.Requirements);
+    }
+  });
+  return result;
 }
 
 function getBlueprintFromRequirement(requirements, allItems){
@@ -149,5 +172,6 @@ export {
   getCraftFromItem,
   getCraftingTable,
   getBlueprintFromRequirement,
-  getRefinerRecipe
+  getRefinerRecipe,
+  getRecipesWith
 };
