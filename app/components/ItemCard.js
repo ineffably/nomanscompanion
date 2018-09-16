@@ -5,8 +5,6 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   card: {
-    height: 300,
-    width: 300,
     backgroundColor: '#fff',
     padding: '10px',
     display: 'flex',
@@ -18,9 +16,10 @@ const styles = {
   content: {
     position: 'relative',
     flexGrow: 1,
-    backgroundColor: '#777',
     margin: 0,
-    padding: 0
+    padding: 0,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
   },
   cover: {
     position: 'relative',
@@ -52,13 +51,20 @@ const styles = {
 
 class ItemCard extends Component {
   render() {
-    const { item, classes } = this.props;
+    const { item, classes, titleVariant, backgroundSize } = this.props;
+    const backgroundStyles = {
+      backgroundSize: backgroundSize ? backgroundSize : '100%',
+      backgroundImage: `url('icons/${item.Icon.Filename}')`,
+      backgroundColor: `${item.ColorRGB}`
+    };
+
     return (
       <Card className={classes.card}>
-        <Typography variant="headline" className={classes.title}>
+        <Typography noWrap variant={titleVariant || 'headline'} className={classes.title}>
           {item.Name}
         </Typography>
-        <CardContent className={classes.content} style={{ background: `url('icons/${item.Icon.Filename}') no-repeat center 5px ${item.ColorRGB}` }}>
+        <CardContent className={classes.content}
+          style={backgroundStyles}>
           <Typography variant="headline" className={classes.symbol}>
             {item.Symbol}
           </Typography>
@@ -72,7 +78,10 @@ class ItemCard extends Component {
 
 ItemCard.propTypes = {
   classes: PropTypes.object.isRequired,
-  item: PropTypes.object.isRequired
+  item: PropTypes.object.isRequired,
+  width: PropTypes.number,
+  titleVariant: PropTypes.string,
+  backgroundSize: PropTypes.string
 };
 
 export default withStyles(styles)(ItemCard);

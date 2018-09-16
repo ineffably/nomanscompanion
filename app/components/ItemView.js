@@ -8,22 +8,28 @@ import ItemDetails from './ItemDetails';
 import CraftedIn  from './CraftedIn';
 import RefinedFrom from './RefinedFrom';
 
-const styles = {};
+const styles = {
+  card: {
+    height: 300,
+    width: 300,
+  }
+};
 
 class ItemView extends Component {
   render() {
-    if (this.props.products.length === 0) { return (<div></div>); }
+    const { classes, products, match } = this.props;
+    if (products.length === 0) { return (<div></div>); }
 
-    const nameParam = this.props.match.params.name;
-    const item = getItemFromField(nameParam, this.props.products);
+    const nameParam = match.params.name;
+    const item = getItemFromField(nameParam, products);
     if(!item) {
       return(<h2>Item not found</h2>);
     }  
 
     return (
       <div>
-        <ItemCard item={item} {...this.props} />
-        <ItemDetails item={item} classes={this.props.classes} />
+        <ItemCard item={item} {...this.props} classes={classes} />
+        <ItemDetails item={item} classes={classes} />
         <CraftedBy item={item} {...this.props} />
         <RefinedFrom item={item} {...this.props} />
         <CraftedIn item={item} {...this.props} />
@@ -40,3 +46,49 @@ ItemView.propTypes = {
 };
 
 export default withStyles(styles)(ItemView);
+
+// Id
+// Name
+// NameLower
+// Subtitle
+// Description
+// DebrisFile
+// BaseValue
+// Level
+// Icon
+// HeroIcon
+// Colour
+// SubstanceCategory
+// Type
+// ProceduralType
+// Rarity
+// Legality
+// Consumable
+// ChargeValue
+// StackMultiplier
+// DefaultCraftAmount
+// CraftAmountStepSize
+// CraftAmountMultiplier
+// Requirements
+// Cost
+// SpecificChargeOnly
+// NormalisedValueOnWorld
+// NormalisedValueOffWorld
+// TradeCategory
+// WikiEnabled
+// IsCraftable
+// EconomyInfluenceMultiplier
+// ColorRGB
+// PinObjeective
+// PinObjeectiveTip
+// ID
+// Symbol
+// WorldColour
+// Category
+// tradeCategory
+// PinObjective
+// PinObjectiveTip
+// WorldColorRGB
+// DeploysInto
+// GroupID
+// AltRequirements

@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { List, ListItem, ListItemText } from '@material-ui/core';
+import { GridList, GridListTile } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+import ItemCard from './ItemCard';
 
 const styles = {
-  listItem: {
-    maxWidth: 350
-  }
+  listItem: {},
+  card: {
+    height: 200,
+    width: 200,
+    backgroundColor: '#fff',
+    padding: '10px',
+    display: 'flex',
+    flexDirection: 'column'
+  },
+  media: {
+    height: 100,
+  },
+  gridList: {
+    width: '400',
+    height: '70%'
+  },
 };
 
 class AllItemsList extends Component {
@@ -19,33 +33,32 @@ class AllItemsList extends Component {
 
   renderItem(item, key) {
     const { classes } = this.props;
-    return (<ListItem
+    return (<GridListTile
+      cols={1}
       key={key}
       role={undefined}
-      dense
-      button
       onClick={this.handleToggle(item)}
       className={classes.listItem}
     >
-      <div style={{backgroundColor: item.ColorRGB}}>
-        <img src={`icons/${item.Icon.Filename}`} style={{width: '75px'}} />
-      </div>
-      <ListItemText primary={`${item.NameLower}`} />
-    </ListItem>);
+      <ItemCard 
+        item={item} 
+        classes={{card: classes.card}} 
+        titleVariant={'title'}
+        backgroundSize={'90%'}
+      />
+    </GridListTile>);
   }
 
   render() {
-    const { itemArray, filter, style } = this.props;
-    const listStyle = style || {};
+    const { products, filter, classes } = this.props;
     
-    if(itemArray.length === 0){
-      return(<div></div>);
+    if (products.length === 0) {
+      return (<div></div>);
     }
-    
-    let items = itemArray;
+    let items = products;
     if (filter.length > 0 && items) {
       items = items.filter(item => {
-        if(item.NameLower) {
+        if (item.NameLower) {
           return item.NameLower.toLowerCase().indexOf(filter.toLowerCase()) > -1;
         }
         else {
@@ -54,18 +67,17 @@ class AllItemsList extends Component {
         return false;
       });
     }
-
+    
     return (
-      <List style={listStyle}>
+      <GridList cellHeight={200} className={classes.gridList} cols={2}>
         {items.map((item, i) => { return this.renderItem(item, i); })}
-      </List>
+      </GridList>
     );
   }
 }
 
 AllItemsList.propTypes = {
   filter: PropTypes.string.isRequired,
-  itemArray: PropTypes.array.isRequired,
   classes: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
   products: PropTypes.array,

@@ -6,10 +6,6 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   textField: {
-    root: {
-      borderBottom: 0
-    },
-    borderBottom: '0px',
     maxWidth: 345,
     display: 'flex'
   }
@@ -22,11 +18,25 @@ class Home extends Component {
   }
 
   applyFilter(value){
-    this.setState({filter: value});
+    if(this.state.filter !== value){
+      this.setState({filter: value});
+    }
   }
 
   render() {
     const { classes } = this.props;
+    const onTextChange = (ev) => {
+      const val = ev.target.value;
+      global.setTimeout(() => { 
+        if(val && val.length > 1){
+          this.applyFilter(val);
+        }
+        else{
+          this.applyFilter('');
+        }
+      }, 100);
+    };
+
     return (
       <div>
         <CssBaseline />
@@ -36,9 +46,9 @@ class Home extends Component {
           placeholder="Enter Item Name"
           className={classes.textField}
           margin="normal"
-          onChange={(ev) => {this.applyFilter(ev.target.value);}}
+          onChange={onTextChange}
         />
-        <AllItemsList itemArray={this.props.products} filter={this.state.filter} history={this.props.history} />
+        <AllItemsList filter={this.state.filter} {...this.props} classes={classes} />
       </div>);
   }
 }

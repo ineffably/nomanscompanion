@@ -25,7 +25,14 @@ const styles = (theme) => {
 class App extends Component {
   constructor() {
     super();
-    this.state = { refinerData: [], products: [], craftingTable: [] };
+    this.state = { refinerData: [], products: [], craftingTable: [], nameMap: [] };
+  }
+
+  mapIdToName(products){
+    return products.reduce((value, item) => {
+      value[item.Id] = item.Name;
+      return value;
+    }, {});
   }
 
   async loadProductsAndSubstances() {
@@ -61,7 +68,7 @@ class App extends Component {
   async componentDidMount() {
     const refinerData = await this.getRefinmentData();
     const items = await this.loadProductsAndSubstances();
-    this.setState({ refinerData: refinerData, products: items, craftingTable: getCraftingTable(items) });
+    this.setState({ refinerData: refinerData, products: items, craftingTable: getCraftingTable(items), nameMap: this.mapIdToName(items) });
   }
 
   render() {

@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { AppBar, Toolbar, IconButton, Typography, Badge, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core/';
+import { AppBar, Toolbar, IconButton, Typography, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core/';
 import MenuIcon from '@material-ui/icons/Menu';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-import MailIcon from '@material-ui/icons/Mail';
 import BuildIcon from '@material-ui/icons/Build';
-import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import HomeIcon from '@material-ui/icons/Home';
 import { withRouter } from 'react-router';
@@ -57,6 +54,7 @@ const styles = theme => ({
   inputRoot: {
     color: '#FFF',
     width: '100%',
+    height: '50px'
   },
   inputInput: {
     paddingTop: theme.spacing.unit,
