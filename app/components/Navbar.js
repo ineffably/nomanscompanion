@@ -36,10 +36,10 @@ const styles = theme => ({
     // '&:hover': {
     //   backgroundColor: fade(theme.palette.common.white, 0.25),
     // },
-    maxHeight: '55px',
+    maxHeight: '52px',
     marginRight: theme.spacing.unit * 2,
     marginLeft: 0,
-    width: '100%',
+    width: '300px',
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing.unit * 3,
       width: 'auto',
@@ -64,10 +64,10 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit,
     // paddingLeft: theme.spacing.unit * 10,
     transition: theme.transitions.create('width'),
-    width: '100%',
+    width: '300px',
     [theme.breakpoints.up('md')]: {
-      width: 250,
-    },
+      width: '300px',
+    }
   },
   sectionDesktop: {
     display: 'none',
@@ -87,7 +87,30 @@ const styles = theme => ({
 class Navbar extends Component {
   constructor() {
     super();
-    this.state = { drawer: false, filter: '' };
+    this.state = {
+      drawer: false,
+      filter: '',
+      anchorEl: null,
+      mobileMoreAnchorEl: null
+    };
+    this.handleMobileMenuOpen = this.handleMobileMenuOpen.bind(this);
+  }
+
+  // handleProfileMenuOpen = event => {
+  //   this.setState({ anchorEl: event.currentTarget });
+  // };
+
+  handleMenuClose() {
+    this.setState({ anchorEl: null });
+    this.handleMobileMenuClose();
+  }
+
+  handleMobileMenuOpen() {
+    // this.setState({ mobileMoreAnchorEl: event.currentTarget });
+  }
+
+  handleMobileMenuClose() {
+    this.setState({ mobileMoreAnchorEl: null });
   }
 
   toggleDrawer(open) {
@@ -99,8 +122,41 @@ class Navbar extends Component {
   }
 
   render() {
-    const isMenuOpen = false;
+    // const { anchorEl, mobileMoreAnchorEl } = this.state;
+    // const isMenuOpen = Boolean(anchorEl);
+    // const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
     const { classes } = this.props;
+
+    // const renderMenu = (
+    //   <Menu
+    //     anchorEl={anchorEl}
+    //     anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+    //     transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+    //     open={isMenuOpen}
+    //     onClose={this.handleMenuClose}
+    //   >
+    //     <MenuItem onClick={this.handleClose}>Profile</MenuItem>
+    //     <MenuItem onClick={this.handleClose}>My account</MenuItem>
+    //   </Menu>
+    // <MenuItem>
+    //   <IconButton color="inherit">
+    //     <Badge className={classes.margin} badgeContent={4} color="secondary">
+    //       <MailIcon />
+    //     </Badge>
+    //   </IconButton>
+    //   <p>Messages</p>
+    // </MenuItem>    
+    // );
+
+    // const renderMobileMenu = (
+    // <Menu
+    //   anchorEl={mobileMoreAnchorEl}
+    //   anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+    //   transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+    //   open={isMobileMenuOpen}
+    //   onClose={this.handleMobileMenuClose}
+    // >
+    // );
 
     return (<div className={classes.root}>
       <Drawer open={this.state.drawer} onClose={this.toggleDrawer(false)}>
@@ -112,13 +168,13 @@ class Navbar extends Component {
         >
           <div className={classes.root}>
             <List>
-              <ListItem button onClick={() => { this.props.history.push('/'); }}>
+              <ListItem button onClick={() => { setTimeout(() => this.props.history.push('/'), 1); }}>
                 <ListItemIcon>
                   <HomeIcon />
                 </ListItemIcon>
                 <ListItemText primary={'Home'} />
               </ListItem>
-              <ListItem button onClick={() => { this.props.history.push('/crafting'); }}>
+              <ListItem button onClick={() => { setTimeout(() => this.props.history.push('/crafting'), 1); }}>
                 <ListItemIcon>
                   <BuildIcon />
                 </ListItemIcon>
@@ -144,6 +200,11 @@ class Navbar extends Component {
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
+            {/* <IconButton color="inherit">
+              <Badge className={classes.margin} badgeContent={17} color="secondary">
+                <NotificationsIcon />
+              </Badge>
+            </IconButton>
             <IconButton color="inherit">
               <Badge className={classes.margin} badgeContent={4} color="secondary">
                 <MailIcon />
@@ -161,7 +222,7 @@ class Navbar extends Component {
               color="inherit"
             >
               <AccountCircle />
-            </IconButton>
+            </IconButton> */}
           </div>
           <div className={classes.sectionMobile}>
             <IconButton aria-haspopup="true" onClick={this.handleMobileMenuOpen} color="inherit">

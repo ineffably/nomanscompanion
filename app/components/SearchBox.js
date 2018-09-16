@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import Select from 'react-select';
 import AsyncSelect from 'react-select/lib/Async';
 import { withStyles } from '@material-ui/core/styles';
 import { Typography, ListItemIcon, ListItemText } from '@material-ui/core';

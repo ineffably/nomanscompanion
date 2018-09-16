@@ -18,7 +18,6 @@ class CraftingView extends Component{
     });
     return(
       <div>
-        <h2>CraftingView</h2>
         {list}
       </div>);
   }

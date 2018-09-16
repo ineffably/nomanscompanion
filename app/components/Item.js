@@ -11,8 +11,7 @@ const styles = {
   content: {
     display: 'flex',
     flexFlow: 'row',
-    paddingBottom: '16 !important',
-    width: '280px'
+    paddingBottom: '16 !important'
   },
   avatar: {},
   title: {
