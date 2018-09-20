@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
+import TableView from './components/TableView';
 
 const theme = createMuiTheme();
 const styles = (theme) => {
@@ -85,6 +86,7 @@ class App extends Component {
               <Route exact path="/crafting" render={(props) => <CraftingView {...state} {...props} />} />
               <Route exact path="/refinement" render={(props) => <RefinementView {...state} {...props} />} />
               <Route exact path="/raw" render={(props) => <RawTables {...state} {...props} />} />
+              <Route exact path="/table" render={(props) => <TableView {...state} {...props} />} />
             </Switch>
           </div>
         </MuiThemeProvider>

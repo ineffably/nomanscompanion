@@ -51,7 +51,7 @@ const styles = {
 
 class ItemCard extends Component {
   render() {
-    const { item, classes, titleVariant, backgroundSize } = this.props;
+    const { item, classes, titleVariant, backgroundSize, symbolVariant, costVariant } = this.props;
     const backgroundStyles = {
       backgroundSize: backgroundSize ? backgroundSize : '100%',
       backgroundImage: `url('icons/${item.Icon.Filename}')`,
@@ -65,10 +65,10 @@ class ItemCard extends Component {
         </Typography>
         <CardContent className={classes.content}
           style={backgroundStyles}>
-          <Typography variant="headline" className={classes.symbol}>
+          <Typography variant={symbolVariant || 'headline'} className={classes.symbol}>
             {item.Symbol}
           </Typography>
-          <Typography variant="headline" className={classes.cost}>
+          <Typography variant={costVariant || 'headline'} className={classes.cost}>
             {item.BaseValue}
           </Typography>
         </CardContent>
@@ -81,6 +81,8 @@ ItemCard.propTypes = {
   item: PropTypes.object.isRequired,
   width: PropTypes.number,
   titleVariant: PropTypes.string,
+  costVariant: PropTypes.string,
+  symbolVariant: PropTypes.string,
   backgroundSize: PropTypes.string
 };
 
