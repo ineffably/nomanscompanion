@@ -1,4 +1,4 @@
-export default {
+const ColumnOptions = {
   'Id': {
     'header': 'Id'
   },
@@ -134,4 +134,57 @@ export default {
   'AltRequirements': {
     'header': 'AltRequirements'
   }
+};
+
+const DefaultToggles = {
+  'Id': true,
+  'Name': false,
+  'NameLower': true,
+  'Subtitle': false,
+  'Description': false,
+  'DebrisFile': false,
+  'BaseValue': true,
+  'Level': false,
+  'Icon': true,
+  'HeroIcon': false,
+  'Colour': false,
+  'SubstanceCategory': true,
+  'Type': true,
+  'ProceduralType': true,
+  'Rarity': true,
+  'Legality': false,
+  'Consumable': true,
+  'ChargeValue': true,
+  'StackMultiplier': true,
+  'DefaultCraftAmount': true,
+  'CraftAmountStepSize': true,
+  'CraftAmountMultiplier': true,
+  'Requirements': false,
+  'Cost': true,
+  'SpecificChargeOnly': false,
+  'NormalisedValueOnWorld': false,
+  'NormalisedValueOffWorld': false,
+  'TradeCategory': true,
+  'WikiEnabled': false,
+  'IsCraftable': true,
+  'EconomyInfluenceMultiplier': false,
+  'ColorRGB': false,
+  'PinObjeective': false,
+  'PinObjeectiveTip': false,
+  'ID': false,
+  'Symbol': false,
+  'WorldColour': false,
+  'Category': false,
+  'tradeCategory': true,
+  'PinObjective': false,
+  'PinObjectiveTip': false,
+  'WorldColorRGB': false,
+  'DeploysInto': false,
+  'GroupID': true,
+  'AltRequirements': false
+};
+
+export {
+  ColumnOptions, 
+  DefaultToggles
 };

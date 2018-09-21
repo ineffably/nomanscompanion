@@ -14,55 +14,7 @@ import {
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import ItemCard from './ItemCard';
-import ColumnOptions from './ColumnOptions';
-
-const toggles = {
-  'Id': true,
-  'Name': true,
-  'NameLower': true,
-  'Subtitle': true,
-  'Description': true,
-  'DebrisFile': true,
-  'BaseValue': true,
-  'Level': true,
-  'Icon': true,
-  'HeroIcon': true,
-  'Colour': true,
-  'SubstanceCategory': true,
-  'Type': true,
-  'ProceduralType': true,
-  'Rarity': true,
-  'Legality': true,
-  'Consumable': true,
-  'ChargeValue': true,
-  'StackMultiplier': true,
-  'DefaultCraftAmount': true,
-  'CraftAmountStepSize': true,
-  'CraftAmountMultiplier': true,
-  'Requirements': true,
-  'Cost': true,
-  'SpecificChargeOnly': true,
-  'NormalisedValueOnWorld': true,
-  'NormalisedValueOffWorld': true,
-  'TradeCategory': true,
-  'WikiEnabled': true,
-  'IsCraftable': true,
-  'EconomyInfluenceMultiplier': true,
-  'ColorRGB': true,
-  'PinObjeective': true,
-  'PinObjeectiveTip': true,
-  'ID': true,
-  'Symbol': true,
-  'WorldColour': true,
-  'Category': true,
-  'tradeCategory': true,
-  'PinObjective': true,
-  'PinObjectiveTip': true,
-  'WorldColorRGB': true,
-  'DeploysInto': true,
-  'GroupID': true,
-  'AltRequirements': true
-};
+import { ColumnOptions, DefaultToggles } from '../config/ColumnOptions';
 
 const columns = ['Id', 'Name', 'NameLower', 'Subtitle', 'Description', 'DebrisFile',
   'BaseValue', 'Level', 'Icon', 'HeroIcon', 'Colour', 'SubstanceCategory',
@@ -141,7 +93,7 @@ class ItemTable extends Component {
         }
       }
     };
-    const colOptions = { ...toggles };
+    const colOptions = { ...DefaultToggles };
     const colConfig = { ...ColumnOptions, ...configOverrides };
 
     const listStyle = {
@@ -157,7 +109,7 @@ class ItemTable extends Component {
         <GridList cellHeight={48} spacing={2} cols={1} style={listStyle}>
           {columns.map((column, i) => {
             return (
-              <GridListTile key={i}>
+              <GridListTile key={i} style={{height: '35px'}}>
                 <FormControlLabel
                   control={
                     <Checkbox
