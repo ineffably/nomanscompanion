@@ -12,6 +12,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import TableView from './components/TableView';
+import { isObject } from 'util';
 
 const theme = createMuiTheme();
 const styles = (theme) => {
@@ -29,11 +30,29 @@ class App extends Component {
     this.state = { refinerData: [], products: [], craftingTable: [], nameMap: [] };
   }
 
-  mapIdToName(products){
+  mapIdToName(products) {
     return products.reduce((value, item) => {
       value[item.Id] = item.Name;
       return value;
     }, {});
+  }
+
+  getFilterValues(list = [], fields = []) {
+    const result = list.reduce((seed, item) => {
+      fields.forEach(field => {
+        const fieldValue = item[field];
+        if (undefined === fieldValue || fieldValue === null) { return seed; }
+        seed[field] = seed[field] || {};
+        const value = isObject(fieldValue) ? JSON.stringify(fieldValue) : item[field];
+        seed[field][value] = field;
+      });
+      return seed;
+    }, {});
+    const final = Object.keys(result).reduce((seed, el) => {
+      seed[el] = Object.keys(result[el]);
+      return seed;
+    }, {});
+    return final;
   }
 
   async loadProductsAndSubstances() {
@@ -60,19 +79,28 @@ class App extends Component {
     });
   }
 
-  async getRefinmentData(){
+  async getRefinmentData() {
     const realityDataJson = await (await fetch('data/defaultreality.en.transformed.json')).json();
     const { RefinerRecipeTable1Input, RefinerRecipeTable2Input, RefinerRecipeTable3Input } = getRefinementTables(realityDataJson);
-    return RefinerRecipeTable1Input.concat(RefinerRecipeTable2Input).concat(RefinerRecipeTable3Input);    
+    return RefinerRecipeTable1Input.concat(RefinerRecipeTable2Input).concat(RefinerRecipeTable3Input);
   }
 
   async componentDidMount() {
     const refinerData = await this.getRefinmentData();
-    const items = await this.loadProductsAndSubstances();
-    this.setState({ refinerData: refinerData, products: items, craftingTable: getCraftingTable(items), nameMap: this.mapIdToName(items) });
+    const products = await this.loadProductsAndSubstances();
+    const fieldFilters = this.getFilterValues(products, ['Rarity', 'Type', 'SubstanceCategory', 'Consumable', 'IsCraftable']);
+
+    this.setState({ 
+      refinerData, 
+      products, 
+      craftingTable: getCraftingTable(products), 
+      nameMap: this.mapIdToName(products), 
+      fieldFilters 
+    });
   }
 
   render() {
+    console.log('=- App Render -=');
     const state = { ...this.state };
     return (
       <Router>
