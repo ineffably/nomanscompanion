@@ -1,142 +1,142 @@
 const ColumnOptions = {
   'Id': {
-    'header': 'Id'
+    'Header': 'Id'
   },
   'Name': {
-    'header': 'Name'
+    'Header': 'Name'
   },
   'NameLower': {
-    'header': 'NameLower'
+    'Header': 'NameLower'
   },
   'Subtitle': {
-    'header': 'Subtitle'
+    'Header': 'Subtitle'
   },
   'Description': {
-    'header': 'Description'
+    'Header': 'Description'
   },
   'DebrisFile': {
-    'header': 'DebrisFile'
+    'Header': 'DebrisFile'
   },
   'BaseValue': {
-    'header': 'BaseValue'
+    'Header': 'BaseValue'
   },
   'Level': {
-    'header': 'Level'
+    'Header': 'Level'
   },
   'Icon': {
-    'header': 'Icon'
+    'Header': 'Icon'
   },
   'HeroIcon': {
-    'header': 'HeroIcon'
+    'Header': 'HeroIcon'
   },
   'Colour': {
-    'header': 'Colour'
+    'Header': 'Colour'
   },
   'SubstanceCategory': {
-    'header': 'SubstanceCategory'
+    'Header': 'SubstanceCategory'
   },
   'Type': {
-    'header': 'Type'
+    'Header': 'Type'
   },
   'ProceduralType': {
-    'header': 'ProceduralType'
+    'Header': 'ProceduralType'
   },
   'Rarity': {
-    'header': 'Rarity'
+    'Header': 'Rarity'
   },
   'Legality': {
-    'header': 'Legality'
+    'Header': 'Legality'
   },
   'Consumable': {
-    'header': 'Consumable'
+    'Header': 'Consumable'
   },
   'ChargeValue': {
-    'header': 'ChargeValue'
+    'Header': 'ChargeValue'
   },
   'StackMultiplier': {
-    'header': 'StackMultiplier'
+    'Header': 'StackMultiplier'
   },
   'DefaultCraftAmount': {
-    'header': 'DefaultCraftAmount'
+    'Header': 'DefaultCraftAmount'
   },
   'CraftAmountStepSize': {
-    'header': 'CraftAmountStepSize'
+    'Header': 'CraftAmountStepSize'
   },
   'CraftAmountMultiplier': {
-    'header': 'CraftAmountMultiplier'
+    'Header': 'CraftAmountMultiplier'
   },
   'Requirements': {
-    'header': 'Requirements'
+    'Header': 'Requirements'
   },
   'Cost': {
-    'header': 'Cost'
+    'Header': 'Cost'
   },
   'SpecificChargeOnly': {
-    'header': 'SpecificChargeOnly'
+    'Header': 'SpecificChargeOnly'
   },
   'NormalisedValueOnWorld': {
-    'header': 'NormalisedValueOnWorld'
+    'Header': 'NormalisedValueOnWorld'
   },
   'NormalisedValueOffWorld': {
-    'header': 'NormalisedValueOffWorld'
+    'Header': 'NormalisedValueOffWorld'
   },
   'TradeCategory': {
-    'header': 'TradeCategory'
+    'Header': 'TradeCategory'
   },
   'WikiEnabled': {
-    'header': 'WikiEnabled'
+    'Header': 'WikiEnabled'
   },
   'IsCraftable': {
-    'header': 'IsCraftable'
+    'Header': 'IsCraftable'
   },
   'EconomyInfluenceMultiplier': {
-    'header': 'EconomyInfluenceMultiplier'
+    'Header': 'EconomyInfluenceMultiplier'
   },
   'ColorRGB': {
-    'header': 'ColorRGB'
+    'Header': 'ColorRGB'
   },
   'PinObjeective': {
-    'header': 'PinObjeective'
+    'Header': 'PinObjeective'
   },
   'PinObjeectiveTip': {
-    'header': 'PinObjeectiveTip'
+    'Header': 'PinObjeectiveTip'
   },
   'ID': {
-    'header': 'ID'
+    'Header': 'ID'
   },
   'Symbol': {
-    'header': 'Symbol'
+    'Header': 'Symbol'
   },
   'WorldColour': {
-    'header': 'WorldColour'
+    'Header': 'WorldColour'
   },
   'Category': {
-    'header': 'Category'
+    'Header': 'Category'
   },
   'tradeCategory': {
-    'header': 'tradeCategory'
+    'Header': 'tradeCategory'
   },
   'PinObjective': {
-    'header': 'PinObjective'
+    'Header': 'PinObjective'
   },
   'PinObjectiveTip': {
-    'header': 'PinObjectiveTip'
+    'Header': 'PinObjectiveTip'
   },
   'WorldColorRGB': {
-    'header': 'WorldColorRGB'
+    'Header': 'WorldColorRGB'
   },
   'DeploysInto': {
-    'header': 'DeploysInto'
+    'Header': 'DeploysInto'
   },
   'GroupID': {
-    'header': 'GroupID'
+    'Header': 'GroupID'
   },
   'AltRequirements': {
-    'header': 'AltRequirements'
+    'Header': 'AltRequirements'
   }
 };
 
-const DefaultToggles = {
+const DefaultConfig = {
   'Id': true,
   'Name': false,
   'NameLower': true,
@@ -184,7 +184,19 @@ const DefaultToggles = {
   'AltRequirements': false
 };
 
+const Columns = ['Icon', 'Id', 'Name', 'NameLower', 'Subtitle', 'Description', 'DebrisFile',
+  'BaseValue', 'Level', 'HeroIcon', 'Colour', 'SubstanceCategory',
+  'Type', 'ProceduralType', 'Rarity', 'Legality', 'Consumable', 'ChargeValue',
+  'StackMultiplier', 'DefaultCraftAmount', 'CraftAmountStepSize',
+  'CraftAmountMultiplier', 'Requirements', 'Cost', 'SpecificChargeOnly',
+  'NormalisedValueOnWorld', 'NormalisedValueOffWorld', 'TradeCategory',
+  'WikiEnabled', 'IsCraftable', 'EconomyInfluenceMultiplier', 'ColorRGB',
+  'PinObjeective', 'PinObjeectiveTip', 'ID', 'Symbol', 'WorldColour', 'Category',
+  'tradeCategory', 'PinObjective', 'PinObjectiveTip', 'WorldColorRGB', 'DeploysInto',
+  'GroupID', 'AltRequirements'];
+
 export {
+  Columns,
   ColumnOptions, 
-  DefaultToggles
+  DefaultConfig
 };

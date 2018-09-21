@@ -1,11 +1,7 @@
+import ReactTable from 'react-table';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableRow,
   Checkbox,
   FormControlLabel,
   GridList,
@@ -14,18 +10,8 @@ import {
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import ItemCard from './ItemCard';
-import { ColumnOptions, DefaultToggles } from '../config/ColumnOptions';
-
-const columns = ['Id', 'Name', 'NameLower', 'Subtitle', 'Description', 'DebrisFile',
-  'BaseValue', 'Level', 'Icon', 'HeroIcon', 'Colour', 'SubstanceCategory',
-  'Type', 'ProceduralType', 'Rarity', 'Legality', 'Consumable', 'ChargeValue',
-  'StackMultiplier', 'DefaultCraftAmount', 'CraftAmountStepSize',
-  'CraftAmountMultiplier', 'Requirements', 'Cost', 'SpecificChargeOnly',
-  'NormalisedValueOnWorld', 'NormalisedValueOffWorld', 'TradeCategory',
-  'WikiEnabled', 'IsCraftable', 'EconomyInfluenceMultiplier', 'ColorRGB',
-  'PinObjeective', 'PinObjeectiveTip', 'ID', 'Symbol', 'WorldColour', 'Category',
-  'tradeCategory', 'PinObjective', 'PinObjectiveTip', 'WorldColorRGB', 'DeploysInto',
-  'GroupID', 'AltRequirements'];
+import { DefaultConfig, Columns } from '../config/ColumnOptions';
+import { isObject } from 'util';
 
 const styles = {
   card: {
@@ -56,46 +42,112 @@ const styles = {
 };
 
 class ItemTable extends Component {
-  renderTableHead(columns, colOptions, colConfig) {
-    return (
-      <TableHead style={{ backgroundColor: '#333' }}>
-        <TableRow>
-          {columns.map((col, i) => {
-            if(!colOptions[col]){return null;}
-            const column = colConfig[col];
-            return(<TableCell style={{ color: '#fff' }} key={i}>{column.header}</TableCell>);
-          })}
-        </TableRow>
-      </TableHead>);
+  constructor() {
+    super();
+    this.toggleColumn = this.toggleColumn.bind(this);
+    this.state = { allColumns: Columns, columns: [], columnConfig: DefaultConfig };
   }
 
   toggleColumn(ev) {
-    console.log(ev.target.value, ev.target.checked);
+    const newState = this.state.columnConfig;
+    newState[ev.target.value] = ev.target.checked;
+    this.setState({ columnConfig: newState });
+    this.updateColumns();
   }
 
-  render() {
-    const { products, classes } = this.props;
-    const configOverrides = {
-      Icon: {
-        header: 'Icon',
-        field: 'Icon',
-        style: {
-          width: 100
+  updateColumns() {
+    const optionOverrides = this.getOptionOverrides(this.props.classes);
+    const colConfig = { ...DefaultConfig };
+    const colOptions = { ...optionOverrides };
+    const columns = this.getColumns(Columns, colConfig, colOptions);
+    this.setState({ columns: columns });
+  }
+
+  componentDidMount() {
+    this.updateColumns();
+  }
+
+  getColumns(columns = [], config = {}, options = {}) {
+    const result = columns.filter(c => config[c]).map(el => {
+      const defaultOption = {
+        Header: el,
+        id: el,
+        accessor: o => {
+          const value = o[el];
+          return (typeof value === 'object' ? JSON.stringify(value) : value);
         },
-        render: (item) => {
+        sortMethod: (a, b) => {
+          if (a === b || isObject(a) || isObject(b)) { return 0; }
+          return (a > b) ? 1 : -1;
+        }
+      };
+      const override = options[el] || {};
+      return { ...defaultOption, ...override };
+    });
+    return result;
+  }
+
+  getOptionOverrides(classes) {
+    const { history } = this.props;
+    return {
+      Icon: {
+        accessor: item => {
           return (
             <ItemCard item={item}
               classes={classes}
               titleVariant={'body1'}
               symbolVariant={'body1'}
               costVariant={'body1'}
-              backgroundSize={'90%'} />);
+              backgroundSize={'90%'}
+              onClick={() => { history.push(`/items/${item.Name}`); }}
+            />);
+        },
+        style: {
+          width: 100
+        }
+      },
+      BaseValue: {
+        sortMethod: (a, b) => {
+          const x = parseInt(a, 10);
+          const y = parseInt(b, 10);
+          if (x === y) { return 0; }
+          return (x > y) ? 1 : -1;
         }
       }
     };
-    const colOptions = { ...DefaultToggles };
-    const colConfig = { ...ColumnOptions, ...configOverrides };
+  }
 
+  renderColumnToggles(columns = [], config, listStyle) {
+    return (
+      <div>
+        <Typography variant='title'>Columns:</Typography>
+        <GridList cellHeight={48} spacing={2} cols={1} style={listStyle}>
+          {columns.map((column, i) => {
+            if (config[column] !== true && config[column] !== false) {
+              console.log('unknown', column);
+            }
+            return (
+              <GridListTile key={i} style={{ height: '35px' }}>
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      color='primary'
+                      style={{ flex: '1' }}
+                      onChange={this.toggleColumn}
+                      value={column}
+                      checked={config[column]}
+                    />
+                  }
+                  label={column}
+                />
+              </GridListTile>);
+          })}
+        </GridList></div>);
+  }
+
+  render() {
+    const { products } = this.props;
+    const { allColumns, columns, columnConfig } = this.state;
     const listStyle = {
       display: 'flex',
       flexWrap: 'wrap',
@@ -105,53 +157,16 @@ class ItemTable extends Component {
 
     return (
       <div>
-        <Typography variant='title'>Columns:</Typography>
-        <GridList cellHeight={48} spacing={2} cols={1} style={listStyle}>
-          {columns.map((column, i) => {
-            return (
-              <GridListTile key={i} style={{height: '35px'}}>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      color='primary'
-                      style={{ flex: '1' }}
-                      onChange={this.toggleColumn}
-                      value={column}
-                    />
-                  }
-                  label={column}
-                />
-              </GridListTile>);
-          })}
-        </GridList>
-        <Table>
-          {this.renderTableHead(columns, colOptions, colConfig)}
-          <TableBody>
-            {products.map((item, i) => {
-              return (
-                <TableRow key={i}>
-                  {columns.map((column, i) => {
-                    if(!colOptions[column]){return null;}
-                    const config = colConfig[column];
-                    const style = config.style || {};
-                    const childElement = config.render ? config.render(item) 
-                      : (typeof item[column] === 'object') ? 
-                        JSON.stringify(item[column]) : 
-                        item[column];
-                    return(<TableCell key={i} style={style} >{childElement}</TableCell>);
-                  })}
-                </TableRow>
-              );
-            })}
-          </TableBody>
-        </Table>
+        {this.renderColumnToggles(allColumns, columnConfig, listStyle)}
+        <ReactTable data={products} columns={columns} defaultPageSize={100} />
       </div>
     );
   }
 }
 ItemTable.propTypes = {
   classes: PropTypes.object.isRequired,
-  products: PropTypes.array.isRequired
+  products: PropTypes.array.isRequired,
+  history: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(ItemTable);

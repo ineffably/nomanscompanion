@@ -51,7 +51,7 @@ const styles = {
 
 class ItemCard extends Component {
   render() {
-    const { item, classes, titleVariant, backgroundSize, symbolVariant, costVariant } = this.props;
+    const { item, classes, titleVariant, backgroundSize, symbolVariant, costVariant, onClick } = this.props;
     const backgroundStyles = {
       backgroundSize: backgroundSize ? backgroundSize : '100%',
       backgroundImage: `url('icons/${item.Icon.Filename}')`,
@@ -59,7 +59,7 @@ class ItemCard extends Component {
     };
 
     return (
-      <Card className={classes.card}>
+      <Card className={classes.card} onClick={onClick ? (() => {onClick(item);}) : (() => {})}>
         <Typography noWrap variant={titleVariant || 'headline'} className={classes.title}>
           {item.Name}
         </Typography>
@@ -83,7 +83,8 @@ ItemCard.propTypes = {
   titleVariant: PropTypes.string,
   costVariant: PropTypes.string,
   symbolVariant: PropTypes.string,
-  backgroundSize: PropTypes.string
+  backgroundSize: PropTypes.string,
+  onClick: PropTypes.func
 };
 
 export default withStyles(styles)(ItemCard);
