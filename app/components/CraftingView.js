@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import BluePrint from './BluePrint';
-import { TextField } from '@material-ui/core';
+import { TextField, Typography } from '@material-ui/core';
 import { getCraftFromItem } from '../nmsutils';
 
 const styles = {
@@ -70,12 +70,13 @@ class CraftingView extends Component {
     });
     const onTextChange = (ev) => {
       const val = ev.target.value;
-      global.setTimeout(() => { 
+      global.setTimeout(() => {
         this.applyFilter((val && val.length > 1) ? val : '');
       }, 100);
     };
     return (
       <div>
+        <Typography variant='headline'>Crafting Blueprints:</Typography>
         <TextField
           id="itemFilter"
           label="Item Search"
