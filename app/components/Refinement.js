@@ -4,10 +4,15 @@ import { Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Item from './Item';
 import {getItemFromName} from '../nmsutils';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const styles = {
   paper: {
     display: 'flex'
+  },
+  arrowIndicator: {
+    margin: '10px', 
+    marginTop: '23px'
   }
 };
 
@@ -16,10 +21,11 @@ class BluePrint extends Component {
     const { recipe, classes, data, history } = this.props;
     return (
       <Paper className={classes.paper}>
-        <div><Item item={getItemFromName(recipe.Output, data)} count={recipe.Count} history={history}/></div>
-        <div><Item item={getItemFromName(recipe.Input1, data)} count={recipe.Count1} history={history}/></div>
-        <div><Item item={getItemFromName(recipe.Input2, data)} count={recipe.Count2} history={history} /></div>
-        <div><Item item={getItemFromName(recipe.Input3, data)} count={recipe.Count3} history={history} /></div>
+        <Item item={getItemFromName(recipe.Output, data)} count={recipe.Count} history={history}/>
+        <div key='spacer' style={styles.arrowIndicator} ><ArrowBackIcon /></div>
+        <Item item={getItemFromName(recipe.Input1, data)} count={recipe.Count1} history={history}/>
+        <Item item={getItemFromName(recipe.Input2, data)} count={recipe.Count2} history={history} />
+        <Item item={getItemFromName(recipe.Input3, data)} count={recipe.Count3} history={history} />
       </Paper>);
   }
 }

@@ -24,20 +24,19 @@ const styles = {
 
 class Item extends Component {
   render() {
-    const { item, classes, count, target } = this.props;
+    const { item, classes, count } = this.props;
     if (!item) {
       return (<span></span>);
     }
 
     const label = count ? `${item.Name} x ${count}` : item.Name;
-    const optional = target ? '=' : '';
-    const itemText = `${label} ${optional}`;
+    const itemText = `${label}`;
     
     return (
       <Card className={classes.card}>
-        <CardContent className={classes.content}>
+        <CardContent className={classes.content} >
           <ButtonBase onClick={() => {this.props.history.push(`/items/${item.Name}`);}}>
-            <Avatar className={classes.avatar} alt={item.NameLower} src={`icons/${item.Icon.Filename}`} />
+            <Avatar className={classes.avatar} style={{ backgroundColor: item.ColorRGB}} alt={item.NameLower} src={`icons/${item.Icon.Filename}`} />
             <Typography noWrap={true} className={classes.title}>{itemText}</Typography>
           </ButtonBase>
         </CardContent>
@@ -49,8 +48,7 @@ Item.propTypes = {
   classes: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
   item: PropTypes.object,
-  count: PropTypes.any,
-  target: PropTypes.bool
+  count: PropTypes.any
 };
 
 export default withStyles(styles)(Item);

@@ -25,6 +25,8 @@ class ItemView extends Component {
     if(!item) {
       return(<h2>Item not found</h2>);
     }  
+    
+    console.log(item);
 
     return (
       <div>
@@ -92,3 +94,5 @@ export default withStyles(styles)(ItemView);
 // DeploysInto
 // GroupID
 // AltRequirements
+
+
