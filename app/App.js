@@ -27,7 +27,7 @@ const styles = (theme) => {
 class App extends Component {
   constructor() {
     super();
-    this.state = { refinerData: [], products: [], craftingTable: [], nameMap: [] };
+    this.state = { refinerData: [], products: [], craftingTable: [], nameMap: [], fieldFilters: {} };
   }
 
   mapIdToName(products) {
@@ -89,7 +89,7 @@ class App extends Component {
     const refinerData = await this.getRefinmentData();
     const products = await this.loadProductsAndSubstances();
     const fieldFilters = this.getFilterValues(products, ['Rarity', 'Type', 'SubstanceCategory', 'Consumable', 'IsCraftable']);
-
+    console.log('fieldFilters', fieldFilters);
     this.setState({ 
       refinerData, 
       products, 

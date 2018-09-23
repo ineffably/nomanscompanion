@@ -6,12 +6,14 @@ import {
   FormControlLabel,
   GridList,
   GridListTile,
-  Typography
+  Typography,
+  TextField
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import ItemCard from './ItemCard';
 import { DefaultConfig, Columns } from '../config/ColumnOptions';
 import { isObject } from 'util';
+import FieldFilters from './FieldFilters';
 
 const styles = {
   card: {
@@ -38,6 +40,20 @@ const styles = {
     width: '12px',
     textAlign: 'center',
     fontSize: '50%'
+  },
+  textField: {
+    width: '95%',
+    display: 'flex',
+    margin: '0 10'
+  },
+  listStyle: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    width: '200px',
+    height: '300px'
+  },
+  gridListTile: {
+    height: '35px'
   }
 };
 
@@ -45,7 +61,8 @@ class ItemTable extends Component {
   constructor() {
     super();
     this.toggleColumn = this.toggleColumn.bind(this);
-    this.state = { allColumns: Columns, columns: [], columnConfig: DefaultConfig };
+    this.filterChanged = this.filterChanged.bind(this);
+    this.state = { allColumns: Columns, columns: [], columnConfig: DefaultConfig, filterTimeout: 0, filter: '', valueFilters: {} };
   }
 
   toggleColumn(ev) {
@@ -89,12 +106,13 @@ class ItemTable extends Component {
 
   getOptionOverrides(classes) {
     const { history } = this.props;
+    const { card, cost, symbol } = classes;
     return {
       Icon: {
         accessor: item => {
           return (
             <ItemCard item={item}
-              classes={classes}
+              classes={{ card, cost, symbol }}
               titleVariant={'body1'}
               symbolVariant={'body1'}
               costVariant={'body1'}
@@ -117,17 +135,49 @@ class ItemTable extends Component {
     };
   }
 
-  renderColumnToggles(columns = [], config, listStyle) {
+  applyFilter(value){
+    if(this.state.filter !== value){
+      this.setState({filter: value});
+    }
+  }
+
+  renderSearchBox() {
+    const onTextChange = (ev) => {
+      const { filterTimeout } = this.state;
+      if(filterTimeout){
+        global.clearTimeout(filterTimeout);
+      }
+      const val = ev.target.value;
+      const timeout = global.setTimeout(() => {
+        this.applyFilter(val && val.length > 1 ? val : '');
+      }, 100);
+      global.setTimeout(() => {this.setState({filterTimeout: timeout});}, 1);
+    };
+
     return (
-      <div>
+      <div style={{flex: 1}}>
+        <TextField
+          id="itemFilter"
+          label="Item Search"
+          placeholder="Enter Item Name"
+          style={styles.textField}
+          margin="normal"
+          onChange={onTextChange}
+        />
+      </div>);
+  }
+
+  renderColumnToggles(columns = [], config) {
+    return (
+      <div style={{flex: 0}}>
         <Typography variant='title'>Columns:</Typography>
-        <GridList cellHeight={48} spacing={2} cols={1} style={listStyle}>
+        <GridList cellHeight={48} spacing={2} cols={1} style={styles.listStyle}>
           {columns.map((column, i) => {
             if (config[column] !== true && config[column] !== false) {
               console.log('unknown', column);
             }
             return (
-              <GridListTile key={i} style={{ height: '35px' }}>
+              <GridListTile key={i} >
                 <FormControlLabel
                   control={
                     <Checkbox
@@ -145,20 +195,46 @@ class ItemTable extends Component {
         </GridList></div>);
   }
 
-  render() {
-    const { products } = this.props;
-    const { allColumns, columns, columnConfig } = this.state;
-    const listStyle = {
-      display: 'flex',
-      flexWrap: 'wrap',
-      width: '200px',
-      height: '300px'
-    };
+  filterChanged(newFilter) {
+    console.log(newFilter);
+    this.setState({valueFilters: newFilter});
+  }
 
+  filterData(data){
+    const {valueFilters, filter} = this.state;
+    const filteredFields = Object.keys(valueFilters);
+    const filteredValues = data.filter(item => {
+      let result = item.Name.indexOf(filter.toUpperCase()) > -1;
+      if(result){
+        let goodField = true;
+        filteredFields.forEach(field => {
+          const values = valueFilters[field] || [];
+          if(values && values.length > 0){
+            const containsValue = values.includes(item[field]);
+            if(!containsValue){
+              goodField = false;
+            }
+          }
+        });
+        result = goodField;
+      }
+      return result;
+    });
+    return filteredValues;
+  }
+
+  render() {
+    const { products, history, fieldFilters } = this.props;
+    const { allColumns, columns, columnConfig } = this.state;
+    const data = this.filterData(products);
     return (
       <div>
-        {this.renderColumnToggles(allColumns, columnConfig, listStyle)}
-        <ReactTable data={products} columns={columns} defaultPageSize={100} />
+        <div style={{ display: 'flex' }}>
+          {this.renderColumnToggles(allColumns, columnConfig)}
+          {this.renderSearchBox()}
+          {<FieldFilters history={history} fieldFilters={fieldFilters} onChangeFilter={this.filterChanged} />}
+        </div>
+        <ReactTable data={data} columns={columns} defaultPageSize={50} />
       </div>
     );
   }
@@ -166,7 +242,8 @@ class ItemTable extends Component {
 ItemTable.propTypes = {
   classes: PropTypes.object.isRequired,
   products: PropTypes.array.isRequired,
-  history: PropTypes.object.isRequired
+  history: PropTypes.object.isRequired,
+  fieldFilters: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(ItemTable);

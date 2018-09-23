@@ -6,6 +6,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import BuildIcon from '@material-ui/icons/Build';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import HomeIcon from '@material-ui/icons/Home';
+import TableIcon from '@material-ui/icons/ViewColumn';
 import { withRouter } from 'react-router';
 import SearchBox from './SearchBox';
 
@@ -183,6 +184,12 @@ class Navbar extends Component {
                   <BuildIcon />
                 </ListItemIcon>
                 <ListItemText primary={'Refinement'} />
+              </ListItem>
+              <ListItem button onClick={() => { setTimeout(() => this.props.history.push('/table'), 1); }}>
+                <ListItemIcon>
+                  <TableIcon />
+                </ListItemIcon>
+                <ListItemText primary={'Table view'} />
               </ListItem>
             </List>
           </div>
