@@ -25,7 +25,7 @@ class CraftingView extends Component{
     }
 
     return(
-      <div>
+      <div style={{marginTop: '8px', backgroundColor: '#fff', marginRight: '8px'}}>
         <Typography variant="headline" component="h2">Used in:</Typography>
         {list}
       </div>);

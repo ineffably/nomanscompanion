@@ -8,16 +8,17 @@ const styles = {
     flex: 1,
     width: 250,
     minWidth: 220,
-    padding: 0
+    padding: 0,
+    marginTop: '5px'
   },
   content: {
     display: 'flex',
-    flexFlow: 'row',
     paddingBottom: '16 !important'
   },
   avatar: {},
   title: {
-    lineHeight: '24px'
+    lineHeight: '24px',
+    marginLeft: '8px'
   },
   cost: {}
 };
@@ -33,7 +34,7 @@ class Item extends Component {
     const itemText = `${label}`;
     
     return (
-      <Card className={classes.card}>
+      <Card className={classes.card} elevation={1} >
         <CardContent className={classes.content} >
           <ButtonBase onClick={() => {this.props.history.push(`/items/${item.Name}`);}}>
             <Avatar className={classes.avatar} style={{ backgroundColor: item.ColorRGB}} alt={item.NameLower} src={`icons/${item.Icon.Filename}`} />

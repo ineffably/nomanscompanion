@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ItemCard from './ItemCard';
 import CraftedBy from './CraftedBy';
-import { getItemFromField } from '../nmsutils';
+import { getItemFromField, absoluteRgbColor } from '../nmsutils';
 import { withStyles } from '@material-ui/core/styles';
 import ItemDetails from './ItemDetails';
 import CraftedIn  from './CraftedIn';
@@ -12,6 +12,12 @@ const styles = {
   card: {
     height: 300,
     width: 300,
+  }, 
+  view: {
+    backgroundColor: '#EEE', 
+    paddingLeft: '8px', 
+    paddingTop: '8px', 
+    marginRight: '8px'
   }
 };
 
@@ -25,11 +31,10 @@ class ItemView extends Component {
     if(!item) {
       return(<h2>Item not found</h2>);
     }  
-    
-    console.log(item);
+    const color = absoluteRgbColor(item.Colour, {a: 0.5});
 
     return (
-      <div>
+      <div style={{...styles.view, backgroundColor: color}}>
         <ItemCard item={item} {...this.props} classes={classes} />
         <ItemDetails item={item} classes={classes} />
         <CraftedBy item={item} {...this.props} />

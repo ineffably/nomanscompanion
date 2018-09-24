@@ -4,6 +4,14 @@ import { Typography } from '@material-ui/core';
 import BluePrint from './BluePrint';
 import { getRefinerRecipe } from '../nmsutils';
 
+const styles = {
+  blueprint: {
+    marginTop: '8px', 
+    backgroundColor: '#fff', 
+    marginRight: '8px'
+  }
+};
+
 export default class RefinedFrom extends Component {
   render() {
     const { item, products, refinerData, isAnIngredient  } = this.props;
@@ -34,7 +42,7 @@ export default class RefinedFrom extends Component {
       return (<div></div>);
     }
     return (
-      <div>
+      <div style={styles.blueprint}>
         <Typography variant="headline" component="h2">{isAnIngredient ? 'Refines into:' : 'Refined with'}</Typography>
         {blueprints.map((blueprint, i) => { return (<BluePrint key={i} index={i} blueprint={blueprint} history={this.props.history} />); })}
       </div>);

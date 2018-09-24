@@ -95,6 +95,15 @@ function lookupString(languageData, value) {
   return result || value;
 }
 
+function absoluteRgbColor(rawColor, override = {}) {
+  const r = Math.round(parseFloat(rawColor.R) * 255);
+  const g = Math.round(parseFloat(rawColor.G) * 255);
+  const b = Math.round(parseFloat(rawColor.B) * 255);
+  const a = Math.round(parseFloat(rawColor.A));
+  const color = {r, g, b, a, ...override };
+  return `rgb(${color.r}, ${color.g}, ${color.b}, ${color.a})`;
+}
+
 function translateColor(rawColor) {
   const r = parseFloat(rawColor.R) * 255;
   const g = parseFloat(rawColor.G) * 255;
@@ -164,6 +173,7 @@ function transformTable(leaf, parent) {
 }
 
 export {
+  absoluteRgbColor,
   transformTable,
   translateIcon,
   translateColor,

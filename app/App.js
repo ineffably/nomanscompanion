@@ -89,7 +89,6 @@ class App extends Component {
     const refinerData = await this.getRefinmentData();
     const products = await this.loadProductsAndSubstances();
     const fieldFilters = this.getFilterValues(products, ['Rarity', 'Type', 'SubstanceCategory', 'Consumable', 'IsCraftable']);
-    console.log('fieldFilters', fieldFilters);
     this.setState({ 
       refinerData, 
       products, 

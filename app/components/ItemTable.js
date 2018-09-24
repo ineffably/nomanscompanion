@@ -174,7 +174,7 @@ class ItemTable extends Component {
         <GridList cellHeight={48} spacing={2} cols={1} style={styles.listStyle}>
           {columns.map((column, i) => {
             if (config[column] !== true && config[column] !== false) {
-              console.log('unknown', column);
+              console.info('unknown', column);
             }
             return (
               <GridListTile key={i} >
@@ -196,7 +196,6 @@ class ItemTable extends Component {
   }
 
   filterChanged(newFilter) {
-    console.log(newFilter);
     this.setState({valueFilters: newFilter});
   }
 

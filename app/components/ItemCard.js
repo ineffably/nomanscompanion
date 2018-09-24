@@ -44,7 +44,6 @@ const styles = {
     color: '#333',
     backgroundColor: '#FFF',
     borderRadius: '15px',
-    width: '40px',
     textAlign: 'center'
   }
 };
@@ -57,6 +56,8 @@ class ItemCard extends Component {
       backgroundImage: `url('icons/${item.Icon.Filename}')`,
       backgroundColor: `${item.ColorRGB}`
     };
+    const symbolMinWidth = 26;
+    const symbolWidth = item.Symbol ? Math.max(item.Symbol.length * 17, symbolMinWidth) : symbolMinWidth;
 
     return (
       <Card className={classes.card} onClick={onClick ? (() => {onClick(item);}) : (() => {})}>
@@ -65,7 +66,7 @@ class ItemCard extends Component {
         </Typography>
         <CardContent className={classes.content}
           style={backgroundStyles}>
-          <Typography variant={symbolVariant || 'headline'} className={classes.symbol}>
+          <Typography variant={symbolVariant || 'headline'} className={classes.symbol} style={{width: `${symbolWidth}px`}}>
             {item.Symbol}
           </Typography>
           <Typography variant={costVariant || 'headline'} className={classes.cost}>

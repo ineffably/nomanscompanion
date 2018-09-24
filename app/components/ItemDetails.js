@@ -5,8 +5,10 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   details: {
-    marginTop: '16px',
-    marginBottom: '16px'
+    padding: 16,
+    marginTop: 16,
+    marginBottom: 16,
+    marginRight: 8
   }
 };
 
@@ -54,7 +56,7 @@ class ItemDetails extends Component {
         <Typography variant='headline'>{o.Subtitle}</Typography>
         <Typography variant='subheading'>{o.Description}</Typography>
 
-        <table style={{ border: '2px solid #EEE' }} >
+        <table style={{ border: '2px solid #EEE', marginTop: '8px', marginBottom: '8px' }} >
           <tbody>
             {getTableRows(item, values)}
             <tr key={'Category'}><td>{'Category'}</td><td>{item.Category ? item.Category.SubstanceCategory : null}</td></tr>
