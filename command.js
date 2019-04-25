@@ -2,16 +2,11 @@
 import { transformTable, lookupString, translateColor, translateIcon } from './app/nmsutils';
 import command from 'commander';
 import fs from 'fs';
+import Transposer from './Tranposer';
+const transposer = new Transposer();
 
 function transposeTableFromRoot(inFile, outFile) {
-  console.log(`reading file: ${inFile}`);
-  const file = fs.readFileSync(inFile);
-  const json = JSON.parse(file);
-  let mapFrom = json.Data.Property;
-  const result = mapFrom.map(el => { return transformTable(el); });
-  const data = { data: result };
-  console.log(`writing file: ${outFile}`);
-  fs.writeFileSync(outFile, JSON.stringify(data, null, 2));
+  transposer.transposeTableFromRoot(inFile, outFile);
 }
 
 function transposeTable(inFile, outFile) {
