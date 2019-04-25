@@ -5,6 +5,12 @@
         "node": true,
         "jest": true
     },
+    "settings": {
+        "react": {
+            "version": "16.0"
+        }
+    },
+    "parser": "babel-eslint",
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
@@ -20,6 +26,8 @@
         "react"
     ],
     "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "linebreak-style": "off",
         "no-console": "off",
         "indent": [
