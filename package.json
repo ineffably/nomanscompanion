@@ -4,8 +4,8 @@
   "description": "No Man's Sky Companion",
   "main": "index.js",
   "scripts": {
-    "babel-node": "babel-node --presets=latest",
-    "command": "babel-node --presets=latest command.js",
+    "babel-node": "babel --presets=latest",
+    "command": "babel --presets=latest command.js",
     "dev": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "build": "webpack",
     "test": "jest"
@@ -13,27 +13,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/node": "^7.0.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.4.2",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
-    "eslint": "^5.4.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.11.1",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^23.5.0",
+    "jest": "^24.7.1",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
     "@material-ui/core": "^1.5.1",
@@ -45,10 +40,5 @@
     "react-router-dom": "^4.3.1",
     "react-select": "^2.0.0",
     "react-table": "^6.8.6"
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
   }
 }
