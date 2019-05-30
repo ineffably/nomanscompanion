@@ -9,7 +9,6 @@ try {
           return cache.addAll([
             'index.html',
             'dist/bundle.js',
-            'dist/bundle.js.map',
             'data/raw/nms_reality_combinedproducts.en.json',
             'data/defaultreality.en.transformed.json',
             'data/raw/nms_reality_combinedsubstance.en.json'
