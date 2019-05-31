@@ -7,6 +7,7 @@ try {
         caches.open('nomanscompanion').then(function (cache) {
           const images = self.nmsImages.map(file => `icons/${file}`);
           return cache.addAll([
+            './',
             'index.html',
             'dist/bundle.js',
             'data/raw/nms_reality_combinedproducts.en.json',
