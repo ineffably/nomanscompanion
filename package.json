@@ -9,38 +9,26 @@
     "dev": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "build": "webpack",
     "test": "jest",
-    "lint": "eslint app/**/*.js "
+    "lint": "eslint app/**/*.js",
+    "download-utils": "node ./utils/downloadUtils.js",
+    "copyPaks": "node ./utils/copyPaks.js",
+    "extractPaks": "node ./utils/extractPaks.js",
+    "extractXml": "node ./utils/extractXml.js",
+    "exmlToJson": "node ./utils/exmlToJson.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^1.0.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.12.4",
-    "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.7.1",
-    "style-loader": "^0.22.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.3.1"
+    "@types/download": "^8.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "cpy": "^8.1.2",
+    "download": "^8.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "xml-js": "^1.6.11"
   },
-  "dependencies": {
-    "@material-ui/core": "^1.5.1",
-    "@material-ui/icons": "^3.0.1",
-    "commander": "^2.17.1",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-router-dom": "^4.3.1",
-    "react-select": "^2.0.0",
-    "react-table": "^6.8.6"
-  }
+  "dependencies": {}
 }
