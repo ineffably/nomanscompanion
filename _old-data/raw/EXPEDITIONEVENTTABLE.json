@@ -1,0 +1,2892 @@
+{
+	"Data": {
+		"template": "GcExpeditionEventTable",
+		"Property": [
+			{
+				"name": "Events",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "DIPLOMATIC_0"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_DIP_EASY_0"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_DIPLOMATIC_0"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_T1_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "DIPLOMATIC_1"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_DIP_EASY_1"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_DIPLOMATIC_1"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_T2_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "DIPLOMATIC_2"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_DIP_EASY_2"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_DIPLOMATIC_2"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_T3_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "DIPLOMATIC_3"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_DIP_EASY_3"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_DIPLOMATIC_3"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_T4_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_TRADING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "COMBAT_0"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_COM_EASY_0"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_COMBAT_0"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_T1_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "COMBAT_1"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_COM_EASY_1"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_COMBAT_1"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_T2_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "COMBAT_2"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_COM_EASY_2"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_COMBAT_2"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_T3_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_COMBAT_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "EXPLORATION_0"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_EXP_EASY_0"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_EXPLORATION_0"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_T1_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "10"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "EXPLORATION_1"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_EXP_EASY_1"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_EXPLORATION_1"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_T2_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "10"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "EXPLORATION_2"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_EXP_EASY_2"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_EXPLORATION_2"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_T3_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "10"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "EXPLORATION_3"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_EXP_EASY_3"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_EXPLORATION_3"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_T4_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "10"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_EXPLORE_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "MINING_0"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_MINE_EASY_0"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MINING_0"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_T1_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "MINING_1"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_MINE_EASY_1"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MINING_1"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_T2_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "MINING_2"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_MINE_EASY_2"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MINING_2"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_T3_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "MINING_3"
+							},
+							{
+								"name": "StatContribution",
+								"$t": "",
+								"Property": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "0"
+									},
+									{
+										"value": "0"
+									}
+								]
+							},
+							{
+								"name": "DifficultyModifier",
+								"value": "0"
+							},
+							{
+								"name": "DifficultyVarianceModifier",
+								"value": "0"
+							},
+							{
+								"name": "AdditionalShipDifficultyIncrease",
+								"value": "0"
+							},
+							{
+								"name": "EasySuccessReward",
+								"value": "R_MINE_EASY_3"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MINING_3"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "SuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_T4_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "FailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "30"
+									}
+								]
+							},
+							{
+								"name": "GenericSuccessDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_GENERIC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "7"
+									}
+								]
+							},
+							{
+								"name": "GenericFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_EMPTY_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							},
+							{
+								"name": "DamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "25"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryFailureDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_FAIL_%d"
+									},
+									{
+										"name": "Count",
+										"value": "20"
+									}
+								]
+							},
+							{
+								"name": "SecondaryDamageDescriptionList",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_MINING_SEC_DAMAGE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "4"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "InterventionEvents",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcExpeditionInterventionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "INT_COMBAT_1"
+							},
+							{
+								"name": "SelectionWeight",
+								"value": "100"
+							},
+							{
+								"name": "ExpeditionCategory",
+								"value": "GcExpeditionCategory.xml",
+								"$t": "",
+								"Property": {
+									"name": "ExpeditionCategory",
+									"value": "Combat"
+								}
+							},
+							{
+								"name": "InteractionID",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_CALL_COMBAT_%d"
+									},
+									{
+										"name": "Count",
+										"value": "1"
+									}
+								]
+							},
+							{
+								"name": "SuccessLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_A_%d"
+							},
+							{
+								"name": "AvoidanceLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_B_%d"
+							},
+							{
+								"name": "FailureLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_C_%d"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MB_HIGH"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "FailureDamageChance",
+								"value": "50"
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionInterventionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "INT_EXPLORE_1"
+							},
+							{
+								"name": "SelectionWeight",
+								"value": "100"
+							},
+							{
+								"name": "ExpeditionCategory",
+								"value": "GcExpeditionCategory.xml",
+								"$t": "",
+								"Property": {
+									"name": "ExpeditionCategory",
+									"value": "Exploration"
+								}
+							},
+							{
+								"name": "InteractionID",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_CALL_EXPLORE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "1"
+									}
+								]
+							},
+							{
+								"name": "SuccessLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_A_%d"
+							},
+							{
+								"name": "AvoidanceLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_B_%d"
+							},
+							{
+								"name": "FailureLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_B_%d"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MB_HIGH"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "FailureDamageChance",
+								"value": "0"
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionInterventionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "INT_DIPLOMAT_1"
+							},
+							{
+								"name": "SelectionWeight",
+								"value": "100"
+							},
+							{
+								"name": "ExpeditionCategory",
+								"value": "GcExpeditionCategory.xml",
+								"$t": "",
+								"Property": {
+									"name": "ExpeditionCategory",
+									"value": "Mining"
+								}
+							},
+							{
+								"name": "InteractionID",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_CALL_TRADE_%d"
+									},
+									{
+										"name": "Count",
+										"value": "1"
+									}
+								]
+							},
+							{
+								"name": "SuccessLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_A_%d"
+							},
+							{
+								"name": "AvoidanceLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_B_%d"
+							},
+							{
+								"name": "FailureLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_C_%d"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MB_HIGH"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "FailureDamageChance",
+								"value": "50"
+							}
+						]
+					},
+					{
+						"value": "GcExpeditionInterventionEventData.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "ID",
+								"value": "INT_MINING_1"
+							},
+							{
+								"name": "SelectionWeight",
+								"value": "100"
+							},
+							{
+								"name": "ExpeditionCategory",
+								"value": "GcExpeditionCategory.xml",
+								"$t": "",
+								"Property": {
+									"name": "ExpeditionCategory",
+									"value": "Diplomacy"
+								}
+							},
+							{
+								"name": "InteractionID",
+								"value": "GcNumberedTextList.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Format",
+										"value": "FLEET_CALL_MINING_%d"
+									},
+									{
+										"name": "Count",
+										"value": "1"
+									}
+								]
+							},
+							{
+								"name": "SuccessLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_A_%d"
+							},
+							{
+								"name": "AvoidanceLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_B_%d"
+							},
+							{
+								"name": "FailureLogEntry",
+								"value": "FLEET_TRADING_SPECIAL_LOG_C_%d"
+							},
+							{
+								"name": "SuccessReward",
+								"value": "R_MB_HIGH"
+							},
+							{
+								"name": "FailureReward",
+								"value": ""
+							},
+							{
+								"name": "FailureDamageChance",
+								"value": "50"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

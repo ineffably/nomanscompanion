@@ -1,0 +1,4025 @@
+Folder PATH listing for volume OS
+Volume serial number is 902B-98BE
+C:.
++---AUDIO
+|   \---WINDOWS
+|       +---CHINESE(PRC)
+|       +---CHINESE(TAIWAN)
+|       +---ENGLISH(US)
+|       +---FRENCH(FRANCE)
+|       +---GERMAN
+|       +---ITALIAN
+|       +---JAPANESE
+|       +---KOREAN
+|       +---POLISH
+|       +---PORTUGUESE(BRAZIL)
+|       +---PORTUGUESE(PORTUGAL)
+|       +---RUSSIAN
+|       +---SPANISH(MEXICO)
+|       \---SPANISH(SPAIN)
++---METADATA
+|   +---REALITY
+|   |   \---TABLES
+|   +---SIMULATION
+|   |   +---AMBIENT
+|   |   +---ECOSYSTEM
+|   |   |   \---ROLEDESCRIPTIONTABLES
+|   |   |       +---AIR
+|   |   |       +---CAVE
+|   |   |       +---FIEND
+|   |   |       +---GROUND
+|   |   |       +---SENTINELS
+|   |   |       \---UNDERWATER
+|   |   +---ENVIRONMENT
+|   |   +---FREIGHTERBASES
+|   |   +---INTERACTIONS
+|   |   +---MISSIONS
+|   |   +---NPCS
+|   |   +---PLAYER
+|   |   +---SCANNING
+|   |   +---SCENE
+|   |   +---SOLARSYSTEM
+|   |   |   +---ATMOSPHERE
+|   |   |   +---BIOMES
+|   |   |   |   +---BARREN
+|   |   |   |   +---CAVE
+|   |   |   |   +---DEAD
+|   |   |   |   +---FROZEN
+|   |   |   |   +---HUGEPROPS
+|   |   |   |   |   +---HUGELUSH
+|   |   |   |   |   +---HUGERING
+|   |   |   |   |   +---HUGEROCK
+|   |   |   |   |   +---HUGESCORCHED
+|   |   |   |   |   +---HUGETOXIC
+|   |   |   |   |   \---HUGEUWPLANT
+|   |   |   |   +---LUSH
+|   |   |   |   +---OBJECTS
+|   |   |   |   |   +---BEACH
+|   |   |   |   |   +---CRYSTALS
+|   |   |   |   |   +---LEVELONEOBJECTS
+|   |   |   |   |   +---MOUNTAIN
+|   |   |   |   |   +---PLANT
+|   |   |   |   |   +---RARE
+|   |   |   |   |   \---ROCK
+|   |   |   |   +---PLACEMENTVALUES
+|   |   |   |   +---RADIOACTIVE
+|   |   |   |   +---SCORCHED
+|   |   |   |   +---TOXIC
+|   |   |   |   +---UNDERWATER
+|   |   |   |   \---WEIRD
+|   |   |   |       +---BEAMSTONE
+|   |   |   |       +---BONESPIRE
+|   |   |   |       +---CONTOUR
+|   |   |   |       +---ELBUBBLE
+|   |   |   |       +---FRACTALCUBE
+|   |   |   |       +---HEXAGON
+|   |   |   |       +---HYDROGARDEN
+|   |   |   |       +---IRRISHELLS
+|   |   |   |       +---MSTRUCTURES
+|   |   |   |       +---SHARDS
+|   |   |   |       \---WIRECELLS
+|   |   |   +---COLOURS
+|   |   |   +---TEXTURES
+|   |   |   \---WEATHER
+|   |   |       \---SKYSETTINGS
+|   |   \---SPACE
+|   \---UI
+|       +---HUD
+|       |   +---COCKPIT
+|       |   \---WEAPONS
+|       \---LAYOUTS
++---MODELS
+|   +---COMMON
+|   |   +---CHARACTERS
+|   |   |   +---ANIMATIONS
+|   |   |   +---ASTRONAUT
+|   |   |   |   +---ANIMS
+|   |   |   |   +---HELMETHUD
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---HUDELEMENTS
+|   |   |   |       \---HEALTHBAR
+|   |   |   |           \---ENTITIES
+|   |   |   +---BACKPACK
+|   |   |   |   \---ENTITIES
+|   |   |   +---BACKPACK_HOLOGRAM
+|   |   |   |   \---ENTITIES
+|   |   |   \---PLAYER
+|   |   |       +---EMITTERS
+|   |   |       \---ENTITIES
+|   |   +---DEMOS
+|   |   |   \---E32015
+|   |   |       +---MODELS
+|   |   |       |   +---RESOURCEROCKALT
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---RESOURCEROCKALT2
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---SCANNABLEOBJECT
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---SCANNABLEOBJECT2
+|   |   |       |       \---ENTITIES
+|   |   |       +---SPAWNERS
+|   |   |       |   +---AIDROPSHIPSPACE
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---BUILDINGS
+|   |   |       |   |   +---LUNARSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---PROCRUINSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   \---SMALLRUINSPAWNER
+|   |   |       |   |       \---ENTITIES
+|   |   |       |   +---CREATURES
+|   |   |       |   |   +---BULLSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---CAT2SPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---CATSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---COWSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---GRUNTSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---KINGGRUNTSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---RODENT2SPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---RODENTSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---SHARKSPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---TREXSPAWNER2
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   \---TRICERATOPSSPAWNER
+|   |   |       |   |       \---ENTITIES
+|   |   |       |   +---ROBOTS
+|   |   |       |   |   +---ATTACKDRONESPAWNER
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---DRONE
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   +---QUADRUPED
+|   |   |       |   |   |   \---ENTITIES
+|   |   |       |   |   \---WALKER_GIANT
+|   |   |       |   |       \---ENTITIES
+|   |   |       |   \---SHIPSPAWNER
+|   |   |       |       \---ENTITIES
+|   |   |       \---TRIGGERS
+|   |   |           +---PLANETSPAWNS
+|   |   |           |   +---DRONETRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---FLYBYTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---NARWHALTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---TURTLETRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---UPLOADTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   \---WALKERTRIGGERBOX
+|   |   |           |       \---ENTITIES
+|   |   |           +---SPACESPAWNS
+|   |   |           |   +---BUYBUTTONTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---BUYTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   +---CONFLICTTRIGGERBOX
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   \---LAUNCHTRIGGERBOX
+|   |   |           |       \---ENTITIES
+|   |   |           +---TRIGGERAPPROACH
+|   |   |           |   \---ENTITIES
+|   |   |           +---TRIGGERLANDING
+|   |   |           |   \---ENTITIES
+|   |   |           \---TRIGGERSPACE
+|   |   |               \---ENTITIES
+|   |   +---HMD
+|   |   |   +---HMDDRONE
+|   |   |   |   \---ENTITIES
+|   |   |   \---TOUCH
+|   |   +---PLAYER
+|   |   |   +---INTROCAMANIM
+|   |   |   |   \---ENTITIES
+|   |   |   +---PLACEMARKER
+|   |   |   |   \---ENTITIES
+|   |   |   +---PLAYERCHARACTER
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   |   +---HOLOBLOB
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HOLOFRIGATE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HOLOMULTITOOL
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HOLOSHIP
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---HOLOSOLARSYSTEM
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---ANIMS
+|   |   |   |   |   +---AIMING
+|   |   |   |   |   +---AIRBOURNE
+|   |   |   |   |   |   \---TRANSITIONS
+|   |   |   |   |   +---BINOCS
+|   |   |   |   |   +---CAMERAS
+|   |   |   |   |   +---DEATH
+|   |   |   |   |   +---EMOTES
+|   |   |   |   |   +---FALLING
+|   |   |   |   |   +---GET_HITS
+|   |   |   |   |   +---IDLES
+|   |   |   |   |   +---INTERACTION
+|   |   |   |   |   |   +---CONSOLE
+|   |   |   |   |   |   +---GATHER
+|   |   |   |   |   |   +---GENERAL
+|   |   |   |   |   |   +---HEADS
+|   |   |   |   |   |   +---IDLES
+|   |   |   |   |   |   +---RIDING
+|   |   |   |   |   |   +---SHOP
+|   |   |   |   |   |   \---SITTING
+|   |   |   |   |   |       +---GENERAL
+|   |   |   |   |   |       \---IDLES
+|   |   |   |   |   +---JETPACK
+|   |   |   |   |   +---LADDERS
+|   |   |   |   |   +---LEAN
+|   |   |   |   |   +---LOCOMOTION
+|   |   |   |   |   |   +---0H_LOCO
+|   |   |   |   |   |   +---1H_LOCO
+|   |   |   |   |   |   +---2H_LOCO
+|   |   |   |   |   |   \---TRANSITIONS
+|   |   |   |   |   +---MULTITOOL
+|   |   |   |   |   +---POSES
+|   |   |   |   |   |   \---HANDS
+|   |   |   |   |   +---REFINER
+|   |   |   |   |   +---RIDE
+|   |   |   |   |   |   +---ADDITIVE
+|   |   |   |   |   |   +---ANTELOPE
+|   |   |   |   |   |   +---CAT
+|   |   |   |   |   |   +---GRUNT
+|   |   |   |   |   |   +---QUADRUPED
+|   |   |   |   |   |   +---RODENT
+|   |   |   |   |   |   +---STRIDER
+|   |   |   |   |   |   \---TRI
+|   |   |   |   |   +---ROCKETBOOTS
+|   |   |   |   |   +---SWIMMING
+|   |   |   |   |   +---TURN_ON_SPOT
+|   |   |   |   |   \---VEHICLE
+|   |   |   |   +---NPCFIFTH
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---NPCFOURTH
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---NPCGEK
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---NPCKORVAX
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---NPCSPECIALSHOP
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---NPCVYKEEN
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---PLAYERCHARACTER
+|   |   |   |   |   +---EMITTERS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---PLAYERCHARACTERPROC
+|   |   |   |       \---ENTITIES
+|   |   |   \---SPACEGRAVE
+|   |   |       \---ENTITIES
+|   |   +---PROJECTILES
+|   |   |   +---CHARGEDENERGYBALL
+|   |   |   |   \---EMITTERS
+|   |   |   +---CREATURELASERIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONEIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONELASERIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---ENEMYENERGYBALL
+|   |   |   |   \---EMITTERS
+|   |   |   +---ENEMYENERGYBALLIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---ENERGYBALL
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---ENERGYBALLCREATUREIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---ENERGYBALLIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIENDSPITBALL
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---LASERIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---LASERIMPACTGROUND
+|   |   |   |   \---EMITTERS
+|   |   |   +---LASERIMPACTPLAYER
+|   |   |   +---LASERIMPACTSUBSTANCE
+|   |   |   |   \---EMITTERS
+|   |   |   +---MISSILE
+|   |   |   |   \---ENTITIES
+|   |   |   +---MISSILETRAIL
+|   |   |   |   \---EMITTERS
+|   |   |   +---MULTITOOL_SHOTGUN
+|   |   |   |   \---EMITTERS
+|   |   |   +---MULTITOOL_SMG
+|   |   |   |   \---EMITTERS
+|   |   |   +---RESOURCESHARD
+|   |   |   |   \---EMITTERS
+|   |   |   +---SHIELDIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   +---SHIPGUNIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   \---SHIPLASERIMPACT
+|   |   |       \---EMITTERS
+|   |   +---ROBOTS
+|   |   |   +---ANIMS
+|   |   |   +---CORRUPTEDDRONE
+|   |   |   |   \---ENTITIES
+|   |   |   +---DRONE
+|   |   |   |   \---ENTITIES
+|   |   |   +---DRONEARMOURED
+|   |   |   |   \---ENTITIES
+|   |   |   +---LOOTDROP
+|   |   |   |   +---DRONELOOT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---QUADLOOT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---WALKERLOOT
+|   |   |   |       \---ENTITIES
+|   |   |   +---MECH
+|   |   |   |   \---ENTITIES
+|   |   |   +---QUADRUPED
+|   |   |   |   \---ENTITIES
+|   |   |   \---WALKER
+|   |   |       \---ENTITIES
+|   |   +---SPACECRAFT
+|   |   |   +---COMMONPARTS
+|   |   |   |   +---HANGARINTERIORPARTS
+|   |   |   |   |   +---ANIMATION
+|   |   |   |   |   +---BRIDGE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---BRIDGETERMINAL
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---BRIDGETERMINALPARTS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SHIPINTERIORPARTS
+|   |   |   |       \---ANIMATEDDOOR
+|   |   |   |           +---ANIMATIONS
+|   |   |   |           \---ENTITIES
+|   |   |   +---DRONE
+|   |   |   |   +---DEBRIS
+|   |   |   |   +---DRONESHIP
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---DRONESPACEDESTROY
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---HISTORY
+|   |   |   |       \---DRONESHIP
+|   |   |   |           \---ENTITIES
+|   |   |   +---DROPSHIPS
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   |   \---LANDINGGEAR
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---COCKPIT
+|   |   |   |   |   +---COCKPITA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---COCKPITA_INTERIOR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---COCKPITB
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---COCKPITB_INTERIOR
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---CONTAINERS
+|   |   |   |   |   +---BALLCONTAINER
+|   |   |   |   |   \---BOXCONTAINER
+|   |   |   |   +---ENGINES
+|   |   |   |   +---ENTITIES
+|   |   |   |   +---HULL
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---HULLA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---HULLB
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---SUBWINGS
+|   |   |   |   |   +---SUBWINGSA
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---SUBWINGSA_LEFT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---SUBWINGSA_RIGHT
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SUBWINGSB
+|   |   |   |   |   +---SUBWINGSC
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SUBWINGSD
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SUBWINGSE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SUBWINGSF
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SUBWINGSG
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SUBWINGSH
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SUBWINGSI
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---THRUSTERS
+|   |   |   |   |   +---THRUSTERSA
+|   |   |   |   |   +---THRUSTERSB
+|   |   |   |   |   +---THRUSTERSC
+|   |   |   |   |   \---THRUSTERSD
+|   |   |   |   |       \---THRUSTERS_L
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   \---WINGS
+|   |   |   |       +---WINGSA
+|   |   |   |       |   \---WINGSA
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---WINGSB
+|   |   |   |       |   \---WINGSB
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---WINGSC
+|   |   |   |       |   \---WINGSC
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       \---WINGSD
+|   |   |   +---FIGHTERS
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   +---ANIMS
+|   |   |   |   +---COCKPIT
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---COCKPITA_INTERIOR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---COCKPIT_A
+|   |   |   |   |   |   \---COCKPITA
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---COCKPIT_B
+|   |   |   |   |   |   \---COCKPITB
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---COCKPIT_C
+|   |   |   |   |   +---COCKPIT_D
+|   |   |   |   |   |   \---COCKPITD
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---COCKPIT_E
+|   |   |   |   |   |   \---COCKPIT_E
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---COCKPIT_F
+|   |   |   |   |       \---COCKPTF
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---ENGINE
+|   |   |   |   |   +---ENGINE_B
+|   |   |   |   |   |   +---ENGINEB
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---ANIMATION
+|   |   |   |   |   |       \---ENGINEBTHRUSTER
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---ENGINE_C
+|   |   |   |   |   \---ENGINE_D
+|   |   |   |   +---ENTITIES
+|   |   |   |   +---NOSE
+|   |   |   |   |   +---COCKPITA_NOSEA
+|   |   |   |   |   +---COCKPITA_NOSEB
+|   |   |   |   |   +---COCKPITA_NOSEC
+|   |   |   |   |   +---COCKPITA_NOSED
+|   |   |   |   |   +---COCKPITA_NOSEE
+|   |   |   |   |   \---COCKPITB_NOSEA
+|   |   |   |   +---SUBWINGS
+|   |   |   |   |   +---SUBWINGS_A
+|   |   |   |   |   +---SUBWINGS_B
+|   |   |   |   |   +---SUBWINGS_C
+|   |   |   |   |   +---SUBWINGS_D
+|   |   |   |   |   \---SUBWINGS_NONE
+|   |   |   |   \---WINGS
+|   |   |   |       +---WINGS_A
+|   |   |   |       +---WINGS_B
+|   |   |   |       +---WINGS_D
+|   |   |   |       |   +---ANIMS
+|   |   |   |       |   \---WINGSD
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---WINGS_E
+|   |   |   |       +---WINGS_F
+|   |   |   |       +---WINGS_G
+|   |   |   |       +---WINGS_H
+|   |   |   |       |   +---ANIM
+|   |   |   |       |   \---WINGSH
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---WINGS_I
+|   |   |   |       +---WINGS_J
+|   |   |   |       \---WINGS_K
+|   |   |   +---FRIGATES
+|   |   |   |   +---COMBATFRIGATE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---COMMONPARTS
+|   |   |   |   |   +---ENTITIES
+|   |   |   |   |   +---INTERACTIONS
+|   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   +---CARGOBAY
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CARGOCONTAINER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---ENGINEREACTOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---MAINBATTERY
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---MAINTENANCEPOINT
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---INTERIOR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SCENES
+|   |   |   |   |       +---ANIMATION
+|   |   |   |   |       +---ENGINEREACTOR
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---MAINBATTERY
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---DIPLOMATICFRIGATE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---HOLOGRAMFRIGATES
+|   |   |   |   +---INDUSTRIALFRIGATE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---SCIENCEFRIGATE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SUPPORTFRIGATE
+|   |   |   |       \---ENTITIES
+|   |   |   +---INDUSTRIAL
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   |   +---HANGARA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HANGARPARTS
+|   |   |   |   |   |   +---BRIDGE
+|   |   |   |   |   |   |   +---BRIDGE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DRONE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---HELMDESK
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---CENTERSUPPORT
+|   |   |   |   |   |   +---ENTITIES
+|   |   |   |   |   |   +---HANGARDOOR
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---WALKWAYSUPPORT
+|   |   |   |   |   +---LANDINGPAD_HANGAR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SPOTLIGHT
+|   |   |   |   |       \---SPOTLIGHT
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---CARGO
+|   |   |   |   +---CONTAINER
+|   |   |   |   |   +---CONTAINERA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CONTAINERB
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CONTAINERC
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CONTAINERE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CONTAINERF
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CONTAINERG
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---CONTAINERH
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---ENGINE
+|   |   |   |   +---FREIGHTERSMALL_PROC
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---FREIGHTERTINY_PROC
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---FREIGHTSHIP01
+|   |   |   |   |   +---EMITTERS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---GANTRY
+|   |   |   |   |   \---GANTRYBCAPBRIDGEC
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---HULL
+|   |   |   |   +---SHARED
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---SMALLTRANSPORT
+|   |   |   |   |   +---EMITTERS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---SMALLTRANSPORT2
+|   |   |   |   |   +---EMITTERS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---TURRET
+|   |   |   |       +---MISSILE_TURRET
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---TURRETA
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       \---TURRETB
+|   |   |   |           \---ENTITIES
+|   |   |   +---POLICE
+|   |   |   |   +---POLICEFREIGHTER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---POLICESHIP
+|   |   |   |       \---ENTITIES
+|   |   |   +---S-CLASS
+|   |   |   |   +---ANIMS
+|   |   |   |   +---INTERIORS
+|   |   |   |   |   \---CANOPYA_INTERIOR
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---ROYALPARTS
+|   |   |   |   |   +---COCKPIT
+|   |   |   |   |   +---ENGINE
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---ENGINE_C
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---LANDINGGEAR
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---LANDINGGEAR_A
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---TOPWING
+|   |   |   |   |   \---WINGS
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       +---WINGS_A
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---WINGS_B
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---WINGS_C
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---SHAREDDATA
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SQUIDPARTS
+|   |   |   |       +---COCKPIT
+|   |   |   |       +---ENGINE
+|   |   |   |       |   +---ANIMS
+|   |   |   |       |   \---ENGINE_A
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---LANDINGGEAR
+|   |   |   |       |   +---ANIMS
+|   |   |   |       |   \---LANDINGGEAR_A
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       \---NOSESECTION
+|   |   |   |           +---ANIMS
+|   |   |   |           \---NOSESECTION_A
+|   |   |   |               \---ENTITIES
+|   |   |   +---SCIENTIFIC
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   |   +---CANOPY
+|   |   |   |   |   +---FRONT
+|   |   |   |   |   +---LANDINGGEAR
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---LANDINGGEAR_POD
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---TOP
+|   |   |   |   +---CANOPY
+|   |   |   |   |   +---CANOPYA
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---CANOPYA
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---CANOPYB
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---CANOPYB
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---COCKPIT
+|   |   |   |   |   +---COCKPITA
+|   |   |   |   |   |   +---BACK
+|   |   |   |   |   |   \---COCKPITA
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---COCKPITB
+|   |   |   |   |   +---COCKPITC
+|   |   |   |   |   \---COCKPITD
+|   |   |   |   |       \---COCKPITD
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---ENTITIES
+|   |   |   |   +---INTERIORS
+|   |   |   |   |   \---CANOPYA_INTERIOR
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---SUBWINGS
+|   |   |   |   |   +---SUBWINGSA
+|   |   |   |   |   +---SUBWINGSB
+|   |   |   |   |   +---SUBWINGSC
+|   |   |   |   |   +---SUBWINGSD
+|   |   |   |   |   \---SUBWINGSE
+|   |   |   |   \---WINGS
+|   |   |   |       +---WINGSA
+|   |   |   |       +---WINGSB
+|   |   |   |       +---WINGSC
+|   |   |   |       +---WINGSD
+|   |   |   |       +---WINGSE
+|   |   |   |       +---WINGSF
+|   |   |   |       +---WINGSG
+|   |   |   |       +---WINGSH
+|   |   |   |       +---WINGSI
+|   |   |   |       +---WINGSJ
+|   |   |   |       +---WINGSK
+|   |   |   |       +---WINGSL
+|   |   |   |       +---WINGSM
+|   |   |   |       \---WINGTOPJOINT
+|   |   |   +---SHARED
+|   |   |   |   +---ANIMS
+|   |   |   |   |   \---COCKPIT
+|   |   |   |   +---CARGO
+|   |   |   |   |   \---CARGOBARREL
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---COCKPITINTERIORS
+|   |   |   |   |   \---COCKPITCHAIR
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---COCKPITCHAIR
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---ENGINEFLARE_DISTANT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---ENTITIES
+|   |   |   |   \---WEAPONS
+|   |   |   |       +---ANIM
+|   |   |   |       \---SHIPGUN
+|   |   |   |           \---ENTITIES
+|   |   |   \---SHUTTLE
+|   |   |       +---ACCESSORIES
+|   |   |       |   +---ANIMS
+|   |   |       |   \---LANDINGGEAR_LEG
+|   |   |       |       \---ENTITIES
+|   |   |       +---CANOPY
+|   |   |       |   +---ANIMS
+|   |   |       |   \---ENTITIES
+|   |   |       +---COCKPIT
+|   |   |       |   +---COCKPITACCESSORIES
+|   |   |       |   \---COCKPITBSINGLECYLINDER
+|   |   |       |       \---ENTITIES
+|   |   |       +---ENTITIES
+|   |   |       +---HULL
+|   |   |       |   +---BOXDOUBLE
+|   |   |       |   +---BOXHULL
+|   |   |       |   +---PODSHULL
+|   |   |       |   |   +---BOX
+|   |   |       |   |   \---CYLINDER
+|   |   |       |   \---PODSHULLDOUBLE
+|   |   |       +---INTERIORS
+|   |   |       |   \---CANOPYA_INTERIOR
+|   |   |       |       +---ANIMS
+|   |   |       |       \---ENTITIES
+|   |   |       +---SUBWINGS
+|   |   |       |   +---SUBWING_A
+|   |   |       |   +---SUBWING_B
+|   |   |       |   \---SUBWING_C
+|   |   |       +---THRUSTER
+|   |   |       |   \---THRUSTERA
+|   |   |       \---WINGS
+|   |   |           +---WINGSA
+|   |   |           |   +---WINGSA_LEFT
+|   |   |           |   |   \---ENTITIES
+|   |   |           |   \---WINGSA_RIGHT
+|   |   |           |       \---ENTITIES
+|   |   |           +---WINGSB
+|   |   |           +---WINGSD
+|   |   |           +---WINGSE
+|   |   |           +---WINGSF
+|   |   |           +---WINGSG
+|   |   |           +---WINGSH
+|   |   |           +---WINGSI
+|   |   |           +---WINGSJ
+|   |   |           +---WINGSK
+|   |   |           \---WINGSL
+|   |   |               \---WINGSL_L
+|   |   |                   \---ENTITIES
+|   |   +---UTILS
+|   |   |   \---CAMERA
+|   |   |       +---AMBIENTCAMERA
+|   |   |       |   \---ENTITIES
+|   |   |       +---ANIMS
+|   |   |       \---DRONE
+|   |   |           \---ENTITIES
+|   |   +---VEHICLES
+|   |   |   +---ANIMATIONS
+|   |   |   +---BIKE
+|   |   |   |   +---ANIMS
+|   |   |   |   +---BIKE
+|   |   |   |   |   +---EMITTERS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---BIKECOCKPIT
+|   |   |   |       \---ENTITIES
+|   |   |   +---BUGGY
+|   |   |   |   +---ANIMS
+|   |   |   |   +---BUGGY
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---BUGGYCOCKPIT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---ENTITIES
+|   |   |   +---EFFECTS
+|   |   |   |   \---JETEFFECT
+|   |   |   |       \---EMITTERS
+|   |   |   +---HOVER
+|   |   |   |   +---ANIMS
+|   |   |   |   \---HOVERCRAFT
+|   |   |   |       \---ENTITIES
+|   |   |   +---ROVER
+|   |   |   |   +---ANIMS
+|   |   |   |   \---ROVER
+|   |   |   |       \---ENTITIES
+|   |   |   +---SHARED
+|   |   |   |   +---DECALS
+|   |   |   |   +---INTERIOR
+|   |   |   |   |   +---COCKPITCHAIR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SCREENS
+|   |   |   |   +---MININGLASER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SCANNER
+|   |   |   |       \---ENTITIES
+|   |   |   +---SUBMARINE
+|   |   |   |   +---ANIMS
+|   |   |   |   +---SUBMARINE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SUBMARINECOCKPIT
+|   |   |   |       \---ENTITIES
+|   |   |   \---WHEELEDBIKE
+|   |   |       +---ANIMS
+|   |   |       +---PARTS
+|   |   |       |   +---ANIMS
+|   |   |       |   \---ENGINE_1
+|   |   |       |       \---ENTITIES
+|   |   |       +---WHEELEDBIKE
+|   |   |       |   \---ENTITIES
+|   |   |       \---WHEELEDBIKECOCKPIT
+|   |   |           \---ENTITIES
+|   |   \---WEAPONS
+|   |       +---LASER
+|   |       +---MULTITOOL
+|   |       |   +---ANIMS
+|   |       |   +---GUNMUZZLEFLASH
+|   |       |   |   \---ENTITIES
+|   |       |   +---LASERMUZZLEFLASH
+|   |       |   |   \---ENTITIES
+|   |       |   +---MULTITOOL
+|   |       |   |   \---ENTITIES
+|   |       |   +---MULTITOOLPARTS
+|   |       |   \---SCANMUZZLEFLASH
+|   |       |       \---ENTITIES
+|   |       +---PLAYERSHIELD
+|   |       |   \---PLAYERSHIELD
+|   |       |       \---ENTITIES
+|   |       +---SCAN
+|   |       \---SHIP
+|   |           +---ANIMS
+|   |           \---SHIPMUZZLEFLASH
+|   |               \---ENTITIES
+|   +---EFFECTS
+|   |   +---ATLASSTATION
+|   |   |   +---ATLASCORESPARKS
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---ENTRANCESMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   \---REDFLASH
+|   |   |       \---EMITTERS
+|   |   +---ATMOSPHERE
+|   |   |   +---ATMOSPHEREGLOW
+|   |   |   |   \---EMITTERS
+|   |   |   \---ATMOSPHERESMOKE
+|   |   |       \---EMITTERS
+|   |   +---BLOOD
+|   |   |   +---BLOODDEATH
+|   |   |   |   \---EMITTERS
+|   |   |   +---BLOODLOOP
+|   |   |   |   \---EMITTERS
+|   |   |   +---BLOODSPLAT
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIENDDEATH
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIENDSPITIMPACT
+|   |   |   |   \---EMITTERS
+|   |   |   \---JELLYSPLAT
+|   |   |       \---EMITTERS
+|   |   +---COCKPIT
+|   |   |   \---SPARKS
+|   |   |       \---EMITTERS
+|   |   +---COMMON
+|   |   |   +---OILLEAK
+|   |   |   |   \---EMITTERS
+|   |   |   +---REDFLASH
+|   |   |   |   \---EMITTERS
+|   |   |   \---SPARKS_SLOW
+|   |   |       \---EMITTERS
+|   |   +---CREATURES
+|   |   |   +---BURSTDUSTREPEAT
+|   |   |   |   \---EMITTERS
+|   |   |   +---CONTINUOUSDUST
+|   |   |   |   \---EMITTERS
+|   |   |   +---CREATUREFOOD
+|   |   |   |   \---ENTITIES
+|   |   |   +---CREATURELOOT
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---CRYSTALAURA
+|   |   |   |   \---EMITTERS
+|   |   |   +---ELECTRICFLICKER
+|   |   |   |   \---EMITTERS
+|   |   |   +---ELECTRICSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   +---FLOODSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   +---FOOTDUST
+|   |   |   |   \---EMITTERS
+|   |   |   +---FOOTPARTICLE_FROZEN
+|   |   |   |   \---EMITTERS
+|   |   |   +---HYDROSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   +---LIGHTNING
+|   |   |   |   \---EMITTERS
+|   |   |   +---LIQUIDDRIP
+|   |   |   |   \---EMITTERS
+|   |   |   +---MILK
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   \---WEIRDCRYSTAL
+|   |   |       \---EMITTERS
+|   |   +---DEBRIS
+|   |   |   +---CRASHEDFREIGHTERDOOR
+|   |   |   |   \---ENTITIES
+|   |   |   +---DEPOT
+|   |   |   +---DRONE
+|   |   |   |   \---ENTITIES
+|   |   |   +---FACTORY
+|   |   |   |   \---DOOR1
+|   |   |   |       \---ENTITIES
+|   |   |   +---FIENDFISHDEBRIS
+|   |   |   |   \---ENTITIES
+|   |   |   +---RESOURCE
+|   |   |   |   +---CRYSTALSHARDDEBRIS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---ROBOTSHARDDEBRIS
+|   |   |   |       \---ENTITIES
+|   |   |   +---ROCKDEBRIS
+|   |   |   |   \---ENTITIES
+|   |   |   +---SCRAPEXPLOSIONDEBRIS
+|   |   |   |   \---ENTITIES
+|   |   |   +---SPACE
+|   |   |   |   \---SMALLDEBRIS
+|   |   |   |       \---ENTITIES
+|   |   |   +---STORMCRYSTALSDEBRIS
+|   |   |   |   \---ENTITIES
+|   |   |   +---TECHDEBRIS
+|   |   |   |   \---ENTITIES
+|   |   |   +---TERRAINDEBRIS
+|   |   |   \---WALKER
+|   |   |       \---WALKER_DEBRIS
+|   |   |           \---ENTITIES
+|   |   +---DEFAULT
+|   |   +---DUST
+|   |   |   +---DIGDUST
+|   |   |   |   \---EMITTERS
+|   |   |   +---DUSTBURST
+|   |   |   |   \---DUSTBURST
+|   |   |   |       \---EMITTERS
+|   |   |   +---HARVESTERDUST
+|   |   |   |   \---HARVESTERDUST
+|   |   |   |       \---EMITTERS
+|   |   |   +---PADDUST
+|   |   |   |   \---PADDUST
+|   |   |   |       \---EMITTERS
+|   |   |   \---SHIPDUST
+|   |   |       \---EMITTERS
+|   |   +---ENGINES
+|   |   |   +---BLUECONE
+|   |   |   |   \---EMITTERS
+|   |   |   +---DEFAULTENGINE
+|   |   |   |   \---EMITTERS
+|   |   |   \---FREIGHTERENGINESEFFECT_RED
+|   |   |       \---EMITTERS
+|   |   +---EXPLOSION
+|   |   |   +---ANOMALYEFFECT
+|   |   |   |   \---EMITTERS
+|   |   |   +---ASTEROIDEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---ASTEROIDGRENADEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---ASTEROIDHIT
+|   |   |   |   \---EMITTERS
+|   |   |   +---ASTEROIDMINE
+|   |   |   |   \---EMITTERS
+|   |   |   +---BLUECRYSTALEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---BUBBLEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---ENERGYEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---EXPLOSION
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKEXPLODE02
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKEXPLODE03
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKGLOW
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKGLOW02
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKGLOW03
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREWORKLAUNCHSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---GASEXPLODEMB
+|   |   |   |   \---EMITTERS
+|   |   |   +---GRENADEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---MISSILEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---RESOURCEEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---ROCKEXPLOSION
+|   |   |   |   \---EMITTERS
+|   |   |   +---SHIELDEXPLOSION
+|   |   |   |   \---EMITTERS
+|   |   |   +---SHIPEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---SNAKEEMERGE
+|   |   |   |   +---ROCKDEBRIS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SNAKEEMERGE
+|   |   |   |       \---EMITTERS
+|   |   |   \---SPACEEXPLOSION
+|   |   |       \---EMITTERS
+|   |   +---FEED
+|   |   |   \---EMITTERS
+|   |   +---HEAVYAIR
+|   |   |   +---ALIEN
+|   |   |   +---ALPINE
+|   |   |   +---BUBBLES
+|   |   |   |   \---BUBBLES
+|   |   |   |       \---EMITTERS
+|   |   |   +---CAVE
+|   |   |   +---EARTH
+|   |   |   +---JUNGLE
+|   |   |   +---MARS
+|   |   |   +---MOON
+|   |   |   +---MOUNTAIN
+|   |   |   +---RADIOACTIVE
+|   |   |   +---SCORCHED
+|   |   |   +---SNOW
+|   |   |   +---SPACE
+|   |   |   +---STONEFRAGMENTS
+|   |   |   |   \---STONEFRAGMENTS
+|   |   |   |       \---EMITTERS
+|   |   |   +---SWAMP
+|   |   |   +---TOXIC
+|   |   |   +---UNDERWATER
+|   |   |   \---WATER
+|   |   +---HOLOHUB
+|   |   |   +---BEAMEMBERS
+|   |   |   |   \---EMITTERS
+|   |   |   \---NPCSPAWN
+|   |   |       \---EMITTERS
+|   |   +---IMPACTS
+|   |   |   +---CRITICALHIT
+|   |   |   +---DRONEHIT
+|   |   |   +---DRONELASERHIT
+|   |   |   +---FASTLANDING
+|   |   |   +---LASERNODAMAGE
+|   |   |   +---TERRAINADD
+|   |   |   \---TERRAINDESTROY
+|   |   +---INEDITOR
+|   |   |   +---EXPLOSION
+|   |   |   |   +---EXPLOSION_1
+|   |   |   |   |   \---EXPLOSION_1
+|   |   |   |   |       \---EMITTERS
+|   |   |   |   +---LARGEEXPLOSION
+|   |   |   |   \---SHIPGUNHIT
+|   |   |   +---MULTITOOL
+|   |   |   |   \---STEAM
+|   |   |   +---PLANET
+|   |   |   |   +---DRONEEXPLODE
+|   |   |   |   +---DRONESMOKE_1
+|   |   |   |   +---RESOURCEEXPLODE
+|   |   |   |   +---ROCKEXPLODE
+|   |   |   |   +---ROCKEXPLODE_SMALL
+|   |   |   |   \---SMOKE
+|   |   |   +---PLAYER
+|   |   |   |   +---LASERHIT
+|   |   |   |   \---LASERSUBSTANCE
+|   |   |   +---SPACE
+|   |   |   |   +---ASTERIOID_M_EXP
+|   |   |   |   +---SHIPEXPLODE
+|   |   |   |   \---SHIPEXPLODEFLASH
+|   |   |   \---VEHICLES
+|   |   +---LIGHTS
+|   |   +---LINES
+|   |   +---NATURE
+|   |   |   +---AQUARIUMBUBBLES
+|   |   |   |   \---EMITTERS
+|   |   |   +---BUBBLES
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKERFX
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGCOOKSPLAT
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGEMBERS
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGFIREFLIES
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGFRUITPOP
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGFRUITSPLAT
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGSTEAM
+|   |   |   |   \---EMITTERS
+|   |   |   +---COOKINGWHEATPUFF
+|   |   |   |   \---EMITTERS
+|   |   |   +---DUSTCLOUD
+|   |   |   |   \---EMITTERS
+|   |   |   +---EGGHATCH
+|   |   |   |   \---EMITTERS
+|   |   |   +---FIREPLANTEMBERS
+|   |   |   |   \---EMITTERS
+|   |   |   +---FLAMEVANISH
+|   |   |   |   \---EMITTERS
+|   |   |   +---GLOWAURA
+|   |   |   |   \---EMITTERS
+|   |   |   +---LAVAGEM
+|   |   |   |   \---EMITTERS
+|   |   |   +---LEAVES
+|   |   |   |   \---EMITTERS
+|   |   |   +---PLANTPOP
+|   |   |   |   \---EMITTERS
+|   |   |   +---RELEASESPORES
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMALLBUBBLES
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMALLDUSTCLOUD
+|   |   |   |   \---EMITTERS
+|   |   |   +---SPORECLOUD
+|   |   |   |   \---EMITTERS
+|   |   |   +---SPOREEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---SPORELEAK
+|   |   |   |   \---EMITTERS
+|   |   |   +---SPORES
+|   |   |   |   \---EMITTERS
+|   |   |   \---VENTBUBBLES
+|   |   |       \---EMITTERS
+|   |   +---NEXUS
+|   |   |   +---NEXUSCOOKINGSTEAM
+|   |   |   |   \---EMITTERS
+|   |   |   +---PIPESTEAM
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMALLLIGHTSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---VENTSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---WHITELIGHTSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   \---WHITESMOKE
+|   |   |       \---EMITTERS
+|   |   +---OUTPOST
+|   |   |   \---LANDINGEFFECT
+|   |   |       \---EMITTERS
+|   |   +---PARTICLES
+|   |   |   +---COMMON
+|   |   |   |   \---TRISPRAY
+|   |   |   |       \---EMITTERS
+|   |   |   \---MUZZLEFLASH
+|   |   +---PLACEMARKER
+|   |   |   \---EMITTERS
+|   |   +---PLAYER
+|   |   |   +---ANIMS
+|   |   |   +---COLLECTEFFECT
+|   |   |   +---FOOTSTEPEFFECTS
+|   |   |   |   +---FOOTSTEP_DUST
+|   |   |   |   |   \---EMITTERS
+|   |   |   |   \---TELEPORTTRAIL
+|   |   |   |       \---EMITTERS
+|   |   |   +---JETPACKEFFECTS
+|   |   |   |   +---JETPACK
+|   |   |   |   |   \---EMITTERS
+|   |   |   |   +---JETPACKTEST
+|   |   |   |   \---JETPACK_UNDERWATER
+|   |   |   |       \---EMITTERS
+|   |   |   +---PLAYERSPAWN
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---SWIMSPLASH
+|   |   |   \---WATERSPLASH
+|   |   |       \---EMITTERS
+|   |   +---POOP
+|   |   +---PORTAL
+|   |   |   +---GATEEFFECT
+|   |   |   |   \---EMITTERS
+|   |   |   +---PORTALSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---PORTALSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   \---RUNEFLASH
+|   |   |       \---EMITTERS
+|   |   +---QUADS
+|   |   |   \---REPAIR
+|   |   +---RUINS
+|   |   |   +---BEAMEMBERS
+|   |   |   |   \---EMITTERS
+|   |   |   +---BEAMEXPLODE
+|   |   |   |   \---EMITTERS
+|   |   |   +---BEAMFLARES
+|   |   |   |   \---EMITTERS
+|   |   |   +---BEAMSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   +---CAPSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---CHESTRELEASE
+|   |   |   |   \---EMITTERS
+|   |   |   \---FLASH
+|   |   |       \---EMITTERS
+|   |   +---SMOKE
+|   |   |   +---ALTARCRYSTALSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---ANIMATEDSMOKE
+|   |   |   +---CRYSTALSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---DIRTSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONESMOKING
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONESMOKING2
+|   |   |   |   \---EMITTERS
+|   |   |   +---DRONESMOKING3
+|   |   |   |   \---EMITTERS
+|   |   |   +---EMITTERS
+|   |   |   +---LANDINGSMOKE
+|   |   |   |   \---LANDINGTHRUSTERS
+|   |   |   +---REFINERSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   +---REFINERSPARKS
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMOKENORMAL
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMOKEPLANTER
+|   |   |   |   \---EMITTERS
+|   |   |   +---SMOKE_BLACK
+|   |   |   |   +---EMITTERS
+|   |   |   |   \---ENTITIES
+|   |   |   +---UNDERWATERDAMAGE
+|   |   |   +---UNDERWATERSMOKE
+|   |   |   |   \---EMITTERS
+|   |   |   \---USMOKESMALL
+|   |   |       \---EMITTERS
+|   |   +---SPACE
+|   |   |   +---ATMOSPHEREPUFF
+|   |   |   |   \---EMITTERS
+|   |   |   +---WARPIN
+|   |   |   |   \---EMITTERS
+|   |   |   \---WARPINRED
+|   |   |       \---EMITTERS
+|   |   +---SPACECRAFT
+|   |   |   +---DAMAGE
+|   |   |   +---LANDINGINDICATOR
+|   |   |   +---PLAYERIMPACT
+|   |   |   |   \---LARGEIMPACT
+|   |   |   \---REACTORACTIVE
+|   |   |       \---EMITTERS
+|   |   +---SPEEDLINES
+|   |   +---SPHERE
+|   |   |   \---EMITTERS
+|   |   +---STATION
+|   |   |   \---ENTRANCESMOKE
+|   |   |       \---EMITTERS
+|   |   +---TRAILS
+|   |   |   +---DRONE
+|   |   |   +---EXPLOSION
+|   |   |   +---PROJECTILE
+|   |   |   +---SHIP
+|   |   |   \---SPACECRAFT
+|   |   |       +---CONTRAIL
+|   |   |       +---DEFAULTTRAIL
+|   |   |       |   \---ENTITIES
+|   |   |       +---FIGHTERS
+|   |   |       +---FREIGHTERS
+|   |   |       +---HOT
+|   |   |       +---PIRATETRAIL
+|   |   |       |   \---ENTITIES
+|   |   |       \---POLICETRAIL
+|   |   |           \---ENTITIES
+|   |   +---VEHICLE
+|   |   |   +---BIKEWHEEL
+|   |   |   |   \---EMITTERS
+|   |   |   +---BIKEWHEELDUST
+|   |   |   |   \---EMITTERS
+|   |   |   +---UNDERWATER
+|   |   |   |   \---BUBBLES
+|   |   |   +---VEHICLECRASH
+|   |   |   |   \---EMITTERS
+|   |   |   +---WHEELDUST
+|   |   |   |   \---EMITTERS
+|   |   |   \---WHEELSKIDDUST
+|   |   |       \---EMITTERS
+|   |   +---WARP
+|   |   |   +---ANIMS
+|   |   |   +---WARPTUNNEL
+|   |   |   |   \---ENTITIES
+|   |   |   \---WARPTUNNELBLACKHOLE
+|   |   |       \---ENTITIES
+|   |   +---WATER
+|   |   |   \---SPLASH
+|   |   |       \---EMITTERS
+|   |   +---WEAPONS
+|   |   |   +---PLAYER
+|   |   |   |   +---MUZZLEFLASH
+|   |   |   |   |   \---EMITTERS
+|   |   |   |   \---TERRAINEDITOR
+|   |   |   |       +---TERRAINADD
+|   |   |   |       |   \---EMITTERS
+|   |   |   |       +---TERRAINCREATEEFFECT
+|   |   |   |       +---TERRAINSUB
+|   |   |   |       |   \---EMITTERS
+|   |   |   |       +---TERRAIN_CREATEMUZZLE
+|   |   |   |       |   \---EMITTERS
+|   |   |   |       +---TERRAIN_DESTRUCT
+|   |   |   |       |   \---EMITTERS
+|   |   |   |       \---TERRAIN_DESTRUCTMUZZLE
+|   |   |   +---ROBOTS
+|   |   |   |   +---MUZZLEFLASH
+|   |   |   |   |   \---EMITTERS
+|   |   |   |   \---ROBOTPROJECTILE
+|   |   |   |       \---EMITTERS
+|   |   |   \---SHIPS
+|   |   |       +---CANNONS
+|   |   |       +---LASERMUZZLEFLASH
+|   |   |       |   \---EMITTERS
+|   |   |       +---PROJECTILEHIT
+|   |   |       |   \---EMITTERS
+|   |   |       +---PROJECTILEMUZZLEFLASH
+|   |   |       |   \---EMITTERS
+|   |   |       +---PROJECTILEMUZZLEFLASHGREEN
+|   |   |       |   \---EMITTERS
+|   |   |       +---PROJECTILEMUZZLEFLASHPINK
+|   |   |       |   \---EMITTERS
+|   |   |       \---ROCKETS
+|   |   |           \---ROCKETPROJECTILE
+|   |   |               +---ENTITIES
+|   |   |               \---ROCKETPROJECTILE_PARTICLE
+|   |   |                   \---EMITTERS
+|   |   \---WEIRD
+|   |       \---HYDROPODSPARKS
+|   |           \---EMITTERS
+|   +---HUD
+|   +---METADATA
+|   |   +---EMITTERS
+|   |   |   \---ATMOSPHERE
+|   |   \---ENTITIES
+|   |       \---TRAILS
+|   +---PLANETS
+|   |   +---BIOMES
+|   |   |   +---ALIEN
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---ALPINE
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---BARREN
+|   |   |   |   +---HQ
+|   |   |   |   |   +---CACTUS
+|   |   |   |   |   +---FOLIAGE
+|   |   |   |   |   +---SHAREDDATA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---TREES
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   |   \---LARGEFLAGPARTS
+|   |   |   |   +---PLANTS
+|   |   |   |   |   +---LARGECACTUS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MEDIUMCACTUS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SMALLCACTUS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---THINBUSHTREE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---ROCKS
+|   |   |   |       +---LARGEROCK
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       \---MEDIUMROCK
+|   |   |   |           \---ENTITIES
+|   |   |   +---CAVE
+|   |   |   |   +---HQ
+|   |   |   |   |   +---LARGEPROP
+|   |   |   |   |   \---SHAREDDATA
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   +---SMALLCREATURE
+|   |   |   |   |   \---SUNBEETLE
+|   |   |   |   |       \---SUNBEETLE
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---SMALLPLANT
+|   |   |   |   \---SMALLPROP
+|   |   |   |       \---SMALLGLOWPLANT
+|   |   |   |           \---ENTITIES
+|   |   |   +---COMMON
+|   |   |   |   +---BUILDINGS
+|   |   |   |   |   +---ABANDONED
+|   |   |   |   |   +---ATM
+|   |   |   |   |   |   \---ATM
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---BARREL
+|   |   |   |   |   |   +---BARREL_MEDIUM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---BARREL_MEDIUM_RARE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---BEACONS
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---BEACON
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---BUILDINGSIZEDPROPS
+|   |   |   |   |   |   +---ALIENRING
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---ANIMATION
+|   |   |   |   |   +---CHARCUSTOMISER
+|   |   |   |   |   |   \---CHARCUSTOMISER
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---CLUMPS
+|   |   |   |   |   +---CRASHEDFREIGHTER
+|   |   |   |   |   |   +---CRASHEDFREIGHTER
+|   |   |   |   |   |   |   +---EMITTERS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---MODULES
+|   |   |   |   |   |   |   +---DAMAGEDDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DAMAGEDWALL
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DESTROYEDDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---L_ROOFTILE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SHAREDDATA
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---CONTAINERTERMINAL
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---CRASHEDFREIGHTER_DISTRESSSIGNAL
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---CRASH_CONTAINER
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       \---FREIGHTERDEBRIS
+|   |   |   |   |   +---CRATE
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---CRATELAYOUTS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_LARGE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_LARGE_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_MEDIUM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_MEDIUM_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_SMALLA
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_SMALLA_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_SMALLB
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_SMALLB_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_TUTORIALSUPPLY
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_WEAPON
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRATE_WEAPON_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---TREASURE_CHEST
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---CUBE
+|   |   |   |   |   |   \---CUBE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---DAMAGEDMACHINERY
+|   |   |   |   |   |   +---DAMAGEDMACHINERY_POD
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DAMAGEDWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---ANIMATIONS
+|   |   |   |   |   |       \---DOOR
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---DEBRIS
+|   |   |   |   |   |   +---DEBRISLARGE_COMMON
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DEBRISSMALL_COMMON
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DEBRISWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---ANIM
+|   |   |   |   |   |       \---DEBRILARGECONTAINER
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---DEPOT
+|   |   |   |   |   |   +---DEPOTSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DEPOTTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DEPOTWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---DEPOTSCIENTIFICBASE
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---DEPOTSCIENTIFICEXPLODE
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---DEPOTSCIENTIFICTOP
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---DEPOTTRADERTOP
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       \---DEPOTWARRIOREXPLODE
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---DISTRESSSIGNAL
+|   |   |   |   |   |   +---DEBRISCHAIRA
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DISTRESSSCENE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DISTRESSWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       +---ATLASORB
+|   |   |   |   |   |       |   +---ANIMS
+|   |   |   |   |   |       |   \---ATLASORB
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       +---BLACKBOX
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---BLACKBOXPARTS
+|   |   |   |   |   |       |   +---ANIM
+|   |   |   |   |   |       |   \---CONTAINER
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       \---FLAG
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---FACTORY
+|   |   |   |   |   |   +---FACTORYSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---FACTORYTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---FACTORYWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       \---SCIENTIFICDESTROIDDOOR
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---GLITCHYSTORYBOX
+|   |   |   |   |   |   \---PARTS
+|   |   |   |   |   |       \---INTERACTION
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---GRAVEINCAVE
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---GRAVEINCAVE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---HARVESTER
+|   |   |   |   |   |   +---HARVESTERSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---HARVESTERTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---HARVESTERWARRIOR
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---HOLOCOM
+|   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   +---HOLOCOM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---HOLOCOMTERMINAL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---HOLOHUB
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---HOLOLADDER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---NPC_HOLOEXP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---NPC_HOLONO
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---NPC_HOLOSCEP
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   \---LANDINGPADTRADER
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---LANDINGZONE
+|   |   |   |   |   |   \---LANDINGZONE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---LUNAR
+|   |   |   |   |   |   +---CRATE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PARTS
+|   |   |   |   |   |   |   +---LUNARMARKER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SINGLEBASE
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   \---SMALLPROP
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---MINERALROCK
+|   |   |   |   |   |   +---MINERALROCK_MEDIUM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---MINERALROCK_MEDIUM_RARE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---MINERALROCK_SMALL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---MINERALROCK_SMALL_RARE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---MONOLITH
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   \---MONOLITH
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---MONUMENTS
+|   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   +---MONUMENT
+|   |   |   |   |   |   |   +---EMITTERS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---STARGATEMAIN
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---STARGATESMALL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---STARGATETEMPLE
+|   |   |   |   |   |       +---EMITTERS
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---OBSERVATORY
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---OBSERVATORYSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---OBSERVATORYTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---OBSERVATORYWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TRADERPARTS
+|   |   |   |   |   |   \---WARRIORPARTS
+|   |   |   |   |   |       \---OBSERVATORYWARRIOR_ROOF
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---PARTS
+|   |   |   |   |   |   +---BUILDABLEPARTS
+|   |   |   |   |   |   |   +---AIRLOCKDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   +---BIOROOM
+|   |   |   |   |   |   |   |   +---DEFAULTROOMTERMINAL
+|   |   |   |   |   |   |   |   +---DOOR
+|   |   |   |   |   |   |   |   \---WALLDOOR
+|   |   |   |   |   |   |   +---BASEBEACON
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BASECOMPUTER
+|   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BASICPARTS
+|   |   |   |   |   |   |   |   \---MESHES
+|   |   |   |   |   |   |   |       +---COMMON
+|   |   |   |   |   |   |   |       |   +---ANIMS
+|   |   |   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |   |   |       +---CONCRETE
+|   |   |   |   |   |   |   |       +---LIGHT
+|   |   |   |   |   |   |   |       +---METAL
+|   |   |   |   |   |   |   |       \---WOOD
+|   |   |   |   |   |   |   |           +---ANIMATIONS
+|   |   |   |   |   |   |   |           |   \---BASIC_SINGLEDOOR
+|   |   |   |   |   |   |   |           +---BASIC_SINGLEDOOR
+|   |   |   |   |   |   |   |           |   \---ENTITIES
+|   |   |   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   |   |   |               \---BASIC_SINGLEDOOR
+|   |   |   |   |   |   |   +---BEACON
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BIOROOM
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BOUNDARYSPHEREREVERSE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---BUILDSHIPSUMMON
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CONTAINERS
+|   |   |   |   |   |   |   |   +---CRATE_LARGE_CYCLINDER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CRATE_LARGE_RARE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---GEOCACHE_LARGE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---GEOCACHE_SMALL
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---CORRIDORCAP_VIEWINGSPHERE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CUBEROOM_CURVEDROOFPARTS
+|   |   |   |   |   |   |   +---CUBEROOM_CURVEDWALLPARTS
+|   |   |   |   |   |   |   +---CUBEROOM_GLASS
+|   |   |   |   |   |   |   |   \---GLASSWALL
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---CUBEROOM_ROOFPARTS
+|   |   |   |   |   |   |   +---CUBEROOM_TRANSFORMER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DECORATION
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   +---AQUARIUM
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---AQUARIUMFISH01
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---DECALDECORATION
+|   |   |   |   |   |   |   |   +---ENCASEDMONITOR
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---FIREWORK01
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---FIREWORK02
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---FIREWORK03
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---FIREWORKLAUNCHER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---HARVESTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---LARGEDESK
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MONITORDESK
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---PLANT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SERVERSTACK
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SPECIALSTATUE01
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---STATUE_ATLAS_G
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---TERRARIUM
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---TOYDRONE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---TOY_CORE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---TOY_CUBE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---TOY_SPHERE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---WEAPONTECHSTATION
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---DEFAULTROOM
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DEFAULTROOM_TERMINAL
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DOOR_2
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---FOLIAGE
+|   |   |   |   |   |   |   |   +---BEAMSTONE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BONECOLLECT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BONEGARDEN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BUBBLECLUSTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BUBBLECOLLECT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CONTOURPOD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---ENGINEORB
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---HYDROPOD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MEDGEOMETRIC
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MEDPLANT01
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SCORCHGARDEN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SCORCHTREE1
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SCORCHTREE2
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHARD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHARDGARDEN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHELLWHITE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---STARJOINT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---WEIRDCUBE
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---LADDER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---NPCROOMS
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   +---NPC_ARCHITECT
+|   |   |   |   |   |   |   |   |   \---NPC_SCIENCE
+|   |   |   |   |   |   |   |   +---NPC_ARCHITECT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_BASESHOP
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_CONSTRUCTION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_FARMING
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_FRIGATECAPTAIN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_ROOM_TEST
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_SCIENCE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---NPC_VEHICLES
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---NPC_WEAPONS
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---PANEL_TRANSFORMER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---PLATFORMTEST
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---PROSPECTOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---RACEPARTS
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   +---BOOSTPAD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BOOSTRAMP
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CHECKPOINT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CHECKPOINT_SHIP
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---RACEDRONE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---STARTPOINT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---STARTPOINT_MP
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---STARTPOINT_SHIP
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---VEHICLERACEINVITEDOME
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---SHAREDDATA
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---SNAPGROUP_PARTS
+|   |   |   |   |   |   |   |   \---TECH
+|   |   |   |   |   |   |   +---SNAPPOINT_GREEN
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---SPACEBASE
+|   |   |   |   |   |   |   |   +---AIRLOCKDOOR
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MESHES
+|   |   |   |   |   |   |   |   \---ROOMMODULES
+|   |   |   |   |   |   |   |       \---STORAGEROOM
+|   |   |   |   |   |   |   |           \---STORAGE_TERMINAL
+|   |   |   |   |   |   |   |               \---ENTITIES
+|   |   |   |   |   |   |   +---STORAGECHEST
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TECH
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---MESSAGEMODULENEW
+|   |   |   |   |   |   |   |   +---ANTIMATTERHARVESTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BEACON
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BLUEPRINTANALYSER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---BYTEBEAT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---COOKER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CREATUREFOODMAKER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CREATUREHARVESTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CUBEROOM_PLANTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---FEEDER
+|   |   |   |   |   |   |   |   +---GASHARVESTER
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---HARVESTER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---HEALTHSTATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MESSAGEMODULE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MESSENGER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MILKING_MACHINE
+|   |   |   |   |   |   |   |   +---NOISEBOX
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---OBJECTSPAWNER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---OXYGENHARVESTER180
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---PARTS
+|   |   |   |   |   |   |   |   |   +---BPANALYSER
+|   |   |   |   |   |   |   |   |   |   +---ANIM
+|   |   |   |   |   |   |   |   |   |   \---BLUEPRINTANALYSEREFFECT
+|   |   |   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   |   |   +---OBJECTSPAWNER
+|   |   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   |   +---REFINER2
+|   |   |   |   |   |   |   |   |   \---REFINER3
+|   |   |   |   |   |   |   |   +---PLANTER_WALLSHELVES
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---REFINER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SAVEPOINT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHIELD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHIELDSTATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SHIPSALVAGETERMINAL
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SIGNALSCANNER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---THEREMIN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGEBIKE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGECUSTOMISER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGEHOVER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGELARGE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGESMALL
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLEGARAGESUBMARINE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---VEHICLETERMINAL
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---VEHICLE_SUMMONER
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---TERMINAL_CUBECRATE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TERRAINCUBE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TERRAINSPHERE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---UNDERWATERBASE
+|   |   |   |   |   |   |   +---UTILITYPARTS
+|   |   |   |   |   |   |   |   +---CONDUIT_SWITCH
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---CONNECTEDINDICATOR
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---ENTITIES
+|   |   |   |   |   |   |   |   +---MINIPORTAL
+|   |   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_BATTERY
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_BATTERYS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_BIOGENERATOR
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_COOLINGTOWER
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_GASEXTRACTOR
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_GENERATORS
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_PUMP
+|   |   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_PUMPS
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_SILO
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_SILOS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_SOLARPANEL
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_SOLARPANELS
+|   |   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_SWITCHS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_TURRET
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_TURRET_L
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_TURRET_R
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---MODULE_WINDTURBINE
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   |   \---ON
+|   |   |   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---PIPELINE_CONNECTION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---PLUGSOCKET_AVAILABLE
+|   |   |   |   |   |   |   |   +---POWERLINE_SOCKET
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---POWERLINE_SWITCH
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_BUTTON
+|   |   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_BYTEBEAT
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_PRESSUREPAD
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_PROXIMITY
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_TARGET
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_TRANSISTOR
+|   |   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---SWITCH_WALL
+|   |   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---TERMINAL
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---VEHICLEGARAGE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---WALLDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---WAYPOINT
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---COMMONPARTS
+|   |   |   |   |   |   |   +---ABANDONEDTERMINAL
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---ALARM
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---AMBIENTINTERIORDATA
+|   |   |   |   |   |   |   +---ANIMATEDDOOR_ABANDONED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   +---BUILDINGBASE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CRYOCHAMBER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CRYOCHAMBERPOD
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---FACTORY
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   \---FACTORYEFFECT
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---GANTRY
+|   |   |   |   |   |   |   |   \---GANTRY
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---INTERACTIVECONSOLE
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   |   +---LANDINGZONE
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   +---LANDINGZONE
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---SUMMONSHIPBEACON
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---LSYSTEM
+|   |   |   |   |   |   |   +---OBSERVATORY
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   \---HOLOGRAM
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---SCREENS
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   +---BIOROOMSCREEN
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---LANDINGPADSCREEN
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---TELEPORTER
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TELEPORTER_NEXUS
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TELEPORTER_STATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---TERMINALS
+|   |   |   |   |   |   +---ENTITIES
+|   |   |   |   |   |   +---RUINPARTS
+|   |   |   |   |   |   |   +---ANIMATEDCAPS
+|   |   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   |   +---CAPA
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---CAPB
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---CENTERPIECE
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   +---INTERACTIONPLATFORM
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---RUBIXCUBE
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---EFFECTS
+|   |   |   |   |   |   |   |   +---ANIM
+|   |   |   |   |   |   |   |   \---BEAM
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---LARGESTRUCTURES
+|   |   |   |   |   |   |   |   \---LARGESTRUCTURES
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---MONOLITH
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---PLAQUE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONEPARTS
+|   |   |   |   |   |   |   |   \---STONE_4
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONE_A
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONE_B
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONE_C
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTONE_D
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---WORDSTONE
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---SCIENTIFICPARTS
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   +---ATTACHMENTPISTON
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DOORROUND_ANIMATED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DOORROUND_DESTRUCTIBLESTRONG
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DOORROUND_LOCKED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---FLOORINTERIOR_BASE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LAYOUTS
+|   |   |   |   |   |   |   |   \---LAYOUT_SERVERROOMA
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---LSYSTEM
+|   |   |   |   |   |   |   +---MODULES
+|   |   |   |   |   |   |   |   +---CORRIDORMODULE_STATION
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---WALLMODULE_TECHSHOP
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---ROOF_FACTORY
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   +---ENTITIES
+|   |   |   |   |   |   |   |   \---FACTORYPISTON
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---ROOF_OBSERVATORY
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---ROOF_RADIOTOWER
+|   |   |   |   |   |   |       +---ANIMATIONS
+|   |   |   |   |   |   |       \---RADIOTOWEREFFECT
+|   |   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   |   +---TRADERPARTS
+|   |   |   |   |   |   |   +---ANIMATEDDOOR
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DESTRUCTIBLEDOOR
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DESTRUCTIBLEDOORSTRONG
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---DESTRUCTIBLEDOOR_DESTROYED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---FLOORINTERIOR_GROUND
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LAYOUTS
+|   |   |   |   |   |   |   |   +---LAYOUT_HOLOGRAMA
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   +---LAYOUT_SERVERROOMTHEME
+|   |   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   |   \---LAYOUT_STORAGETHEME
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---LOCKEDDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LSYSTEM
+|   |   |   |   |   |   |   +---MODULES
+|   |   |   |   |   |   |   |   \---WALLMODULE_MISSIONSHOP
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---ROOF_HARVESTER
+|   |   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   |   \---HARVESTERPISTON
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---ROOF_OBSERVATORY
+|   |   |   |   |   |   |   |   \---ANIMS
+|   |   |   |   |   |   |   \---ROOF_RADIOTOWER
+|   |   |   |   |   |   |       +---ANIMATIONS
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   \---WARRIORPARTS
+|   |   |   |   |   |       +---ANIMATEDDOOR
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---ANIMS
+|   |   |   |   |   |       +---DESTRUCTIBLEDOOR
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---DESTRUCTIBLEDOORSTRONG
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---DESTRUCTIBLEDOOR_DESTROYED
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---LAYOUTS
+|   |   |   |   |   |       |   \---LAYOUT_SERVERROOMTHEMEA
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       +---LOCKEDDOOR
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---LSYSTEM
+|   |   |   |   |   |       +---MODULES
+|   |   |   |   |   |       |   +---GROUNDFLOORMODULE_BASE
+|   |   |   |   |   |       |   |   \---ENTITIES
+|   |   |   |   |   |       |   \---WALLSHORTMODULE_MISSIONSHOP
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       +---ROOFHARVESTER
+|   |   |   |   |   |       |   +---ANIMATION
+|   |   |   |   |   |       |   \---HARVESTERPISTON
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       +---ROOF_HARVESTER
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---ROOF_OBSERVATORY
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       +---ROOF_RADIOTOWER
+|   |   |   |   |   |       |   +---ANIMATIONS
+|   |   |   |   |   |       |   \---RADIOTOWEREFFECT
+|   |   |   |   |   |       |       \---ENTITIES
+|   |   |   |   |   |       +---WALLEXTERIOR_CAPATTACHMENTGENERATOR
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       \---WALLEXTERIOR_CAPATTACHMENTSATELLITE
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---PLAQUE
+|   |   |   |   |   |   \---PLAQUEWARRIOR
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---PORTAL
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---PORTAL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PORTALEFFECT
+|   |   |   |   |   |   +---PORTALMEMBRANE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PORTALPILLARS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PORTALSIDE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---PORTALTERMINAL
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---PROPS
+|   |   |   |   |   |   +---ABANDONED
+|   |   |   |   |   |   |   +---ANIM
+|   |   |   |   |   |   |   +---FANVENT
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---INTERIOR_TENTACLEPLANT
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---JUNKPARTS
+|   |   |   |   |   |   |   +---LIGHT_3
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---OILSTREAM
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SHARED
+|   |   |   |   |   |   +---BED
+|   |   |   |   |   |   +---CHAIRS
+|   |   |   |   |   |   |   +---NPCCHAIR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---TABLECHAIR
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---EXTERIORPROPS
+|   |   |   |   |   |   +---FLOORPROPS
+|   |   |   |   |   |   +---GUNPARTS
+|   |   |   |   |   |   +---HANGINGDRAPES
+|   |   |   |   |   |   +---HYDROPONICS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---INTERACTIVE
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   +---HEALTHSTATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---MONEYSTATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---SHIELDSTATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---STANDINGSTATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---WEAPONTECHSTATION
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---WORDSTATION
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---INTERIORPROPS
+|   |   |   |   |   |   +---LARGECRATE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---LIGHTS
+|   |   |   |   |   |   +---MEDBAY
+|   |   |   |   |   |   |   +---MEDBAYBED
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---MEDBAYBEDCORNER
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---MESSENGER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PLANTPOT
+|   |   |   |   |   |   +---PLANTS
+|   |   |   |   |   |   |   +---LARGEPLANT
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---MEDIUMPLANT
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SMALLPLANT
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---ROOFMONITOR
+|   |   |   |   |   |   +---SERVERROOM
+|   |   |   |   |   |   |   \---SERVER
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---SHARED
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SHELVES
+|   |   |   |   |   |   +---SMALLPROPS
+|   |   |   |   |   |   |   +---SMALLPROPA
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---SMALLPROPB
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SMALLPROPC
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---STANDINGLIGHTS
+|   |   |   |   |   |   |   \---STANDINGLIGHTS
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---STORAGEBOXES
+|   |   |   |   |   |   +---TABLE
+|   |   |   |   |   |   |   +---CORNERTABLEPARTS
+|   |   |   |   |   |   |   |   +---ANIM
+|   |   |   |   |   |   |   |   \---CORNERTABLE_1
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   +---MONITORDESK
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---ROUNDTABLEPARTS
+|   |   |   |   |   |   |   |   +---ANIM
+|   |   |   |   |   |   |   |   \---TABLE_2
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   \---SMALLHEXTABLE
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---TECHPANEL
+|   |   |   |   |   |   |   \---TECHPANEL
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---VENTILATION
+|   |   |   |   |   |   +---WALLLIGHTS
+|   |   |   |   |   |   +---WALLMONITORS
+|   |   |   |   |   |   |   +---ANIMATIONS
+|   |   |   |   |   |   |   \---WALLCREATURECHAMBER
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---WALLPROPS
+|   |   |   |   |   |   \---WORKSHOP
+|   |   |   |   |   +---RADIOTOWER
+|   |   |   |   |   |   +---RADIOTOWERSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RADIOTOWERTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RADIOTOWERWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---SCIENTIFICRADIOTOWERPARTS
+|   |   |   |   |   |       +---ANIMS
+|   |   |   |   |   |       +---SCIENTIFICMECHANISM
+|   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |       \---SCIENTIFICTERMINAL
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---RELIC
+|   |   |   |   |   |   \---RELIC
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---RUINS
+|   |   |   |   |   |   +---PARTS
+|   |   |   |   |   |   |   +---ANIMATION
+|   |   |   |   |   |   |   +---BASE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CRATEKEY
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---CRATELOCK
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---LAYOUTS
+|   |   |   |   |   |   |   \---MODULES
+|   |   |   |   |   |   |       +---POT
+|   |   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |   |       +---POT_DESTROYED
+|   |   |   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |   |   |       \---STATUE
+|   |   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   |   +---PROCRUINS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RUINSPAWNER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---UNDERGROUNDRUINS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---UNDERWATERRUINPARTS
+|   |   |   |   |   |   |   +---INTERACTIONPARTS
+|   |   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   |   \---INTERACTION_A
+|   |   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   |   \---UNDERWATERRUININTERACTION
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   \---UNDERWATERRUINS
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SALVAGE
+|   |   |   |   |   |   \---SALVAGE_TERMINAL
+|   |   |   |   |   |       +---ANIMATIONS
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SHACK
+|   |   |   |   |   |   +---SHACK
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SHACKSCIENTIFIC_PARTS
+|   |   |   |   |   |   |   +---EXTERIORLAYOUTS
+|   |   |   |   |   |   |   +---SHACKEXTERIOR
+|   |   |   |   |   |   |   \---SHACKLAYOUTS
+|   |   |   |   |   |   +---SHACKTRADER_PARTS
+|   |   |   |   |   |   |   +---EXTERIORLAYOUTS
+|   |   |   |   |   |   |   +---SHACKEXTERIOR
+|   |   |   |   |   |   |   \---SHACKLAYOUTS
+|   |   |   |   |   |   +---SHACKWARRIOR_PARTS
+|   |   |   |   |   |   |   +---EXTERIORLAYOUTS
+|   |   |   |   |   |   |   +---SHACKEXTERIOR
+|   |   |   |   |   |   |   \---SHACKLAYOUTS
+|   |   |   |   |   |   +---SHACK_SCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---SHACK_WARRIOR
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SHOP
+|   |   |   |   |   |   +---PROPLAYOUTS
+|   |   |   |   |   |   +---SCIENTIFICPARTS
+|   |   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   |   +---SCIENTIFICDOOR
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---SCIENTIFICWINDOW
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---SHOPSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SHOPTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SHOPWARRIOR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---WARRIORPARTS
+|   |   |   |   |   |       +---ANIMS
+|   |   |   |   |   |       \---WARRIORDOOR
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   +---SIGNALSCANNER
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---STANDINGSTONE
+|   |   |   |   |   |   +---STANDINGSTONEB
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---STANDINGSTONEC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---STANDINGSTONEWARRIOR
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---STARTSCENE
+|   |   |   |   |   +---TECHPANEL
+|   |   |   |   |   |   \---TECHPANEL
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---TERMINAL
+|   |   |   |   |   |   +---TERMINAL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_SAVEPOINT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_SHOP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_SHOPSCIENTIFIC
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_SHOPTRADER
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_STATION
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---TERMINAL_STATIONWALL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---TERMINAL_TADINGPOST
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---TERRAINRESOURCE
+|   |   |   |   |   |   \---TERRAINRESOURCE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---TRADINGPOST
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---ENTITIES
+|   |   |   |   |   |   +---INTERFACE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---LANDINGPAD
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---LAYOUTS
+|   |   |   |   |   |   +---PARTS
+|   |   |   |   |   |   |   +---TRADERDOUBLE
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   +---TRADERLANDINGPAD
+|   |   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   |   \---TRADINGPOST_COMMON
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   \---TRADINGPOST
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---WAYPOINTS
+|   |   |   |   |       \---WAYPOINTWARRIOR
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---COOKING
+|   |   |   |   |   +---ALOEFLESH
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---ENZYMEFLUID
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FIREBERRY
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FIREFLIES
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FROZENTUBERS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---GRAHFRUIT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HEPTAWHEAT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HEXABERRY
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---IMPULSEBEANS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---JADEPEAS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---PULPYROOTS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SWEETENEDCOMPOST
+|   |   |   |   |   |   \---EMITTERS
+|   |   |   |   |   +---SWEETROOT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SYNTHETICWORMS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---CRYSTALS
+|   |   |   |   |   +---LARGE
+|   |   |   |   |   |   +---CRYSTALCUBE_LARGE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_LARGE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_LARGE_CAVE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_LARGE_MOUNTAIN
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---CRYSTAL_LARGE_UNDERWATER
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---MEDIUM
+|   |   |   |   |   |   +---CRYSTALCUBE_MEDIUM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_MEDIUM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_MEDIUM_CAVE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTAL_MEDIUM_MOUNTAIN
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---CRYSTAL_MEDIUM_UNDERWATER
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---SMALL
+|   |   |   |   |       +---CRYSTALCUBE_SMALL
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_FRAGMENT
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_FRAGMENT_CAVE
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_FRAGMENT_MOUNTAIN
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_FRAGMENT_UNDERWATER
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_SMALL
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_SMALL_CAVE
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---CRYSTAL_SMALL_MOUNTAIN
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---CRYSTAL_SMALL_UNDERWATER
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---FLOWERS
+|   |   |   |   |   \---SCABIOUS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---GRASS
+|   |   |   |   |   \---NEWPROCGRASS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---INTERACTIVE
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---CORRUPTEDDRONEPILE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---CORRUPTEDDRONEPILEPARTS
+|   |   |   |   |   |   \---CORRUPTEDDRONECORE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---SPOREVENT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---INTERACTIVEFLORA
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---BERRYPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---BIOMESPECPLANTS
+|   |   |   |   |   |   +---BARRENPLANT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---LUSHPLANT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RADIOACTIVEPLANT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SCORCHEDPLANT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SNOWPLANT
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---TOXICPLANT
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---COMMODITYPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---COMMODITYPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---COMMODITYPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---EXPLODEPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMALBUMEN
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMBARREN
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMDEADCREATURE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMGRAVITINO
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMLUSH
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMNIP
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMPOOP
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMRADIOACTIVE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMSCORCHED
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMSNOW
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMTOXIC
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FARMVENOMSAC
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FLOATINGPLANTS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FUELPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FUELPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FUELPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FUELPLANTSTARTSCENE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HAZARDPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HAZARDPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HAZARDPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HEALTHPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HEALTHPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---HEALTHPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---PROXIMITYPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---ROLLINGPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHIELDPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHIELDPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHIELDPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---TECHPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---TECHPLANT1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---TECHPLANT2
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---TENTACLEPLANT
+|   |   |   |   |   |   +---EMITTERS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---VENUSFLYTRAP
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---PLANTS
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---LARGEPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MEDIUMBUSH
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MEDIUMPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MONSTERPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SMALLFLOWERS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SMALLPLANT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---PLAYER
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---PLAYERGRAVE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---PLAYERITEMDROP
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---RARERESOURCE
+|   |   |   |   |   +---CAVE
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---EGGRESOURCE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---METALCUBE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---CRYSTALS
+|   |   |   |   |   |   +---GEMCRYSTALS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---STORMCRYSTALS
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---GROUND
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---BONEPILE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CLAMSHELL
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---CRYSTALALTAR
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---FIENDEGG
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---FIENDEGGPARTS
+|   |   |   |   |   |   |   \---FIENDEGGREWARD
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---GROUNDRESOURCE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---GROUNDWORM
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---HAZARDSTEAM
+|   |   |   |   |   |   |   +---EMITTERS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---METALFORMATION
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---METALFORMATION_DESTROYED
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SCRAPHEAP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SCRAPHEAPMODULES
+|   |   |   |   |   |   |   \---SCRAPMODULES
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---SPOREBAG
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SPOREBAGBASE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SPOREBAG_DESTROYED
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---UNDERGROUNDPROP
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---INAIR
+|   |   |   |   |   |   +---FLOATINGGASBAGS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---FLOATINGGASBAGS_DESTROYED
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---GASBAGPARTS
+|   |   |   |   |   |       \---FLOATINGRESOURCE
+|   |   |   |   |   |           \---ENTITIES
+|   |   |   |   |   \---UNDERWATER
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       +---METALSPHERE
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---SEAURCHIN
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---ROCKS
+|   |   |   |   |   +---LARGE
+|   |   |   |   |   |   +---LARGEROCK
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---PROCSHAPE1
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RESOURCEROCKLARGE
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---RESOURCEROCKSHARD
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---MEDIUM
+|   |   |   |   |   |   +---HQ
+|   |   |   |   |   |   +---MEDIUMROCK
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---RESOURCEROCK
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SHAREDDATA
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SMALL
+|   |   |   |   |       +---RESOURCESMALL
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---SMALLROCK
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   \---TREES
+|   |   |   |       +---MEDIUMTREE1
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       \---PARTS
+|   |   |   |           \---TRUNKA
+|   |   |   |               \---ENTITIES
+|   |   |   +---CORAL
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   \---SMALLPROP
+|   |   |   +---CRYSTAL
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---LARGEPROP
+|   |   |   |   \---SMALLPROP
+|   |   |   |       \---ANIMATED_CUBES
+|   |   |   |           +---EMITTERS
+|   |   |   |           \---ENTITIES
+|   |   |   +---FROZEN
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   |   +---LARGEROCKS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---LARGETREE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MEDIUMPROPS
+|   |   |   |   |   \---MEDIUMPLANT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---SMALLPROPS
+|   |   |   |       \---SMALLPLANT
+|   |   |   |           \---ENTITIES
+|   |   |   +---GLOWING
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---SMALLPLANT
+|   |   |   |   \---SMALLPROP
+|   |   |   +---HQFROZEN
+|   |   |   |   +---FOLIAGE
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   +---MEDIUMPROPS
+|   |   |   |   +---SHAREDDATA
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---SMALLPROPS
+|   |   |   |   |   \---SNOWCLUMP
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---TREES
+|   |   |   +---HQLUSH
+|   |   |   |   +---HQTREES
+|   |   |   |   |   \---PARTS
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   +---MEDIUMPROPS
+|   |   |   |   +---SHAREDDATA
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SMALLPROPS
+|   |   |   +---HUGEPROPS
+|   |   |   |   +---HUGERING
+|   |   |   |   +---HUGEROCK
+|   |   |   |   +---HUGESCORCHED
+|   |   |   |   |   \---PARTS
+|   |   |   |   +---HUGETOXIC
+|   |   |   |   |   \---PARTS
+|   |   |   |   \---HUGEUW
+|   |   |   +---NEVADA
+|   |   |   |   +---LARGEPLANTS
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPLANTS
+|   |   |   |   \---SMALLPLANTS
+|   |   |   +---RADIOACTIVE
+|   |   |   |   +---LARGE
+|   |   |   |   +---MEDIUM
+|   |   |   |   |   \---MEDIUMSTEAMER
+|   |   |   |   |       +---EMITTERS
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---SMALL
+|   |   |   +---RAINFOREST
+|   |   |   |   +---GRASS
+|   |   |   |   +---LARGECREATURE
+|   |   |   |   |   +---DIPLODOCUS
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---DIPLODOCUS
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---DIPLODOCUSALIEN
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---DIPLOPOSE
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---FLYINGLIZARD
+|   |   |   |   |   |   +---FLYINGLIZARD
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---FLYINGLIZARDPATH
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---RHINO
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---RHINO
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---RHINO02
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---RHINOSTANDARD
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   \---TRICERATOPS
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       +---QUADREPTILE
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---TRICERATOPS
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---TRICERATOPSTEST
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       +---TRICERATOPSTESTSTILL
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---TRICERATOPSTWOHEADS
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   |   +---IMPOSTERS
+|   |   |   |   |   +---MEDIUMTREE1SHAKE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SMALLTREE1SHAKE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MEDIUMCREATURE
+|   |   |   |   |   \---ANTELOPE
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       +---ANTELOPE
+|   |   |   |   |       |   \---ENTITIES
+|   |   |   |   |       \---ANTELOPEFAKE
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   +---SMALLCREATURE
+|   |   |   |   |   +---BUTTERFLY
+|   |   |   |   |   |   +---ANIMS
+|   |   |   |   |   |   +---BUTTERFLY
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---GLOWBUG
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---PANGOLIN
+|   |   |   |   |   |   +---BODY
+|   |   |   |   |   |   |   \---PANGOLINBODY01
+|   |   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   |   +---HEAD
+|   |   |   |   |   |   \---TAIL
+|   |   |   |   |   \---RODENT
+|   |   |   |   |       +---ANIMS
+|   |   |   |   |       \---RODENT
+|   |   |   |   |           \---ENTITIES
+|   |   |   |   +---SMALLPLANT
+|   |   |   |   \---SMALLPROP
+|   |   |   +---SCORCHED
+|   |   |   |   +---LARGE
+|   |   |   |   |   +---LARGEROCK
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---LARGESPIRE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MEDIUM
+|   |   |   |   |   +---MEDIUMROCK
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MEDIUMSPIRE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---VOLCANICPLANT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---SMALL
+|   |   |   |       \---SMALLSPIRE
+|   |   |   |           \---ENTITIES
+|   |   |   +---SWAMP
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---SMALLPLANT
+|   |   |   |   \---SMALLPROP
+|   |   |   +---TOXIC
+|   |   |   |   +---LARGE
+|   |   |   |   |   +---FUNGALTREE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---LARGEBLOB
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SPONGE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---TENDRIL
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MEDIUM
+|   |   |   |   \---SMALL
+|   |   |   +---UNDERWATER
+|   |   |   |   +---INTERACTIVE
+|   |   |   |   |   +---FISHFIENDROCK
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---FISHFIENDROCKPARTS
+|   |   |   |   |   \---STEAMVENT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---LARGEPLANTS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPLANTS
+|   |   |   |   |   +---ENTITIES
+|   |   |   |   |   \---MEDIUIMGLOWPLANT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   +---SMALLPLANTS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---UPDATEPROPS
+|   |   |   +---WEIRD
+|   |   |   |   +---BEAMSTONE
+|   |   |   |   |   +---BEAMSTONE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SMALLSTONE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---BONESPIRE
+|   |   |   |   +---CONTOUR
+|   |   |   |   +---ELBUBBLE
+|   |   |   |   |   +---ELBUBBLE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SMALLBUBBLE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---FRACTALCUBE
+|   |   |   |   |   +---SHAPE1
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SHAPE1FLOAT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---HEXAGON
+|   |   |   |   |   +---HUGEOBJECT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---MEDGEOMETRIC
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---ROTATINGDETAIL
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---HYDROGARDEN
+|   |   |   |   +---IRRISHELLS
+|   |   |   |   |   +---SHELLFLY
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHELLFLYPLANT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHELLGRASS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHELLHUSK
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHELLSAIL
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---SHELLSHARD
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SHELLWHITE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---MSTRUCTURES
+|   |   |   |   |   +---FLOATJOINT
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---SINGLEJOINT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---SHARDS
+|   |   |   |   \---WIRECELLS
+|   |   |   \---WOODLAND
+|   |   |       +---LARGEPLANT
+|   |   |       |   +---ANIMS
+|   |   |       |   \---MEDIUMOAK1
+|   |   |       |       \---ENTITIES
+|   |   |       \---MEDIUMPLANT
+|   |   +---COMMON
+|   |   |   +---CREATURES
+|   |   |   |   \---FISH
+|   |   |   |       \---ANIMS
+|   |   |   +---FLAGS
+|   |   |   \---SHRUBS
+|   |   +---CREATURES
+|   |   |   +---ACCESSORIES
+|   |   |   +---ANTELOPERIG
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   +---ANIMS
+|   |   |   |   +---ANTELOPE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---ANTELOPETWOLEGS
+|   |   |   |       \---ENTITIES
+|   |   |   +---BLOBRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   +---BLOB
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---BLOBTERRARIUM
+|   |   |   |       \---ENTITIES
+|   |   |   +---BUTTERFLYRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   \---BUTTERFLY
+|   |   |   |       \---ENTITIES
+|   |   |   +---CATRIG
+|   |   |   |   +---ANIMATION
+|   |   |   |   +---CAT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SIXLEGCAT
+|   |   |   |       \---ENTITIES
+|   |   |   +---COWRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   +---COW
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---COWFLOATING
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---COWHINDLEGS
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---COWSWIM
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SIXLEGGEDCOW
+|   |   |   |       \---ENTITIES
+|   |   |   +---FISH
+|   |   |   |   +---ANIMS
+|   |   |   |   +---CLAM
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---FISHFIEND
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---GRABBYPLANT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---JELLYFISH
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---PARTS
+|   |   |   |   |   \---GRABBYPLANTEYE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---PROC_JELLYFISH
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SMALLFISH
+|   |   |   |       \---ENTITIES
+|   |   |   +---FLYINGLIZARDRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   \---FLYINGLIZARD
+|   |   |   |       \---ENTITIES
+|   |   |   +---FLYINGSNAKE
+|   |   |   |   +---ANIMS
+|   |   |   |   \---FLYINGSNAKE
+|   |   |   |       \---ENTITIES
+|   |   |   +---GRUNTRIG
+|   |   |   |   +---ANIM
+|   |   |   |   \---GRUNT
+|   |   |   |       \---ENTITIES
+|   |   |   +---RODENTRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   +---RODENT
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---RODENTSWIM
+|   |   |   |       \---ENTITIES
+|   |   |   +---SHARKRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   \---SHARK
+|   |   |   |       \---ENTITIES
+|   |   |   +---SMALLBIRD
+|   |   |   |   +---ANIMS
+|   |   |   |   \---BIRD
+|   |   |   |       \---ENTITIES
+|   |   |   +---SPIDERRIG
+|   |   |   |   +---ANIM
+|   |   |   |   +---FIEND
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---ROCKCREATURE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---ROCKSPIDER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---SPIDER
+|   |   |   |       \---ENTITIES
+|   |   |   +---STRIDERRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   \---STRIDER
+|   |   |   |       \---ENTITIES
+|   |   |   +---TREXRIG
+|   |   |   |   +---ANIM
+|   |   |   |   |   \---TREXIDLE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---TREX
+|   |   |   |       \---ENTITIES
+|   |   |   +---TRICERATOPSRIG
+|   |   |   |   +---ANIMS
+|   |   |   |   \---TRICERATOPS
+|   |   |   |       \---ENTITIES
+|   |   |   \---WEIRD
+|   |   |       +---ANIMS
+|   |   |       +---CRYSTALCREATURE
+|   |   |       |   \---ENTITIES
+|   |   |       +---GEMCREATURE
+|   |   |       |   \---ENTITIES
+|   |   |       +---WEIRDBUTTERFLY
+|   |   |       |   \---ENTITIES
+|   |   |       \---WEIRDRIG
+|   |   |           +---EMITTERS
+|   |   |           \---ENTITIES
+|   |   +---DESERT
+|   |   |   +---CACTUS
+|   |   |   +---ROCKS
+|   |   |   \---TREES
+|   |   +---NPCS
+|   |   |   +---EXPLORER
+|   |   |   |   +---ANIMS
+|   |   |   |   +---ANOMALYEXPLORER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---EXPLORER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---EXPLORERIPAD
+|   |   |   |       \---ENTITIES
+|   |   |   +---FOURTHRACE
+|   |   |   |   +---ANIMS
+|   |   |   |   +---FOURTHRACE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---HOLOEXPLORER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   +---HOLONOONE
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---HOLOSCEPTIC
+|   |   |   |       \---ENTITIES
+|   |   |   +---LOWERORDER
+|   |   |   |   +---ANIMS
+|   |   |   |   +---ANOMALYLOWERORDER
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---LOWERORDER
+|   |   |   |       \---ENTITIES
+|   |   |   \---WARRIOR
+|   |   |       +---ANIMS
+|   |   |       \---WARRIOR
+|   |   |           \---ENTITIES
+|   |   +---OCEAN
+|   |   |   +---BUSHES
+|   |   |   +---CORAL
+|   |   |   |   +---CORAL01
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---PARTS
+|   |   |   +---ROCKS
+|   |   |   \---SHRUBS
+|   |   +---SKY
+|   |   +---SNOW
+|   |   |   +---CLUMPS
+|   |   |   +---CONSTRUCTS
+|   |   |   +---FOLIAGE
+|   |   |   \---WRECKS
+|   |   |       \---GIANTWRECKEDSHIP
+|   |   |           \---ENTITIES
+|   |   \---TERRAIN
+|   +---SPACE
+|   |   +---ANOMALY
+|   |   |   +---ANOMALY
+|   |   |   |   \---ENTITIES
+|   |   |   \---PARTS
+|   |   |       +---COMPUTER
+|   |   |       |   +---ANIMS
+|   |   |       |   +---ANOMALY_HOLOEXPLORER
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---COMPUTER
+|   |   |       |       \---ENTITIES
+|   |   |       +---CORE
+|   |   |       |   \---CENTRALCORE_1
+|   |   |       |       \---ENTITIES
+|   |   |       +---DOORS
+|   |   |       |   +---ANIMS
+|   |   |       |   +---LEFTDOOR
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---MAINAIRLOCK
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---ROOMDOOR
+|   |   |       |       \---ENTITIES
+|   |   |       \---WEAPONCRATE
+|   |   |           +---ANIMS
+|   |   |           \---WEAPONCRATE
+|   |   |               \---ENTITIES
+|   |   +---ASTEROIDS
+|   |   |   +---DEBRIS
+|   |   |   |   \---ASTEROIDDEBRIS01
+|   |   |   |       +---EMITTERS
+|   |   |   |       \---ENTITIES
+|   |   |   +---DESTRUCTIBLE
+|   |   |   |   \---ASTEROID01
+|   |   |   |       \---ENTITIES
+|   |   |   +---GIANTASTEROID
+|   |   |   |   \---ENTITIES
+|   |   |   +---NONDESTRUCTIBLE
+|   |   |   |   +---BIGASTEROID01
+|   |   |   |   |   \---ENTITIES
+|   |   |   |   \---BIGASTEROIDDEBRIS
+|   |   |   |       \---ENTITIES
+|   |   |   \---SMALLASTEROID
+|   |   |       \---ENTITIES
+|   |   +---ATLASSTATION
+|   |   |   +---MODULARPARTS
+|   |   |   |   +---ATLASCORE
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   \---ATLASCORE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---EXTERIOR
+|   |   |   |   |   +---ANIM
+|   |   |   |   |   \---MAINGATE
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   \---INTERIOR
+|   |   |   |       +---ANIMS
+|   |   |   |       +---ARCHWAY
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ARCHWAY_1
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ARCHWAY_2
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ARCHWAY_3
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ATLASINTERIOR
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ATLASINTERIOR_ENDING_2
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---ENDING_1_INTERACTION
+|   |   |   |       |   +---ANIMS
+|   |   |   |       |   +---ENDING_1_INTERACTION
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   +---INTERACTIONCORE
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   \---PLINTHS
+|   |   |   |       |       \---PLINTH_1
+|   |   |   |       |           \---ENTITIES
+|   |   |   |       +---ENDING_2_INTERACTION
+|   |   |   |       |   +---ATLASINTERACTIONPOINT
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   +---DATA
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   +---ENDING_2_INTERACTION
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   +---INTERACTIONCORE
+|   |   |   |       |   |   \---ENTITIES
+|   |   |   |       |   +---LIGHTEFFECTS
+|   |   |   |       |   |   \---DATA
+|   |   |   |       |   |       \---ENTITIES
+|   |   |   |       |   \---ORBS
+|   |   |   |       +---INTERACTIONSTONE
+|   |   |   |       |   \---INTERACTIONSTONE_1
+|   |   |   |       |       \---ENTITIES
+|   |   |   |       +---PATHDISK
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       +---PATHDISK_DUMMY
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       \---PATHORB
+|   |   |   |           +---PATHORB
+|   |   |   |           |   \---ENTITIES
+|   |   |   |           \---PATHORB_DUMMY
+|   |   |   |               \---ENTITIES
+|   |   |   \---SHARED
+|   |   |       +---ENTITIES
+|   |   |       \---MATERIALS
+|   |   +---BLACKHOLE
+|   |   |   \---BLACKHOLE
+|   |   |       \---ENTITIES
+|   |   +---NEXUS
+|   |   |   +---NEXUS
+|   |   |   |   \---ENTITIES
+|   |   |   +---NEXUSCORE
+|   |   |   |   \---ENTITIES
+|   |   |   +---NEXUSEXTERIOR
+|   |   |   |   \---ENTITIES
+|   |   |   \---PARTS
+|   |   |       +---BRIDGE
+|   |   |       |   +---ANIMS
+|   |   |       |   \---BRIDGEENGINE
+|   |   |       |       \---ENTITIES
+|   |   |       +---BUILDINGFRONT
+|   |   |       |   \---BUILDINGFRONT
+|   |   |       |       \---ENTITIES
+|   |   |       +---CENTRALPOINT
+|   |   |       |   +---ANIMS
+|   |   |       |   +---CENTRALPOINT
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---PARTS
+|   |   |       |   \---SPECIALSHOP
+|   |   |       |       \---ENTITIES
+|   |   |       +---COMMONDATA
+|   |   |       |   \---ENTITIES
+|   |   |       +---COMPUTER
+|   |   |       |   +---ANIMS
+|   |   |       |   +---ANOMALY_HOLOEXPLORER
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---COMPUTER
+|   |   |       |       \---ENTITIES
+|   |   |       +---CORE
+|   |   |       |   +---ANIMS
+|   |   |       |   \---MECHANICALCORE
+|   |   |       |       \---ENTITIES
+|   |   |       +---CORRIDOR
+|   |   |       +---DETAILS
+|   |   |       +---DOORS
+|   |   |       |   +---ANIMS
+|   |   |       |   +---FORWARDDOOR
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---LEFTDOOR
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---MAINAIRLOCK
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---MARKETDOOR
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---ROOMDOOR
+|   |   |       |       \---ENTITIES
+|   |   |       +---EXTERIORLEG
+|   |   |       |   +---ANIMS
+|   |   |       |   \---EXTERIORLEG
+|   |   |       |       \---ENTITIES
+|   |   |       +---LANDINGBAYS
+|   |   |       |   +---DOCKSTATION
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---LANDINGBAYS
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---REPAIRDRONE
+|   |   |       |       \---ENTITIES
+|   |   |       +---LANDINGPAD
+|   |   |       +---LEFTAREA
+|   |   |       |   \---LEFTAREA
+|   |   |       |       \---ENTITIES
+|   |   |       +---LIGHTING
+|   |   |       +---MAINHALLWAY
+|   |   |       |   +---ANIMS
+|   |   |       |   +---PARTS
+|   |   |       |   \---ROBOARM
+|   |   |       |       \---ENTITIES
+|   |   |       +---NADAPOLOROOM
+|   |   |       |   +---CONTROLROOM
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---PARTS
+|   |   |       +---PROPS
+|   |   |       +---RIGHTSECTION
+|   |   |       |   +---BALCONYVISTA
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---RIGHTSECTION
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---SHOPBIG
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---SHOPBIGCHEF
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---SHOPSMALL
+|   |   |       |       \---ENTITIES
+|   |   |       +---SECTIONS
+|   |   |       |   +---ANIMS
+|   |   |       |   +---HEAVYPILLAR
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---SECTIONMID1
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   +---VISTALARGEPROP1
+|   |   |       |   |   \---ENTITIES
+|   |   |       |   \---VISTALARGERING
+|   |   |       |       \---ENTITIES
+|   |   |       +---SHOPS
+|   |   |       +---TERMINALS
+|   |   |       |   \---NEXUSBLUEPRINTANALYSER
+|   |   |       |       \---ENTITIES
+|   |   |       \---TOWER
+|   |   |           \---NEXUSTOWER
+|   |   |               \---ENTITIES
+|   |   +---PLANETS
+|   |   |   +---ATMOSPHERE
+|   |   |   \---RINGS
+|   |   +---SPACESTATION
+|   |   |   +---LSYSTEM
+|   |   |   +---MODULARPARTS
+|   |   |   |   +---ACCS
+|   |   |   |   +---DOCK
+|   |   |   |   |   +---ANIMATEDDOOR
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---ANIMS
+|   |   |   |   |   +---BACK_SECTION
+|   |   |   |   |   |   +---EMITTERS
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---BACK_SECTION_TUBE
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   +---LAYOUT
+|   |   |   |   |   +---PARTS
+|   |   |   |   |   |   \---TUNNELOPENING
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---SHOPS
+|   |   |   |   |   |   +---DRONE
+|   |   |   |   |   |   |   \---ANIM
+|   |   |   |   |   |   +---MAPSHOP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SHIPSHOP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   +---SPECIALSHOP
+|   |   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   |   \---SUITSHOP
+|   |   |   |   |   |       \---ENTITIES
+|   |   |   |   |   +---WALL_SECTION
+|   |   |   |   |   |   \---ENTITIES
+|   |   |   |   |   \---WALL_SECTION_SHORT
+|   |   |   |   |       \---ENTITIES
+|   |   |   |   +---ENTITIES
+|   |   |   |   \---EXTERIOR
+|   |   |   |       +---ENTITIES
+|   |   |   |       +---ENTRANCEGLOW_ABANDONED
+|   |   |   |       |   \---ENTITIES
+|   |   |   |       \---FRONTFACE_TRIANGLE
+|   |   |   |           \---ENTITIES
+|   |   |   \---SPACESTATION
+|   |   |       \---ENTITIES
+|   |   \---WRECKS
+|   |       \---DEBRIS
+|   |           \---PANEL
+|   |               \---ENTITIES
+|   +---TESTS
+|   |   +---ANIMATEDLIGHTS
+|   |   |   \---ENTITIES
+|   |   +---ATLASTERRAINTEST
+|   |   +---CAMERA
+|   |   |   \---CAMERAANIMTEST
+|   |   |       \---ENTITIES
+|   |   +---CHARACTERTESTS
+|   |   +---COMBATTESTS
+|   |   |   \---TARGET
+|   |   |       \---ENTITIES
+|   |   +---FREQTEST
+|   |   |   \---RARE4
+|   |   |       \---ENTITIES
+|   |   +---JETPACKTEST
+|   |   +---LADDERWORKINGMODEL
+|   |   |   \---ENTITIES
+|   |   +---LODTEST
+|   |   |   \---NONINSTANCELOD
+|   |   |       \---ENTITIES
+|   |   +---MATERIALSPHERE
+|   |   +---MATERIALTESTS
+|   |   +---NORMALMAPSTRETCH
+|   |   |   \---ENTITIES
+|   |   +---NORMALTESTS
+|   |   |   \---NORMALTEST
+|   |   |       +---EMITTERS
+|   |   |       \---ENTITIES
+|   |   +---PENDANT
+|   |   +---PHYSICSMESH
+|   |   |   \---ENTITIES
+|   |   +---PROCTEXTURETEST
+|   |   +---SCALEPHYSICSREFERENCE
+|   |   |   \---ENTITIES
+|   |   +---SHOOTINGGALLERY
+|   |   |   \---ENTITIES
+|   |   +---STRIDERTEST
+|   |   +---TERRAINEDITBALLS
+|   |   +---TEXTURECOMPRESSION
+|   |   +---TREETESTS
+|   |   +---TRICOLOURTEST
+|   |   \---WORLDTEST
+|   \---UI
+|       \---WORLD
+|           +---BASELINEPOINTER
+|           +---BASEPROJECTOR
+|           |   \---MATERIALS
+|           |       \---BASELINEPOINTER
+|           +---GIZMO
+|           +---HUDSHIP_16_9
+|           +---HUD_16_9
+|           +---SCANNERSCOPE
+|           |   \---ENTITIES
+|           +---SCANNERSCOPESURVEY
+|           +---UI_16_9
+|           +---UI_16_9_SPLIT
+|           +---UI_COMPASS
+|           +---UI_DS4
+|           +---UI_HAND
+|           |   +---ANIMATION
+|           |   \---ENTITIES
+|           +---UI_ONTOP_16_9
+|           \---UI_QUICKMENU
++---MUSIC
+|   +---INSTRUMENT
+|   \---SOUNDSCAPE
++---SCENES
+|   +---COMMON
+|   |   \---SHIPPRELOADDEFAULT
+|   +---DEMOS
+|   |   +---MARCH19VR
+|   |   |   +---PLANETS
+|   |   |   \---SOLARSYSTEMS
+|   |   +---PS4BIOMETEST
+|   |   |   \---PS4BIOMETESTSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   +---PS4TEST
+|   |   |   \---MAINSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   +---SPRINGEVENT2016
+|   |   |   \---MAINSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   \---USEREXPERIENCE
+|   |       \---MAINSETTINGS
+|   |           +---PLANETS
+|   |           +---SCENES
+|   |           \---SOLARSYSTEMS
+|   +---EMPTY
+|   |   \---PLANETS
+|   +---SAVES
+|   +---SCREENSHOTS
+|   |   +---E32015
+|   |   |   \---MAINSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   +---PLANET1
+|   |   |   \---MAINSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   +---PLANET2
+|   |   |   \---MAINSETTINGS
+|   |   |       +---PLANETS
+|   |   |       +---SCENES
+|   |   |       \---SOLARSYSTEMS
+|   |   \---PLANET3
+|   |       \---MAINSETTINGS
+|   |           +---PLANETS
+|   |           +---SCENES
+|   |           \---SOLARSYSTEMS
+|   \---TESTSCENES
+|       +---ANIMTEST
+|       |   \---SETTINGS
+|       |       +---PLANETS
+|       |       +---SCENE
+|       |       \---SOLARSYSTEM
+|       \---TESTPLANETS
+|           +---BIOMES
+|           |   \---SUPERZOOBIOME
+|           +---PLANETS
+|           +---SCENES
+|           \---SOLARSYSTEMS
++---SHADERS
+|   \---CODE
+|       \---BIN
+|           \---PC
++---TEXTURES
+|   +---COMMON
+|   |   +---CHARACTERS
+|   |   |   +---ASTRONAUT
+|   |   |   \---PLAYER
+|   |   +---DECALS
+|   |   |   +---LETTERING
+|   |   |   +---LOGO
+|   |   |   +---NUMBER
+|   |   |   +---RECTANGLE
+|   |   |   +---SMALLSIGN
+|   |   |   \---SQAURE
+|   |   +---DEMOS
+|   |   |   \---E32015
+|   |   |       \---MODELS
+|   |   +---PLAYER
+|   |   |   \---PLAYERCHARACTER
+|   |   |       +---ASTROHELMETPARTS
+|   |   |       \---REFINER
+|   |   +---PROJECTILES
+|   |   +---ROBOTS
+|   |   |   \---SHARED
+|   |   +---SPACECRAFT
+|   |   |   +---ALPHA
+|   |   |   |   \---ALPHA01
+|   |   |   +---DRONE
+|   |   |   +---DROPSHIP
+|   |   |   |   +---COCKPIT
+|   |   |   |   +---DETAILKITS
+|   |   |   |   +---ENGINE
+|   |   |   |   +---HULL
+|   |   |   |   +---SUBWINGS
+|   |   |   |   +---THRUSTERS
+|   |   |   |   \---WINGS
+|   |   |   +---FIGHTERS
+|   |   |   |   +---CHASIS
+|   |   |   |   +---COCKPIT
+|   |   |   |   |   +---COCKPIT_A
+|   |   |   |   |   +---COCKPIT_B
+|   |   |   |   |   \---INTERIORS
+|   |   |   |   +---ENGINES
+|   |   |   |   |   +---ENGINE_B
+|   |   |   |   |   \---ENGINE_C
+|   |   |   |   +---HULL
+|   |   |   |   +---NOSE
+|   |   |   |   |   +---COCKPITA_NOSEB
+|   |   |   |   |   \---COCKPITB_NOSEA
+|   |   |   |   +---SHARED
+|   |   |   |   +---SUBWINGS
+|   |   |   |   |   \---SUBWINGS_B
+|   |   |   |   +---WEAPONS
+|   |   |   |   \---WINGS
+|   |   |   |       +---WINGS_A
+|   |   |   |       +---WINGS_D
+|   |   |   |       +---WINGS_E
+|   |   |   |       +---WINGS_G
+|   |   |   |       \---WINGS_I
+|   |   |   |           \---SUBSTANCE
+|   |   |   +---FRIGATES
+|   |   |   +---INDUSTRIAL
+|   |   |   |   +---ACCESSORIES
+|   |   |   |   +---CARGO
+|   |   |   |   +---GANTRY
+|   |   |   |   +---JOINT
+|   |   |   |   \---SHARED
+|   |   |   |       \---DECALS
+|   |   |   +---POLICE
+|   |   |   +---S-CLASS
+|   |   |   |   \---INTERIOR
+|   |   |   +---SCIENTIFIC
+|   |   |   |   +---INTERIORS
+|   |   |   |   \---SHARED
+|   |   |   +---SHARED
+|   |   |   |   +---CARGO
+|   |   |   |   +---COCKPITINTERIORS
+|   |   |   |   \---DECALS
+|   |   |   \---SHUTTLE
+|   |   |       +---INTERIORS
+|   |   |       \---SHARED
+|   |   +---VEHICLES
+|   |   |   +---BIKE
+|   |   |   +---BUGGY
+|   |   |   +---HOVERCRAFT
+|   |   |   +---ROVER
+|   |   |   +---SHARED
+|   |   |   \---WHEELEDBIKE
+|   |   \---WEAPONS
+|   |       \---MULTITOOL
+|   +---EFFECTS
+|   |   +---BEAM
+|   |   +---BLACKHOLE
+|   |   +---BLOOD
+|   |   +---COMMON
+|   |   +---DEBRIS
+|   |   |   +---RESOURCE
+|   |   |   \---TERRAINDEBRIS
+|   |   +---EXPLOSION
+|   |   +---FOLIAGE
+|   |   +---FULLSCREEN
+|   |   |   \---HAZARDS
+|   |   +---GRADIENTS
+|   |   +---HEAVYAIR
+|   |   +---HOLOGRAM
+|   |   +---HOLOHUB
+|   |   +---INGAME
+|   |   |   \---EXPLOSION
+|   |   |       \---EXPLOSION_1
+|   |   +---LIGHTS
+|   |   |   \---LIGHTSATLAS
+|   |   +---LINES
+|   |   +---NATURE
+|   |   +---PARTICLES
+|   |   +---PLAYER
+|   |   +---POOP
+|   |   +---SHIELD
+|   |   +---SHIP
+|   |   +---SPACE
+|   |   +---TERRAINMANIP
+|   |   +---TRAILS
+|   |   |   +---CONTRAIL
+|   |   |   \---HOT
+|   |   +---WARP
+|   |   +---WATER
+|   |   \---WEAPONS
+|   |       \---ROBOTS
+|   +---FONTS
+|   +---GALACTIC
+|   +---HUD
+|   +---LUT
+|   |   \---FILTERS
+|   +---MULTITEXTURES
+|   |   \---BASEBUILDING
+|   +---PALETTES
+|   +---PLANETS
+|   |   +---BIOMES
+|   |   |   +---ALIEN
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---ALPINE
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---BARREN
+|   |   |   |   +---HQ
+|   |   |   |   |   +---CACTUS
+|   |   |   |   |   \---TREES
+|   |   |   |   +---PLANTS
+|   |   |   |   \---ROCKS
+|   |   |   +---CAVE
+|   |   |   |   +---HQ
+|   |   |   |   |   \---LARGEPROP
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   +---SMALLPLANT
+|   |   |   |   \---SMALLPROP
+|   |   |   +---COMMON
+|   |   |   |   +---BARK
+|   |   |   |   +---BUILDINGS
+|   |   |   |   |   +---CRASHEDFREIGHTER
+|   |   |   |   |   +---DISTRESSSIGNAL
+|   |   |   |   |   +---LUNAR
+|   |   |   |   |   +---PORTAL
+|   |   |   |   |   +---PROPS
+|   |   |   |   |   |   \---INTERIORPROPS
+|   |   |   |   |   +---RUINS
+|   |   |   |   |   |   +---DECALS
+|   |   |   |   |   |   \---TILING
+|   |   |   |   |   +---SHARED
+|   |   |   |   |   |   +---BUILDABLEBUILDINGS
+|   |   |   |   |   |   +---COMMON
+|   |   |   |   |   |   +---INTERIORPROPS
+|   |   |   |   |   |   +---RUINS
+|   |   |   |   |   |   +---SCIENTIFICBUILDINGS
+|   |   |   |   |   |   +---TRADER
+|   |   |   |   |   |   \---WARRIOR
+|   |   |   |   |   \---TERMINAL
+|   |   |   |   +---CRYSTALS
+|   |   |   |   +---FLOWERS
+|   |   |   |   +---GRASS
+|   |   |   |   |   \---TESTS
+|   |   |   |   +---INTERACTIVE
+|   |   |   |   +---INTERACTIVEFLORA
+|   |   |   |   |   +---BIOMESPECPLANTS
+|   |   |   |   |   +---COMMODITY
+|   |   |   |   |   +---FUEL
+|   |   |   |   |   +---HAZARD
+|   |   |   |   |   +---HEALTH
+|   |   |   |   |   +---PROXIMITYPLANT
+|   |   |   |   |   +---SHIELD
+|   |   |   |   |   \---TECH
+|   |   |   |   +---LEAVES
+|   |   |   |   |   +---FRONDS
+|   |   |   |   |   +---HANGING
+|   |   |   |   |   +---HQLEAVES
+|   |   |   |   |   \---LEAVES
+|   |   |   |   +---PLANTS
+|   |   |   |   +---RARERESOURCE
+|   |   |   |   |   +---CAVE
+|   |   |   |   |   +---CRYSTALS
+|   |   |   |   |   \---UNDERWATER
+|   |   |   |   \---ROCKS
+|   |   |   |       +---ACCESSORIES
+|   |   |   |       +---LARGE
+|   |   |   |       +---MEDIUM
+|   |   |   |       \---SMALL
+|   |   |   +---CORAL
+|   |   |   |   +---LARGEPROP
+|   |   |   |   \---MEDIUMPROP
+|   |   |   +---CRYSTAL
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   \---LARGEPROP
+|   |   |   +---FROZEN
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   +---MEDIUMPROPS
+|   |   |   |   \---SMALLPROPS
+|   |   |   +---GLOWING
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---HQLUSH
+|   |   |   |   \---MEDIUMPROPS
+|   |   |   +---NEVADA
+|   |   |   |   +---LARGEPLANTS
+|   |   |   |   +---LARGEPROPS
+|   |   |   |   \---SMALLPLANTS
+|   |   |   +---RADIOACTIVE
+|   |   |   |   \---LARGE
+|   |   |   +---RAINFOREST
+|   |   |   |   +---GRASS
+|   |   |   |   +---LARGECREATURE
+|   |   |   |   |   \---DIPLODOCUS
+|   |   |   |   +---LARGEPLANT
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   +---MEDIUMPROP
+|   |   |   |   \---SMALLPLANT
+|   |   |   +---SCORCHED
+|   |   |   |   +---LARGE
+|   |   |   |   +---MEDIUM
+|   |   |   |   \---SMALL
+|   |   |   +---SWAMP
+|   |   |   |   \---LARGEPROP
+|   |   |   +---TOXIC
+|   |   |   |   +---LARGE
+|   |   |   |   +---MEDIUM
+|   |   |   |   \---SMALL
+|   |   |   +---UNDERWATER
+|   |   |   |   +---LARGEPROP
+|   |   |   |   +---MEDIUMPLANT
+|   |   |   |   \---SMALLPLANT
+|   |   |   \---WEIRD
+|   |   |       +---BEAMSTONE
+|   |   |       +---BONESPIRE
+|   |   |       +---CONTOUR
+|   |   |       +---ELBUBBLE
+|   |   |       +---FRACTALCUBE
+|   |   |       +---HEXAGON
+|   |   |       +---HYDROGARDEN
+|   |   |       +---IRRISHELLS
+|   |   |       +---MSTRUCTURES
+|   |   |       +---SHARDS
+|   |   |       \---WIRECELLS
+|   |   +---COMMON
+|   |   |   \---FLAGS
+|   |   +---CREATURES
+|   |   |   +---ANTELOPERIG
+|   |   |   +---BLOBRIG
+|   |   |   +---BUTTERFLYRIG
+|   |   |   +---CATRIG
+|   |   |   +---COWRIG
+|   |   |   +---FISH
+|   |   |   |   \---GRABBYPLANT
+|   |   |   +---FLYINGLIZARDRIG
+|   |   |   +---FLYINGSNAKE
+|   |   |   +---GRUNTRIG
+|   |   |   +---RODENTRIG
+|   |   |   +---SHARED
+|   |   |   +---SHARKRIG
+|   |   |   +---SMALLBIRD
+|   |   |   +---SPIDERRIG
+|   |   |   +---STRIDERRIG
+|   |   |   +---TREXRIG
+|   |   |   \---TRICERATOPSRIG
+|   |   +---NPCS
+|   |   |   +---EXPLORER
+|   |   |   +---FOURTHRACE
+|   |   |   +---LOWERORDER
+|   |   |   +---SHARED
+|   |   |   \---WARRIOR
+|   |   +---OCEAN
+|   |   |   \---SHRUBS
+|   |   \---SNOW
+|   |       +---CLUMPS
+|   |       \---CONSTRUCTS
+|   +---RENDERABLE
+|   |   \---COCKPIT
+|   +---SHADER
+|   +---SPACE
+|   |   +---ANOMALY
+|   |   |   \---LEFTROOM
+|   |   +---ASTEROIDS
+|   |   +---ATLASSTATION
+|   |   |   \---ENDING_1
+|   |   +---ATMOSPHERE
+|   |   +---NEXUS
+|   |   +---PLANETCUBEMAP
+|   |   +---SPACEDOME
+|   |   \---SPACESTATION
+|   |       +---DECALS
+|   |       +---INTERIOR
+|   |       \---SHARED
+|   +---STAMPLIBRARY
+|   |   +---DECALS
+|   |   \---TILINGTEXTURES
+|   +---TERRAIN
+|   |   \---WATER
+|   +---TESTS
+|   |   +---DECAL
+|   |   +---DECALS
+|   |   +---MATERIALSPHERE
+|   |   +---PROCTEXTURETEST
+|   |   +---STRIDERTEST
+|   |   +---TERRAIN
+|   |   +---TEXTURECOMPRESSION
+|   |   +---TREETESTS
+|   |   \---TRICOLOURTEST
+|   \---UI
+|       +---DEV
+|       |   \---ECAP
+|       +---FONTS
+|       +---FRONTEND
+|       |   +---BACKGROUNDS
+|       |   +---COMPONENTS
+|       |   |   +---ANIMATED
+|       |   |   |   +---ANIMATEDARROWS
+|       |   |   |   \---ANIMATEDWHEEL
+|       |   |   +---BASEGRID
+|       |   |   +---CHARCUSTOMISE
+|       |   |   +---CONTROLS
+|       |   |   +---DISCOVERY
+|       |   |   +---FRIGATEFLEET
+|       |   |   +---NEXUSMISSIONS
+|       |   |   +---REFINER
+|       |   |   +---SCIFISTYLE
+|       |   |   +---SURVEYING
+|       |   |   \---TELEPORTER
+|       |   +---GALACTICMAP
+|       |   +---HAZARDS
+|       |   +---ICONS
+|       |   |   +---BANNERICONS
+|       |   |   +---BUILDABLE
+|       |   |   |   \---GROUPS
+|       |   |   +---BYTEBEAT
+|       |   |   +---CATEGORIES
+|       |   |   +---CLASS
+|       |   |   +---COOKINGPRODUCTS
+|       |   |   +---DISCOVERY
+|       |   |   +---FLEET
+|       |   |   |   +---FRIGATE
+|       |   |   |   +---PROPERTY
+|       |   |   |   +---RATING
+|       |   |   |   \---TYPE
+|       |   |   +---GAMEMODE
+|       |   |   +---HAZARDS
+|       |   |   +---MISSIONS
+|       |   |   +---NOTIFICATIONS
+|       |   |   +---PRODUCTS
+|       |   |   +---QUICKMENU
+|       |   |   |   \---EMOTES
+|       |   |   +---RANK
+|       |   |   +---SPECIALSHOP
+|       |   |   +---STATS
+|       |   |   +---SUBSTANCES
+|       |   |   +---TECHNOLOGY
+|       |   |   |   \---VEHICLE
+|       |   |   +---U4PRODUCTS
+|       |   |   |   \---PROCTECH
+|       |   |   +---U4SUBSTANCES
+|       |   |   +---U4TECH
+|       |   |   +---UPDATE1
+|       |   |   +---UPDATE3
+|       |   |   \---WIKI
+|       |   +---INPUTBUTTONS
+|       |   +---INTEXTBUTTONS
+|       |   |   +---ACTIONS
+|       |   |   +---DS4
+|       |   |   +---GESTURES
+|       |   |   +---KEYBOARD
+|       |   |   +---KNUCKLES
+|       |   |   +---MOUSE
+|       |   |   +---MOVE
+|       |   |   +---OCULUS
+|       |   |   +---STEAM
+|       |   |   +---SWITCH
+|       |   |   +---VIVE
+|       |   |   \---XBOX
+|       |   +---LEGAL
+|       |   +---MISSIONS
+|       |   +---REFRESH
+|       |   |   \---PAGEDISCOVERY
+|       |   \---SYSTEMINFO
+|       +---HUD
+|       |   +---CROSSHAIRS
+|       |   |   \---SHIP
+|       |   +---ICONS
+|       |   |   +---BUILDINGS
+|       |   |   +---CONTROLLERICONS
+|       |   |   +---GESTURES
+|       |   |   +---MISSIONS
+|       |   |   +---PICKUPS
+|       |   |   +---PLAYER
+|       |   |   +---SCANNING
+|       |   |   +---TIPSCREENSHOTS
+|       |   |   \---U4PICKUPS
+|       |   +---LINES
+|       |   +---MENUS
+|       |   +---SPACEMAP
+|       |   \---SPACESHIP
+|       |       +---HUD
+|       |       \---RETICULES
+|       +---IMGUI
+|       |   \---AI
+|       +---LOADING
+|       +---NGUI
+|       +---SCAN
+|       +---WEAPON
+|       \---WORLD
+\---UI
+    +---AMBIENTMODE
+    +---BOOT
+    +---BYTEBEAT
+    +---COMPONENTS
+    |   +---CHARCUSTOMISE
+    |   +---INTERACTION
+    |   +---MANAGEFLEET
+    |   +---MISSIONGIVER
+    |   +---OPTIONS
+    |   +---REFINER
+    |   +---SCANNING
+    |   +---SCREENSTYLE
+    |   \---TECH
+    +---HUD
+    |   +---BINOCULARS
+    |   +---COMPONENTS
+    |   +---HANDCONTROLS
+    |   +---SHIP
+    |   \---WEAPON
+    +---MANAGEFLEET
+    +---MISSIONS
+    +---NEXUSMISSIONS
+    +---PAGEDISCOVERY
+    +---PAGESHIP
+    +---PHOTOMODE
+    +---PORTAL
+    +---PRESETS
+    +---REPORTBASE
+    +---SLOTS
+    +---STATS
+    +---STYLES
+    \---VEHICLERACE

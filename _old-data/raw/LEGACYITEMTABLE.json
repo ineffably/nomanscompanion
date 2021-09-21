@@ -1,0 +1,1343 @@
+{
+	"Data": {
+		"template": "GcLegacyItemTable",
+		"Property": {
+			"name": "Table",
+			"$t": "",
+			"Property": [
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "AQUASPHERE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "WATERPROD3"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COM1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "LAND1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMUNCOMMON1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CATALYST1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMRARE1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CATALYST2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "FUELUNCOMMON1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "OXYGEN"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "FUELRARE1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "FUEL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TECH1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "YELLOW2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TECHUNCOMMON1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "STELLAR2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TECHRARE1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CAVE2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "LAND2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "LUSH1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "DUSTY1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE4"
+						},
+						{
+							"name": "ConvertID",
+							"value": "TOXIC1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE5"
+						},
+						{
+							"name": "ConvertID",
+							"value": "RADIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE6"
+						},
+						{
+							"name": "ConvertID",
+							"value": "COLD1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE7"
+						},
+						{
+							"name": "ConvertID",
+							"value": "LAND3"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE8"
+						},
+						{
+							"name": "ConvertID",
+							"value": "WATER2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE9"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CAVE2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "TRADEABLE10"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ASTEROID3"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBBLUESYS"
+						},
+						{
+							"name": "ConvertID",
+							"value": "BLUE2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBREDSYS"
+						},
+						{
+							"name": "ConvertID",
+							"value": "RED2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBGREENSYS"
+						},
+						{
+							"name": "ConvertID",
+							"value": "GREEN2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBTOXIC"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_TOXIC"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBSNOW"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_SNOW"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBRADIOACTIVE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_RADIO"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBBARREN"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_DUST"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBSCORCHED"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_HOT"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBLUSH"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_LUSH"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBCAVE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_CAVE"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBWATER"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_WATER"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBCREATURE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CREATURE1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBPOOP"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PLANT_POOP"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBDRONE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ROBOT1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SUBSHIP"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ROBOT1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "VEHICLESUB1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ASTEROID1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "VEHICLESUB2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ASTEROID2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SENTINEL1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ALLOY1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SENTINEL2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ALLOY1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "HACK1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "NAV_DATA"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "TRA_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "WAR_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "DRUGS1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "TRA_CURIO2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "EXP_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO4"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ATLAS_STONE"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO5"
+						},
+						{
+							"name": "ConvertID",
+							"value": "WAR_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO6"
+						},
+						{
+							"name": "ConvertID",
+							"value": "EXP_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO7"
+						},
+						{
+							"name": "ConvertID",
+							"value": "TRA_CURIO1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO8"
+						},
+						{
+							"name": "ConvertID",
+							"value": "WAR_CURIO2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CURIO9"
+						},
+						{
+							"name": "ConvertID",
+							"value": "EXP_CURIO2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "PRODFUEL3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "PRODFUEL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CASING"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY4"
+						},
+						{
+							"name": "ConvertID",
+							"value": "NANOTUBES"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY7"
+						},
+						{
+							"name": "ConvertID",
+							"value": "AM_HOUSING"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SHIELDFUEL2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SHIELDFUEL3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CARBON_SEAL"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY5"
+						},
+						{
+							"name": "ConvertID",
+							"value": "JELLY"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY6"
+						},
+						{
+							"name": "ConvertID",
+							"value": "ANTIMATTER"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "COMMODITY2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CAVEPROD3"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "BATTERY"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CWIRE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "NANOTUBES"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "MPLATE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CASING"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "CBOARD"
+						},
+						{
+							"name": "ConvertID",
+							"value": "MICROCHIP"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "GLASS"
+						},
+						{
+							"name": "ConvertID",
+							"value": "FARMPROD3"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SFIBRES"
+						},
+						{
+							"name": "ConvertID",
+							"value": "CASING"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "ACID"
+						},
+						{
+							"name": "ConvertID",
+							"value": "FARMPROD1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "GEL"
+						},
+						{
+							"name": "ConvertID",
+							"value": "JELLY"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "LUBE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "FARMPROD2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "EXPLOSIVE"
+						},
+						{
+							"name": "ConvertID",
+							"value": "GRENFUEL1"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SHIELDFUEL1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SHIELDFUEL2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "SHIELDFUEL3"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL2"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "FARMPRODBASIC1"
+						},
+						{
+							"name": "ConvertID",
+							"value": "JELLY"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				},
+				{
+					"value": "GcLegacyItem.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "ID",
+							"value": "FARMPRODBASIC2"
+						},
+						{
+							"name": "ConvertID",
+							"value": "POWERCELL"
+						},
+						{
+							"name": "ConvertRatio",
+							"value": "1"
+						}
+					]
+				}
+			]
+		}
+	}
+}

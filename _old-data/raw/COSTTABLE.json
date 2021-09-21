@@ -1,0 +1,8168 @@
+{
+	"Data": {
+		"template": "GcCostTable",
+		"Property": [
+			{
+				"name": "SimpleInteractionTable"
+			},
+			{
+				"name": "InteractionTable",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_FUEL2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "40"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_CATALYST1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_CATALYST2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_LAND1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_LAND2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_LAND3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND3"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FLEET_COST_COLL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostFrigateCargo.xml"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FLEET_COST_SCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostFrigateCargo.xml"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_DIG_CLUE"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CREATURE1"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FAKE_DROPSCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA_DROP"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FLEET_CARGO"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostFrigateCargo.xml"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_DROPSCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA_DROP"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_NADA_JM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStatCompare.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "CoreStat",
+										"value": "JM"
+									},
+									{
+										"name": "CompareAndSetStat",
+										"value": "JM_BANKED"
+									},
+									{
+										"name": "CostStringCanAfford",
+										"value": ""
+									},
+									{
+										"name": "CostStringCantAfford",
+										"value": "UI_JM_COST_NOT_READY"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_RANDOM_SCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_ALLOWSCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMissionComplete.xml",
+								"$t": "",
+								"Property": {
+									"name": "Cost",
+									"value": "TUT_NEXT1"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FAKE_SCAN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRIBUTE_FULL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostPirateTribute.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "CargoValuePercent",
+										"value": "50"
+									},
+									{
+										"name": "MinimumValue",
+										"value": "10000"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRIBUTE_BARGAIN"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostPirateTribute.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "CargoValuePercent",
+										"value": "10"
+									},
+									{
+										"name": "MinimumValue",
+										"value": "2000"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLICE_SUMMON"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "POLICE_TOKEN"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRADE_M_LOW"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "5000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRADE_M_MED"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "10000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRADE_M_HIGH"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostPirateTribute.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "CargoValuePercent",
+										"value": "5"
+									},
+									{
+										"name": "MinimumValue",
+										"value": "20000"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HACK1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "DRUGS1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "MONEY_SMALL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "10"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "MONEY_MEDIUM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "100"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "MONEY_LARGE"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "1000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HEALTH"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostHealth.xml",
+								"$t": "",
+								"Property": {
+									"name": "HealthUnits",
+									"value": "1"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_TRA_MED"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Traders"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_EXP_MED"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Explorers"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_WAR_MED"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Warriors"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_TRA_IMPRO"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Traders"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_TRA_GOOD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Traders"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_TRA_HIGH"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Traders"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "6"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_TRA_HIGHS"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Traders"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "7"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_EXP_IMPRO"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Explorers"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_EXP_GOOD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Explorers"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_EXP_HIGH"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Explorers"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "6"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_EXP_HIGHS"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Explorers"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "7"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_WAR_IMPRO"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Warriors"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_WAR_GOOD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Warriors"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_WAR_HIGH"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Warriors"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "6"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STAND_WAR_HIGHS"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostStanding.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "AlienRace",
+										"value": "GcAlienRace.xml",
+										"$t": "",
+										"Property": {
+											"name": "AlienRace",
+											"value": "Warriors"
+										}
+									},
+									{
+										"name": "RequiredStanding",
+										"value": "7"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HAS_BLD_BUILDER"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostNPCHabitation.xml",
+								"$t": "",
+								"Property": {
+									"name": "NPCHabitationType",
+									"value": "GcNPCHabitationType.xml",
+									"$t": "",
+									"Property": {
+										"name": "NPCHabitationType",
+										"value": "Builder"
+									}
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HAS_BLD_WEAPONS"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostNPCHabitation.xml",
+								"$t": "",
+								"Property": {
+									"name": "NPCHabitationType",
+									"value": "GcNPCHabitationType.xml",
+									"$t": "",
+									"Property": {
+										"name": "NPCHabitationType",
+										"value": "WeaponsExpert"
+									}
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HAS_BLD_FARMER"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostNPCHabitation.xml",
+								"$t": "",
+								"Property": {
+									"name": "NPCHabitationType",
+									"value": "GcNPCHabitationType.xml",
+									"$t": "",
+									"Property": {
+										"name": "NPCHabitationType",
+										"value": "Farmer"
+									}
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HAS_BLD_VEHICLE"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostNPCHabitation.xml",
+								"$t": "",
+								"Property": {
+									"name": "NPCHabitationType",
+									"value": "GcNPCHabitationType.xml",
+									"$t": "",
+									"Property": {
+										"name": "NPCHabitationType",
+										"value": "Vehicles"
+									}
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "HAS_BLD_SCIENCE"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostNPCHabitation.xml",
+								"$t": "",
+								"Property": {
+									"name": "NPCHabitationType",
+									"value": "GcNPCHabitationType.xml",
+									"$t": "",
+									"Property": {
+										"name": "NPCHabitationType",
+										"value": "Scientist"
+									}
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TRA_FIND_PORTAL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "EXP_FIND_PORTAL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "EXP_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "WAR_FIND_PORTAL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "WAR_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "30000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "30"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Nanites"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ASTEROID2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ROBOT1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CREATURE1"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_POOP"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "POWERCELL"
+									},
+									{
+										"name": "Amount",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_CAVE"
+									},
+									{
+										"name": "Amount",
+										"value": "30"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NAV_DATA"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE11"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GRAVBALL"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE12"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FARMPRODBASIC1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE13"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FARMPRODBASIC2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE14"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GAS1"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE15"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GAS2"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE16"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GAS3"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE17"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BRIBE18"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_BP_SALVAGE"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "BP_SALVAGE"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "ItemCostsTable",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "STELLAR2_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "STELLAR2"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL1_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL1_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL1_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL2_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL2_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL2_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CAVE1_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE1"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CAVE1_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE1"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CAVE1_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE1"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND1_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND1_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND1_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND2_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND2_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND2_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND3_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND3"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND3_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND3"
+									},
+									{
+										"name": "Amount",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "LAND3_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND3"
+									},
+									{
+										"name": "Amount",
+										"value": "8"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST1_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST1_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST1_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST2_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST2_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "25"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "CATALYST2_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "OXYGEN_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "15"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "OXYGEN_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "75"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "OXYGEN_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECHFRAG_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "15"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Nanites"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECHFRAG_MD"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "100"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Nanites"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "MORDITE_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CREATURE1"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "GEKGIFT1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "GEKGIFT2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "KORVAXGIFT1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "EXP_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "KORVAXGIFT2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "EXP_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "VYKGIFT1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "WAR_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "VYKGIFT2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "WAR_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "C_PRODFUEL"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PRODFUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "AtlasPathCosts",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "20000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "60000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "80000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "100000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "120000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "160000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "180000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "200000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "220000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "300000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY11"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "500000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY12"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "800000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY13"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "1000000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY14"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "1600000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY15"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "1800000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "POLOMONEY16"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostMoney.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Cost",
+										"value": "2000000"
+									},
+									{
+										"name": "CostCurrency",
+										"value": "Units"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY01"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY01"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY02"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY02"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY03"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY03"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY04"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY04"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY05"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY05"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY06"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY06"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY07"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY07"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY08"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY08"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY09"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY09"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY10"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "JOURNEY11"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyMilestone.xml",
+								"$t": "",
+								"Property": {
+									"name": "RequiredMilestone",
+									"value": "JOURNEY11"
+								}
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "ALIENS_MET"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "WORDS_LEARNT"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "MONEY"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "ENEMIES_KILLED"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "SENTINEL_KILLS"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "4"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "LONGEST_LIFE_EX"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "DIST_WARP"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "6"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "DISC_ALL_CREATU"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "ALIENS_MET"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "8"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "WORDS_LEARNT"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "7"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY11"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "MONEY"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "8"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY12"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "ENEMIES_KILLED"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "8"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY13"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "SENTINEL_KILLS"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "9"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY14"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "LONGEST_LIFE_EX"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "7"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY15"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "DIST_WARP"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ANOMALY16"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "False"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostJourneyStatLevel.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "StatName",
+										"value": "DISC_ALL_CREATU"
+									},
+									{
+										"name": "RequiredLevel",
+										"value": "10"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "UnusedCostsTable",
+				"$t": "",
+				"Property": [
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_COMM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_COMM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_COMM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "300"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_UNCOM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_UNCOM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_UNCOM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "OXYGEN"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_RARE_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_RARE_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL_RARE_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "FUEL2"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_COMM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_COMM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_COMM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND1"
+									},
+									{
+										"name": "Amount",
+										"value": "300"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_UNCOM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_UNCOM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_UNCOM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST1"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_RARE_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_RARE_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "COMMOD_RARE_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CATALYST2"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_COMM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "YELLOW2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_COMM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "YELLOW2"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_COMM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "YELLOW2"
+									},
+									{
+										"name": "Amount",
+										"value": "300"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_UNCOM_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_UNCOM_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_UNCOM_LA"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_RARE_SM"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE2"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_RARE_ME"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "TECH_RARE_LG"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CAVE2"
+									},
+									{
+										"name": "Amount",
+										"value": "200"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "FUEL1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": " FUEL1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ATLAS_STONE2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ATLAS_STONE"
+									},
+									{
+										"name": "Amount",
+										"value": "2"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ATLAS_STONE5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ATLAS_STONE"
+									},
+									{
+										"name": "Amount",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "ATLAS_STONE10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ATLAS_STONE"
+									},
+									{
+										"name": "Amount",
+										"value": "10"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_BUILD1_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_BUILD2_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "AMMO1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "AMMO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "KORVAXGIFT"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "EXP_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "GEKGIFT"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "VYKGIFT"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "WAR_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE16"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE15"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE_VEHICLE"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": "S_COST_15"
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE14"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE13"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE_VEHICLE"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": "S_COST_13"
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE12"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE11"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostInstalledTech.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Id",
+										"value": "VEHICLE_SCAN1"
+									},
+									{
+										"name": "InvetoryToCheck",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "LAND2"
+									},
+									{
+										"name": "Amount",
+										"value": "20"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostInstalledTech.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Id",
+										"value": "VEHICLE_LASER"
+									},
+									{
+										"name": "InvetoryToCheck",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ASTEROID2"
+									},
+									{
+										"name": "Amount",
+										"value": "70"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostInstalledTech.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Id",
+										"value": "VEHICLE_SCAN"
+									},
+									{
+										"name": "InvetoryToCheck",
+										"value": "5"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE_VEHICLE"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": "S_COST_2"
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_VEHICLE1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "BLUE2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CASING"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ROBOT1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "MICROCHIP"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE3_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_SNOW"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "WAR_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GRAVBALL"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_WEAPON1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "GREEN2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CASING"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE5_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_CAVE"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_WATER"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE4_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_POOP"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostInstalledTech.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Id",
+										"value": "POWERGLOVE"
+									},
+									{
+										"name": "InvetoryToCheck",
+										"value": "0"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_FARM1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "RED2"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "EXP_CURIO2"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_TOXIC"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "NANOTUBES"
+									},
+									{
+										"name": "Amount",
+										"value": "3"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE2_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "SACVENOM"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_RADIO"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_SCIENCE1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD10"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CASING"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD9"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostBuildingParts.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Description",
+										"value": "NPC_HIRE1_COST"
+									},
+									{
+										"name": "RequiredParts",
+										"value": "GcBuildingCostPartCount.xml",
+										"$t": "",
+										"Property": [
+											{
+												"name": "Id",
+												"value": ""
+											},
+											{
+												"name": "Count",
+												"value": "16"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD8"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "MICROCHIP"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD7"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "CREATURE1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD6"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "TRA_CURIO1"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD5"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "ROBOT1"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD4"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostProduct.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionProductEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultProductType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "POWERCELL"
+									},
+									{
+										"name": "Amount",
+										"value": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD3"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD2"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							},
+							{
+								"name": "Cost",
+								"value": "GcCostSubstance.xml",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Default",
+										"value": "GcDefaultMissionSubstanceEnum.xml",
+										"$t": "",
+										"Property": {
+											"name": "DefaultSubstanceType",
+											"value": "None"
+										}
+									},
+									{
+										"name": "Id",
+										"value": "PLANT_DUST"
+									},
+									{
+										"name": "Amount",
+										"value": "50"
+									}
+								]
+							}
+						]
+					},
+					{
+						"value": "GcCostTableEntry.xml",
+						"$t": "",
+						"Property": [
+							{
+								"name": "Id",
+								"value": "NPC_BUILD1"
+							},
+							{
+								"name": "DisplayCost",
+								"value": "True"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

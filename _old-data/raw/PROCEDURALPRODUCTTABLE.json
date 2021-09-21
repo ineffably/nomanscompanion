@@ -1,0 +1,3147 @@
+{
+	"Data": {
+		"template": "GcProceduralProductTable",
+		"Property": {
+			"name": "Table",
+			"$t": "",
+			"Property": [
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_LOOT"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_LOOT"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_LOOT"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "TREASURE_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "TREASURE_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.COINCRATE.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Loot"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TREASURE_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TREASURE_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TREASURE_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "0"
+									},
+									{
+										"name": "Toxic",
+										"value": "0"
+									},
+									{
+										"name": "Scorched",
+										"value": "0"
+									},
+									{
+										"name": "Radioactive",
+										"value": "1"
+									},
+									{
+										"name": "Frozen",
+										"value": "1"
+									},
+									{
+										"name": "Barren",
+										"value": "0"
+									},
+									{
+										"name": "Dead",
+										"value": "1"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_HIST"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_DOC"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_DOC"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "HIST_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "HIST_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.STRANGEBOOK.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Document"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_HIST_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_HIST_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_HIST_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "1"
+									},
+									{
+										"name": "Toxic",
+										"value": "0"
+									},
+									{
+										"name": "Scorched",
+										"value": "0"
+									},
+									{
+										"name": "Radioactive",
+										"value": "1"
+									},
+									{
+										"name": "Frozen",
+										"value": "1"
+									},
+									{
+										"name": "Barren",
+										"value": "0"
+									},
+									{
+										"name": "Dead",
+										"value": "0"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_BIO"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_BIO"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_BIO"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "BIO_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "BIO_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.WEIRDSEEDS.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "BioSample"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_BIO_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_BIO_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_BIO_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "1"
+									},
+									{
+										"name": "Toxic",
+										"value": "1"
+									},
+									{
+										"name": "Scorched",
+										"value": "0"
+									},
+									{
+										"name": "Radioactive",
+										"value": "0"
+									},
+									{
+										"name": "Frozen",
+										"value": "0"
+									},
+									{
+										"name": "Barren",
+										"value": "0"
+									},
+									{
+										"name": "Dead",
+										"value": "0"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_FOSS"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_FOSSIL"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_FOSSIL"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "FOSSIL_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "FOSSIL_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.FOSSIL.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Fossil"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_FOSSIL_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_FOSSIL_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_FOSSIL_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "0"
+									},
+									{
+										"name": "Toxic",
+										"value": "0"
+									},
+									{
+										"name": "Scorched",
+										"value": "1"
+									},
+									{
+										"name": "Radioactive",
+										"value": "0"
+									},
+									{
+										"name": "Frozen",
+										"value": "0"
+									},
+									{
+										"name": "Barren",
+										"value": "1"
+									},
+									{
+										"name": "Dead",
+										"value": "1"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_PLNT"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_PLANT"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_PLANT"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "PLANT_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "PLANT_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.PLANTPOT3.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Plant"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "1"
+									},
+									{
+										"name": "Toxic",
+										"value": "1"
+									},
+									{
+										"name": "Scorched",
+										"value": "0"
+									},
+									{
+										"name": "Radioactive",
+										"value": "0"
+									},
+									{
+										"name": "Frozen",
+										"value": "0"
+									},
+									{
+										"name": "Barren",
+										"value": "0"
+									},
+									{
+										"name": "Dead",
+										"value": "0"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_TOOL"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_TOOL"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_TOOL"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "TOOL_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "TOOL_SUB"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.12"
+										},
+										{
+											"name": "G",
+											"value": "0.723"
+										},
+										{
+											"name": "B",
+											"value": "0.038"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Tool"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "200"
+										},
+										{
+											"name": "AgeMax",
+											"value": "500"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TOOL_COMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "4"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "600"
+										},
+										{
+											"name": "AgeMax",
+											"value": "1100"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TOOL_UNCOMMON_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "2"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "2000000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "1400"
+										},
+										{
+											"name": "AgeMax",
+											"value": "3000"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_TOOL_RARE_%i"
+												},
+												{
+													"name": "Count",
+													"value": "3"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "0"
+									},
+									{
+										"name": "Toxic",
+										"value": "0"
+									},
+									{
+										"name": "Scorched",
+										"value": "1"
+									},
+									{
+										"name": "Radioactive",
+										"value": "0"
+									},
+									{
+										"name": "Frozen",
+										"value": "0"
+									},
+									{
+										"name": "Barren",
+										"value": "0"
+									},
+									{
+										"name": "Dead",
+										"value": "1"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"value": "GcProceduralProductData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Product",
+							"value": "GcProductData.xml",
+							"$t": "",
+							"Property": [
+								{
+									"name": "Id",
+									"value": "PROC_FARM"
+								},
+								{
+									"name": "Name",
+									"value": "ITEMGEN_FORMAT_PLANT"
+								},
+								{
+									"name": "NameLower",
+									"value": "ITEMGEN_FORMAT_PLANT"
+								},
+								{
+									"name": "Subtitle",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "PLANT_SUB"
+									}
+								},
+								{
+									"name": "Description",
+									"value": "VariableSizeString.xml",
+									"$t": "",
+									"Property": {
+										"name": "Value",
+										"value": "ITEMGEN_PLANT_MODERN"
+									}
+								},
+								{
+									"name": "Hint",
+									"value": ""
+								},
+								{
+									"name": "GroupID",
+									"value": ""
+								},
+								{
+									"name": "DebrisFile",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+									}
+								},
+								{
+									"name": "BaseValue",
+									"value": "1000"
+								},
+								{
+									"name": "Level",
+									"value": "0"
+								},
+								{
+									"name": "Icon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.PLANTPOT3.DDS"
+									}
+								},
+								{
+									"name": "HeroIcon",
+									"value": "TkModelResource.xml",
+									"$t": "",
+									"Property": {
+										"name": "Filename",
+										"value": ""
+									}
+								},
+								{
+									"name": "Colour",
+									"value": "Colour.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "R",
+											"value": "0.118"
+										},
+										{
+											"name": "G",
+											"value": "0.722"
+										},
+										{
+											"name": "B",
+											"value": "0.035"
+										},
+										{
+											"name": "A",
+											"value": "1"
+										}
+									]
+								},
+								{
+									"name": "SubstanceCategory",
+									"value": "GcRealitySubstanceCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "SubstanceCategory",
+										"value": "Earth"
+									}
+								},
+								{
+									"name": "Type",
+									"value": "GcProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProductCategory",
+										"value": "Procedural"
+									}
+								},
+								{
+									"name": "ProceduralType",
+									"value": "GcProceduralProductCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "ProceduralProductCategory",
+										"value": "Farm"
+									}
+								},
+								{
+									"name": "Rarity",
+									"value": "GcRarity.xml",
+									"$t": "",
+									"Property": {
+										"name": "Rarity",
+										"value": "Rare"
+									}
+								},
+								{
+									"name": "Legality",
+									"value": "GcLegality.xml",
+									"$t": "",
+									"Property": {
+										"name": "Legality",
+										"value": "Legal"
+									}
+								},
+								{
+									"name": "Consumable",
+									"value": "False"
+								},
+								{
+									"name": "ChargeValue",
+									"value": "1"
+								},
+								{
+									"name": "StackMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "DefaultCraftAmount",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountStepSize",
+									"value": "1"
+								},
+								{
+									"name": "CraftAmountMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "Requirements"
+								},
+								{
+									"name": "AltRequirements"
+								},
+								{
+									"name": "Cost",
+									"value": "GcItemPriceModifiers.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "SpaceStationMarkup",
+											"value": "0"
+										},
+										{
+											"name": "LowPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "HighPriceMod",
+											"value": "0"
+										},
+										{
+											"name": "BuyBaseMarkup",
+											"value": "0"
+										},
+										{
+											"name": "BuyMarkupMod",
+											"value": "0"
+										}
+									]
+								},
+								{
+									"name": "SpecificChargeOnly",
+									"value": "False"
+								},
+								{
+									"name": "NormalisedValueOnWorld",
+									"value": "0"
+								},
+								{
+									"name": "NormalisedValueOffWorld",
+									"value": "0"
+								},
+								{
+									"name": "TradeCategory",
+									"value": "GcTradeCategory.xml",
+									"$t": "",
+									"Property": {
+										"name": "TradingClass",
+										"value": "None"
+									}
+								},
+								{
+									"name": "WikiEnabled",
+									"value": "False"
+								},
+								{
+									"name": "IsCraftable",
+									"value": "False"
+								},
+								{
+									"name": "DeploysInto",
+									"value": ""
+								},
+								{
+									"name": "EconomyInfluenceMultiplier",
+									"value": "1"
+								},
+								{
+									"name": "PinObjeective",
+									"value": ""
+								},
+								{
+									"name": "PinObjeectiveTip",
+									"value": ""
+								}
+							]
+						},
+						{
+							"name": "ProceduralData",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "10"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "100000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "2"
+										},
+										{
+											"name": "AgeMax",
+											"value": "5"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_MODERN"
+												},
+												{
+													"name": "Count",
+													"value": "1"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "6"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "400000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "700000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "6"
+										},
+										{
+											"name": "AgeMax",
+											"value": "11"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_MODERN"
+												},
+												{
+													"name": "Count",
+													"value": "1"
+												}
+											]
+										}
+									]
+								},
+								{
+									"value": "GcProductProceduralOnlyData.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "DropWeight",
+											"value": "1"
+										},
+										{
+											"name": "BasevalueMin",
+											"value": "800000"
+										},
+										{
+											"name": "BaseValueMax",
+											"value": "1200000"
+										},
+										{
+											"name": "AgeMin",
+											"value": "14"
+										},
+										{
+											"name": "AgeMax",
+											"value": "30"
+										},
+										{
+											"name": "Descriptions",
+											"value": "GcNumberedTextList.xml",
+											"$t": "",
+											"Property": [
+												{
+													"name": "Format",
+													"value": "ITEMGEN_PLANT_MODERN"
+												},
+												{
+													"name": "Count",
+													"value": "1"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PerBiomeDropWeights",
+							"value": "GcBiomeList.xml",
+							"$t": "",
+							"Property": {
+								"name": "BiomeProbability",
+								"$t": "",
+								"Property": [
+									{
+										"name": "Lush",
+										"value": "1"
+									},
+									{
+										"name": "Toxic",
+										"value": "1"
+									},
+									{
+										"name": "Scorched",
+										"value": "1"
+									},
+									{
+										"name": "Radioactive",
+										"value": "1"
+									},
+									{
+										"name": "Frozen",
+										"value": "1"
+									},
+									{
+										"name": "Barren",
+										"value": "1"
+									},
+									{
+										"name": "Dead",
+										"value": "1"
+									},
+									{
+										"name": "Weird",
+										"value": "1"
+									},
+									{
+										"name": "Red",
+										"value": "1"
+									},
+									{
+										"name": "Green",
+										"value": "1"
+									},
+									{
+										"name": "Blue",
+										"value": "1"
+									},
+									{
+										"name": "Test",
+										"value": "1"
+									},
+									{
+										"name": "All",
+										"value": "1"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

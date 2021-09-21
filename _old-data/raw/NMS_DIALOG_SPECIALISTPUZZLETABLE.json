@@ -1,0 +1,3071 @@
+{
+	"Data": {
+		"template": "GcAlienPuzzleTable",
+		"Property": {
+			"name": "Table",
+			"$t": "",
+			"Property": [
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_1"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_1"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_1"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyTrue"
+											}
+										},
+										{
+											"name": "EnablingConditions",
+											"$t": "",
+											"Property": {
+												"value": "GcMissionConditionStatLevel.xml",
+												"$t": "",
+												"Property": [
+													{
+														"name": "Stat",
+														"value": "NADA_PROGRESS"
+													},
+													{
+														"name": "StatGroup",
+														"value": "GLOBAL_STATS"
+													},
+													{
+														"name": "Level",
+														"value": "1"
+													},
+													{
+														"name": "CompareStat",
+														"value": "POLO_PROGRESS"
+													},
+													{
+														"name": "DisplayMilestoneNumber",
+														"value": "1"
+													},
+													{
+														"name": "Test",
+														"value": "TkEqualityEnum.xml",
+														"$t": "",
+														"Property": {
+															"name": "EqualityEnum",
+															"value": "LessEqual"
+														}
+													}
+												]
+											}
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_2"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_2"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_2"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_3"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_3"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_3"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_4"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_4"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_4"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_5"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_5"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_5"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_6"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_6"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_6"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_7"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_7"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_7"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_8"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_8"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_8"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				},
+				{
+					"value": "GcAlienPuzzleEntry.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXP_NPC_ANOMALY_9"
+						},
+						{
+							"name": "AlienRace",
+							"value": "GcAlienRace.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienRace",
+								"value": "Explorers"
+							}
+						},
+						{
+							"name": "Type",
+							"value": "GcInteractionType.xml",
+							"$t": "",
+							"Property": {
+								"name": "InteractionType",
+								"value": "NPC_Anomaly"
+							}
+						},
+						{
+							"name": "Category",
+							"value": "GcAlienPuzzleCategory.xml",
+							"$t": "",
+							"Property": {
+								"name": "AlienPuzzleCategory",
+								"value": "Default"
+							}
+						},
+						{
+							"name": "Title",
+							"value": ""
+						},
+						{
+							"name": "Text",
+							"value": "EXP_NPC_U3ANOMALY_DESC_9"
+						},
+						{
+							"name": "TextAlien",
+							"value": "EXP_NPC_U3ANOMALY_LANG_9"
+						},
+						{
+							"name": "TranslateAlienText",
+							"value": "False"
+						},
+						{
+							"name": "TranslationBrackets",
+							"value": "True"
+						},
+						{
+							"name": "ProgressiveDialogue",
+							"value": "False"
+						},
+						{
+							"name": "Options",
+							"$t": "",
+							"Property": [
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_A_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_A_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_ATLAS_STA"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_B_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_B_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "REV_BLACK_HOLE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								},
+								{
+									"value": "GcAlienPuzzleOption.xml",
+									"$t": "",
+									"Property": [
+										{
+											"name": "Name",
+											"value": "EXP_NPC_U3ANOMALY_OPT_C_1"
+										},
+										{
+											"name": "Text",
+											"value": "EXP_NPC_U3ANOMALY_RES_C_1"
+										},
+										{
+											"name": "IsAlien",
+											"value": "False"
+										},
+										{
+											"name": "Cost",
+											"value": ""
+										},
+										{
+											"name": "Rewards",
+											"$t": "",
+											"Property": [
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "FREE_EXPLORE"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "R_NADA_PROGRESS"
+													}
+												},
+												{
+													"value": "NMSString0x10.xml",
+													"$t": "",
+													"Property": {
+														"name": "Value",
+														"value": "PROC_TECH_ALL"
+													}
+												}
+											]
+										},
+										{
+											"name": "Mood",
+											"value": "Positive"
+										},
+										{
+											"name": "KeepOpen",
+											"value": "True"
+										},
+										{
+											"name": "MarkInteractionComplete",
+											"value": "True"
+										},
+										{
+											"name": "NextInteraction",
+											"value": ""
+										},
+										{
+											"name": "AudioEvent",
+											"value": "GcAudioWwiseEvents.xml",
+											"$t": "",
+											"Property": {
+												"name": "AkEvent",
+												"value": "0"
+											}
+										},
+										{
+											"name": "EnablingConditionTest",
+											"value": "GcMissionConditionTest.xml",
+											"$t": "",
+											"Property": {
+												"name": "ConditionTest",
+												"value": "AnyFalse"
+											}
+										},
+										{
+											"name": "EnablingConditions"
+										},
+										{
+											"name": "EnablingConditionId",
+											"value": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "AdditionalText"
+						},
+						{
+							"name": "AdditionalTextAlien"
+						}
+					]
+				}
+			]
+		}
+	}
+}

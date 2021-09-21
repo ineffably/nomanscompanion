@@ -1,0 +1,3413 @@
+{
+	"Data": {
+		"template": "GcPlayerDamageTable",
+		"Property": {
+			"name": "DamageTable",
+			"$t": "",
+			"Property": [
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BASICDAMAGE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": ""
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "1"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "ENERGY"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_ENERGY"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/ENERGY.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_HIT_ENERGY"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_ENERGY"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXTREMEHEATDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_HEAT"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.HEAT.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_HIT_HEAT"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_HEAT"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Scorch"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "NOOXYDAMAGE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_DROWN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.WATER.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_NOOXYGEN"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "EXTREMECOLDDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_COLD"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.COLD.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_HIT_COLD"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_COLD"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Freeze"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "TOXICGASDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_TOXIC"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.TOXIC.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_HIT_TOXIC"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_TOXIC"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Toxic"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "RADIATIONDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_RADIATION"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.RADIOACTIVE.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_HIT_RAD"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_RAD"
+						},
+						{
+							"name": "Damage",
+							"value": "28"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Radioactive"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "IMPACTDAMAGE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_TERRAIN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "10"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "IMPACTGROUND"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_TERRAIN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "150"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "EXPLOSIONPAINSH"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "EXPLOSIONPAINSH"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "IMPACTINSTANCE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_TERRAIN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": ""
+						},
+						{
+							"name": "Damage",
+							"value": "30"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "STANDING_STONE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_STANDSTONE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "50"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "20"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "15"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "ROBOTGUNDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_GUN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "4"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "ROBOTBIGGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_GUN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "8"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "LASERDAMAGE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_LASER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "5"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "SMLCREATUREDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_CREATURE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "20"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "10"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MEDCREATUREDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_CREATURE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "30"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "10"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "LRGCREATUREDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_CREATURE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "50"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "15"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "HUGECREATUREDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_CREATURE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "80"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "15"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "PLAYERPREDDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_CREATURE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "40"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "15"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "FIEND_DMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_FIEND"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "65"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "2"
+						},
+						{
+							"name": "PushForce",
+							"value": "15"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "10"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "PLANTDMG"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_PLANT"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.TOXIC.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": ""
+						},
+						{
+							"name": "Damage",
+							"value": "20"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "True"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Toxic"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "AISHIPGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "14"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "SHIPLASER"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_LASER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "15"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYGUN1"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "16"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYGUN2"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "16"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYGUN3"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "16"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYLASER1"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "20"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYLASER3"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "30"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "BOUNTYLASER3"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "50"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "WALKERLASER"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_WALKER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "9"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "5"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "POLICEGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_POLICE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "16"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "POLICELASER"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_POLICE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "15"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "SMALLASTEROID"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_ASTEROID"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "5"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MEDIUMASTEROID"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_ASTEROID"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "15"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "LARGEASTEROID"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_ASTEROID"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "40"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "LANDING"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_LANDING"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "80"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "4"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "FREIGHTERGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_FREIGHTER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "20"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "FREIGHTERLASER"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_FREIGHTER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "20"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "20"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "VOLUNTARY"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_VOLUNTARY"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "100"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_GUN"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "4"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPSHIPGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "25"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPSHIPSHOTGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "90"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPSHIPMINIGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "17.5"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPSHIPPLASMAGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "125"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPPLAYER"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_PLAYER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "1.5"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPPLAYER_SHIP"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "45"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPPLAYER_RAIL"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_PLAYER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "5"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPVEHICLE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_LASER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "1"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPSHIPROCKET"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_SHIP"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "250"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPGRENADE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_PLAYER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "50"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "MPVEHICLEGUN"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_PLAYER"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITIAL_HIT"
+						},
+						{
+							"name": "Damage",
+							"value": "1"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Normal"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "GASPLANT"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_TOXIC"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.TOXIC.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_GAS_PLANT"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_TOXIC"
+						},
+						{
+							"name": "Damage",
+							"value": "18"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "True"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Toxic"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "LOSTINSPACE"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_LOSTINSPACE"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": ""
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": ""
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": ""
+						},
+						{
+							"name": "Damage",
+							"value": "1"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1.5"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "False"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Freeze"
+						}
+					]
+				},
+				{
+					"value": "GcPlayerDamageData.xml",
+					"$t": "",
+					"Property": [
+						{
+							"name": "Id",
+							"value": "RADIATION_LEAK"
+						},
+						{
+							"name": "DeathMessage",
+							"value": "DEATH_RADIATION"
+						},
+						{
+							"name": "HitIcon",
+							"value": "TkTextureResource.xml",
+							"$t": "",
+							"Property": {
+								"name": "Filename",
+								"value": "TEXTURES/UI/FRONTEND/ICONS/HAZARDS/HAZARDS.RADIOACTIVE.DDS"
+							}
+						},
+						{
+							"name": "HitMessage",
+							"value": "NOTIFY_RADLEAK_DAMAGE"
+						},
+						{
+							"name": "CriticalHitMessage",
+							"value": "NOTIFY_CRITICAL_RAD"
+						},
+						{
+							"name": "Damage",
+							"value": "15"
+						},
+						{
+							"name": "HardModeMultiplier",
+							"value": "1"
+						},
+						{
+							"name": "PushForce",
+							"value": "0"
+						},
+						{
+							"name": "CameraTurn",
+							"value": "0"
+						},
+						{
+							"name": "CameraShakeShield",
+							"value": "SMALLPAINSHAKE"
+						},
+						{
+							"name": "CameraShakeNoShield",
+							"value": "BIGPAINSHAKE"
+						},
+						{
+							"name": "ShowTrackicon",
+							"value": "True"
+						},
+						{
+							"name": "PlayerDamageType",
+							"value": "Radioactive"
+						}
+					]
+				}
+			]
+		}
+	}
+}
