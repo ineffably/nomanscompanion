@@ -17,10 +17,9 @@ const transformDataTable = (json) => {
 function minimizeLanguage(json) {
   return json.map(entry => {
     const { USEnglish, Id } = entry;
-    return {
-      Id, 
-      Value: USEnglish
-    }
+    const result = {};
+    result[Id] = USEnglish;
+    return result;
   })
 }
 
