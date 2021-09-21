@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { transformTable } from '../app/nmsutils';
+import { transformTable } from '../nmsutils';
 
 export default class Transposer {
 

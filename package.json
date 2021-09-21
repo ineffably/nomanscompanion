@@ -10,11 +10,12 @@
     "build": "webpack",
     "test": "jest",
     "lint": "eslint app/**/*.js",
-    "download-utils": "node ./utils/downloadUtils.js",
-    "copyPaks": "node ./utils/copyPaks.js",
-    "extractPaks": "node ./utils/extractPaks.js",
-    "extractXml": "node ./utils/extractXml.js",
-    "exmlToJson": "node ./utils/exmlToJson.js"
+    "download-utils": "node ./extract/downloadUtils.js",
+    "copyPaks": "node ./extract/copyPaks.js",
+    "extractPaks": "node ./extract/extractPaks.js",
+    "extractXml": "node ./extract/extractXml.js",
+    "exmlToJson": "node ./extract/exmlToJson.js",
+    "cookJson": "node ./extract/cookJson.js"
   },
   "author": "",
   "license": "ISC",
@@ -28,7 +29,8 @@
     "eslint-plugin-react": "^7.25.3",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
-    "xml-js": "^1.6.11"
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.12.0"
   },
   "dependencies": {}
 }
