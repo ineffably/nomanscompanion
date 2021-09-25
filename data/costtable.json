@@ -1,0 +1,5754 @@
+{
+  "InteractionTable": [
+    {
+      "Id": "C_SETTL_JUDGE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_SETTL_OWN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "True",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_SETTL_TRA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO2",
+        "Amount": "3"
+      }
+    },
+    {
+      "Id": "C_SETTL_EXP",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO2",
+        "Amount": "3"
+      }
+    },
+    {
+      "Id": "C_SETTL_WAR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO2",
+        "Amount": "3"
+      }
+    },
+    {
+      "Id": "C_SETTL_PROG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Id": "CASING",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_STATIONKEY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "STATION_KEY",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_SUIT_SLOT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "SUIT_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_PET_CUSTOMISE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "True",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_PET_SLOT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Nanites"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "True"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "PetSlot"
+        }
+      ]
+    },
+    {
+      "Id": "C_PET_ADOPT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "True",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_PET_EGG_READY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_PET_MILK",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True"
+    },
+    {
+      "Id": "C_PET_RIDE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "C_PET_TREAT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "C_LIB_VAULT_F",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Fossil"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_FC",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Fossil"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_FU",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Fossil"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Uncommon"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_FR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Fossil"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Rare"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_T",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Tool"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_TC",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Tool"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_TU",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Tool"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Uncommon"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_TR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Tool"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Rare"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_BS",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "BioSample"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_BSC",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "BioSample"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_BSU",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "BioSample"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Uncommon"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_BSR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "BioSample"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Rare"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_L",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Loot"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_LC",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Loot"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_LU",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Loot"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Uncommon"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_LR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Loot"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Rare"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_DS",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Document"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_DC",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Document"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_DU",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Document"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Uncommon"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIB_VAULT_DR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "Document"
+        },
+        "CareAboutRarity": "True",
+        "Rarity": {
+          "Rarity": "Rare"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_LIBRARY_MAP",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "15",
+        "CostCurrency": {
+          "Currency": "Nanites"
+        }
+      }
+    },
+    {
+      "Id": "C_WEAP_UPGRADE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Nanites"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "WeaponClass"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_WEAP_C",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Units"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "WeaponSlot"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_WEAP_CR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Units"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "WeaponSlot"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_WEAP_P",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WEAP_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_INV_WEAP_PR",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WEAP_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ABAND_DOOR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Id": "ABAND_LOCATOR_X",
+        "Amount": "1",
+        "AltCostLocID": "UI_ABAND_LOCATOR_USED"
+      }
+    },
+    {
+      "Id": "C_CREW_SHADY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterCrewList"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_CREW_GUILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterCrewList"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_CAPT_SHADY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterCaptLog"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_CAPT_GUILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterCaptLog"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "-1"
+      }
+    },
+    {
+      "Id": "C_ABAND_PASS_0",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterPassword"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "0"
+      }
+    },
+    {
+      "Id": "C_ABAND_PASS_1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterPassword"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "1"
+      }
+    },
+    {
+      "Id": "C_ABAND_PASS_2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Type": {
+          "ProceduralProductCategory": "FreighterPassword"
+        },
+        "CareAboutRarity": "False",
+        "Rarity": {
+          "Rarity": "Common"
+        },
+        "FreighterPasswordIndex": "2"
+      }
+    },
+    {
+      "Id": "C_ABAND_START",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Units"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "DailyFreighters"
+        }
+      ]
+    },
+    {
+      "Id": "C_ODD_EGG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "True",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ODD_EGG",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_TRADEITEMLIST",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Amount": "300",
+        "ItemList": {
+          "Value": "SPECIAL_POOP"
+        },
+        "Index": "0"
+      }
+    },
+    {
+      "Id": "C_REPAIRPART",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Amount": "1",
+        "ItemList": {
+          "Value": "MIRROR"
+        },
+        "Index": "0"
+      }
+    },
+    {
+      "Id": "C_CLASS_UPGRADE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Nanites"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "ShipClass"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_SAL_CASH",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Units"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "ShipSlot"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_FREIGHT",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FREI_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_INV_FREIGHTR",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FREI_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_INV_SAL_PROD",
+      "DisplayCost": "False",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "SHIP_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_INV_SAL_CASHR",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": [
+        {
+          "Costs": {}
+        },
+        {
+          "CostCurrency": {
+            "Currency": "Units"
+          }
+        },
+        {
+          "AssertIfOutOfBounds": "False"
+        },
+        {
+          "OutOfBoundsBehaviour": "UseLast"
+        },
+        {
+          "IndexProvider": "ShipSlot"
+        }
+      ]
+    },
+    {
+      "Id": "C_INV_SAL_PRODR",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "SHIP_INV_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_SALVAGE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "C_NAVDATA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_NAVDATA5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_NAVDATA10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "C_NAVDATA_FAKE",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_NEXUSCHEF1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "0"
+      }
+    },
+    {
+      "Id": "C_NEXUSCHEF2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "1"
+      }
+    },
+    {
+      "Id": "C_NEXUSCHEF3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "2"
+      }
+    },
+    {
+      "Id": "C_LOOM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TECH_COMP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_PLATINUM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ASTEROID3",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "C_RED2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "RED2",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_YELLOW2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "YELLOW2",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_TECHBASICS",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "TECHBASIC_DUMMY",
+        "TextOverride": "UI_TECHBASICS_OFFLINE",
+        "HideIfCompleted": "True"
+      }
+    },
+    {
+      "Id": "C_CARBON_SEAL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "CARBON_SEAL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_SIGNALBOOSTER",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "BUILDSIGNAL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ACCESS1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ACCESS1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ACCESS2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ACCESS2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ACCESS3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ACCESS3",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_WARPFUEL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "HYPERFUEL1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_EXPLODE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "GRENFUEL1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_AMMO",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "AMMO",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "C_GLASS",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FARMPROD3",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ACID",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FARMPROD1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ANTIMATTER",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ANTIMATTER",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_OXYGEN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_MICROCHIP",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "MICROCHIP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_FOOD_LUSHWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_LUSHWILD",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_FOOD_TOXWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_TOXWILD",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_FOOD_HOTWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_HOTWILD",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_FOOD_RADWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_RADWILD",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_FOOD_COLDWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_COLDWILD",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_FOOD_DUSTWILD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FOOD_P_DUSTWILD",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "C_POOP_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_POOP",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_HEXITE_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "SPECIAL_POOP",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_SLIME_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "SPACEGUNK4",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_MORDITE_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_STARMAP",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_SHOTGUN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Id": "SHOTGUN",
+        "InventoryToCheck": "Weapon"
+      }
+    },
+    {
+      "Id": "C_EYEBALL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EYEBALL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_FUEL2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "40"
+      }
+    },
+    {
+      "Id": "C_CATALYST1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_CATALYST2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_LAND1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_LAND2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "C_LAND3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND3",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "FLEET_COST_COLL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "FLEET_COST_SCAN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "C_DIG_CLUE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "FAKE_DROPSCAN",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA_DROP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "FLEET_CARGO",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "C_DROPSCAN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA_DROP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_NADA_JM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "CoreStat": "JM",
+        "CompareAndSetStat": "JM_BANKED",
+        "CostStringCantAfford": "UI_JM_COST_NOT_READY"
+      }
+    },
+    {
+      "Id": "C_RANDOM_SCAN",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_ALLOWSCAN",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "TUT_NEXT1",
+        "HideIfCompleted": "False"
+      }
+    },
+    {
+      "Id": "FAKE_SCAN",
+      "DisplayCost": "True",
+      "DontCharge": "True",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "TRIBUTE_FULL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "CargoValuePercent": "0.2",
+        "MinimumValue": "10000"
+      }
+    },
+    {
+      "Id": "TRIBUTE_BARGAIN",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "CargoValuePercent": "0.05",
+        "MinimumValue": "2000"
+      }
+    },
+    {
+      "Id": "POLICE_SUMMON",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "POLICE_TOKEN",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "TRADE_M_LOW",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "5000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "TRADE_M_MED",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "25000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "TRADE_M_HIGH",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "CargoValuePercent": "0.01",
+        "MinimumValue": "850000"
+      }
+    },
+    {
+      "Id": "HACK1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "DRUGS1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "MONEY_SMALL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "10",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "MONEY_MEDIUM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "MONEY_LARGE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "1000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "MONEY_15000",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "15000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "MONEY_5000",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "5000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "HEALTH",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "HealthUnits": "1"
+      }
+    },
+    {
+      "Id": "STAND_TRA_MED",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "RequiredStanding": "4"
+      }
+    },
+    {
+      "Id": "STAND_EXP_MED",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "RequiredStanding": "4"
+      }
+    },
+    {
+      "Id": "STAND_WAR_MED",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "RequiredStanding": "4"
+      }
+    },
+    {
+      "Id": "STAND_TRA_IMPRO",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "RequiredStanding": "3"
+      }
+    },
+    {
+      "Id": "STAND_TRA_GOOD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "RequiredStanding": "5"
+      }
+    },
+    {
+      "Id": "STAND_TRA_HIGH",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "RequiredStanding": "6"
+      }
+    },
+    {
+      "Id": "STAND_TRA_HIGHS",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "RequiredStanding": "7"
+      }
+    },
+    {
+      "Id": "STAND_EXP_IMPRO",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "RequiredStanding": "3"
+      }
+    },
+    {
+      "Id": "STAND_EXP_GOOD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "RequiredStanding": "5"
+      }
+    },
+    {
+      "Id": "STAND_EXP_HIGH",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "RequiredStanding": "6"
+      }
+    },
+    {
+      "Id": "STAND_EXP_HIGHS",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "RequiredStanding": "7"
+      }
+    },
+    {
+      "Id": "STAND_WAR_IMPRO",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "RequiredStanding": "3"
+      }
+    },
+    {
+      "Id": "STAND_WAR_GOOD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "RequiredStanding": "5"
+      }
+    },
+    {
+      "Id": "STAND_WAR_HIGH",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "RequiredStanding": "6"
+      }
+    },
+    {
+      "Id": "STAND_WAR_HIGHS",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "RequiredStanding": "7"
+      }
+    },
+    {
+      "Id": "HAS_BLD_BUILDER",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "Builder"
+        },
+        "MustBeInhabited": "False"
+      }
+    },
+    {
+      "Id": "HAS_BLD_WEAPONS",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "WeaponsExpert"
+        },
+        "MustBeInhabited": "False"
+      }
+    },
+    {
+      "Id": "HAS_BLD_FARMER",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "Farmer"
+        },
+        "MustBeInhabited": "False"
+      }
+    },
+    {
+      "Id": "HAS_HIRE_FARMER",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "Farmer"
+        },
+        "MustBeInhabited": "True"
+      }
+    },
+    {
+      "Id": "HAS_BLD_VEHICLE",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "Vehicles"
+        },
+        "MustBeInhabited": "False"
+      }
+    },
+    {
+      "Id": "HAS_BLD_SCIENCE",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "NPCHabitationType": {
+          "NPCHabitationType": "Scientist"
+        },
+        "MustBeInhabited": "False"
+      }
+    },
+    {
+      "Id": "TRA_FIND_PORTAL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "EXP_FIND_PORTAL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "WAR_FIND_PORTAL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "30000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "C_BRIBE2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "30",
+        "CostCurrency": {
+          "Currency": "Nanites"
+        }
+      }
+    },
+    {
+      "Id": "C_BRIBE3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ASTEROID2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_BRIBE4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ROBOT1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_BRIBE5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "C_BRIBE6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_POOP",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_BRIBE8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "POWERCELL",
+        "Amount": "3"
+      }
+    },
+    {
+      "Id": "C_BRIBE7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_CAVE",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_BRIBE9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NAV_DATA",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE11",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "GRAVBALL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE12",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FARMPROD1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE13",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "FARMPROD2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_BRIBE14",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "GAS1",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_BRIBE15",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "GAS2",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_BRIBE16",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "GAS3",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "C_BRIBE17",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_BRIBE18",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "C_BP_SALVAGE",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "BP_SALVAGE",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_CASING",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "CASING",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_NANOTUBES",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NANOTUBES",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_JELLY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "JELLY",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_LAUNCHSUB",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAUNCHSUB",
+        "Amount": "40"
+      }
+    },
+    {
+      "Id": "TRA_WORD_GET",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "Requirement": "CanLearn"
+      }
+    },
+    {
+      "Id": "TRA_WORD_SAY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "TRA_WORD_SAY_V",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Traders"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "EXP_WORD_GET",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "Requirement": "CanLearn"
+      }
+    },
+    {
+      "Id": "EXP_WORD_SAY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "EXP_WORD_SAY_V",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Explorers"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "WAR_WORD_GET",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "Requirement": "CanLearn"
+      }
+    },
+    {
+      "Id": "WAR_WORD_SAY",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "WAR_WORD_SAY_V",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Race": {
+          "AlienRace": "Warriors"
+        },
+        "Requirement": "CanSpeak"
+      }
+    },
+    {
+      "Id": "C_NEXUS_UA2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "1"
+      }
+    },
+    {
+      "Id": "C_NEXUS_UA3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "2"
+      }
+    },
+    {
+      "Id": "C_NEXUS_UA4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "True",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "True",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Index": "3"
+      }
+    },
+    {
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    }
+  ],
+  "ItemCostsTable": [
+    {
+      "Id": "STELLAR2_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "STELLAR2",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "STELLAR2_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "STELLAR2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "FUEL1_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "FUEL1_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "FUEL1_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "FUEL2_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "FUEL2_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "FUEL2_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "CAVE1_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE1",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "CAVE1_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE1",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "CAVE1_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE1",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "LAND1_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "LAND1_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "LAND1_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "LAND2_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "LAND2_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "LAND2_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "LAND3_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND3",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "LAND3_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND3",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "LAND3_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND3",
+        "Amount": "80"
+      }
+    },
+    {
+      "Id": "CATALYST1_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "CATALYST1_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "CATALYST1_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "CATALYST2_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "CATALYST2_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "25"
+      }
+    },
+    {
+      "Id": "CATALYST2_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "OXYGEN_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "15"
+      }
+    },
+    {
+      "Id": "OXYGEN_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "75"
+      }
+    },
+    {
+      "Id": "OXYGEN_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "TECHFRAG_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "15",
+        "CostCurrency": {
+          "Currency": "Nanites"
+        }
+      }
+    },
+    {
+      "Id": "TECHFRAG_MD",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100",
+        "CostCurrency": {
+          "Currency": "Nanites"
+        }
+      }
+    },
+    {
+      "Id": "MORDITE_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "GEKGIFT1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "GEKGIFT2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "KORVAXGIFT1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "KORVAXGIFT2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "VYKGIFT1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "VYKGIFT2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_PRODFUEL",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "PRODFUEL2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "C_DUSTY1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "DUSTY1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_LUSH1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LUSH1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_TOXIC1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "TOXIC1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_RADIO1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "RADIO1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_COLD1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "COLD1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_HOT1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "HOT1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_LAVA1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAVA1",
+        "Amount": "30"
+      }
+    },
+    {
+      "Id": "C_CREATURE1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "30"
+      }
+    }
+  ],
+  "AtlasPathCosts": [
+    {
+      "Id": "POLOMONEY1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY11",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY12",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY13",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY14",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY15",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "POLOMONEY16",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Cost": "100000",
+        "CostCurrency": {
+          "Currency": "Units"
+        }
+      }
+    },
+    {
+      "Id": "JOURNEY01",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY01"
+      }
+    },
+    {
+      "Id": "JOURNEY02",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY02"
+      }
+    },
+    {
+      "Id": "JOURNEY03",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY03"
+      }
+    },
+    {
+      "Id": "JOURNEY04",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY04"
+      }
+    },
+    {
+      "Id": "JOURNEY05",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY05"
+      }
+    },
+    {
+      "Id": "JOURNEY06",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY06"
+      }
+    },
+    {
+      "Id": "JOURNEY07",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY07"
+      }
+    },
+    {
+      "Id": "JOURNEY08",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY08"
+      }
+    },
+    {
+      "Id": "JOURNEY09",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY09"
+      }
+    },
+    {
+      "Id": "JOURNEY10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY10"
+      }
+    },
+    {
+      "Id": "JOURNEY11",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "RequiredMilestone": "JOURNEY11"
+      }
+    },
+    {
+      "Id": "ANOMALY1",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "ALIENS_MET",
+        "RequiredLevel": "3"
+      }
+    },
+    {
+      "Id": "ANOMALY2",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "WORDS_LEARNT",
+        "RequiredLevel": "3"
+      }
+    },
+    {
+      "Id": "ANOMALY3",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "MONEY",
+        "RequiredLevel": "5"
+      }
+    },
+    {
+      "Id": "ANOMALY4",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "ENEMIES_KILLED",
+        "RequiredLevel": "3"
+      }
+    },
+    {
+      "Id": "ANOMALY5",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "SENTINEL_KILLS",
+        "RequiredLevel": "4"
+      }
+    },
+    {
+      "Id": "ANOMALY6",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "LONGEST_LIFE_EX",
+        "RequiredLevel": "3"
+      }
+    },
+    {
+      "Id": "ANOMALY7",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "DIST_WARP",
+        "RequiredLevel": "6"
+      }
+    },
+    {
+      "Id": "ANOMALY8",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "DISC_ALL_CREATU",
+        "RequiredLevel": "1"
+      }
+    },
+    {
+      "Id": "ANOMALY9",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "ALIENS_MET",
+        "RequiredLevel": "8"
+      }
+    },
+    {
+      "Id": "ANOMALY10",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "WORDS_LEARNT",
+        "RequiredLevel": "7"
+      }
+    },
+    {
+      "Id": "ANOMALY11",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "MONEY",
+        "RequiredLevel": "8"
+      }
+    },
+    {
+      "Id": "ANOMALY12",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "ENEMIES_KILLED",
+        "RequiredLevel": "8"
+      }
+    },
+    {
+      "Id": "ANOMALY13",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "SENTINEL_KILLS",
+        "RequiredLevel": "9"
+      }
+    },
+    {
+      "Id": "ANOMALY14",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "LONGEST_LIFE_EX",
+        "RequiredLevel": "7"
+      }
+    },
+    {
+      "Id": "ANOMALY15",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "DIST_WARP",
+        "RequiredLevel": "10"
+      }
+    },
+    {
+      "Id": "ANOMALY16",
+      "DisplayCost": "False",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "StatName": "DISC_ALL_CREATU",
+        "RequiredLevel": "10"
+      }
+    }
+  ],
+  "UnusedCostsTable": [
+    {
+      "Id": "FUEL_COMM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "FUEL_COMM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "FUEL_COMM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL1",
+        "Amount": "300"
+      }
+    },
+    {
+      "Id": "FUEL_UNCOM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "FUEL_UNCOM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "FUEL_UNCOM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "OXYGEN",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "FUEL_RARE_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "FUEL_RARE_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "FUEL_RARE_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "FUEL2",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "COMMOD_COMM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "COMMOD_COMM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "COMMOD_COMM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND1",
+        "Amount": "300"
+      }
+    },
+    {
+      "Id": "COMMOD_UNCOM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "COMMOD_UNCOM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "COMMOD_UNCOM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST1",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "COMMOD_RARE_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "COMMOD_RARE_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "COMMOD_RARE_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CATALYST2",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "TECH_COMM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "YELLOW2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "TECH_COMM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "YELLOW2",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "TECH_COMM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "YELLOW2",
+        "Amount": "300"
+      }
+    },
+    {
+      "Id": "TECH_UNCOM_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "TECH_UNCOM_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "TECH_UNCOM_LA",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "TECH_RARE_SM",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE2",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "TECH_RARE_ME",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "TECH_RARE_LG",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CAVE2",
+        "Amount": "200"
+      }
+    },
+    {
+      "Id": "FUEL1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": " FUEL1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "ATLAS_STONE2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ATLAS_STONE",
+        "Amount": "2"
+      }
+    },
+    {
+      "Id": "ATLAS_STONE5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ATLAS_STONE",
+        "Amount": "5"
+      }
+    },
+    {
+      "Id": "ATLAS_STONE10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "ATLAS_STONE",
+        "Amount": "10"
+      }
+    },
+    {
+      "Id": "NPC_BUILD1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_BUILD1_COST",
+        "RequiredParts": [
+          {
+            "Id": "NPC_STN_BUILD",
+            "Count": "1"
+          },
+          {
+            "Id": "NPC_STN_FARM",
+            "Count": "1"
+          },
+          {
+            "Id": "NPC_STN_WEAPON",
+            "Count": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "NPC_BUILD2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_BUILD2_COST",
+        "RequiredParts": {
+          "Id": "WINDOW",
+          "Count": "4"
+        }
+      }
+    },
+    {
+      "Id": "AMMO1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "AMMO",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "KORVAXGIFT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "GEKGIFT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "VYKGIFT",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE16",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_VEHICLE15",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE_VEHICLES_COST_15",
+        "RequiredParts": {
+          "Id": "GARAGE_S",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE14",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE13",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE_VEHICLES_COST_13",
+        "RequiredParts": {
+          "Id": "GARAGE_L",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE12",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_VEHICLE11",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_VEHICLE10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "100"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Id": "VEHICLE_SCAN1",
+        "InventoryToCheck": "Buggy"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "LAND2",
+        "Amount": "20"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Id": "VEHICLE_LASER",
+        "InventoryToCheck": "Buggy"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_VEHICLE5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_VEHICLE4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ASTEROID2",
+        "Amount": "70"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Id": "VEHICLE_SCAN",
+        "InventoryToCheck": "Buggy"
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE_VEHICLES_COST_2",
+        "RequiredParts": {
+          "Id": "GARAGE_M",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_VEHICLE1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_WEAPON10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "BLUE2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "CASING",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ROBOT1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "MICROCHIP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE3_COST",
+        "RequiredParts": {
+          "Id": "NPCSCIENCETERM",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_WEAPON5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_SNOW",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "WAR_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_WEAPON2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "GRAVBALL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_WEAPON1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_FARM10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "GREEN2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_FARM9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "CASING",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_FARM8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE5_COST",
+        "RequiredParts": {
+          "Id": "CREATUREPLANT",
+          "Count": "3"
+        }
+      }
+    },
+    {
+      "Id": "NPC_FARM7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_CAVE",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_FARM6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_WATER",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_FARM5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE4_COST",
+        "RequiredParts": {
+          "Id": "GRAVPLANT",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_FARM4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_POOP",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_FARM3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_FARM2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Id": "POWERGLOVE",
+        "InventoryToCheck": "All"
+      }
+    },
+    {
+      "Id": "NPC_FARM1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_SCIENCE10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "RED2",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "EXP_CURIO2",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_SCIENCE7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_TOXIC",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "NANOTUBES",
+        "Amount": "3"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE2_COST",
+        "RequiredParts": {
+          "Id": "BUILDBEACON",
+          "Count": "1"
+        }
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "SACVENOM",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_RADIO",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_SCIENCE2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_SCIENCE1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_BUILD10",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "CASING",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_BUILD9",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Description": "NPC_HIRE1_COST",
+        "RequiredParts": {
+          "Id": "MAINROOM",
+          "Count": "3"
+        }
+      }
+    },
+    {
+      "Id": "NPC_BUILD8",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "MICROCHIP",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_BUILD7",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "CREATURE1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_BUILD6",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "TRA_CURIO1",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_BUILD5",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "ROBOT1",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_BUILD4",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultProductType": "None"
+        },
+        "Id": "POWERCELL",
+        "Amount": "1"
+      }
+    },
+    {
+      "Id": "NPC_BUILD3",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    },
+    {
+      "Id": "NPC_BUILD2",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False",
+      "Cost": {
+        "Default": {
+          "DefaultSubstanceType": "None"
+        },
+        "Id": "PLANT_DUST",
+        "Amount": "50"
+      }
+    },
+    {
+      "Id": "NPC_BUILD1",
+      "DisplayCost": "True",
+      "DontCharge": "False",
+      "HideOptionAndDisplayCostOnly": "False",
+      "DisplayOnlyCostIfCantAfford": "False",
+      "RemoveOptionIfCantAfford": "False",
+      "MustAffordInCreative": "False"
+    }
+  ]
+}

@@ -1,0 +1,4503 @@
+{
+  "DecorationTemplates": [
+    {
+      "Id": "S_U",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/STAIRS_UP.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Stairs"
+    },
+    {
+      "Id": "S_D",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/STAIRS_DOWN.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Stairs"
+    },
+    {
+      "Id": "C_S",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_STRAIGHT.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "C_L",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_LSHAPE.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "C_T",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_TSHAPE.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "C_S3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_STRAIGHT_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "C_L3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_LSHAPE_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "C_T3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/CORRIDOR_TSHAPE_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Corridor"
+    },
+    {
+      "Id": "R_F",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOOR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALL_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_EXT1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLEXTERIOR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_EXT4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLEXTERIOR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_CR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_CR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_RC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_RC_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRC_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_RRC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_RRC_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA0_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT0_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA1_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT1_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCLR_C",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFTR_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCRR_C",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHTR_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_C",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCO",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNEROPPOSITE_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNER_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RC_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CR_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CC_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_C",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_C",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_IC",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_INCORNER_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_F2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOOR_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALL_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_CR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_CR_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_RC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_RC_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRC_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRR_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_RRC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_RRC_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA0_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT0_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA1_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT1_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCLR_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFTR_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCRR_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHTR_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCO2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNEROPPOSITE_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNER_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RR_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RC_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CR_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CC_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_IC2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_INCORNER_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_F3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOOR_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALL_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_CR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_CR_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_RC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_RC_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRC_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRR_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_RRC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_RRC_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA0_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT0_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA1_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT1_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCLR_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFTR_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCRR_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHTR_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCO3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNEROPPOSITE_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNER_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RR_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RC_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CR_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CC_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_IC3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_INCORNER_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_F4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOOR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALL_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_CR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_CR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_L_RC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_LSHAPE_RC_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRC_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_CRR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_CRR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_T_RRC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_TSHAPE_RRC_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA0_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT0_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA1_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT1_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCLR_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFTR_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCRR_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHTR_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCA_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERADJACENT_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCO4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNEROPPOSITE_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNER_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_RC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_RC_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CR_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_OCT_CC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNERTRI_CC_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCL_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERLEFT_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCR_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNERRIGHT_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_IC4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_INCORNER_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WEXT_HANG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_WALLEXTERIOR_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_HANG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_INCORNER_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_HANG2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_INCORNER_4_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_HANG3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_INCORNER_4_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_HANG4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_INCORNER_4_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_HANG5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/HANGAR/ROOM_INCORNER_4_5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_IC_BARR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_INCORNER.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_IC_CARG",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_INCORNER.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_BARR",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALL.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "DOOR_SLIME",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/INFESTATION/DOOR_PATH_SLIME.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Door"
+    },
+    {
+      "Id": "DOOR_SLIME_B",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/INFESTATION/DOOR_BRANCH_SLIME.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Door"
+    },
+    {
+      "Id": "DOOR_",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/DOOR_PATH_UNLOCKED.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Door"
+    },
+    {
+      "Id": "DOOR_B",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/DOOR_BRANCH_UNLOCKED.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Door"
+    },
+    {
+      "Id": "CARGO_C_CRATE00",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER_CRATES00.SCENE.MBIN"
+      },
+      "Probability": "0.5",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "CARGO_C_CRATE_L",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER_CRATES_L.SCENE.MBIN"
+      },
+      "Probability": "0.5",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "COM_F_TURRET",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_FLOOR_CEILINGTURRET.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "3",
+      "DecorationLayer": "Decoration3"
+    },
+    {
+      "Id": "COM_PULSELIGHT",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_PULSELIGHT.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration3"
+    },
+    {
+      "Id": "SPWN_N_BUG",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/SPAWNERS/BUG.SCENE.MBIN"
+      },
+      "Probability": "0",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "SPWN_H_FLOATERS",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/SPAWNERS/FLOATER.SCENE.MBIN"
+      },
+      "Probability": "0.04",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration3",
+      "InvalidRoomIndexes": {}
+    },
+    {
+      "Id": "SPWN_H_F_FLOATS",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/SPAWNERS/FASTFLOATER.SCENE.MBIN"
+      },
+      "Probability": "0.1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration3",
+      "InvalidRoomIndexes": {}
+    },
+    {
+      "Id": "SPWN_H_DRONE",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/SPAWNERS/DRONE.SCENE.MBIN"
+      },
+      "Probability": "0.15",
+      "MaxPerRoom": "2",
+      "DecorationLayer": "Decoration3",
+      "InvalidRoomIndexes": {}
+    },
+    {
+      "Id": "R_F_BARR0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_FLOOR1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_BARRSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/SLIME/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARRSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/SLIME/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARRSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/SLIME/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARRPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/PODS/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARRPOD1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/PODS/ROOM_INCORNER_1_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_FP_BARRPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/PODS/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARRPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/PODS/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_OC_SHELVE0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER_SHELVE0.SCENE.MBIN"
+      },
+      "Probability": "0.3",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCO_R",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNEROPP_R.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WOCO_L",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLOUTCORNEROPP_L.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_FP1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOORPILLAR_1.SCENE.MBIN"
+      },
+      "Probability": "0.15",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_FP2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOORPILLAR_2.SCENE.MBIN"
+      },
+      "Probability": "0.15",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_FP3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_FLOORPILLAR_3.SCENE.MBIN"
+      },
+      "Probability": "0.15",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WP1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLPILLAR_1.SCENE.MBIN"
+      },
+      "Probability": "0.6",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WP2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLPILLAR_2.SCENE.MBIN"
+      },
+      "Probability": "0.6",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WP3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_WALLPILLAR_3.SCENE.MBIN"
+      },
+      "Probability": "0.6",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_PODS",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_FLOOR_PODS.SCENE.MBIN"
+      },
+      "Probability": "0.8",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration1"
+    },
+    {
+      "Id": "R_OC_DIVIDER",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_OUTCORNER_DIVIDER.SCENE.MBIN"
+      },
+      "Probability": "0.8",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration1"
+    },
+    {
+      "Id": "R_FP_ROOM",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_FLOORPILLAR_ROOM.SCENE.MBIN"
+      },
+      "Probability": "0.8",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration1"
+    },
+    {
+      "Id": "R_IC_DESKS",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_INCORNER_DESKS.SCENE.MBIN"
+      },
+      "Probability": "0.1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDIBED",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_BED.SCENE.MBIN"
+      },
+      "Probability": "0.05",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_WORKTOP",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_WALL_WORKTOPS.SCENE.MBIN"
+      },
+      "Probability": "0.2",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_0.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_1.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_2.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_3.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_4.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_5.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDI6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALL_1_6.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_1.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_2.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_3.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_4.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_5.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDI6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_INCORNER_1_6.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERRIGHT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERLEFT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WR_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLROOM_1_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_WR_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_WALLROOM_1_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_C_MEDIPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/PODS/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDIPOD1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/PODS/ROOM_INCORNER_1_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_MEDIPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/PODS/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDIPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/PODS/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_CARG0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_CARG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_FLOOR1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_0.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_1.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_2.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_3.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_4.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_6.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARG7",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALL_1_7.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARG0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER00.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER01.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARG2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER02.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARG3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER03.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARG4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/CORNER04.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARG0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERRIGHT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARG0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERLEFT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARG1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARG2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARG2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_CARGSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARGSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARGSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARGPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/PODS/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_CARGPOD1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/PODS/ROOM_INCORNER_1_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_CARGPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/PODS/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CARGPOD0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/PODS/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARGSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERRIGHT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARGSLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERLEFT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARGSLI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARGSLI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_CARGSLI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_CARGSLI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/SLIME/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL00.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL01.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL02.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL03.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL04.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALL5.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALL6.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_BARR7",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALL7.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER00.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER01.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER02.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER03.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER04.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "C_S_COMM0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT00.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT01.SCENE.MBIN"
+      },
+      "Probability": "0.1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT02.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT03.SCENE.MBIN"
+      },
+      "Probability": "0.1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT04.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT05.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT06.SCENE.MBIN"
+      },
+      "Probability": "0.15",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM7",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT07.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM8",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT08.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM9",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT09.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "R_W_CREW",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_WALL_CREWTERMINAL.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_CAPT",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_WALL_CAPTTERMINAL.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_WALL_FINALTERMINAL.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "C_S_COMM0A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT00A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM1A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT01A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM2A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT02A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM3A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT03A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM4A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT04A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM5A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT05A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM6A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT06A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM7A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT07A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM8A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT08A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "C_S_COMM9A",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/STRAIGHT09A.SCENE.MBIN"
+      },
+      "Probability": "0.25",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "DecoratonCorridor"
+    },
+    {
+      "Id": "R_C_BARR5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER05.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER06.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR7",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER07.SCENE.MBIN"
+      },
+      "Probability": "0.9",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR8",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_INCORNER_1_8.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR9",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_INCORNER_1_9.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_BARR10",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_INCORNER_1_10.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_BARR0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERRIGHT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_BARR0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERLEFT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_BARR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_BARR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_TELE",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/COMM/ROOM_INCORNER_TELEPORTER.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_CARGO0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_DEADEND0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_CARGO1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_DEADEND1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_CARGO2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_DEADEND2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_CARGO3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/CARG/ROOM_DEADEND3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_BARR1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_DEADEND1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_BARR2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_DEADEND2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_BARR3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_DEADEND3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_BARR4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_DEADEND4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_BARR5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/ROOM_DEADEND5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_MEDI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_DEADEND1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_MEDI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_DEADEND2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_MEDI3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_DEADEND3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_MEDI4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_DEADEND4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_C_MEDI5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/ROOM_DEADEND5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_MEDISLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_FLOOR0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_MEDISLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_INCORNER_1_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_MEDISLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALL0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDISLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERRIGHT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDISLI0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERLEFT_C_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDISLI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERRIGHT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDISLI1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERLEFT_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_MEDISLI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERRIGHT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_MEDISLI2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/MEDI/SLIME/ROOM_WALLOUTCORNERLEFT_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_DE_R1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_R_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_R2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_R_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_R3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_R_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_R4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_R_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_C1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_C_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_C2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_C_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_C3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_C_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_C4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/EMPTY/ROOM_DEADEND_C_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_BUNK0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL_BUNK00.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_W_BUNK1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/WALL_BUNK01.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_C_BUNK0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER_BUNK00.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_C_BUNK1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/CORNER_BUNK01.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_BUNK0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/DEADEND_BUNK0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_DE_BUNK1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/BARRACKS/DEADEND_BUNK1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Room"
+    },
+    {
+      "Id": "R_F_END0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_FLOOR_4_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_F_END1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_FLOOR_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END6",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_6.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_C_END7",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_INCORNER_4_7.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END3",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_3.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END4",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_4.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_W_END5",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALL_4_5.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_END0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERLEFT_C_4_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_END1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERLEFT_C_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCL_END2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERLEFT_C_4_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_END0",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERRIGHT_C_4_0.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_END1",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERRIGHT_C_4_1.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    },
+    {
+      "Id": "R_WOCR_END2",
+      "TemplateScene": {
+        "Filename": "MODELS/SPACE/POI/DUNGEON/END/ROOM_WALLOUTCORNERRIGHT_C_4_2.SCENE.MBIN"
+      },
+      "Probability": "1",
+      "MaxPerRoom": "100",
+      "DecorationLayer": "Decoration2"
+    }
+  ],
+  "RoomTemplates": [
+    {
+      "Name": "R_BARR",
+      "LocId": "UI_ABAND_BARR",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_FLO_BARR",
+      "LocId": "UI_ABAND_BARR",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_BUG_BARR",
+      "LocId": "UI_ABAND_BARR",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_BARR"
+      }
+    },
+    {
+      "Name": "R_SLI_BARR",
+      "LocId": "UI_ABAND_BARR",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_S_BARR",
+      "LocId": "UI_ABAND_BARR_SMALL",
+      "PrimaryColour": {
+        "R": "0.811",
+        "G": "0.88",
+        "B": "0.796",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_FLO_BARR",
+      "LocId": "UI_ABAND_BARR_SMALL",
+      "PrimaryColour": {
+        "R": "0.811",
+        "G": "0.88",
+        "B": "0.796",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_BUG_BARR",
+      "LocId": "UI_ABAND_BARR_SMALL",
+      "PrimaryColour": {
+        "R": "0.811",
+        "G": "0.88",
+        "B": "0.796",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_BARR"
+      }
+    },
+    {
+      "Name": "R_S_SLI_BARR",
+      "LocId": "UI_ABAND_BARR_SMALL",
+      "PrimaryColour": {
+        "R": "0.811",
+        "G": "0.88",
+        "B": "0.796",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "B_BARR",
+      "LocId": "UI_ABAND_BARR_BRANCH",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_FLO_BARR",
+      "LocId": "UI_ABAND_BARR_BRANCH",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "FAST_FLOATERS"
+      }
+    },
+    {
+      "Name": "B_BUG_BARR",
+      "LocId": "UI_ABAND_BARR_BRANCH",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_S_BARR",
+      "LocId": "UI_ABAND_BARR_BRANCH",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_CARG",
+      "LocId": "UI_ABAND_CARGO",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.686",
+        "B": "0.439",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_FLO_CARG",
+      "LocId": "UI_ABAND_CARGO",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.686",
+        "B": "0.439",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "5",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_BUG_CARG",
+      "LocId": "UI_ABAND_CARGO",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "5",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_CARGO"
+      }
+    },
+    {
+      "Name": "R_SLI_CARG",
+      "LocId": "UI_ABAND_CARGO",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "5",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_S_CARG",
+      "LocId": "UI_ABAND_CARGO_SMALL",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.833",
+        "B": "0.733",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_FLO_CARG",
+      "LocId": "UI_ABAND_CARGO_SMALL",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.833",
+        "B": "0.733",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_BUG_CARG",
+      "LocId": "UI_ABAND_CARGO_SMALL",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.833",
+        "B": "0.733",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_CARGO"
+      }
+    },
+    {
+      "Name": "R_S_SLI_CARG",
+      "LocId": "UI_ABAND_CARGO_SMALL",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.833",
+        "B": "0.733",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "B_CARG",
+      "LocId": "UI_ABAND_CARGO_BRANCH",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_FLO_CARG",
+      "LocId": "UI_ABAND_CARGO_BRANCH",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "FAST_FLOATERS"
+      }
+    },
+    {
+      "Name": "B_BUG_CARG",
+      "LocId": "UI_ABAND_CARGO_BRANCH",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_SLI_CARG",
+      "LocId": "UI_ABAND_CARGO_BRANCH",
+      "PrimaryColour": {
+        "R": "0.933",
+        "G": "0.687",
+        "B": "0.44",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_MEDI",
+      "LocId": "UI_ABAND_MEDI",
+      "PrimaryColour": {
+        "R": "0.437",
+        "G": "0.512",
+        "B": "0.597",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_FLO_MEDI",
+      "LocId": "UI_ABAND_MEDI",
+      "PrimaryColour": {
+        "R": "0.437",
+        "G": "0.512",
+        "B": "0.597",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_BUG_MEDI",
+      "LocId": "UI_ABAND_MEDI",
+      "PrimaryColour": {
+        "R": "0.437",
+        "G": "0.512",
+        "B": "0.597",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_MEDI"
+      }
+    },
+    {
+      "Name": "R_SLI_MEDI",
+      "LocId": "UI_ABAND_MEDI",
+      "PrimaryColour": {
+        "R": "0.437",
+        "G": "0.512",
+        "B": "0.597",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "R_S_MEDI",
+      "LocId": "UI_ABAND_MEDI_SMALL",
+      "PrimaryColour": {
+        "R": "0.614",
+        "G": "0.852",
+        "B": "0.953",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_FLO_MEDI",
+      "LocId": "UI_ABAND_MEDI_SMALL",
+      "PrimaryColour": {
+        "R": "0.614",
+        "G": "0.852",
+        "B": "0.953",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_S_BUG_MEDI",
+      "LocId": "UI_ABAND_MEDI_SMALL",
+      "PrimaryColour": {
+        "R": "0.614",
+        "G": "0.852",
+        "B": "0.953",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "INFESTED_MEDI"
+      }
+    },
+    {
+      "Name": "R_S_SLI_MEDI",
+      "LocId": "UI_ABAND_MEDI_SMALL",
+      "PrimaryColour": {
+        "R": "0.614",
+        "G": "0.852",
+        "B": "0.953",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "5",
+      "MinContiguousWidth": "2",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "DRONES"
+      }
+    },
+    {
+      "Name": "B_MEDI",
+      "LocId": "UI_ABAND_MEDI_BRANCH",
+      "PrimaryColour": {
+        "R": "0.447",
+        "G": "0.608",
+        "B": "0.792",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_FLO_MEDI",
+      "LocId": "UI_ABAND_MEDI_BRANCH",
+      "PrimaryColour": {
+        "R": "0.447",
+        "G": "0.608",
+        "B": "0.792",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "FAST_FLOATERS"
+      }
+    },
+    {
+      "Name": "B_BUG_MED",
+      "LocId": "UI_ABAND_MEDI_BRANCH",
+      "PrimaryColour": {
+        "R": "0.447",
+        "G": "0.608",
+        "B": "0.792",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "B_SLI_MEDI",
+      "LocId": "UI_ABAND_MEDI_BRANCH",
+      "PrimaryColour": {
+        "R": "0.447",
+        "G": "0.608",
+        "B": "0.792",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "1",
+      "MaxPathLength": "3",
+      "MinContiguousWidth": "1",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "1",
+      "ShrinkFactor": "1",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_END",
+      "LocId": "UI_ABAND_END",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "0.82",
+        "B": "0",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "3",
+      "MaxPathLength": "6",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "2",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "CORRIDORS"
+      }
+    },
+    {
+      "Name": "R_HANG",
+      "LocId": "UI_ABAND_HANGER",
+      "PrimaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "SecondaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "TernaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "QuaternaryColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "MinPathLength": "4",
+      "MaxPathLength": "9",
+      "MinContiguousWidth": "3",
+      "MinContiguousHeight": "1",
+      "MinContiguousDepth": "3",
+      "ShrinkFactor": "0",
+      "DecorationThemes": {
+        "Value": "FLOATERS"
+      }
+    }
+  ],
+  "ThemeTemplates": [
+    {
+      "Name": "DOOR_SLIME",
+      "DecorationTemplates": {
+        "Value": "DOOR_SLIME_B"
+      }
+    },
+    {
+      "Name": "DOOR_UNLOCKED",
+      "DecorationTemplates": {
+        "Value": "DOOR_B"
+      }
+    },
+    {
+      "Name": "BASICS1",
+      "DecorationTemplates": {
+        "Value": "R_DE_C1"
+      }
+    },
+    {
+      "Name": "BASICS2",
+      "DecorationTemplates": {
+        "Value": "R_DE_C2"
+      }
+    },
+    {
+      "Name": "BASICS3",
+      "DecorationTemplates": {
+        "Value": "R_DE_C3"
+      }
+    },
+    {
+      "Name": "BASICS4",
+      "DecorationTemplates": {
+        "Value": "R_DE_C4"
+      }
+    },
+    {
+      "Name": "HANGAR",
+      "DecorationTemplates": {
+        "Value": "R_IC_HANG5"
+      }
+    },
+    {
+      "Name": "CORRIDORS",
+      "DecorationTemplates": {
+        "Value": "C_S_COMM9A"
+      }
+    },
+    {
+      "Name": "DIVIDERS",
+      "DecorationTemplates": {
+        "Value": "R_OC_DIVIDER"
+      }
+    },
+    {
+      "Name": "PILLARS1",
+      "DecorationTemplates": {
+        "Value": "R_WP1"
+      }
+    },
+    {
+      "Name": "PILLARS2",
+      "DecorationTemplates": {
+        "Value": "R_WP2"
+      }
+    },
+    {
+      "Name": "PILLARS3",
+      "DecorationTemplates": {
+        "Value": "R_WP3"
+      }
+    },
+    {
+      "Name": "TURRET",
+      "DecorationTemplates": {
+        "Value": "COM_F_TURRET"
+      }
+    },
+    {
+      "Name": "PULSELIGHT",
+      "DecorationTemplates": {
+        "Value": "COM_PULSELIGHT"
+      }
+    },
+    {
+      "Name": "FLOATERS",
+      "DecorationTemplates": {
+        "Value": "SPWN_H_FLOATERS"
+      }
+    },
+    {
+      "Name": "BARRACKS",
+      "DecorationTemplates": {
+        "Value": "R_DE_BUNK1"
+      }
+    },
+    {
+      "Name": "CARGO",
+      "DecorationTemplates": {
+        "Value": "R_DE_C_CARGO3"
+      }
+    },
+    {
+      "Name": "MEDI",
+      "DecorationTemplates": {
+        "Value": "R_WR_MEDI1"
+      }
+    },
+    {
+      "Name": "END_ROOM",
+      "DecorationTemplates": {
+        "Value": "R_WOCR_END2"
+      }
+    },
+    {
+      "Name": "FAST_FLOATERS",
+      "DecorationTemplates": {
+        "Value": "SPWN_H_F_FLOATS"
+      }
+    },
+    {
+      "Name": "SLIME",
+      "DecorationTemplates": {
+        "Value": "DOOR_SLIME_B"
+      }
+    },
+    {
+      "Name": "INFESTED_CARGO",
+      "DecorationTemplates": {
+        "Value": "R_W_CARGPOD0"
+      }
+    },
+    {
+      "Name": "INFESTED_BARR",
+      "DecorationTemplates": {
+        "Value": "R_W_BARRPOD0"
+      }
+    },
+    {
+      "Name": "INFESTED_MEDI",
+      "DecorationTemplates": {
+        "Value": "R_W_MEDIPOD0"
+      }
+    },
+    {
+      "Name": "SLIME_CARGO",
+      "DecorationTemplates": {
+        "Value": "R_WOCL_CARGSLI2"
+      }
+    },
+    {
+      "Name": "SLIME_BARR",
+      "DecorationTemplates": {
+        "Value": "R_W_BARRSLI0"
+      }
+    },
+    {
+      "Name": "SLIME_MEDI",
+      "DecorationTemplates": {
+        "Value": "R_WOCL_MEDISLI2"
+      }
+    },
+    {
+      "Name": "DRONES",
+      "DecorationTemplates": {
+        "Value": "SPWN_H_DRONE"
+      }
+    }
+  ],
+  "PruningRules": [
+    {
+      "RuleId": "STANDINGLIGHT1",
+      "NodeName": "STANDINGLIGHT",
+      "MaxPerRoom": "1",
+      "MaxPerDungeon": "100",
+      "RoomFilters": {
+        "Value": "B_BARR"
+      }
+    },
+    {
+      "RuleId": "STANDINGLIGHT2",
+      "NodeName": "STANDINGLIGHT",
+      "MaxPerRoom": "2",
+      "MaxPerDungeon": "100",
+      "RoomFilters": {
+        "Value": "R_W_END"
+      }
+    },
+    {
+      "RuleId": "STANDINGLIGHT3",
+      "NodeName": "STANDINGLIGHT",
+      "MaxPerRoom": "3",
+      "MaxPerDungeon": "100",
+      "RoomFilters": {
+        "Value": "R_SLI_MEDI"
+      }
+    },
+    {
+      "RuleId": "DATAPAD",
+      "NodeName": "DATAPAD",
+      "MaxPerRoom": "2",
+      "MaxPerDungeon": "100"
+    },
+    {
+      "RuleId": "LARGEDEBRIS",
+      "NodeName": "LARGEDEBRIS",
+      "MaxPerRoom": "2",
+      "MaxPerDungeon": "100"
+    },
+    {
+      "RuleId": "SALVAGESHIP",
+      "NodeName": "SALVAGESHIP",
+      "MaxPerRoom": "2",
+      "MaxPerDungeon": "2"
+    }
+  ]
+}

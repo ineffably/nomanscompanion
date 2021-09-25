@@ -1,0 +1,1930 @@
+{
+  "Traits": [
+    {
+      "ID": "FUEL_PRI",
+      "DisplayName": "FLEET_TRAIT_PRI_FUEL_1",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_1",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_1",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_2",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_2",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_3",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_3",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_4",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_4",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_5",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_5",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_SEC_6",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_6",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "15",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_7",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_8",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_9",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_10",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_11",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_12",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_TER_7",
+      "DisplayName": "FLEET_TRAIT_SEC_FUEL_13",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelCapacity"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_BAD_1",
+      "DisplayName": "FLEET_TRAIT_NEG_FUEL_1",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelBurnRate"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_BAD_2",
+      "DisplayName": "FLEET_TRAIT_NEG_FUEL_2",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelBurnRate"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_BAD_3",
+      "DisplayName": "FLEET_TRAIT_NEG_FUEL_3",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelBurnRate"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_BAD_4",
+      "DisplayName": "FLEET_TRAIT_NEG_FUEL_4",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelBurnRate"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "FUEL_BAD_5",
+      "DisplayName": "FLEET_TRAIT_NEG_FUEL_5",
+      "FrigateStatType": {
+        "FrigateStatType": "FuelBurnRate"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_PRI",
+      "DisplayName": "FLEET_TRAIT_PRI_COMBAT_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_1",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "15",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_2",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "15",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_3",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "15",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_4",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "15",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_5",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "15",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_SEC_6",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_6",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_7",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_8",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_9",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_10",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_11",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_COMBAT_12",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_BAD_1",
+      "DisplayName": "FLEET_TRAIT_NEG_COMBAT_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_BAD_2",
+      "DisplayName": "FLEET_TRAIT_NEG_COMBAT_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_BAD_3",
+      "DisplayName": "FLEET_TRAIT_NEG_COMBAT_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_BAD_4",
+      "DisplayName": "FLEET_TRAIT_NEG_COMBAT_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "COMBAT_BAD_5",
+      "DisplayName": "FLEET_TRAIT_NEG_COMBAT_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_PRI",
+      "DisplayName": "FLEET_TRAIT_PRI_MINING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_1",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_2",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_3",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_4",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_5",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_SEC_6",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_6",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "15",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_7",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_8",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_9",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_10",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_11",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_MINING_12",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_BAD_1",
+      "DisplayName": "FLEET_TRAIT_NEG_MINING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_BAD_2",
+      "DisplayName": "FLEET_TRAIT_NEG_MINING_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_BAD_3",
+      "DisplayName": "FLEET_TRAIT_NEG_MINING_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_BAD_4",
+      "DisplayName": "FLEET_TRAIT_NEG_MINING_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "MINING_BAD_5",
+      "DisplayName": "FLEET_TRAIT_NEG_MINING_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Mining"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_PRI",
+      "DisplayName": "FLEET_TRAIT_PRI_TRADING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_1",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_2",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_3",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_4",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_5",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_SEC_6",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_6",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "15",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_7",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_8",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_9",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_10",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_11",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_TRADING_12",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_BAD_1",
+      "DisplayName": "FLEET_TRAIT_NEG_TRADING_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_BAD_2",
+      "DisplayName": "FLEET_TRAIT_NEG_TRADING_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_BAD_3",
+      "DisplayName": "FLEET_TRAIT_NEG_TRADING_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_BAD_4",
+      "DisplayName": "FLEET_TRAIT_NEG_TRADING_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "TRADING_BAD_5",
+      "DisplayName": "FLEET_TRAIT_NEG_TRADING_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Diplomatic"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "0",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_PRI",
+      "DisplayName": "FLEET_TRAIT_PRI_EXPLORE_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "5",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_1",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_2",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_3",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_4",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_5",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_SEC_6",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_6",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "15",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_7",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_8",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_9",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_10",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_11",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_EXPLORE_12",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_BAD_1",
+      "DisplayName": "FLEET_TRAIT_NEG_EXPLORE_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_BAD_2",
+      "DisplayName": "FLEET_TRAIT_NEG_EXPLORE_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_BAD_3",
+      "DisplayName": "FLEET_TRAIT_NEG_EXPLORE_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_BAD_4",
+      "DisplayName": "FLEET_TRAIT_NEG_EXPLORE_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "EXPLORE_BAD_5",
+      "DisplayName": "FLEET_TRAIT_NEG_EXPLORE_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "NegativeSmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "0",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiarySmall"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_4",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_4",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_5",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_5",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_6",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_6",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_7",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_7",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "SPEED_TER_8",
+      "DisplayName": "FLEET_TRAIT_SEC_SPEED_8",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "INVULN_TER_1",
+      "DisplayName": "FLEET_TRAIT_SEC_INVULNERABLE_1",
+      "FrigateStatType": {
+        "FrigateStatType": "Invulnerable"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "INVULN_TER_2",
+      "DisplayName": "FLEET_TRAIT_SEC_INVULNERABLE_2",
+      "FrigateStatType": {
+        "FrigateStatType": "Invulnerable"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "INVULN_TER_3",
+      "DisplayName": "FLEET_TRAIT_SEC_INVULNERABLE_3",
+      "FrigateStatType": {
+        "FrigateStatType": "Invulnerable"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "5",
+        "Exploration": "5",
+        "Mining": "5",
+        "Diplomacy": "5",
+        "Support": "5",
+        "Normandy": "0"
+      }
+    },
+    {
+      "ID": "NORMANDY_1",
+      "DisplayName": "UI_NORMANDY_TRAIT1",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "100"
+      }
+    },
+    {
+      "ID": "NORMANDY_2",
+      "DisplayName": "UI_NORMANDY_TRAIT2",
+      "FrigateStatType": {
+        "FrigateStatType": "Exploration"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "Primary"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "100"
+      }
+    },
+    {
+      "ID": "NORMANDY_3",
+      "DisplayName": "UI_NORMANDY_TRAIT3",
+      "FrigateStatType": {
+        "FrigateStatType": "Combat"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "SecondaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "100"
+      }
+    },
+    {
+      "ID": "NORMANDY_4",
+      "DisplayName": "UI_NORMANDY_TRAIT4",
+      "FrigateStatType": {
+        "FrigateStatType": "Stealth"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryMedium"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "100"
+      }
+    },
+    {
+      "ID": "NORMANDY_5",
+      "DisplayName": "UI_NORMANDY_TRAIT5",
+      "FrigateStatType": {
+        "FrigateStatType": "Speed"
+      },
+      "Strength": {
+        "FrigateTraitStrength": "TertiaryLarge"
+      },
+      "ChanceOfBeingOffered": {
+        "Combat": "0",
+        "Exploration": "0",
+        "Mining": "0",
+        "Diplomacy": "0",
+        "Support": "0",
+        "Normandy": "100"
+      }
+    }
+  ]
+}

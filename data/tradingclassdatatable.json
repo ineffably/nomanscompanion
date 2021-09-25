@@ -1,0 +1,214 @@
+{
+  "TradingClassesData": [
+    {
+      "Mining": {
+        "Sells": {
+          "TradeCategory": "Mineral"
+        },
+        "Needs": {
+          "TradeCategory": "Energy"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.MINING.DDS"
+        }
+      }
+    },
+    {
+      "HighTech": {
+        "Sells": {
+          "TradeCategory": "Tech"
+        },
+        "Needs": {
+          "TradeCategory": "Component"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.HIGHTECH.DDS"
+        }
+      }
+    },
+    {
+      "Trading": {
+        "Sells": {
+          "TradeCategory": "Commodity"
+        },
+        "Needs": {
+          "TradeCategory": "Exotic"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.TRADING.DDS"
+        }
+      }
+    },
+    {
+      "Manufacturing": {
+        "Sells": {
+          "TradeCategory": "Component"
+        },
+        "Needs": {
+          "TradeCategory": "Mineral"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.MANUFACTURING.DDS"
+        }
+      }
+    },
+    {
+      "Fusion": {
+        "Sells": {
+          "TradeCategory": "Alloy"
+        },
+        "Needs": {
+          "TradeCategory": "Commodity"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.FUSION.DDS"
+        }
+      }
+    },
+    {
+      "Scientific": {
+        "Sells": {
+          "TradeCategory": "Exotic"
+        },
+        "Needs": {
+          "TradeCategory": "Alloy"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.SCIENTIFIC.DDS"
+        }
+      }
+    },
+    {
+      "PowerGeneration": {
+        "Sells": {
+          "TradeCategory": "Energy"
+        },
+        "Needs": {
+          "TradeCategory": "Tech"
+        },
+        "MinSellingPriceMultiplier": "0.7",
+        "MaxSellingPriceMultiplier": "0.9",
+        "MinBuyingPriceMultiplier": "1.4",
+        "MaxBuyingPriceMultiplier": "1.8",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/SYSTEMINFO/ECONGLOW.POWERGENERATION.DDS"
+        }
+      }
+    }
+  ],
+  "CategoryData": [
+    {
+      "Mineral": {
+        "Name": "UI_TRADE_TYPE_MINERALS",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.COMPONENT.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Tech": {
+        "Name": "UI_TRADE_TYPE_TECH",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.DEVICE.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Commodity": {
+        "Name": "UI_TRADE_TYPE_COMMODITY",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.BUILDINGPART.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Component": {
+        "Name": "UI_TRADE_TYPE_COMPONENT",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/STATS/STATS.SUIT.STORAGE.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Alloy": {
+        "Name": "UI_TRADE_TYPE_ALLOY",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.ALLOY.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Exotic": {
+        "Name": "UI_TRADE_TYPE_EXOTICS",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.CURIOSITY.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "Energy": {
+        "Name": "UI_TRADE_TYPE_ENERGY",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.CONSUMABLE.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    },
+    {
+      "None": {
+        "Name": "NONE",
+        "Icon": {
+          "Filename": "TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/BUILDCATAGORY.CONSUMABLE.DDS"
+        },
+        "ProductMultiplierChangePer100": "0.03",
+        "SubstanceMultiplierChangePer100": "0.001"
+      }
+    },
+    {
+      "SpecialShop": {
+        "Icon": {},
+        "ProductMultiplierChangePer100": "0.3",
+        "SubstanceMultiplierChangePer100": "0.03"
+      }
+    }
+  ],
+  "MaxTradingMultiplier": "3",
+  "MinTradingMultiplier": "0.2"
+}

@@ -1,0 +1,5059 @@
+{
+  "Table": [
+    {
+      "Loot": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_LOOT",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_LOOT_CONT",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%LOOTCONT%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_LOOT_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%LOOTADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_LOOT_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%LOOTNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_LOOT",
+            "Name": "ITEMGEN_FORMAT_LOOT",
+            "NameLower": "ITEMGEN_FORMAT_LOOT",
+            "Subtitle": "TREASURE_SUB",
+            "Description": "TREASURE_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.COINCRATE.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_TREASURE_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_TREASURE_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_TREASURE_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "1",
+                "Frozen": "1",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "1",
+                "Frozen": "1",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Document": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_DOC",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_HIST_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%HISTADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_HIST_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%HISTNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "3"
+        },
+        {
+          "Product": {
+            "Id": "PROC_HIST",
+            "Name": "ITEMGEN_FORMAT_DOC",
+            "NameLower": "ITEMGEN_FORMAT_DOC",
+            "Subtitle": "HIST_SUB",
+            "Description": "HIST_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.STRANGEBOOK.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_HIST_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_HIST_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_HIST_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "1",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "1",
+                "Frozen": "1",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "1",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "1",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "1",
+                "Frozen": "1",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "BioSample": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_BIO",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_BIO_CONT",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%BIOCONT%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_BIO_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%BIOADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_BIO_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%BIONOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "5"
+        },
+        {
+          "Product": {
+            "Id": "PROC_BIO",
+            "Name": "ITEMGEN_FORMAT_BIO",
+            "NameLower": "ITEMGEN_FORMAT_BIO",
+            "Subtitle": "BIO_SUB",
+            "Description": "BIO_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.WEIRDSEEDS.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_BIO_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_BIO_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_BIO_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "1",
+                "Toxic": "1",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "1",
+                "Toxic": "1",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Fossil": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_FOSSIL",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_FOSSIL_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%FOSSILADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_FOSSIL_ANIMAL",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%FOSSILANIMAL%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_FOSSIL_PART",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%FOSSILPART%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "8"
+        },
+        {
+          "Product": {
+            "Id": "PROC_FOSS",
+            "Name": "ITEMGEN_FORMAT_FOSSIL",
+            "NameLower": "ITEMGEN_FORMAT_FOSSIL",
+            "Subtitle": "FOSSIL_SUB",
+            "Description": "FOSSIL_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.FOSSIL.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_FOSSIL_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_FOSSIL_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_FOSSIL_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "1",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "1",
+                "Dead": "1",
+                "Weird": "1",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "1",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "1",
+                "Dead": "1",
+                "Weird": "1",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Plant": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_PLANT",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_BOX",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTBOX%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_PART1",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTPART1%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_PART2",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTPART2%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "11"
+        },
+        {
+          "Product": {
+            "Id": "PROC_PLNT",
+            "Name": "ITEMGEN_FORMAT_PLANT",
+            "NameLower": "ITEMGEN_FORMAT_PLANT",
+            "Subtitle": "PLANT_SUB",
+            "Description": "PLANT_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.PLANTPOT3.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "1",
+                "Toxic": "1",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "1",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "1",
+                "Toxic": "1",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "1",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Tool": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_TOOL",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_TOOL_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%TOOLADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_TOOL_USE",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%TOOLUSE%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_TOOL_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%TOOLNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "15"
+        },
+        {
+          "Product": {
+            "Id": "PROC_TOOL",
+            "Name": "ITEMGEN_FORMAT_TOOL",
+            "NameLower": "ITEMGEN_FORMAT_TOOL",
+            "Subtitle": "TOOL_SUB",
+            "Description": "TOOL_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_TOOL_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "4",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_TOOL_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "2",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_TOOL_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "1",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "1",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "1",
+                "Green": "1",
+                "Blue": "1",
+                "Test": "1",
+                "Swamp": "1",
+                "Lava": "1",
+                "Waterworld": "0",
+                "All": "1"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Farm": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_PLANT",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_BOX",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTBOX%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_PART1",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTPART1%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_PART2",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTPART2%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_PLANT_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%PLANTNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "11"
+        },
+        {
+          "Product": {
+            "Id": "PROC_FARM",
+            "Name": "ITEMGEN_FORMAT_PLANT",
+            "NameLower": "ITEMGEN_FORMAT_PLANT",
+            "Subtitle": "PLANT_SUB",
+            "Description": "ITEMGEN_PLANT_MODERN",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.PLANTPOT3.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.118",
+              "G": "0.722",
+              "B": "0.035",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "10",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "2",
+                "AgeMax": "5",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_MODERN",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "6",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "6",
+                "AgeMax": "11",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_MODERN",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "1200000",
+                "AgeMin": "14",
+                "AgeMax": "30",
+                "Description": {
+                  "Word": "ITEMGEN_PLANT_MODERN",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "SeaLoot": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_WATER",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_WATER_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%WATERADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_WATER_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%WATERNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "18"
+        },
+        {
+          "Product": {
+            "Id": "PROC_SEA",
+            "Name": "ITEMGEN_FORMAT_WATER",
+            "NameLower": "ITEMGEN_FORMAT_WATER",
+            "Subtitle": "ITEMGEN_WATER_SUB",
+            "Description": "ITEMGEN_WATER_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.WATERLOOT.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.118",
+              "G": "0.722",
+              "B": "0.035",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "10",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "200000",
+                "AgeMin": "2",
+                "AgeMax": "5",
+                "Description": {
+                  "Word": "ITEMGEN_WATER_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "6",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "6",
+                "AgeMax": "11",
+                "Description": {
+                  "Word": "ITEMGEN_WATER_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "1200000",
+                "AgeMin": "14",
+                "AgeMax": "30",
+                "Description": {
+                  "Word": "ITEMGEN_WATER_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "1",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "1",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "SeaHorror": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_WATERWEIRD",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_WATERWEIRD_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%WATERWEIRDADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_WATERWEIRD_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%WATERWEIRDNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "20"
+        },
+        {
+          "Product": {
+            "Id": "PROC_FEAR",
+            "Name": "ITEMGEN_FORMAT_WATERWEIRD",
+            "NameLower": "ITEMGEN_FORMAT_WATERWEIRD",
+            "Subtitle": "ITEMGEN_WATERWEIRD_SUB",
+            "Description": "ITEMGEN_WATERWEIRD_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HORRIFICARTIFACT.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.118",
+              "G": "0.722",
+              "B": "0.035",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "10",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "250000",
+                "AgeMin": "2",
+                "AgeMax": "5",
+                "Description": {
+                  "Word": "ITEMGEN_WATERWEIRD_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "6",
+                "BasevalueMin": "300000",
+                "BaseValueMax": "600000",
+                "AgeMin": "6",
+                "AgeMax": "11",
+                "Description": {
+                  "Word": "ITEMGEN_WATERWEIRD_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "900000",
+                "BaseValueMax": "1200000",
+                "AgeMin": "14",
+                "AgeMax": "30",
+                "Description": {
+                  "Word": "ITEMGEN_WATERWEIRD_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "1",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "1",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "1",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "1",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "Salvage": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_SALVAGE",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_SALVAGE_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_SALVAGE_ADJ",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_SALVAGE_RARE_ADJ",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%SLVGADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_SALVAGE_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_SALVAGE_NOUN",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_SALVAGE_RARE_NOUN",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%SLVGNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_SALV",
+            "Name": "ITEMGEN_FORMAT_SALVAGE",
+            "NameLower": "ITEMGEN_FORMAT_SALVAGE",
+            "Subtitle": "SALVAGE_SUB",
+            "Description": "SALVAGE_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.SALVAGE.COMMON.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "4",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "300000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_SALVAGE_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.SALVAGE.COMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "2",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "850000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_SALVAGE_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.SALVAGE.UNCOMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "1100000",
+                "BaseValueMax": "2400000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_SALVAGE_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.SALVAGE.RARE.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "Bones": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_BONES",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_BONES_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_BONES_ADJ",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_BONES_RARE_ADJ",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%BONESADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_BONES_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_BONES_NOUN",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_BONES_RARE_NOUN",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%BONESNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_BONE",
+            "Name": "ITEMGEN_FORMAT_BONES",
+            "NameLower": "ITEMGEN_FORMAT_BONES",
+            "Subtitle": "BONES_SUB",
+            "Description": "BONES_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "20",
+                "BasevalueMin": "50000",
+                "BaseValueMax": "110000",
+                "AgeMin": "250",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_BONES_COMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.COMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "5",
+                "BasevalueMin": "200000",
+                "BaseValueMax": "600000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_BONES_UNCOMMON",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.UNCOMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "700000",
+                "BaseValueMax": "1700000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_BONES_RARE",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.RARE.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "SpaceHorror": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_SPACEFEAR",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_SPACEFEAR_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%SPACEFEARADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_SPACEFEAR_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%SPACEFEARNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_DARK",
+            "Name": "ITEMGEN_FORMAT_SPACEFEAR",
+            "NameLower": "ITEMGEN_FORMAT_SPACEFEAR",
+            "Subtitle": "ITEMGEN_SPACEFEAR_SUB",
+            "Description": "ITEMGEN_SPACEFEAR_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HORRIFICARTIFACT.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "0.8"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "10",
+                "BasevalueMin": "100000",
+                "BaseValueMax": "250000",
+                "AgeMin": "2",
+                "AgeMax": "5",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEFEAR_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "6",
+                "BasevalueMin": "300000",
+                "BaseValueMax": "600000",
+                "AgeMin": "6",
+                "AgeMax": "11",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEFEAR_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "900000",
+                "BaseValueMax": "1200000",
+                "AgeMin": "14",
+                "AgeMax": "30",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEFEAR_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "SpaceBones": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_STARBONE",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_STARBONE_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_STARBONE_ADJ",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_STARBONE_RARE_ADJ",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%STARBONEADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_STARBONE_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "Word": "ITEMGEN_STARBONE_NOUN",
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "Word": "ITEMGEN_STARBONE_RARE_NOUN",
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%STARBONENOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_STAR",
+            "Name": "ITEMGEN_FORMAT_STARBONE",
+            "NameLower": "ITEMGEN_FORMAT_STARBONE",
+            "Subtitle": "ITEMGEN_SPACEBONE_SUB",
+            "Description": "ITEMGEN_SPACEBONE_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "20",
+                "BasevalueMin": "50000",
+                "BaseValueMax": "110000",
+                "AgeMin": "250",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEBONE_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.COMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "5",
+                "BasevalueMin": "200000",
+                "BaseValueMax": "600000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEBONE_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.UNCOMMON.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "700000",
+                "BaseValueMax": "1200000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_SPACEBONE_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.BONES.RARE.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "True"
+        }
+      ]
+    },
+    {
+      "FreighterPassword": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_FREI_PASS",
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_PASS",
+            "Name": "ITEMGEN_FORMAT_FREI_PASS",
+            "NameLower": "ITEMGEN_FORMAT_FREI_PASS",
+            "Subtitle": "ITEMGEN_FREI_PASS_SUB",
+            "Description": "ITEMGEN_FREI_PASS_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.PASS.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.011",
+              "G": "0.007",
+              "B": "0.197",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_PASS_DETAIL3",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.PASS.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_PASS_DETAIL2",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.PASS.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "1",
+                "AgeMax": "10",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_PASS_DETAIL1",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.PASS.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterCaptLog": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_FREI_CAPT",
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_CAPT",
+            "Name": "ITEMGEN_FORMAT_FREI_CAPT",
+            "NameLower": "ITEMGEN_FORMAT_FREI_CAPT",
+            "Subtitle": "ITEMGEN_FREI_CAPT_SUB",
+            "Description": "ITEMGEN_FREI_CAPT_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CAPT.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.011",
+              "G": "0.007",
+              "B": "0.197",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CAPT_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CAPT.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CAPT_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CAPT.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CAPT_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CAPT.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterCrewList": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_FREI_CREW",
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_CREW",
+            "Name": "ITEMGEN_FORMAT_FREI_CREW",
+            "NameLower": "ITEMGEN_FORMAT_FREI_CRE",
+            "Subtitle": "ITEMGEN_FREI_CREW_SUB",
+            "Description": "ITEMGEN_FREI_CREW_DESC",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CREW.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.011",
+              "G": "0.007",
+              "B": "0.197",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CREW_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CREW.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CREW_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CREW.DDS"
+                },
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "Word": "ITEMGEN_FREI_CREW_SUB",
+                  "NumOptions": "0"
+                },
+                "Icon": {
+                  "Filename": "TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.PROCFREIGHTER.CREW.DDS"
+                },
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechHyp": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRHYP",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_HYP%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechSpeed": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRSPE",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_SPE%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechFuel": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRFUE",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_FUEL%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechTrade": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRCOM",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_COM%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechCombat": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRTRA",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_TRA%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechMine": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FREXP",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_EXP%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "FreighterTechExp": [
+        {
+          "NameGeneratorBase": {
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "UP_FRMIN",
+            "Subtitle": "",
+            "Description": "",
+            "DebrisFile": {},
+            "BaseValue": "1000",
+            "Level": "1",
+            "Icon": {},
+            "HeroIcon": {},
+            "Colour": {
+              "R": "1",
+              "G": "1",
+              "B": "1",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Consumable"
+            },
+            "Rarity": {
+              "Rarity": "Common"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "True",
+            "ChargeValue": "1",
+            "StackMultiplier": "1",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "True",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "1",
+                "BasevalueMin": "500",
+                "BaseValueMax": "1000",
+                "AgeMin": "500",
+                "AgeMax": "1000",
+                "Description": {
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {
+          "DeployableProductID": "U_FR_MINE%d"
+        },
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "DismantleBio": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_LUMP",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_LUMP_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%LUMPADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_LUMP_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%LUMPNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_LUMP",
+            "Name": "ITEMGEN_FORMAT_LUMP",
+            "NameLower": "ITEMGEN_FORMAT_LUMP",
+            "Subtitle": "UI_UNDERGROUND_SUB",
+            "Description": "UI_UNDERGROUND_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASURE.LUMP.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "250",
+                "BaseValueMax": "1250",
+                "AgeMin": "999",
+                "AgeMax": "9999",
+                "Description": {
+                  "Word": "ITEMGEN_LUMP_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_LUMP_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "0",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_LUMP_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "DismantleTech": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_COG",
+            "NumOptions": "0"
+          }
+        },
+        {
+          "NameGeneratorWordList": [
+            {
+              "Word": {
+                "Word": "ITEMGEN_COG_ADJ",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%COGADJ%"
+            },
+            {
+              "Word": {
+                "Word": "ITEMGEN_COG_NOUN",
+                "NumOptions": "0"
+              },
+              "UncommonWordWord": {
+                "NumOptions": "0"
+              },
+              "RareWord": {
+                "NumOptions": "0"
+              },
+              "ReplaceKey": "%COGNOUN%"
+            }
+          ]
+        },
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_COG",
+            "Name": "ITEMGEN_FORMAT_COG",
+            "NameLower": "ITEMGEN_FORMAT_COG",
+            "Subtitle": "UI_UNDERGROUND_SUB",
+            "Description": "UI_UNDERGROUND_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASURE.COG.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "50",
+                "BaseValueMax": "400",
+                "AgeMin": "200",
+                "AgeMax": "5000",
+                "Description": {
+                  "Word": "ITEMGEN_COG_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_COG_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "0",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_COG_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    },
+    {
+      "DismantleData": [
+        {
+          "NameGeneratorBase": {
+            "Word": "ITEMGEN_FORMAT_DATA",
+            "NumOptions": "0"
+          }
+        },
+        {},
+        {
+          "NameGeneratorLegacyRolls": "0"
+        },
+        {
+          "Product": {
+            "Id": "PROC_DATA",
+            "Name": "ITEMGEN_FORMAT_DATA",
+            "NameLower": "ITEMGEN_FORMAT_DATA",
+            "Subtitle": "UI_UNDERGROUND_SUB",
+            "Description": "UI_UNDERGROUND_SUB",
+            "DebrisFile": {
+              "Filename": "MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN"
+            },
+            "BaseValue": "1000",
+            "Level": "0",
+            "Icon": {
+              "Filename": "TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASURE.DATAPACK.DDS"
+            },
+            "HeroIcon": {},
+            "Colour": {
+              "R": "0.12",
+              "G": "0.723",
+              "B": "0.038",
+              "A": "1"
+            },
+            "Category": {
+              "SubstanceCategory": "Earth"
+            },
+            "Type": {
+              "ProductCategory": "Procedural"
+            },
+            "Rarity": {
+              "Rarity": "Rare"
+            },
+            "Legality": {
+              "Legality": "Legal"
+            },
+            "Consumable": "False",
+            "ChargeValue": "1",
+            "StackMultiplier": "0",
+            "DefaultCraftAmount": "1",
+            "CraftAmountStepSize": "1",
+            "CraftAmountMultiplier": "1",
+            "Cost": {
+              "SpaceStationMarkup": "0",
+              "LowPriceMod": "0",
+              "HighPriceMod": "0.3",
+              "BuyBaseMarkup": "0",
+              "BuyMarkupMod": "0"
+            },
+            "RecipeCost": "1",
+            "SpecificChargeOnly": "False",
+            "NormalisedValueOnWorld": "0",
+            "NormalisedValueOffWorld": "0",
+            "TradeCategory": {
+              "TradeCategory": "None"
+            },
+            "WikiCategory": "NotEnabled",
+            "IsCraftable": "False",
+            "EconomyInfluenceMultiplier": "1",
+            "CookingIngredient": "False",
+            "CookingValue": "0",
+            "GoodForSelling": "False",
+            "EggModifierIngredient": "False"
+          }
+        },
+        {
+          "ProceduralData": [
+            {
+              "Common": {
+                "DropWeight": "1",
+                "BasevalueMin": "700",
+                "BaseValueMax": "8000",
+                "AgeMin": "200",
+                "AgeMax": "500",
+                "Description": {
+                  "Word": "ITEMGEN_DATA_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Uncommon": {
+                "DropWeight": "0",
+                "BasevalueMin": "400000",
+                "BaseValueMax": "700000",
+                "AgeMin": "600",
+                "AgeMax": "1100",
+                "Description": {
+                  "Word": "ITEMGEN_DATA_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            },
+            {
+              "Rare": {
+                "DropWeight": "0",
+                "BasevalueMin": "800000",
+                "BaseValueMax": "2000000",
+                "AgeMin": "1400",
+                "AgeMax": "3000",
+                "Description": {
+                  "Word": "ITEMGEN_DATA_DESC",
+                  "NumOptions": "0"
+                },
+                "Icon": {},
+                "HeroIcon": {}
+              }
+            }
+          ]
+        },
+        {
+          "PerBiomeDropWeights": [
+            {
+              "BiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            },
+            {
+              "PrimeBiomeProbability": {
+                "Lush": "0",
+                "Toxic": "0",
+                "Scorched": "0",
+                "Radioactive": "0",
+                "Frozen": "0",
+                "Barren": "0",
+                "Dead": "0",
+                "Weird": "0",
+                "Red": "0",
+                "Green": "0",
+                "Blue": "0",
+                "Test": "0",
+                "Swamp": "0",
+                "Lava": "0",
+                "Waterworld": "0",
+                "All": "0"
+              }
+            }
+          ]
+        },
+        {},
+        {
+          "RecordsStat": "False"
+        }
+      ]
+    }
+  ]
+}

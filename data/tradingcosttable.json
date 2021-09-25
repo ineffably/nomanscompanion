@@ -1,0 +1,1817 @@
+{
+  "Items": [
+    {
+      "ID": "COMMODITY1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "COMMODITY4",
+      "Cost": "1200",
+      "MinCost": "60",
+      "MaxCost": "24000",
+      "ChangePerSale": "12"
+    },
+    {
+      "ID": "COMMODITY3",
+      "Cost": "800",
+      "MinCost": "40",
+      "MaxCost": "16000",
+      "ChangePerSale": "8"
+    },
+    {
+      "ID": "COMMODITY5",
+      "Cost": "3600",
+      "MinCost": "180",
+      "MaxCost": "72000",
+      "ChangePerSale": "36"
+    },
+    {
+      "ID": "COMMODITY6",
+      "Cost": "4550",
+      "MinCost": "227.5",
+      "MaxCost": "91000",
+      "ChangePerSale": "45.5"
+    },
+    {
+      "ID": "COMMODITY7",
+      "Cost": "20000",
+      "MinCost": "1000",
+      "MaxCost": "400000",
+      "ChangePerSale": "200"
+    },
+    {
+      "ID": "ALLOY1",
+      "Cost": "1125",
+      "MinCost": "56.25",
+      "MaxCost": "22500",
+      "ChangePerSale": "11.25"
+    },
+    {
+      "ID": "ALLOY2",
+      "Cost": "2100",
+      "MinCost": "105",
+      "MaxCost": "42000",
+      "ChangePerSale": "21"
+    },
+    {
+      "ID": "ALLOY3",
+      "Cost": "22500",
+      "MinCost": "1125",
+      "MaxCost": "450000",
+      "ChangePerSale": "225"
+    },
+    {
+      "ID": "ALLOY4",
+      "Cost": "25730",
+      "MinCost": "1286.5",
+      "MaxCost": "514600",
+      "ChangePerSale": "257.3"
+    },
+    {
+      "ID": "ALLOY5",
+      "Cost": "21840",
+      "MinCost": "1092",
+      "MaxCost": "436800",
+      "ChangePerSale": "218.4"
+    },
+    {
+      "ID": "ALLOY6",
+      "Cost": "25925",
+      "MinCost": "1296.25",
+      "MaxCost": "518500",
+      "ChangePerSale": "259.25"
+    },
+    {
+      "ID": "ALLOY7",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "CURIO1",
+      "Cost": "17000",
+      "MinCost": "850",
+      "MaxCost": "340000",
+      "ChangePerSale": "170"
+    },
+    {
+      "ID": "CURIO2",
+      "Cost": "18000",
+      "MinCost": "900",
+      "MaxCost": "360000",
+      "ChangePerSale": "180"
+    },
+    {
+      "ID": "DRUGS1",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CURIO3",
+      "Cost": "16000",
+      "MinCost": "800",
+      "MaxCost": "320000",
+      "ChangePerSale": "160"
+    },
+    {
+      "ID": "COMMODITY2",
+      "Cost": "17500",
+      "MinCost": "875",
+      "MaxCost": "350000",
+      "ChangePerSale": "175"
+    },
+    {
+      "ID": "CURIO4",
+      "Cost": "50000",
+      "MinCost": "2500",
+      "MaxCost": "1000000",
+      "ChangePerSale": "500"
+    },
+    {
+      "ID": "CURIO5",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CURIO6",
+      "Cost": "9000",
+      "MinCost": "450",
+      "MaxCost": "180000",
+      "ChangePerSale": "90"
+    },
+    {
+      "ID": "CURIO7",
+      "Cost": "8000",
+      "MinCost": "400",
+      "MaxCost": "160000",
+      "ChangePerSale": "80"
+    },
+    {
+      "ID": "CURIO8",
+      "Cost": "8500",
+      "MinCost": "425",
+      "MaxCost": "170000",
+      "ChangePerSale": "85"
+    },
+    {
+      "ID": "CURIO9",
+      "Cost": "9500",
+      "MinCost": "475",
+      "MaxCost": "190000",
+      "ChangePerSale": "95"
+    },
+    {
+      "ID": "AQUASPHERE",
+      "Cost": "17000",
+      "MinCost": "850",
+      "MaxCost": "340000",
+      "ChangePerSale": "170"
+    },
+    {
+      "ID": "CAVECUBE",
+      "Cost": "18000",
+      "MinCost": "900",
+      "MaxCost": "360000",
+      "ChangePerSale": "180"
+    },
+    {
+      "ID": "SACVENOM",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "GRAVBALL",
+      "Cost": "6000",
+      "MinCost": "300",
+      "MaxCost": "120000",
+      "ChangePerSale": "60"
+    },
+    {
+      "ID": "ALBUMENPEARL",
+      "Cost": "14500",
+      "MinCost": "725",
+      "MaxCost": "290000",
+      "ChangePerSale": "145"
+    },
+    {
+      "ID": "SENTINEL1",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "SENTINEL2",
+      "Cost": "11000",
+      "MinCost": "550",
+      "MaxCost": "220000",
+      "ChangePerSale": "110"
+    },
+    {
+      "ID": "HYPERFUEL1",
+      "Cost": "34000",
+      "MinCost": "1700",
+      "MaxCost": "680000",
+      "ChangePerSale": "340"
+    },
+    {
+      "ID": "GRENFUEL1",
+      "Cost": "20000",
+      "MinCost": "1000",
+      "MaxCost": "400000",
+      "ChangePerSale": "200"
+    },
+    {
+      "ID": "PRODFUEL1",
+      "Cost": "125",
+      "MinCost": "6.25",
+      "MaxCost": "2500",
+      "ChangePerSale": "1.25"
+    },
+    {
+      "ID": "PRODFUEL2",
+      "Cost": "250",
+      "MinCost": "12.5",
+      "MaxCost": "5000",
+      "ChangePerSale": "2.5"
+    },
+    {
+      "ID": "PRODFUEL3",
+      "Cost": "375",
+      "MinCost": "18.75",
+      "MaxCost": "7500",
+      "ChangePerSale": "3.75"
+    },
+    {
+      "ID": "SHIELDFUEL1",
+      "Cost": "250",
+      "MinCost": "12.5",
+      "MaxCost": "5000",
+      "ChangePerSale": "2.5"
+    },
+    {
+      "ID": "SHIELDFUEL2",
+      "Cost": "500",
+      "MinCost": "25",
+      "MaxCost": "10000",
+      "ChangePerSale": "5"
+    },
+    {
+      "ID": "SHIELDFUEL3",
+      "Cost": "750",
+      "MinCost": "37.5",
+      "MaxCost": "15000",
+      "ChangePerSale": "7.5"
+    },
+    {
+      "ID": "HACK1",
+      "Cost": "2600",
+      "MinCost": "130",
+      "MaxCost": "52000",
+      "ChangePerSale": "26"
+    },
+    {
+      "ID": "ACCESS1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "ACCESS2",
+      "Cost": "1350",
+      "MinCost": "67.5",
+      "MaxCost": "27000",
+      "ChangePerSale": "13.5"
+    },
+    {
+      "ID": "ACCESS3",
+      "Cost": "1900",
+      "MinCost": "95",
+      "MaxCost": "38000",
+      "ChangePerSale": "19"
+    },
+    {
+      "ID": "NIPNIPBUDS",
+      "Cost": "12928",
+      "MinCost": "646.4",
+      "MaxCost": "258560",
+      "ChangePerSale": "129.28"
+    },
+    {
+      "ID": "NIPPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "BATTERY",
+      "Cost": "1125",
+      "MinCost": "56.25",
+      "MaxCost": "22500",
+      "ChangePerSale": "11.25"
+    },
+    {
+      "ID": "CWIRE",
+      "Cost": "2100",
+      "MinCost": "105",
+      "MaxCost": "42000",
+      "ChangePerSale": "21"
+    },
+    {
+      "ID": "MPLATE",
+      "Cost": "2500",
+      "MinCost": "125",
+      "MaxCost": "50000",
+      "ChangePerSale": "25"
+    },
+    {
+      "ID": "CBOARD",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "GLASS",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "SFIBRES",
+      "Cost": "14000",
+      "MinCost": "700",
+      "MaxCost": "280000",
+      "ChangePerSale": "140"
+    },
+    {
+      "ID": "ACID",
+      "Cost": "13000",
+      "MinCost": "650",
+      "MaxCost": "260000",
+      "ChangePerSale": "130"
+    },
+    {
+      "ID": "GEL",
+      "Cost": "32000",
+      "MinCost": "1600",
+      "MaxCost": "640000",
+      "ChangePerSale": "320"
+    },
+    {
+      "ID": "LUBE",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "EXPLOSIVE",
+      "Cost": "27000",
+      "MinCost": "1350",
+      "MaxCost": "540000",
+      "ChangePerSale": "270"
+    },
+    {
+      "ID": "TOXICPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "SNOWPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "RADIOPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "BARRENPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "SCORCHEDPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "CREATUREPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "POOPPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "GRAVPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "SACVENOMPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "PEARLPLANT",
+      "Cost": "28440",
+      "MinCost": "1422",
+      "MaxCost": "568800",
+      "ChangePerSale": "284.4"
+    },
+    {
+      "ID": "FOUNDATION",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORRIDOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORRIDORL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORRIDORT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORRIDORX",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORRIDOR_WINDOW",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "HEALTHPLANT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCEXPLORER001",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCSCIENCETERM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCWEAPONTERM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCFARMTERM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCVEHICLETERM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "NPCBUILDERTERM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDBEACON",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDSIGNAL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDLANDINGPAD",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDLADDER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDTERMINAL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDHARVESTER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDOOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FOUNDLEG",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "MAINROOM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDWINDOW",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDTOWER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDCHAIR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDCHAIR2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDCHAIR3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDTABLE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDTABLE2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDTABLE3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDBED",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "SMALLLIGHT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDLIGHT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDLIGHT2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDLIGHT3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDPAVING",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDPAVINGTALL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "GARAGE_S",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "GARAGE_M",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "GARAGE_L",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEROOM",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEFOUND",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEFOUND4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEWINDOW",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDSAVE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEFLOOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBELADDER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECAL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECAL2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALHELLO",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNMS",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM0",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM5",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM6",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM7",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM8",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALNUM9",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FOUNDLEG4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "GLASSCORRIDOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDRAMP",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "SHIPSUMMON",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "TECHPANEL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLFAN",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLSCREEN",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "PLANTPOT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BLDWALLUNIT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CHEST",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "MESSAGE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "PLANTER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER0",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER5",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER6",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER7",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER8",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CONTAINER9",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CORNERPOST",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "ROOMFLOOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CYLINDERSHAPE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBESHAPE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "SPHERESHAPE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEWINDOWOVAL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CUBEWINDOWSMALL",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FLAG1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FLAG2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FLAG3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FLAG4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLFLAG1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLFLAG2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLFLAG3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "DRAWS",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "SERVERSTACK",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "FLOORMAT1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "ROOFMONITOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CEILINGLIGHT",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "MONITORDESK",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLDOOR",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "LARGEDESK",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "PLANTPOT1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "PLANTPOT2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "PLANTPOT3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WEAPONRACK",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CURVEDDESK",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CRATELRARE",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "CRATELCYLINDER",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BIOROOM",
+      "Cost": "40000",
+      "MinCost": "2000",
+      "MaxCost": "800000",
+      "ChangePerSale": "400"
+    },
+    {
+      "ID": "CURVEDCUBEROOF",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CUBEROOMCURVED",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CUBEGLASS",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CUBEFRAME",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CUBEINNERDOOR",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "CUBEWALL",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "CUBEROOF",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CUBESTAIRS",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "DOOR2",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "WALLFLOORLADDER",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "WALLLIGHTBLUE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WALLLIGHTPINK",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WALLLIGHTYELLOW",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WALLLIGHTGREEN",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WALLLIGHTRED",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WALLLIGHTWHITE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "MAINROOMFRAME",
+      "Cost": "20000",
+      "MinCost": "1000",
+      "MaxCost": "400000",
+      "ChangePerSale": "200"
+    },
+    {
+      "ID": "VIEWSPHERE",
+      "Cost": "15000",
+      "MinCost": "750",
+      "MaxCost": "300000",
+      "ChangePerSale": "150"
+    },
+    {
+      "ID": "CREATHOLOGRAM",
+      "Cost": "0",
+      "MinCost": "0",
+      "MaxCost": "0",
+      "ChangePerSale": "0"
+    },
+    {
+      "ID": "CARBONPLANTER",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "HEALTHSTATION",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "SHIELDSTATION",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "BUILDDECALVIS1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALVIS2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALVIS3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALVIS4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALVIS5",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALSIMP1",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALSIMP2",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALSIMP3",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "BUILDDECALSIMP4",
+      "Cost": "600",
+      "MinCost": "30",
+      "MaxCost": "12000",
+      "ChangePerSale": "6"
+    },
+    {
+      "ID": "WALLTALL",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WEDGESHAPE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "WEDGESMALLSHAPE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "PYRAMIDSHAPE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "CURVEPIPESHAPE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "PIPESHAPE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "CUBESOLID",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "MESSAGEMODULE",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "CORRIDORC",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "MAINROOMCUBE",
+      "Cost": "30000",
+      "MinCost": "1500",
+      "MaxCost": "600000",
+      "ChangePerSale": "300"
+    },
+    {
+      "ID": "RACE_START",
+      "Cost": "10000",
+      "MinCost": "500",
+      "MaxCost": "200000",
+      "ChangePerSale": "100"
+    },
+    {
+      "ID": "MAINROOMCUBEF",
+      "Cost": "30000",
+      "MinCost": "1500",
+      "MaxCost": "600000",
+      "ChangePerSale": "300"
+    },
+    {
+      "ID": "WALLCURVED",
+      "Cost": "5000",
+      "MinCost": "250",
+      "MaxCost": "100000",
+      "ChangePerSale": "50"
+    },
+    {
+      "ID": "TECH1",
+      "Cost": "20",
+      "MinCost": "1",
+      "MaxCost": "400",
+      "ChangePerSale": "0.02"
+    },
+    {
+      "ID": "TECHUNCOMMON1",
+      "Cost": "40",
+      "MinCost": "2",
+      "MaxCost": "800",
+      "ChangePerSale": "0.04"
+    },
+    {
+      "ID": "TECHRARE1",
+      "Cost": "60",
+      "MinCost": "3",
+      "MaxCost": "1200",
+      "ChangePerSale": "0.06"
+    },
+    {
+      "ID": "COM1",
+      "Cost": "10",
+      "MinCost": "0.5",
+      "MaxCost": "200",
+      "ChangePerSale": "0.01"
+    },
+    {
+      "ID": "COMUNCOMMON1",
+      "Cost": "30",
+      "MinCost": "1.5",
+      "MaxCost": "600",
+      "ChangePerSale": "0.03"
+    },
+    {
+      "ID": "COMRARE1",
+      "Cost": "45",
+      "MinCost": "2.25",
+      "MaxCost": "900",
+      "ChangePerSale": "0.045"
+    },
+    {
+      "ID": "FUEL1",
+      "Cost": "5",
+      "MinCost": "0.25",
+      "MaxCost": "100",
+      "ChangePerSale": "0.005"
+    },
+    {
+      "ID": "FUELUNCOMMON1",
+      "Cost": "15",
+      "MinCost": "0.75",
+      "MaxCost": "300",
+      "ChangePerSale": "0.015"
+    },
+    {
+      "ID": "FUELRARE1",
+      "Cost": "30",
+      "MinCost": "1.5",
+      "MaxCost": "600",
+      "ChangePerSale": "0.03"
+    },
+    {
+      "ID": "TRADEABLE1",
+      "Cost": "70",
+      "MinCost": "3.5",
+      "MaxCost": "1400",
+      "ChangePerSale": "0.07"
+    },
+    {
+      "ID": "TRADEABLE2",
+      "Cost": "80",
+      "MinCost": "4",
+      "MaxCost": "1600",
+      "ChangePerSale": "0.08"
+    },
+    {
+      "ID": "TRADEABLE3",
+      "Cost": "100",
+      "MinCost": "5",
+      "MaxCost": "2000",
+      "ChangePerSale": "0.1"
+    },
+    {
+      "ID": "TRADEABLE4",
+      "Cost": "120",
+      "MinCost": "6",
+      "MaxCost": "2400",
+      "ChangePerSale": "0.12"
+    },
+    {
+      "ID": "TRADEABLE5",
+      "Cost": "160",
+      "MinCost": "8",
+      "MaxCost": "3200",
+      "ChangePerSale": "0.16"
+    },
+    {
+      "ID": "TRADEABLE6",
+      "Cost": "200",
+      "MinCost": "10",
+      "MaxCost": "4000",
+      "ChangePerSale": "0.2"
+    },
+    {
+      "ID": "TRADEABLE7",
+      "Cost": "220",
+      "MinCost": "11",
+      "MaxCost": "4400",
+      "ChangePerSale": "0.22"
+    },
+    {
+      "ID": "TRADEABLE8",
+      "Cost": "210",
+      "MinCost": "10.5",
+      "MaxCost": "4200",
+      "ChangePerSale": "0.21"
+    },
+    {
+      "ID": "TRADEABLE9",
+      "Cost": "220",
+      "MinCost": "11",
+      "MaxCost": "4400",
+      "ChangePerSale": "0.22"
+    },
+    {
+      "ID": "TRADEABLE10",
+      "Cost": "225",
+      "MinCost": "11.25",
+      "MaxCost": "4500",
+      "ChangePerSale": "0.225"
+    },
+    {
+      "ID": "SUBBLUESYS",
+      "Cost": "200",
+      "MinCost": "10",
+      "MaxCost": "4000",
+      "ChangePerSale": "0.2"
+    },
+    {
+      "ID": "SUBREDSYS",
+      "Cost": "210",
+      "MinCost": "10.5",
+      "MaxCost": "4200",
+      "ChangePerSale": "0.21"
+    },
+    {
+      "ID": "SUBGREENSYS",
+      "Cost": "220",
+      "MinCost": "11",
+      "MaxCost": "4400",
+      "ChangePerSale": "0.22"
+    },
+    {
+      "ID": "SUBTOXIC",
+      "Cost": "130",
+      "MinCost": "6.5",
+      "MaxCost": "2600",
+      "ChangePerSale": "0.13"
+    },
+    {
+      "ID": "SUBSNOW",
+      "Cost": "115",
+      "MinCost": "5.75",
+      "MaxCost": "2300",
+      "ChangePerSale": "0.115"
+    },
+    {
+      "ID": "SUBRADIOACTIVE",
+      "Cost": "125",
+      "MinCost": "6.25",
+      "MaxCost": "2500",
+      "ChangePerSale": "0.125"
+    },
+    {
+      "ID": "SUBBARREN",
+      "Cost": "130",
+      "MinCost": "6.5",
+      "MaxCost": "2600",
+      "ChangePerSale": "0.13"
+    },
+    {
+      "ID": "SUBSCORCHED",
+      "Cost": "120",
+      "MinCost": "6",
+      "MaxCost": "2400",
+      "ChangePerSale": "0.12"
+    },
+    {
+      "ID": "SUBCAVE",
+      "Cost": "30",
+      "MinCost": "1.5",
+      "MaxCost": "600",
+      "ChangePerSale": "0.03"
+    },
+    {
+      "ID": "SUBWATER",
+      "Cost": "30",
+      "MinCost": "1.5",
+      "MaxCost": "600",
+      "ChangePerSale": "0.03"
+    },
+    {
+      "ID": "SUBCREATURE",
+      "Cost": "10",
+      "MinCost": "0.5",
+      "MaxCost": "200",
+      "ChangePerSale": "0.01"
+    },
+    {
+      "ID": "SUBPOOP",
+      "Cost": "5",
+      "MinCost": "0.25",
+      "MaxCost": "100",
+      "ChangePerSale": "0.005"
+    },
+    {
+      "ID": "SUBDRONE",
+      "Cost": "100",
+      "MinCost": "5",
+      "MaxCost": "2000",
+      "ChangePerSale": "0.1"
+    },
+    {
+      "ID": "SUBSHIP",
+      "Cost": "100",
+      "MinCost": "5",
+      "MaxCost": "2000",
+      "ChangePerSale": "0.1"
+    },
+    {
+      "ID": "TECHFRAG",
+      "Cost": "100",
+      "MinCost": "5",
+      "MaxCost": "2000",
+      "ChangePerSale": "0.1"
+    },
+    {
+      "ID": "VEHICLESUB1",
+      "Cost": "20",
+      "MinCost": "1",
+      "MaxCost": "400",
+      "ChangePerSale": "0.02"
+    },
+    {
+      "ID": "VEHICLESUB2",
+      "Cost": "20",
+      "MinCost": "1",
+      "MaxCost": "400",
+      "ChangePerSale": "0.02"
+    }
+  ]
+}

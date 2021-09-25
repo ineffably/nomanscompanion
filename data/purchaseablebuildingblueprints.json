@@ -1,0 +1,877 @@
+{
+  "Table": [
+    {
+      "ProductID": "BUILD_REFINER1",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDSIGNAL",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDSAVE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "TELEPORTER",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_WALL",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_WALL_WINDOW",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_DOOR",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "HEALTHSTATION",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_DOOR_H",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "SHIELDSTATION",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_DOORWINDOW",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "MESSAGEMODULE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_FLOOR",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "MESSAGE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_GFLOOR",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_RAMP",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_ROOF",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "W_ARCH",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "FOUNDATION",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "MAINROOM",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CORRIDOR",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "BUILDDOOR",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "BUILDLADDER",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "BUILDWINDOW",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "MAINROOMFRAME",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CORRIDORL",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "MAINROOMCUBE",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CORRIDORT",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "MAINROOMCUBEF",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CORRIDORX",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "GLASSCORRIDOR",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "BIOROOM",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CORRIDORC",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "FOUNDLEG4",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "DOOR2",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "VIEWSPHERE",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "FOUNDLEG",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEWINDOW",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEROOM",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEFOUND",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEFOUND4",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEFLOOR",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CURVEDCUBEROOF",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEROOMCURVED",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEGLASS",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEFRAME",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEINNERDOOR",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEWALL",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEROOF",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBESTAIRS",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEWINDOWOVAL",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "CUBEWINDOWSMALL",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "PLANTERMEGA",
+      "GroupId": "1"
+    },
+    {
+      "ProductID": "M_WALL",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALL",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_WALL_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_WALL_WINDOW",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALL_WINDOW",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_WALL_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_DOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_DOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_WALL_Q_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_ARCH",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_WALLDIAGONAL",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_FLOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_FLOOR_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_DOOR_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_RAMP",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_RAMP_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_DOORWINDOW",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_GFLOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_ROOF_M",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_FLOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_DOORWINDOW",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_ROOF_C",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_GFLOOR",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_ROOF",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "W_ARCH_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_RAMP",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_ARCH",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_ROOF",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_WALL_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALL_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_WALL_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_WALL_Q_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALL_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_WALLDIAGONAL",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALL_Q_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_DOOR_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_WALLDIAGONAL",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_FLOOR_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_FLOOR_Q",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_RAMP_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_RAMP_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_ROOF_M",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_ROOF_M",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_ROOF_C",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_ROOF_C",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "M_ARCH_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "C_ARCH_H",
+      "GroupId": "2"
+    },
+    {
+      "ProductID": "BUILDPAVING",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "BUILDPAVING_BIG",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "BUILDPAVINGTALL",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "WALLFLOORLADDER",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "WEDGESHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "SPHERESHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "CUBESHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "WEDGESMALLSHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "PYRAMIDSHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "CURVEPIPESHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "PIPESHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "CUBESOLID",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "BUILDRAMP",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "CYLINDERSHAPE",
+      "GroupId": "3"
+    },
+    {
+      "ProductID": "BUILDLIGHT",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "SMALLLIGHT",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "WALLLIGHTWHITE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDLIGHT2",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "WALLLIGHTRED",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDLIGHT3",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "WALLLIGHTPINK",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "WALLLIGHTYELLOW",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "WALLLIGHTBLUE",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "WALLLIGHTGREEN",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDDECAL",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECAL2",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNMS",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALVIS1",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALVIS2",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALVIS3",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALVIS4",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALVIS5",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALSIMP1",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALSIMP2",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALSIMP3",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALSIMP4",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALHELLO",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM0",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM1",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM2",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM3",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM4",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM5",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM6",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM7",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM8",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDDECALNUM9",
+      "GroupId": "4"
+    },
+    {
+      "ProductID": "BUILDBED",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "PLANTPOT",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDCHAIR",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "COOKER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDANTIMATTER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "SUMMON_GARAGE",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "GARAGE_B",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "RACE_START",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "RACE_BOOSTER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "RACE_RAMP",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "FLAG1",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "FLAG2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLSCREEN",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDTABLE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDTABLE2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "FLAG3",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "LARGEDESK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "FLAG4",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "PLANTPOT1",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLFLAG1",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WEAPONRACK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CURVEDDESK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "STORAGEPANEL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLFLAG3",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "DRAWS",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "SERVERSTACK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "FLOORMAT1",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "ROOFMONITOR",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CEILINGLIGHT",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "MONITORDESK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLFLAG2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BLDWALLUNIT",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDCHAIR2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "TECHPANEL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLFAN",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDCHAIR3",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CHEST",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "PLANTPOT2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "PLANTPOT3",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDSIMPLEDESK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDSOFA",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDSOFA2L",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDSOFA2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "SHELFPANEL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDLOCKER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDLIGHTTABLE",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDHCABINET",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDSIDEPANEL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDCANRACK",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDLABLAMP",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDFLATPANEL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "ROBOTICARM",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "OCTACABINET",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDLCRATE",
+      "GroupId": "0"
+    },
+    {
+      "ProductID": "BUILDAMCRATE",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BOXEDSCREEN",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLSCREENB",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WALLSCREENB2",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDWORKTOP",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CRATELRARE",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CRATELCYLINDER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "GARAGE_SUB",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CORRIDOR_WATER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CORRIDORL_WATER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CORRIDORT_WATER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CORRIDORX_WATER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "CORRIDORV_WATER",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "PANEL_GLASS",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "WATERBUBBLE",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "MOONPOOL",
+      "GroupId": "5"
+    },
+    {
+      "ProductID": "BUILDDOOR_WATER",
+      "GroupId": "5"
+    }
+  ],
+  "GroupMaxItems": {}
+}

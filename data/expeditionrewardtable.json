@@ -1,0 +1,2288 @@
+{
+  "Table": [
+    {
+      "Id": "R_DIPLOMATIC_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SHIP_INV_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO2",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO2",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "350000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO2",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND6",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND5",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND4",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_DIPLOMATIC_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "250000",
+            "AmountMax": "400000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_DIPLOMATIC_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "250000",
+            "AmountMax": "400000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_DIPLOMATIC_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "250000",
+            "AmountMax": "350000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_COMBAT_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "200000",
+            "AmountMax": "350000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_COMBAT_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "STELLAR2",
+              "AmountMin": "500",
+              "AmountMax": "500",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "BLUE2",
+              "AmountMin": "500",
+              "AmountMax": "500",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "LAND3",
+              "AmountMin": "500",
+              "AmountMax": "500",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY7",
+              "AmountMin": "5",
+              "AmountMax": "5",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY8",
+              "AmountMin": "5",
+              "AmountMax": "5",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "AmountMin": "200000",
+              "AmountMax": "350000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_COMBAT_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "250000",
+            "AmountMax": "400000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_EXPLORATION_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ANTIMATTER",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "200",
+              "AmountMax": "250",
+              "Currency": {
+                "Currency": "Nanites"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXPLORATION_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Plant"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "10",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "NIPNIPBUDS",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SACVENOM",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALBUMENPEARL",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXPLORATION_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "BioSample"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION2",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION3",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SACVENOM",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALBUMENPEARL",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXPLORATION_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Loot"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "CAVECUBE",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "GRAVBALL",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINING_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_YELLOW",
+              "AmountMin": "250",
+              "AmountMax": "750",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_RED",
+              "AmountMin": "250",
+              "AmountMax": "750",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_GREEN",
+              "AmountMin": "250",
+              "AmountMax": "750",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_BLUE",
+              "AmountMin": "250",
+              "AmountMax": "750",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINING_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SHIP_INV_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "FRIG_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_EXOTICS5",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS5",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_ALLOY5",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND1",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND2",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "COMPOUND3",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Tool"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINING_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SHIP_INV_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY7",
+              "AmountMin": "2",
+              "AmountMax": "4",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY8",
+              "AmountMin": "2",
+              "AmountMax": "4",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY1",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY2",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY3",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY4",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY5",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY6",
+              "AmountMin": "5",
+              "AmountMax": "10",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINING_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SHIP_INV_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "66",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "FRIG_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "250000",
+              "AmountMax": "400000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS2",
+              "AmountMin": "10",
+              "AmountMax": "20",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS3",
+              "AmountMin": "10",
+              "AmountMax": "20",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION1",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION2",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION3",
+              "AmountMin": "1",
+              "AmountMax": "3",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY6",
+              "AmountMin": "2",
+              "AmountMax": "6",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_DIP_EASY_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO2",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO2",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "35000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO2",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_DIP_EASY_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "25000",
+            "AmountMax": "40000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_DIP_EASY_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "25000",
+            "AmountMax": "40000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_DIP_EASY_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "25000",
+            "AmountMax": "35000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_COM_EASY_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "20000",
+            "AmountMax": "35000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_COM_EASY_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "STELLAR2",
+              "AmountMin": "50",
+              "AmountMax": "50",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "BLUE2",
+              "AmountMin": "50",
+              "AmountMax": "50",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "LAND3",
+              "AmountMin": "50",
+              "AmountMax": "50",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY7",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY8",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "AmountMin": "20000",
+              "AmountMax": "35000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_COM_EASY_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": {
+          "PercentageChance": "100",
+          "Reward": {
+            "AmountMin": "25000",
+            "AmountMax": "40000",
+            "Currency": {
+              "Currency": "Units"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": "R_EXP_EASY_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ANTIMATTER",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "20",
+              "AmountMax": "25",
+              "Currency": {
+                "Currency": "Nanites"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXP_EASY_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Plant"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "10",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "NIPNIPBUDS",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SACVENOM",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALBUMENPEARL",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXP_EASY_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "1",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "BioSample"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION2",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "REACTION3",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "SACVENOM",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALBUMENPEARL",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_EXP_EASY_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "1",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Loot"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "EXP_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "WAR_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "20",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_CURIO1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "CAVECUBE",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "50",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "GRAVBALL",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINE_EASY_0",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_YELLOW",
+              "AmountMin": "100",
+              "AmountMax": "200",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_RED",
+              "AmountMin": "100",
+              "AmountMax": "200",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_GREEN",
+              "AmountMin": "100",
+              "AmountMax": "200",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "Product": {
+                  "gcproducttableEnum": "None"
+                }
+              },
+              "ID": "EX_BLUE",
+              "AmountMin": "100",
+              "AmountMax": "200",
+              "HardModeMultiplier": "1",
+              "DisableMultiplier": "False",
+              "RewardAsBlobs": "False",
+              "UseFuelMultiplier": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINE_EASY_1",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "FRIG_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_EXOTICS5",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS5",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_ALLOY5",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "1",
+            "Reward": {
+              "Type": {
+                "ProceduralProductCategory": "Tool"
+              },
+              "SubIfPlayerAlreadyHasOne": "False",
+              "OverrideRarity": "False",
+              "Rarity": {
+                "Rarity": "Common"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINE_EASY_2",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY7",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY8",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY1",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY2",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY3",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY4",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY5",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALLOY6",
+              "AmountMin": "1",
+              "AmountMax": "2",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "R_MINE_EASY_3",
+      "List": {
+        "RewardChoice": "SelectAlways",
+        "OverrideZeroSeed": "False",
+        "List": [
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "FRIG_TOKEN",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "AmountMin": "25000",
+              "AmountMax": "40000",
+              "Currency": {
+                "Currency": "Units"
+              }
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS2",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "TRA_MINERALS3",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "CLAMPEARL",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "VENTGEM",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          },
+          {
+            "PercentageChance": "100",
+            "Reward": {
+              "Default": {
+                "DefaultProductType": "None"
+              },
+              "ID": "ALBUMENPEARL",
+              "AmountMin": "1",
+              "AmountMax": "1",
+              "ForceSpecialMessage": "False",
+              "HideInSeasonRewards": "False",
+              "Silent": "False"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

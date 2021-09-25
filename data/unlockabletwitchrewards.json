@@ -1,0 +1,359 @@
+{
+  "Table": [
+    {
+      "TwitchId": "TWITCH_085",
+      "ProductId": "TWITCH_FIREW02E",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_084",
+      "ProductId": "TWITCH_FIREW02D",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_083",
+      "ProductId": "TWITCH_FIREW02C",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_082",
+      "ProductId": "TWITCH_FIREW02B",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_081",
+      "ProductId": "TWITCH_FIREW02A",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_080",
+      "ProductId": "SPEC_EXOTIC6"
+    },
+    {
+      "TwitchId": "TWITCH_079",
+      "ProductId": "SPEC_EXOTIC5"
+    },
+    {
+      "TwitchId": "TWITCH_078",
+      "ProductId": "SPEC_EXOTIC4"
+    },
+    {
+      "TwitchId": "TWITCH_077",
+      "ProductId": "SPEC_EXOTIC3"
+    },
+    {
+      "TwitchId": "TWITCH_076",
+      "ProductId": "SPEC_HELMET05"
+    },
+    {
+      "TwitchId": "TWITCH_075",
+      "ProductId": "STATUE_ATLAS_S"
+    },
+    {
+      "TwitchId": "TWITCH_074",
+      "ProductId": "BASE_TOYCUBE"
+    },
+    {
+      "TwitchId": "TWITCH_073",
+      "ProductId": "STATUE_ASTRO_S"
+    },
+    {
+      "TwitchId": "TWITCH_072",
+      "ProductId": "BASE_LAVA3"
+    },
+    {
+      "TwitchId": "TWITCH_071",
+      "ProductId": "SPEC_PETCUST2"
+    },
+    {
+      "TwitchId": "TWITCH_070",
+      "ProductId": "SPEC_DECAL05"
+    },
+    {
+      "TwitchId": "TWITCH_069",
+      "ProductId": "SPEC_DECAL04"
+    },
+    {
+      "TwitchId": "TWITCH_068",
+      "ProductId": "SPEC_DECAL03"
+    },
+    {
+      "TwitchId": "TWITCH_067",
+      "ProductId": "SPEC_DECAL01"
+    },
+    {
+      "TwitchId": "TWITCH_066",
+      "ProductId": "SPEC_DECAL06"
+    },
+    {
+      "TwitchId": "TWITCH_065",
+      "ProductId": "JETS_GREEN"
+    },
+    {
+      "TwitchId": "TWITCH_064",
+      "ProductId": "JETS_RED"
+    },
+    {
+      "TwitchId": "TWITCH_063",
+      "ProductId": "SHIP_RAINBOW"
+    },
+    {
+      "TwitchId": "TWITCH_062",
+      "ProductId": "SHIP_DARK"
+    },
+    {
+      "TwitchId": "TWITCH_061",
+      "ProductId": "JETS_BLUE"
+    },
+    {
+      "TwitchId": "TWITCH_060",
+      "ProductId": "DECAL_HAZARD"
+    },
+    {
+      "TwitchId": "TWITCH_059",
+      "ProductId": "BOBBLE_NULL"
+    },
+    {
+      "TwitchId": "TWITCH_058",
+      "ProductId": "SPEC_EMOTE10"
+    },
+    {
+      "TwitchId": "TWITCH_057",
+      "ProductId": "SPEC_EMOTE08"
+    },
+    {
+      "TwitchId": "TWITCH_056",
+      "ProductId": "SPEC_EMOTE03"
+    },
+    {
+      "TwitchId": "TWITCH_051",
+      "ProductId": "TWITCH_PET01"
+    },
+    {
+      "TwitchId": "TWITCH_052",
+      "ProductId": "TWITCH_PET02"
+    },
+    {
+      "TwitchId": "TWITCH_053",
+      "ProductId": "TWITCH_PET03"
+    },
+    {
+      "TwitchId": "TWITCH_054",
+      "ProductId": "TWITCH_PET04"
+    },
+    {
+      "TwitchId": "TWITCH_055",
+      "ProductId": "TWITCH_PET05"
+    },
+    {
+      "TwitchId": "TWITCH_046",
+      "ProductId": "TWITCH_SHIP06"
+    },
+    {
+      "TwitchId": "TWITCH_047",
+      "ProductId": "TWITCH_SHIP07"
+    },
+    {
+      "TwitchId": "TWITCH_048",
+      "ProductId": "TWITCH_SHIP08B"
+    },
+    {
+      "TwitchId": "TWITCH_049",
+      "ProductId": "TWITCH_SHIP09"
+    },
+    {
+      "TwitchId": "TWITCH_050",
+      "ProductId": "TWITCH_SHIP10"
+    },
+    {
+      "TwitchId": "TWITCH_038",
+      "ProductId": "SPEC_EXOTIC2"
+    },
+    {
+      "TwitchId": "TWITCH_037",
+      "ProductId": "SPEC_EXOTIC1"
+    },
+    {
+      "TwitchId": "TWITCH_035",
+      "ProductId": "SPEC_HELMET02"
+    },
+    {
+      "TwitchId": "TWITCH_036",
+      "ProductId": "SPEC_HELMET03"
+    },
+    {
+      "TwitchId": "TWITCH_034",
+      "ProductId": "BOBBLE_ATLAS"
+    },
+    {
+      "TwitchId": "TWITCH_033",
+      "ProductId": "BOBBLE_NADA"
+    },
+    {
+      "TwitchId": "TWITCH_032",
+      "ProductId": "BOBBLE_POLO"
+    },
+    {
+      "TwitchId": "TWITCH_031",
+      "ProductId": "BOBBLE_ART"
+    },
+    {
+      "TwitchId": "TWITCH_030",
+      "ProductId": "BASE_AQUARIUM"
+    },
+    {
+      "TwitchId": "TWITCH_029",
+      "ProductId": "BASE_ROBOTOY"
+    },
+    {
+      "TwitchId": "TWITCH_028",
+      "ProductId": "BASE_TERRARIUM"
+    },
+    {
+      "TwitchId": "TWITCH_027",
+      "ProductId": "STATUE_ASTRO_G"
+    },
+    {
+      "TwitchId": "TWITCH_009",
+      "ProductId": "JETS_RAINBOW"
+    },
+    {
+      "TwitchId": "TWITCH_001",
+      "ProductId": "TWITCH_FIREW01A",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_002",
+      "ProductId": "TWITCH_FIREW01B",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_003",
+      "ProductId": "TWITCH_FIREW01C",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_044",
+      "ProductId": "TWITCH_FIREW01D",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_045",
+      "ProductId": "TWITCH_FIREW01E",
+      "LinkedGroupId": "TWITCH_FIREW01"
+    },
+    {
+      "TwitchId": "TWITCH_039",
+      "ProductId": "TWITCH_GUNUP01A",
+      "LinkedGroupId": "TWITCH_GUNUP01"
+    },
+    {
+      "TwitchId": "TWITCH_040",
+      "ProductId": "TWITCH_GUNUP01B",
+      "LinkedGroupId": "TWITCH_GUNUP01"
+    },
+    {
+      "TwitchId": "TWITCH_041",
+      "ProductId": "TWITCH_GUNUP01C",
+      "LinkedGroupId": "TWITCH_GUNUP01"
+    },
+    {
+      "TwitchId": "TWITCH_042",
+      "ProductId": "TWITCH_GUNUP01D",
+      "LinkedGroupId": "TWITCH_GUNUP01"
+    },
+    {
+      "TwitchId": "TWITCH_043",
+      "ProductId": "TWITCH_GUNUP01E",
+      "LinkedGroupId": "TWITCH_GUNUP01"
+    },
+    {
+      "TwitchId": "TWITCH_014",
+      "ProductId": "SPEC_PETCUST1"
+    },
+    {
+      "TwitchId": "TWITCH_004",
+      "ProductId": "SPEC_EMOTE01"
+    },
+    {
+      "TwitchId": "TWITCH_005",
+      "ProductId": "SPEC_EMOTE02"
+    },
+    {
+      "TwitchId": "TWITCH_007",
+      "ProductId": "SPEC_EMOTE04"
+    },
+    {
+      "TwitchId": "TWITCH_008",
+      "ProductId": "SPEC_EMOTE05"
+    },
+    {
+      "TwitchId": "TWITCH_006",
+      "ProductId": "SPEC_EMOTE09"
+    },
+    {
+      "TwitchId": "TWITCH_010",
+      "ProductId": "SHIP_GOLD"
+    },
+    {
+      "TwitchId": "TWITCH_012",
+      "ProductId": "SHIP_RED"
+    },
+    {
+      "TwitchId": "TWITCH_013",
+      "ProductId": "SHIP_GREEN"
+    },
+    {
+      "TwitchId": "TWITCH_011",
+      "ProductId": "JETS_DARK"
+    },
+    {
+      "TwitchId": "TWITCH_015",
+      "ProductId": "BOBBLE_APOLLO"
+    },
+    {
+      "TwitchId": "TWITCH_016",
+      "ProductId": "SPEC_HELMET01"
+    },
+    {
+      "TwitchId": "TWITCH_017",
+      "ProductId": "TWITCH_SHIP01"
+    },
+    {
+      "TwitchId": "TWITCH_019",
+      "ProductId": "TWITCH_SHIP02"
+    },
+    {
+      "TwitchId": "TWITCH_020",
+      "ProductId": "TWITCH_SHIP03"
+    },
+    {
+      "TwitchId": "TWITCH_021",
+      "ProductId": "TWITCH_SHIP04"
+    },
+    {
+      "TwitchId": "TWITCH_022",
+      "ProductId": "TWITCH_SHIP05"
+    },
+    {
+      "TwitchId": "TWITCH_018",
+      "ProductId": "TWITCH_GUN01"
+    },
+    {
+      "TwitchId": "TWITCH_023",
+      "ProductId": "TWITCH_GUN02"
+    },
+    {
+      "TwitchId": "TWITCH_024",
+      "ProductId": "TWITCH_GUN03"
+    },
+    {
+      "TwitchId": "TWITCH_025",
+      "ProductId": "TWITCH_GUN04"
+    },
+    {
+      "TwitchId": "TWITCH_026",
+      "ProductId": "TWITCH_GUN05"
+    }
+  ]
+}

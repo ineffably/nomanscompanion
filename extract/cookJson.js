@@ -5,10 +5,9 @@ const rawPath = __dirname + `\\..\\${dataFolder}\\${rawFolder}`;
 const cookedPath = __dirname + `\\..\\${dataFolder}`;
 
 const transformDataTable = (json) => {
-  const root = json.Data.Property.Property;
+  const root = json.Data.Property;
   if(root){
-    const result = root.map(el => { return transformTable(el); });
-    return result;
+    return transformTable(root);
   }
   console.log('root node not found');
   return json;
@@ -22,7 +21,6 @@ function minimizeLanguage(json) {
     return result;
   })
 }
-
 
 const transformJson = (readPath, filter = () => true, postTranform = data => data) => {
   fs.readdir(readPath, (err, files) => {
@@ -41,5 +39,7 @@ const transformJson = (readPath, filter = () => true, postTranform = data => dat
   })
 }
 
-transformJson(rawPath, file => file.endsWith('USENGLISH.json'), minimizeLanguage);
+// transformJson(rawPath, file => file.endsWith('_USENGLISH.json'), minimizeLanguage);
+transformJson(rawPath, file => !file.endsWith('_USENGLISH.json'));
+
 

@@ -1,0 +1,685 @@
+{
+  "Events": [
+    {
+      "ID": "DIPLOMATIC_0",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_DIP_EASY_0",
+      "SuccessReward": "R_DIPLOMATIC_0",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_TRADING_T1_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_TRADING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_TRADING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_TRADING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_TRADING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "DIPLOMATIC_1",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_DIP_EASY_1",
+      "SuccessReward": "R_DIPLOMATIC_1",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_TRADING_T2_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_TRADING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_TRADING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_TRADING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_TRADING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "DIPLOMATIC_2",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_DIP_EASY_2",
+      "SuccessReward": "R_DIPLOMATIC_2",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_TRADING_T3_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_TRADING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_TRADING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_TRADING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_TRADING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "DIPLOMATIC_3",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_DIP_EASY_3",
+      "SuccessReward": "R_DIPLOMATIC_3",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_TRADING_T4_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_TRADING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_TRADING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_TRADING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_TRADING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_TRADING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "COMBAT_0",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_COM_EASY_0",
+      "SuccessReward": "R_COMBAT_0",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_T1_%d",
+        "Count": "30"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_COMBAT_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_COMBAT_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "COMBAT_1",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_COM_EASY_1",
+      "SuccessReward": "R_COMBAT_1",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_T2_%d",
+        "Count": "30"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_COMBAT_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_COMBAT_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "COMBAT_2",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_COM_EASY_2",
+      "SuccessReward": "R_COMBAT_2",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_T3_%d",
+        "Count": "30"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_COMBAT_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_COMBAT_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_COMBAT_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_COMBAT_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "EXPLORATION_0",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_EXP_EASY_0",
+      "SuccessReward": "R_EXPLORATION_0",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_T1_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_GENERIC_%d",
+        "Count": "10"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "EXPLORATION_1",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_EXP_EASY_1",
+      "SuccessReward": "R_EXPLORATION_1",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_T2_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_GENERIC_%d",
+        "Count": "10"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "EXPLORATION_2",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_EXP_EASY_2",
+      "SuccessReward": "R_EXPLORATION_2",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_T3_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_GENERIC_%d",
+        "Count": "10"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "EXPLORATION_3",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_EXP_EASY_3",
+      "SuccessReward": "R_EXPLORATION_3",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_T4_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_EXPLORE_GENERIC_%d",
+        "Count": "10"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_EXPLORE_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "MINING_0",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_MINE_EASY_0",
+      "SuccessReward": "R_MINING_0",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_MINING_T1_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_MINING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_MINING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_MINING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_MINING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_MINING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_MINING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_MINING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "MINING_1",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_MINE_EASY_1",
+      "SuccessReward": "R_MINING_1",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_MINING_T2_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_MINING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_MINING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_MINING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_MINING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_MINING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_MINING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_MINING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "MINING_2",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_MINE_EASY_2",
+      "SuccessReward": "R_MINING_2",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_MINING_T3_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_MINING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_MINING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_MINING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_MINING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_MINING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_MINING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_MINING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    },
+    {
+      "ID": "MINING_3",
+      "StatContribution": {},
+      "DifficultyModifier": "0",
+      "DifficultyVarianceModifier": "0",
+      "AdditionalShipDifficultyIncrease": "0",
+      "EasySuccessReward": "R_MINE_EASY_3",
+      "SuccessReward": "R_MINING_3",
+      "SuccessDescriptionList": {
+        "Format": "FLEET_MINING_T4_%d",
+        "Count": "25"
+      },
+      "FailureDescriptionList": {
+        "Format": "FLEET_MINING_FAIL_%d",
+        "Count": "30"
+      },
+      "GenericSuccessDescriptionList": {
+        "Format": "FLEET_MINING_GENERIC_%d",
+        "Count": "7"
+      },
+      "GenericFailureDescriptionList": {
+        "Format": "FLEET_MINING_EMPTY_%d",
+        "Count": "4"
+      },
+      "DamageDescriptionList": {
+        "Format": "FLEET_MINING_DAMAGE_%d",
+        "Count": "25"
+      },
+      "SecondaryDescriptionList": {
+        "Format": "FLEET_MINING_SEC_%d",
+        "Count": "20"
+      },
+      "SecondaryFailureDescriptionList": {
+        "Format": "FLEET_MINING_SEC_FAIL_%d",
+        "Count": "20"
+      },
+      "SecondaryDamageDescriptionList": {
+        "Format": "FLEET_MINING_SEC_DAMAGE_%d",
+        "Count": "4"
+      }
+    }
+  ],
+  "InterventionEvents": [
+    {
+      "ID": "INT_COMBAT_1",
+      "SelectionWeight": "100",
+      "ExpeditionCategory": {
+        "ExpeditionCategory": "Combat"
+      },
+      "InteractionID": {
+        "Format": "FLEET_CALL_COMBAT_%d",
+        "Count": "1"
+      },
+      "SuccessLogEntry": "FLEET_TRADING_SPECIAL_LOG_A_%d",
+      "AvoidanceLogEntry": "FLEET_TRADING_SPECIAL_LOG_B_%d",
+      "FailureLogEntry": "FLEET_TRADING_SPECIAL_LOG_C_%d",
+      "SuccessReward": "R_MB_HIGH",
+      "FailureDamageChance": "50"
+    },
+    {
+      "ID": "INT_EXPLORE_1",
+      "SelectionWeight": "100",
+      "ExpeditionCategory": {
+        "ExpeditionCategory": "Exploration"
+      },
+      "InteractionID": {
+        "Format": "FLEET_CALL_EXPLORE_%d",
+        "Count": "1"
+      },
+      "SuccessLogEntry": "FLEET_TRADING_SPECIAL_LOG_A_%d",
+      "AvoidanceLogEntry": "FLEET_TRADING_SPECIAL_LOG_B_%d",
+      "FailureLogEntry": "FLEET_TRADING_SPECIAL_LOG_B_%d",
+      "SuccessReward": "R_MB_HIGH",
+      "FailureDamageChance": "0"
+    },
+    {
+      "ID": "INT_DIPLOMAT_1",
+      "SelectionWeight": "100",
+      "ExpeditionCategory": {
+        "ExpeditionCategory": "Mining"
+      },
+      "InteractionID": {
+        "Format": "FLEET_CALL_TRADE_%d",
+        "Count": "1"
+      },
+      "SuccessLogEntry": "FLEET_TRADING_SPECIAL_LOG_A_%d",
+      "AvoidanceLogEntry": "FLEET_TRADING_SPECIAL_LOG_B_%d",
+      "FailureLogEntry": "FLEET_TRADING_SPECIAL_LOG_C_%d",
+      "SuccessReward": "R_MB_HIGH",
+      "FailureDamageChance": "50"
+    },
+    {
+      "ID": "INT_MINING_1",
+      "SelectionWeight": "100",
+      "ExpeditionCategory": {
+        "ExpeditionCategory": "Diplomacy"
+      },
+      "InteractionID": {
+        "Format": "FLEET_CALL_MINING_%d",
+        "Count": "1"
+      },
+      "SuccessLogEntry": "FLEET_TRADING_SPECIAL_LOG_A_%d",
+      "AvoidanceLogEntry": "FLEET_TRADING_SPECIAL_LOG_B_%d",
+      "FailureLogEntry": "FLEET_TRADING_SPECIAL_LOG_C_%d",
+      "SuccessReward": "R_MB_HIGH",
+      "FailureDamageChance": "50"
+    }
+  ]
+}

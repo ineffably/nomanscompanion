@@ -1,0 +1,1061 @@
+{
+  "Table": [
+    {
+      "ID": "M_WALL",
+      "ConvertID": "F_WALL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_FLOOR",
+      "ConvertID": "F_FLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_GFLOOR",
+      "ConvertID": "F_GFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_RAMP",
+      "ConvertID": "F_RAMP",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_RAMP_H",
+      "ConvertID": "F_RAMP_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_FLOOR_Q",
+      "ConvertID": "F_FLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_TRIFLOOR",
+      "ConvertID": "F_TRIFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_TRIFLOOR_Q",
+      "ConvertID": "F_TRIFLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_WALL_H",
+      "ConvertID": "F_WALL_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_WALLDIAGONAL",
+      "ConvertID": "F_WALLDIAGONAL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_WALL_Q",
+      "ConvertID": "F_WALL_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_WALL_Q_H",
+      "ConvertID": "F_WALL_Q_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_DOOR",
+      "ConvertID": "F_DOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_WALL_WINDOW",
+      "ConvertID": "F_WALL_WINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_DOORWINDOW",
+      "ConvertID": "F_DOORWINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_DOOR_H",
+      "ConvertID": "F_DOOR_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_GDOOR",
+      "ConvertID": "F_GDOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ROOF",
+      "ConvertID": "F_ROOF7",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ROOF_M",
+      "ConvertID": "F_ROOF_M",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ROOF_C",
+      "ConvertID": "F_ROOF_C",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ROOF_IC",
+      "ConvertID": "F_ROOF_IC",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ARCH",
+      "ConvertID": "F_ARCH",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "M_ARCH_H",
+      "ConvertID": "F_ARCH_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALL",
+      "ConvertID": "S_WALL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_FLOOR",
+      "ConvertID": "S_FLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_GFLOOR",
+      "ConvertID": "S_GFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_RAMP",
+      "ConvertID": "S_RAMP",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_RAMP_H",
+      "ConvertID": "S_RAMP_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_FLOOR_Q",
+      "ConvertID": "S_FLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_TRIFLOOR",
+      "ConvertID": "S_TRIFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_TRIFLOOR_Q",
+      "ConvertID": "S_TRIFLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALL_H",
+      "ConvertID": "S_WALL_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALLDIAGONAL",
+      "ConvertID": "S_WALLDIAGONAL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALL_Q",
+      "ConvertID": "S_WALL_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALL_Q_H",
+      "ConvertID": "S_WALL_Q_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_DOOR",
+      "ConvertID": "S_DOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_WALL_WINDOW",
+      "ConvertID": "S_WALL_WINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_DOORWINDOW",
+      "ConvertID": "S_DOORWINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_DOOR_H",
+      "ConvertID": "S_DOOR_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_GDOOR",
+      "ConvertID": "S_GDOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ROOF",
+      "ConvertID": "S_ROOF3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ROOF_M",
+      "ConvertID": "S_ROOF_M",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ROOF_C",
+      "ConvertID": "S_ROOF_C",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ROOF_IC",
+      "ConvertID": "S_ROOF_IC",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ARCH",
+      "ConvertID": "S_ARCH",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "C_ARCH_H",
+      "ConvertID": "S_ARCH_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALL",
+      "ConvertID": "T_WALL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_FLOOR",
+      "ConvertID": "T_FLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_GFLOOR",
+      "ConvertID": "T_GFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_RAMP",
+      "ConvertID": "T_RAMP",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_RAMP_H",
+      "ConvertID": "T_RAMP_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_FLOOR_Q",
+      "ConvertID": "T_FLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_TRIFLOOR",
+      "ConvertID": "T_TRIFLOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_TRIFLOOR_Q",
+      "ConvertID": "T_TRIFLOOR_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALL_H",
+      "ConvertID": "T_WALL_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALLDIAGONAL",
+      "ConvertID": "T_WALLDIAGONAL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALL_Q",
+      "ConvertID": "T_WALL_Q",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALL_Q_H",
+      "ConvertID": "T_WALL_Q_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_DOOR",
+      "ConvertID": "T_DOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_WALL_WINDOW",
+      "ConvertID": "T_WALL_WINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_DOORWINDOW",
+      "ConvertID": "T_DOORWINDOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_DOOR_H",
+      "ConvertID": "T_DOOR_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_GDOOR",
+      "ConvertID": "T_GDOOR",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ROOF",
+      "ConvertID": "T_ROOF6",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ROOF_M",
+      "ConvertID": "T_ROOF_M",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ROOF_C",
+      "ConvertID": "T_ROOF_C",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ROOF_IC",
+      "ConvertID": "T_ROOF_IC",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ARCH",
+      "ConvertID": "T_ARCH",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "W_ARCH_H",
+      "ConvertID": "T_ARCH_H",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "True",
+      "RemoveOldRecipe": "False"
+    },
+    {
+      "ID": "BAIT_MEAT_1",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_MEAT_2",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_MEAT_3",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_MEAT_4",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_VEG_1",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_VEG_2",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_VEG_3",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BAIT_VEG_4",
+      "ConvertID": "BAIT_BASIC",
+      "ConvertRatio": "10",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "AQUASPHERE",
+      "ConvertID": "WATERPROD3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COM1",
+      "ConvertID": "LAND1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMUNCOMMON1",
+      "ConvertID": "CATALYST1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMRARE1",
+      "ConvertID": "CATALYST2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "FUELUNCOMMON1",
+      "ConvertID": "OXYGEN",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "FUELRARE1",
+      "ConvertID": "FUEL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TECH1",
+      "ConvertID": "YELLOW2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TECHUNCOMMON1",
+      "ConvertID": "STELLAR2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TECHRARE1",
+      "ConvertID": "CAVE2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE1",
+      "ConvertID": "LAND2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE2",
+      "ConvertID": "LUSH1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE3",
+      "ConvertID": "DUSTY1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE4",
+      "ConvertID": "TOXIC1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE5",
+      "ConvertID": "RADIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE6",
+      "ConvertID": "COLD1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE7",
+      "ConvertID": "LAND3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE8",
+      "ConvertID": "WATER2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE9",
+      "ConvertID": "CAVE2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "TRADEABLE10",
+      "ConvertID": "ASTEROID3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBBLUESYS",
+      "ConvertID": "BLUE2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBREDSYS",
+      "ConvertID": "RED2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBGREENSYS",
+      "ConvertID": "GREEN2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBTOXIC",
+      "ConvertID": "PLANT_TOXIC",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBSNOW",
+      "ConvertID": "PLANT_SNOW",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBRADIOACTIVE",
+      "ConvertID": "PLANT_RADIO",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBBARREN",
+      "ConvertID": "PLANT_DUST",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBSCORCHED",
+      "ConvertID": "PLANT_HOT",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBLUSH",
+      "ConvertID": "PLANT_LUSH",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBCAVE",
+      "ConvertID": "PLANT_CAVE",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBWATER",
+      "ConvertID": "PLANT_WATER",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBCREATURE",
+      "ConvertID": "CREATURE1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBPOOP",
+      "ConvertID": "PLANT_POOP",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBDRONE",
+      "ConvertID": "ROBOT1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SUBSHIP",
+      "ConvertID": "ROBOT1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "VEHICLESUB1",
+      "ConvertID": "ASTEROID1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "VEHICLESUB2",
+      "ConvertID": "ASTEROID2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SENTINEL1",
+      "ConvertID": "ALLOY1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SENTINEL2",
+      "ConvertID": "ALLOY1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "HACK1",
+      "ConvertID": "NAV_DATA",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO1",
+      "ConvertID": "TRA_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO2",
+      "ConvertID": "WAR_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "DRUGS1",
+      "ConvertID": "TRA_CURIO2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO3",
+      "ConvertID": "EXP_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO4",
+      "ConvertID": "ATLAS_STONE",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO5",
+      "ConvertID": "WAR_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO6",
+      "ConvertID": "EXP_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO7",
+      "ConvertID": "TRA_CURIO1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO8",
+      "ConvertID": "WAR_CURIO2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CURIO9",
+      "ConvertID": "EXP_CURIO2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "PRODFUEL3",
+      "ConvertID": "PRODFUEL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY1",
+      "ConvertID": "CASING",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY4",
+      "ConvertID": "NANOTUBES",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY7",
+      "ConvertID": "AM_HOUSING",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SHIELDFUEL2",
+      "ConvertID": "POWERCELL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SHIELDFUEL3",
+      "ConvertID": "POWERCELL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY3",
+      "ConvertID": "CARBON_SEAL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY5",
+      "ConvertID": "JELLY",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY6",
+      "ConvertID": "ANTIMATTER",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "COMMODITY2",
+      "ConvertID": "CAVEPROD3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "BATTERY",
+      "ConvertID": "POWERCELL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CWIRE",
+      "ConvertID": "NANOTUBES",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "MPLATE",
+      "ConvertID": "CASING",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "CBOARD",
+      "ConvertID": "MICROCHIP",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "GLASS",
+      "ConvertID": "FARMPROD3",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SFIBRES",
+      "ConvertID": "CASING",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "ACID",
+      "ConvertID": "FARMPROD1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "GEL",
+      "ConvertID": "JELLY",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "LUBE",
+      "ConvertID": "FARMPROD2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "EXPLOSIVE",
+      "ConvertID": "GRENFUEL1",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SHIELDFUEL1",
+      "ConvertID": "POWERCELL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SHIELDFUEL2",
+      "ConvertID": "POWERCELL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "SHIELDFUEL3",
+      "ConvertID": "POWERCELL2",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "FARMPRODBASIC1",
+      "ConvertID": "JELLY",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    },
+    {
+      "ID": "FARMPRODBASIC2",
+      "ConvertID": "POWERCELL",
+      "ConvertRatio": "1",
+      "AddnewRecipe": "False",
+      "RemoveOldRecipe": "True"
+    }
+  ]
+}

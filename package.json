@@ -15,7 +15,8 @@
     "extractPaks": "node ./extract/extractPaks.js",
     "extractXml": "node ./extract/extractXml.js",
     "exmlToJson": "node ./extract/exmlToJson.js",
-    "cookJson": "node ./extract/cookJson.js"
+    "cookJson": "node ./extract/cookJson.js",
+    "finalizeJson": "node ./extract/finalizeJson.js"
   },
   "author": "",
   "license": "ISC",

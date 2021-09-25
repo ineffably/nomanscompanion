@@ -1,0 +1,1506 @@
+{
+  "Table": [
+    {
+      "ID": "STARTING_NEG1",
+      "Name": "UI_PERK_NEGATIVE_TITLE_1",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG2",
+      "Name": "UI_PERK_NEGATIVE_TITLE_2",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG3",
+      "Name": "UI_PERK_NEGATIVE_TITLE_3",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG4",
+      "Name": "UI_PERK_NEGATIVE_TITLE_4",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG5",
+      "Name": "UI_PERK_NEGATIVE_TITLE_5",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG6",
+      "Name": "UI_PERK_NEGATIVE_TITLE_6",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG7",
+      "Name": "UI_PERK_NEGATIVE_TITLE_7",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG8",
+      "Name": "UI_PERK_NEGATIVE_TITLE_8",
+      "Description": "UI_PERK_NEGATIVE_DESC_SENT",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Sentinels"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG9",
+      "Name": "UI_PERK_NEGATIVE_TITLE_9",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG10",
+      "Name": "UI_PERK_NEGATIVE_TITLE_10",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG11",
+      "Name": "UI_PERK_NEGATIVE_TITLE_11",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG12",
+      "Name": "UI_PERK_NEGATIVE_TITLE_12",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG13",
+      "Name": "UI_PERK_NEGATIVE_TITLE_13",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG14",
+      "Name": "UI_PERK_NEGATIVE_TITLE_14",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG15",
+      "Name": "UI_PERK_NEGATIVE_TITLE_15",
+      "Description": "UI_PERK_NEGATIVE_DESC_POP",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG16",
+      "Name": "UI_PERK_NEGATIVE_TITLE_16",
+      "Description": "UI_PERK_NEGATIVE_DESC_POP",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG17",
+      "Name": "UI_PERK_NEGATIVE_TITLE_17",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG18",
+      "Name": "UI_PERK_NEGATIVE_TITLE_18",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG19",
+      "Name": "UI_PERK_NEGATIVE_TITLE_19",
+      "Description": "UI_PERK_NEGATIVE_DESC_POP",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG20",
+      "Name": "UI_PERK_NEGATIVE_TITLE_20",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG21",
+      "Name": "UI_PERK_NEGATIVE_TITLE_21",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG22",
+      "Name": "UI_PERK_NEGATIVE_TITLE_22",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG23",
+      "Name": "UI_PERK_NEGATIVE_TITLE_23",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG24",
+      "Name": "UI_PERK_NEGATIVE_TITLE_24",
+      "Description": "UI_PERK_NEGATIVE_DESC_POP",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG25",
+      "Name": "UI_PERK_NEGATIVE_TITLE_25",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG26",
+      "Name": "UI_PERK_NEGATIVE_TITLE_26",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG27",
+      "Name": "UI_PERK_NEGATIVE_TITLE_27",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG28",
+      "Name": "UI_PERK_NEGATIVE_TITLE_28",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG29",
+      "Name": "UI_PERK_NEGATIVE_TITLE_29",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG30",
+      "Name": "UI_PERK_NEGATIVE_TITLE_30",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG31",
+      "Name": "UI_PERK_NEGATIVE_TITLE_31",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG32",
+      "Name": "UI_PERK_NEGATIVE_TITLE_32",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG33",
+      "Name": "UI_PERK_NEGATIVE_TITLE_33",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG34",
+      "Name": "UI_PERK_NEGATIVE_TITLE_34",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_NEG35",
+      "Name": "UI_PERK_NEGATIVE_TITLE_35",
+      "Description": "UI_PERK_NEGATIVE_DESC_SENT",
+      "IsNegative": "True",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Sentinels"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS1",
+      "Name": "UI_PERK_POSITIVE_TITLE_1",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS2",
+      "Name": "UI_PERK_POSITIVE_TITLE_2",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS3",
+      "Name": "UI_PERK_POSITIVE_TITLE_3",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS4",
+      "Name": "UI_PERK_POSITIVE_TITLE_4",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS5",
+      "Name": "UI_PERK_POSITIVE_TITLE_5",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS6",
+      "Name": "UI_PERK_POSITIVE_TITLE_6",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS7",
+      "Name": "UI_PERK_POSITIVE_TITLE_7",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS8",
+      "Name": "UI_PERK_POSITIVE_TITLE_8",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS9",
+      "Name": "UI_PERK_POSITIVE_TITLE_9",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveMedium"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS10",
+      "Name": "UI_PERK_POSITIVE_TITLE_10",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS11",
+      "Name": "UI_PERK_POSITIVE_TITLE_11",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS12",
+      "Name": "UI_PERK_POSITIVE_TITLE_12",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveLarge"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS13",
+      "Name": "UI_PERK_POSITIVE_TITLE_13",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS14",
+      "Name": "UI_PERK_POSITIVE_TITLE_14",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveSmall"
+        }
+      }
+    },
+    {
+      "ID": "STARTING_POS15",
+      "Name": "UI_PERK_POSITIVE_TITLE_16",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "True",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveLarge"
+        }
+      }
+    },
+    {
+      "ID": "POSITIVE_EXTRA1",
+      "Name": "UI_PERK_POSITIVE_TITLE_17",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveMedium"
+        }
+      }
+    },
+    {
+      "ID": "POSITIVE_EXTRA2",
+      "Name": "UI_PERK_POSITIVE_TITLE_18",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveMedium"
+        }
+      }
+    },
+    {
+      "ID": "POSITIVE_EXTRA3",
+      "Name": "UI_PERK_POSITIVE_TITLE_19",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveMedium"
+        }
+      }
+    },
+    {
+      "ID": "POSITIVE_EXTRA4",
+      "Name": "UI_PERK_POSITIVE_TITLE_20",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveLarge"
+        }
+      }
+    },
+    {
+      "ID": "POSITIVE_EXTRA5",
+      "Name": "UI_PERK_POSITIVE_TITLE_21",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": [
+        {
+          "Stat": {
+            "SettlementStatType": "Happiness"
+          },
+          "Strength": {
+            "SettlementStatStrength": "PositiveLarge"
+          }
+        },
+        {
+          "Stat": {
+            "SettlementStatType": "Production"
+          },
+          "Strength": {
+            "SettlementStatStrength": "PositiveMedium"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "POSITIVE_EXTRA6",
+      "Name": "UI_PERK_POSITIVE_TITLE_22",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": [
+        {
+          "Stat": {
+            "SettlementStatType": "Happiness"
+          },
+          "Strength": {
+            "SettlementStatStrength": "NegativeSmall"
+          }
+        },
+        {
+          "Stat": {
+            "SettlementStatType": "Production"
+          },
+          "Strength": {
+            "SettlementStatStrength": "PositiveLarge"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "POSITIVE_EXTRA7",
+      "Name": "UI_PERK_POSITIVE_TITLE_23",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": [
+        {
+          "Stat": {
+            "SettlementStatType": "Happiness"
+          },
+          "Strength": {
+            "SettlementStatStrength": "NegativeSmall"
+          }
+        },
+        {
+          "Stat": {
+            "SettlementStatType": "Production"
+          },
+          "Strength": {
+            "SettlementStatStrength": "PositiveLarge"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "NEG_EXTRA1",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_1",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA2",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_2",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA3",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_3",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA4",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_4",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA5",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_5",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA6",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_6",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA7",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_7",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA8",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_8",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA9",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_9",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA10",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_10",
+      "Description": "UI_PERK_NEGATIVE_DESC_COST",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA11",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_11",
+      "Description": "UI_PERK_NEGATIVE_DESC_POP",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeLarge"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA12",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_12",
+      "Description": "UI_PERK_NEGATIVE_DESC_PROD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "NEG_EXTRA13",
+      "Name": "UI_PERK_NEGATIVE_EXTRA_TITLE_13",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "False",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeMedium"
+        }
+      }
+    },
+    {
+      "ID": "BLESS_POS",
+      "Name": "UI_PERK_BLESSING_POS",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveLarge"
+        }
+      }
+    },
+    {
+      "ID": "BLESS_NEG",
+      "Name": "UI_PERK_BLESSING_NEG",
+      "Description": "UI_PERK_NEGATIVE_DESC_MOOD",
+      "IsNegative": "True",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "NegativeSmall"
+        }
+      }
+    },
+    {
+      "ID": "PROC_FACT",
+      "Name": "UI_SETTLEMENT_PERK_PROC_1",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_FARM",
+      "Name": "UI_SETTLEMENT_PERK_PROC_2",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_BAR",
+      "Name": "UI_SETTLEMENT_PERK_PROC_3",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": [
+        {
+          "Stat": {
+            "SettlementStatType": "Happiness"
+          },
+          "Strength": {
+            "SettlementStatStrength": "PositiveWide"
+          }
+        },
+        {
+          "Stat": {
+            "SettlementStatType": "Production"
+          },
+          "Strength": {
+            "SettlementStatStrength": "NegativeSmall"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "PROC_SHOP",
+      "Name": "UI_SETTLEMENT_PERK_PROC_4",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_FACI",
+      "Name": "UI_SETTLEMENT_PERK_PROC_5",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_JOB",
+      "Name": "UI_SETTLEMENT_PERK_PROC_7",
+      "Description": "UI_PERK_JOB_DESC",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "True",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_TECH",
+      "Name": "UI_SETTLEMENT_PERK_PROC_8",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_COST",
+      "Name": "UI_SETTLEMENT_PERK_PROC_9",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_POP",
+      "Name": "UI_SETTLEMENT_PERK_PROC_11",
+      "Description": "UI_PERK_POSITIVE_DESC_POP",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Population"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_FUN",
+      "Name": "UI_SETTLEMENT_PERK_PROC_13",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "PROC_SENT",
+      "Name": "UI_SETTLEMENT_PERK_PROC_12",
+      "Description": "UI_PERK_POSITIVE_DESC_SENT",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "POL_MOOD",
+      "Name": "UI_SETTLEMENT_PERK_PROC_6",
+      "Description": "UI_PERK_POSITIVE_DESC_MOOD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Happiness"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "POL_COST",
+      "Name": "UI_SETTLEMENT_PERK_PROC_9",
+      "Description": "UI_PERK_POSITIVE_DESC_COST",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Upkeep"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    },
+    {
+      "ID": "POL_PROD",
+      "Name": "UI_SETTLEMENT_PERK_PROC_10",
+      "Description": "UI_PERK_POSITIVE_DESC_PROD",
+      "IsNegative": "False",
+      "IsStarter": "False",
+      "IsProc": "True",
+      "IsJob": "False",
+      "StatChanges": {
+        "Stat": {
+          "SettlementStatType": "Production"
+        },
+        "Strength": {
+          "SettlementStatStrength": "PositiveWide"
+        }
+      }
+    }
+  ]
+}

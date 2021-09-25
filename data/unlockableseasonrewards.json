@@ -1,0 +1,186 @@
+{
+  "Table": [
+    {
+      "ID": "EXPD_EGG_03",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_TITLE03",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_DECAL03",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_BANNER03",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BASE_CAVE1",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BASE_CAVE2",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BASE_CAVE3",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BASE_CAVE4",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BASE_CAVE5",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BLD_FLYJAR",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BLD_PLANET_HOLO",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "JETS_BUBBLE",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_SPEC02",
+      "MustBeUnlocked": "True",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_TITLE02A",
+      "MustBeUnlocked": "True",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_TITLE02B",
+      "MustBeUnlocked": "True",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_DECAL02",
+      "MustBeUnlocked": "True",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_BANNER02",
+      "MustBeUnlocked": "True",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "MYSTERY_TRACKER",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "True",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_SHIP01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_TITLE01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_DECAL01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_BANNER01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_BACKPACK01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_HELMET01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "BLD_EXPD_BASE01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    },
+    {
+      "ID": "EXPD_FIREPACK01",
+      "MustBeUnlocked": "False",
+      "UniqueInventoryItem": "False",
+      "SeasonIds": {},
+      "StageIds": {}
+    }
+  ]
+}

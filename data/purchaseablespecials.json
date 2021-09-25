@@ -1,0 +1,1084 @@
+{
+  "Table": [
+    {
+      "ID": "DECAL_GALCORE",
+      "ShopNumber": "55",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_UWTREAS",
+      "ShopNumber": "55",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_NEXUSM",
+      "ShopNumber": "55",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_BB_TRACK01",
+      "ShopNumber": "54",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_BB_TRACK02",
+      "ShopNumber": "54",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_BB_TRACK03",
+      "ShopNumber": "54",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_BIOME3",
+      "ShopNumber": "53",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_CPLANET1",
+      "ShopNumber": "53",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_STARTSHIP",
+      "ShopNumber": "53",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "S_SAIL0",
+      "ShopNumber": "52",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "S_SAIL1",
+      "ShopNumber": "52",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "S_SAIL2",
+      "ShopNumber": "52",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "S_SAIL3",
+      "ShopNumber": "52",
+      "MissionTier": "4",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_NEXUS1",
+      "ShopNumber": "51",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_NEXUS2",
+      "ShopNumber": "51",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_NEXUS3",
+      "ShopNumber": "51",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_FIREWORK04",
+      "ShopNumber": "50",
+      "MissionTier": "1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "SPEC_FIREWORK05",
+      "ShopNumber": "50",
+      "MissionTier": "2",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "SPEC_FIREWORK06",
+      "ShopNumber": "50",
+      "MissionTier": "3",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "SPEC_TITLE25",
+      "ShopNumber": "49",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE26",
+      "ShopNumber": "49",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE27",
+      "ShopNumber": "49",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_LAVA1",
+      "ShopNumber": "48",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_LAVA2",
+      "ShopNumber": "48",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_LAVA3",
+      "ShopNumber": "48",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "MYSTERY_BEACON",
+      "ShopNumber": "47",
+      "MissionTier": "1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "BANNER_QIT",
+      "ShopNumber": "46",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_AGT",
+      "ShopNumber": "46",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_AMINO",
+      "ShopNumber": "46",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_CAFE",
+      "ShopNumber": "46",
+      "MissionTier": "4",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_QIT",
+      "ShopNumber": "46",
+      "MissionTier": "5",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "DECAL_UFT",
+      "ShopNumber": "46",
+      "MissionTier": "6",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_PETCUST1",
+      "ShopNumber": "45",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_PETCUST2",
+      "ShopNumber": "45",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_PETCUST3",
+      "ShopNumber": "45",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOUDINI1",
+      "ShopNumber": "44",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOUDINI2",
+      "ShopNumber": "44",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOUDINI3",
+      "ShopNumber": "44",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE10",
+      "ShopNumber": "43",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE21",
+      "ShopNumber": "43",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE12",
+      "ShopNumber": "43",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_INFEST1",
+      "ShopNumber": "42",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_INFEST2",
+      "ShopNumber": "42",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_INFEST3",
+      "ShopNumber": "42",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_AGT",
+      "ShopNumber": "41",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_AMINO",
+      "ShopNumber": "41",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_CAFE",
+      "ShopNumber": "41",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_UFT",
+      "ShopNumber": "41",
+      "MissionTier": "4",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_SWAMP1",
+      "ShopNumber": "40",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_SWAMP2",
+      "ShopNumber": "40",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_SWAMP3",
+      "ShopNumber": "40",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE9",
+      "ShopNumber": "39",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE8",
+      "ShopNumber": "39",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE2",
+      "ShopNumber": "39",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SHIP_DARK",
+      "ShopNumber": "38",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SHIP_RAINBOW",
+      "ShopNumber": "38",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_DUSTPLANT1",
+      "ShopNumber": "37",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_DUSTPLANT2",
+      "ShopNumber": "37",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_DUSTPLANT3",
+      "ShopNumber": "37",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE7",
+      "ShopNumber": "36",
+      "MissionTier": "4",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE6",
+      "ShopNumber": "36",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE5",
+      "ShopNumber": "36",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE4",
+      "ShopNumber": "36",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_ART",
+      "ShopNumber": "35",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_APOLLO",
+      "ShopNumber": "35",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_NULL",
+      "ShopNumber": "35",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE24",
+      "ShopNumber": "34",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE1",
+      "ShopNumber": "34",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_TITLE3",
+      "ShopNumber": "34",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SHIP_RED",
+      "ShopNumber": "33",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SHIP_GREEN",
+      "ShopNumber": "33",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SHIP_GOLD",
+      "ShopNumber": "33",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_ATLAS",
+      "ShopNumber": "32",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_COLDPLANT1",
+      "ShopNumber": "31",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_COLDPLANT2",
+      "ShopNumber": "31",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_COLDPLANT3",
+      "ShopNumber": "31",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "NEW_BACKPACK",
+      "ShopNumber": "30",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOXPLANT01",
+      "ShopNumber": "29",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOXPLANT02",
+      "ShopNumber": "29",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOXPLANT03",
+      "ShopNumber": "29",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_CHU",
+      "ShopNumber": "28",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_BLOB",
+      "ShopNumber": "28",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_CHEF",
+      "ShopNumber": "28",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_POLO",
+      "ShopNumber": "27",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BOBBLE_NADA",
+      "ShopNumber": "27",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_RADPLANT01",
+      "ShopNumber": "26",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_RADPLANT02",
+      "ShopNumber": "26",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_RADPLANT03",
+      "ShopNumber": "26",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_HUB",
+      "ShopNumber": "25",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_POLO",
+      "ShopNumber": "25",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BANNER_NADA",
+      "ShopNumber": "25",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_ROCK01",
+      "ShopNumber": "24",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_ROCK02",
+      "ShopNumber": "24",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_ROCK03",
+      "ShopNumber": "24",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "ODD_EGG",
+      "ShopNumber": "23",
+      "MissionTier": "1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "JETS_DARK",
+      "ShopNumber": "22",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "JETS_RAINBOW",
+      "ShopNumber": "22",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "JETS_RED",
+      "ShopNumber": "21",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "JETS_GREEN",
+      "ShopNumber": "21",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "JETS_BLUE",
+      "ShopNumber": "21",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC1",
+      "ShopNumber": "20",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC4",
+      "ShopNumber": "19",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC9",
+      "ShopNumber": "18",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC11",
+      "ShopNumber": "17",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC5",
+      "ShopNumber": "16",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC8",
+      "ShopNumber": "15",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC12",
+      "ShopNumber": "14",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC7",
+      "ShopNumber": "13",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC6",
+      "ShopNumber": "12",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC10",
+      "ShopNumber": "11",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC3",
+      "ShopNumber": "11",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EXOTIC2",
+      "ShopNumber": "11",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_VYK_ARMOUR",
+      "ShopNumber": "10",
+      "MissionTier": "5",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_VYK_TORSO",
+      "ShopNumber": "10",
+      "MissionTier": "4",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_VYK_LEGS",
+      "ShopNumber": "10",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_VYK_GLOVES",
+      "ShopNumber": "10",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_VYK_BOOTS",
+      "ShopNumber": "10",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_HELMET05",
+      "ShopNumber": "9",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TERRARIUM",
+      "ShopNumber": "9",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOTPLANT01",
+      "ShopNumber": "9",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOTPLANT02",
+      "ShopNumber": "9",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_HOTPLANT03",
+      "ShopNumber": "9",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_HELMET03",
+      "ShopNumber": "8",
+      "MissionTier": "3",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOYCORE",
+      "ShopNumber": "8",
+      "MissionTier": "2",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE08",
+      "ShopNumber": "8",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE09",
+      "ShopNumber": "8",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE10",
+      "ShopNumber": "8",
+      "MissionTier": "1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_FIREWORK03",
+      "ShopNumber": "8",
+      "MissionTier": "-1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "SPEC_FIREWORK01",
+      "ShopNumber": "8",
+      "MissionTier": "-1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "SPEC_FIREWORK02",
+      "ShopNumber": "8",
+      "MissionTier": "-1",
+      "IsConsumable": "True"
+    },
+    {
+      "ID": "BASE_WPLANT1",
+      "ShopNumber": "7",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_WPLANT2",
+      "ShopNumber": "7",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_WPLANT3",
+      "ShopNumber": "7",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_BARNACLE",
+      "ShopNumber": "7",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE05",
+      "ShopNumber": "7",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_AQUARIUM",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ATLAS_B",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ATLAS_S",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ATLAS_G",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_MEDPLANT01",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_MEDPLANT02",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_MEDPLANT03",
+      "ShopNumber": "6",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE04",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_SHIP_B",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_SHIP_S",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_SHIP_G",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOYCUBE",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TOYSPHERE",
+      "ShopNumber": "5",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL07",
+      "ShopNumber": "4",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL08",
+      "ShopNumber": "4",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TREE01",
+      "ShopNumber": "4",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TREE02",
+      "ShopNumber": "4",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_TREE03",
+      "ShopNumber": "4",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "BASE_ROBOTOY",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL06",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE02",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_DIP_B",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_DIP_S",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_DIP_G",
+      "ShopNumber": "3",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE03",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_HELMET02",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL04",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL05",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_WALK_B",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_WALK_S",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_WALK_G",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_GEK_B",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_GEK_S",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_GEK_G",
+      "ShopNumber": "2",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_EMOTE01",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_HELMET01",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL01",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL02",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "SPEC_DECAL03",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_BLOB_B",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_BLOB_S",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_BLOB_G",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ASTRO_B",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ASTRO_S",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    },
+    {
+      "ID": "STATUE_ASTRO_G",
+      "ShopNumber": "1",
+      "MissionTier": "-1",
+      "IsConsumable": "False"
+    }
+  ]
+}

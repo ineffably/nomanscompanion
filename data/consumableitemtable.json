@@ -1,0 +1,3659 @@
+{
+  "Table": [
+    {
+      "ID": "MYSTERY_BEACON",
+      "RewardID": "R_S2_BEACON",
+      "ButtonLocID": "UI_USE_S2_BEACON",
+      "ButtonSubLocID": "UI_USE_S2_BEACON_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "NORMANDY_BEACON"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "False"
+    },
+    {
+      "ID": "EGG1",
+      "RewardID": "R_EGG_HATCH1",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "EGG2",
+      "RewardID": "R_EGG_HATCH2",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "EGG3",
+      "RewardID": "R_EGG_HATCH3",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "EGG4",
+      "RewardID": "R_EGG_HATCH4",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "EGG5",
+      "RewardID": "R_EGG_HATCH5",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "EGG6",
+      "RewardID": "R_EGG_HATCH6",
+      "ButtonLocID": "UI_OPEN_PET_EGG",
+      "ButtonSubLocID": "UI_OPEN_PET_EGG_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_OPEN_PET_EGG_ERROR",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "SCRAP_GOODS",
+      "RewardID": "R_SCRAP_GOODS",
+      "ButtonLocID": "UI_DISMANTLE_SUSPECT",
+      "ButtonSubLocID": "UI_DISMANTLE_SUSPECT_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "SCRAP_TECH",
+      "RewardID": "R_SCRAP_TECH",
+      "ButtonLocID": "UI_DISMANTLE_SUSPECT",
+      "ButtonSubLocID": "UI_DISMANTLE_SUSPECT_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "SCRAP_WEAP",
+      "RewardID": "R_SCRAP_WEAP",
+      "ButtonLocID": "UI_DISMANTLE_SUSPECT",
+      "ButtonSubLocID": "UI_DISMANTLE_SUSPECT_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "PROC_LUMP",
+      "RewardID": "R_BREAK_BIO",
+      "ButtonLocID": "UI_DISMANTLE_BIO_PROC",
+      "ButtonSubLocID": "UI_DISMANTLE_BIO_PROC_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_BIOSHIP_ADDORGAN"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "PROC_COG",
+      "RewardID": "R_BREAK_TECH",
+      "ButtonLocID": "UI_DISMANTLE_PROC",
+      "ButtonSubLocID": "UI_DISMANTLE_PROC_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "PROC_DATA",
+      "RewardID": "R_BREAK_DATA",
+      "ButtonLocID": "UI_DISMANTLE_DATA",
+      "ButtonSubLocID": "UI_DISMANTLE_DATA_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_EPIC_ITEM"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "MP_REP_PART1",
+      "RewardID": "R_MP_REP_SCAN_1",
+      "ButtonLocID": "UI_MP_REPAIR_PART_LABEL",
+      "ButtonSubLocID": "UI_MP_REPAIR_PART_SUBLABEL",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "MP_REP_PART2",
+      "RewardID": "R_MP_REP_SCAN_2",
+      "ButtonLocID": "UI_MP_REPAIR_PART_LABEL",
+      "ButtonSubLocID": "UI_MP_REPAIR_PART_SUBLABEL",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "MP_REP_PART3",
+      "RewardID": "R_MP_REP_SCAN_3",
+      "ButtonLocID": "UI_MP_REPAIR_PART_LABEL",
+      "ButtonSubLocID": "UI_MP_REPAIR_PART_SUBLABEL",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_ASTEROID",
+      "RewardID": "DE_GEODE_GOLD",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_GOLD_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_CRYSTAL",
+      "RewardID": "DE_GEODE_CRYST",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_CRYSTAL_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_LAND",
+      "RewardID": "DE_GEODE_LAND",
+      "TutorialRewardID": "DE_GEODE_TUT",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_CAVE",
+      "RewardID": "DE_GEODE_CAVE",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_SPACE",
+      "RewardID": "DE_GEODE_SPACE",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_SPACE_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "GEODE_RARE",
+      "RewardID": "DE_GEODE_RARE",
+      "ButtonLocID": "UI_OPEN_GEODE",
+      "ButtonSubLocID": "UI_OPEN_GEODE_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "UI_PICKUP_NITROGENPLANT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "STARCHART_A",
+      "RewardID": "R_STARCHART_A",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "STARCHART_B",
+      "RewardID": "R_STARCHART_B",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "STARCHART_C",
+      "RewardID": "R_STARCHART_C",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "STARCHART_D",
+      "RewardID": "R_STARCHART_D",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "CHART_SETTLE",
+      "RewardID": "R_CHRT_SETTLE",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "CHART_TREASURE",
+      "RewardID": "R_CHRT_TREASURE",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "TUT_STARMAP",
+      "RewardID": "TUT_CRASH_SCAN",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "VO_TUT_COORDSRECEIVED"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "A1S6_STARMAP",
+      "RewardID": "R_A1S6_MAP",
+      "ButtonLocID": "UI_CHART_LABEL",
+      "ButtonSubLocID": "UI_CHART_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "POI_LOCATOR",
+      "RewardID": "R_REVEAL_POI",
+      "ButtonLocID": "UI_USE_POI_LOCATOR",
+      "ButtonSubLocID": "UI_USE_POI_LOCATOR_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_POI_LOCATOR_FAIL_OSD",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "ABAND_LOCATOR",
+      "RewardID": "R_REVEAL_ABAND",
+      "ButtonLocID": "UI_USE_ABAND_LOCATOR",
+      "ButtonSubLocID": "UI_USE_ABAND_LOCATOR_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "UI_ABAND_LOCATOR_FAIL_OSD",
+      "DestroyItemWhenConsumed": "False"
+    },
+    {
+      "ID": "FOOD_P_LUSHWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_LUSHFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_HOTWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_HOTFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_COLDWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_COLDFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_TOXWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_TOXFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_RADWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_RADFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_DUSTWILD",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_DUSTFARM",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_GLITCH",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_ALL1",
+      "RewardID": "DE_FOOD_HAZ1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_ALL2",
+      "RewardID": "DE_FOOD_HAZ1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_ALL3",
+      "RewardID": "DE_FOOD_HAZ1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_CAVE",
+      "RewardID": "DE_FOOD_HAZ1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_WATER",
+      "RewardID": "DE_FOOD_HAZ1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_POOP",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_DEATH",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_P_STELLAR",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_FISH",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_FLYER",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_BLOB",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_GEK",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_DIPLO",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_REX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_CAT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_STRIDER",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_COW",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_CRAB",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_EGG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_MILK",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_FISH",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_FLYER",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_FIEND",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_BLOB",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_GEK",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_DIPLO",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_REX",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_CAT",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_STRIDER",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_COW",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_CRAB",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_MEAT",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_EGGS",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_FLOUR",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_SUGAR",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_HONEY",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_VEG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MEAT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_SMOKED",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BUTTER",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GBUTTER",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CREAM",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GCREAM",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CARAMEL",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_OIL",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GOIL",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_PASTRY",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CUSTARD",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_FCUSTARD",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MCUSTARD",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_SCUSTARD",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MERINGUE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_DONUT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GONUT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CHOC",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_SWEETBUT",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_SWEETGEK",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_HONEYBUT",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_HONEYGEK",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BLOBGEK",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BLOBBUT",
+      "RewardID": "DE_FOOD_ENERGY3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CHEESE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GCHEESE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_DOUGH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_GLITCH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_HOT",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_RAD",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_DUST",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_CAT",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_JAM_CRAB",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_CUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_FCUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_MCUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_SCUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_HON",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_HONB",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_BLOB",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_CARM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_CHOC",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_MEAT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_JAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_CJAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_DNUT_AJAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_PIECASE",
+      "RewardID": "DE_FOOD_ENERGY1",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_MEAT",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_SMEAT",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_VEG",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_FISH",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_FIEND",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_ORGAN",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_GEK",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CRAB",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_BERRY",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_GLOW",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_MUSH",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_JAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_WEIRD",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CACTUS",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_HONEY",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_ROOTS",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_GREASE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CAT",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CRABJ",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CHOC",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CARM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CREAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_MCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_SCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_CHEESE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_VCHEE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MEAT_STEW",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_VEG_STEW",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ORGAN_STEW",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE_M",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE_G",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE_GM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_J_ALL3",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_J_LUSH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_J_HOT",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_J_DUST",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_S_VEG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_S_HOT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_S_CREAM",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_S_CHEESE",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_O_CH",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_V_CH",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_M_CH",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_O_CR",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_V_CR",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_M_CR",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_O_HOT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_V_HOT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_M_HOT",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_O_VEG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_V_VEG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_M_VEG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_CAKEMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_GCAKEMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BCAKEMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MCAKEMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MERMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_MMERMIX",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_HONEY",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_CREAM",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_BLOBBUT",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_CHOC",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_CARM",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_APPLE",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_CACTUS",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_JAM",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_JHOT",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_JGLITCH",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_CUST",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_FCUST",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_MCUST",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CK_SCUST",
+      "RewardID": "DE_FOOD_HAZ3",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_EYEBALLS",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_EYESTEW",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_EYEICE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_FISH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_FIEND",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_STAR",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_CHOC",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_CARM",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_FRUIT",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_APPLE",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_HONEY",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_GLITCH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_GRAH",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_HOT",
+      "RewardID": "DE_FOOD_HAZ2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_BLOB",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_CREAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_CHOC",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_CARM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_APPLE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_CACTUS",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_JAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_JHOT",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_JGLITCH",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_CUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_FCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_SCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_HONEY",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_CREAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_CHOC",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_CARM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_APPLE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_CACTUS",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_JAM",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_JHOT",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_JGLITCH",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_CUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_FCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CB_SCUST",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_CREAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_CHOC",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_CARM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_APPLE",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_CACTUS",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_JAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_JHOT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_JGLITCH",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_HONEY",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_BLOB",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_CREAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_CHOC",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_CARM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_APPLE",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_CACTUS",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_JAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_JHOT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_JGLITCH",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MC_CUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_HONEY",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_BLOB",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_CREAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_CHOC",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_CARM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_APPLE",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_CACTUS",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_JAM",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_JHOT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_JGLITCH",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_MM_CUST",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_BLOBBUT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CM_HONEY",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_CG_HONEY",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BREAD",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_BONE",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_DRILL",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_BEET",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_DIG",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_STEW_BALL",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_BONE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_DRILL",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_BEET",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_DIG",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_BALL",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_PIE_MOLE",
+      "RewardID": "DE_FOOD_STAMINA",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE_B",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_EGGPIE_MU",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_J_SALT",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_ICE_BONE",
+      "RewardID": "DE_FOOD_JETPACK",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_MOLE",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_BONE",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_DRILL",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_BEETLE",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_BALL",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_M_DIGGER",
+      "RewardID": "DE_FOOD_HEALTH",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_BONE",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_MOLE",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_V_ROBOT",
+      "RewardID": "TECHFRAG_VS",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "False",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BONEMILK",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BBUTTER",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BCHEESE",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BCUSTARD",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    },
+    {
+      "ID": "FOOD_R_BCREAM",
+      "RewardID": "DE_FOOD_ENERGY2",
+      "ButtonLocID": "UI_CONSUME",
+      "ButtonSubLocID": "UI_CONSUME_SUB",
+      "CloseInventoryWhenUsed": "True",
+      "AudioEventOnOpen": {
+        "AkEvent": "INVALID_EVENT"
+      },
+      "RewardFailedLocID": "INTRCT_NOROOM_L",
+      "DestroyItemWhenConsumed": "True"
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+{
+  "Dungeons": [
+    {
+      "Name": "MEDI_TURRETS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_MEDI",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_MEDI",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_HANG",
+            "BranchProbability": "0"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_MEDI"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_HANG",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_MEDI",
+            "Min": "2",
+            "Max": "100"
+          },
+          {
+            "RoomID": "R_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_MEDI"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_MEDI"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "MEDI_FLOATERS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_FLO_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_FLO_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_FLO_MEDI",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_FLO_MEDI",
+            "BranchProbability": "0.33"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_FLO_MEDI"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_FLO_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_FLO_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_FLO_MEDI"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_FLO_MEDI"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "MEDI_BUGS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BUG_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_BUG_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_BUG_MEDI",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_BUG_MEDI",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_S_MEDI",
+            "BranchProbability": "1"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_BUG_MED"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_BUG_BARR",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_BARR",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_MEDI",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_BUG_MEDI",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_S_MEDI",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_BUG_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_BUG_MEDI"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_BUG_MEDI"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "MEDI_SLIME",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_SLI_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_SLI_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_SLI_MEDI",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_SLI_MEDI",
+            "BranchProbability": "0.33"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_SLI_MEDI"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_SLI_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_SLI_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_SLI_MEDI"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_SLI_MEDI"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "MEDI_MAZE",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "4",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BARR",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_S_BARR",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_MEDI",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_S_MEDI",
+            "BranchProbability": "1"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_MEDI"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BARR",
+            "Min": "1",
+            "Max": "2"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "3"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "3",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_MEDI"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_MEDI"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "CARGO_TURRETS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_CARG",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_CARG",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_HANG",
+            "BranchProbability": "0"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_CARG"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_HANG",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_CARG"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_CARG"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "CARGO_FLOATERS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_FLO_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_FLO_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_FLO_CARG",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_FLO_CARG",
+            "BranchProbability": "0.33"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_FLO_CARG"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_FLO_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_FLO_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_FLO_CARG"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_FLO_CARG"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "CARGO_BUGS",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BUG_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_BUG_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_BUG_CARG",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_BUG_CARG",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_S_CARG",
+            "BranchProbability": "1"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_BUG_CARG"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_BUG_BARR",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_BARR",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_CARG",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_BUG_CARG",
+            "MinRoomIndex": "1"
+          },
+          {
+            "RoomID": "R_BUG_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BUG_BARR",
+            "Min": "0",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_CARG",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_BUG_BARR"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_BUG_BARR"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "CARGO_SLIME",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "7",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_SLI_BARR",
+            "BranchProbability": "0.75"
+          },
+          {
+            "RoomId": "R_S_SLI_BARR",
+            "BranchProbability": "0.33"
+          },
+          {
+            "RoomId": "R_SLI_CARG",
+            "BranchProbability": "0.8"
+          },
+          {
+            "RoomId": "R_S_SLI_CARG",
+            "BranchProbability": "0.33"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_SLI_CARG"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_SLI_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_SLI_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "6"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "6",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_SLI_CARG"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_SLI_CARG"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    },
+    {
+      "Name": "CARGO_MAZE",
+      "DungeonParams": {
+        "SizeX": "13",
+        "SizeY": "4",
+        "SizeZ": "13",
+        "EntranceX": "6",
+        "EntranceY": "3",
+        "EntranceZ": "0",
+        "Rooms": "4",
+        "XProbability": "1",
+        "YProbability": "0.5",
+        "ZProbability": "1",
+        "StraightProbability": "1.25",
+        "MainRoomTypes": [
+          {
+            "RoomId": "R_END",
+            "BranchProbability": "0"
+          },
+          {
+            "RoomId": "R_BARR",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_S_BARR",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_CARG",
+            "BranchProbability": "1"
+          },
+          {
+            "RoomId": "R_S_CARG",
+            "BranchProbability": "1"
+          }
+        ],
+        "BranchRoomTypes": {
+          "Value": "B_CARG"
+        },
+        "Quests": [
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CAPT"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_CREW"
+            }
+          },
+          {
+            "Probability": "1",
+            "QuestItems": {
+              "Value": "R_W_END"
+            }
+          }
+        ],
+        "GenerationRules": [
+          {
+            "RoomID": "R_BARR",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "RoomID": "R_S_BARR",
+            "Min": "1",
+            "Max": "2"
+          },
+          {
+            "RoomID": "R_END",
+            "MinRoomIndex": "3"
+          },
+          {
+            "RoomID": "R_END",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            "QuestItemID": "R_W_END",
+            "MinRoomIndex": "3",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_END"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CAPT",
+            "MinRoomIndex": "0",
+            "MaxRoomIndex": "100",
+            "MustBeAfterQuestItem": "R_W_CREW",
+            "ValidRoomsIDs": {
+              "Value": "R_CARG"
+            }
+          },
+          {
+            "QuestItemID": "R_W_CREW",
+            "MinRoomIndex": "1",
+            "MaxRoomIndex": "100",
+            "ValidRoomsIDs": {
+              "Value": "R_CARG"
+            }
+          }
+        ],
+        "PruningRules": {
+          "Value": "SALVAGESHIP"
+        }
+      }
+    }
+  ]
+}

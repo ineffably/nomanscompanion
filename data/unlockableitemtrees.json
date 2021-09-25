@@ -1,0 +1,3346 @@
+{
+  "Trees": [
+    {
+      "Test": {
+        "Title": "TEST",
+        "Trees": [
+          {
+            "Title": "test Building Parts",
+            "CostTypeID": "UNITS",
+            "Root": {
+              "Unlockable": "T_WALL",
+              "Children": [
+                {
+                  "Unlockable": "T_WALL_H",
+                  "Children": {
+                    "Unlockable": "T_WALL_Q_H"
+                  }
+                },
+                {
+                  "Unlockable": "T_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_DOOR_H",
+                      "Children": {
+                        "Unlockable": "T_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_FLOOR"
+                },
+                {
+                  "Unlockable": "T_ROOF0"
+                }
+              ]
+            }
+          },
+          {
+            "Title": "test Building Parts 2",
+            "CostTypeID": "NANITES",
+            "Root": {
+              "Unlockable": "MAINROOM",
+              "Children": [
+                {
+                  "Unlockable": "BUILDLANDINGPAD",
+                  "Children": [
+                    {
+                      "Unlockable": "TELEPORTER",
+                      "Children": {
+                        "Unlockable": "DRESSING_TABLE"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILD_REFINER2",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILD_REFINER3"
+                        },
+                        {
+                          "Unlockable": "COOKER"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDDOOR",
+                  "Children": {
+                    "Unlockable": "DOOR2",
+                    "Children": [
+                      {
+                        "Unlockable": "HEALTHSTATION"
+                      },
+                      {
+                        "Unlockable": "BUILDTERMINAL"
+                      },
+                      {
+                        "Unlockable": "SHIELDSTATION"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Unlockable": "MAINROOMCUBE",
+                  "Children": [
+                    {
+                      "Unlockable": "MAINROOMFRAME"
+                    },
+                    {
+                      "Unlockable": "FOUNDATION"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CORRIDOR",
+                  "Children": [
+                    {
+                      "Unlockable": "CORRIDORT",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORX"
+                        },
+                        {
+                          "Unlockable": "CORRIDORL"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "GLASSCORRIDOR",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORC",
+                          "Children": [
+                            {
+                              "Unlockable": "BUILDWINDOW"
+                            },
+                            {
+                              "Unlockable": "PANEL_GLASS"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "BIOROOM",
+                          "Children": {
+                            "Unlockable": "VIEWSPHERE"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "TECH TEST",
+            "CostTypeID": "SPECIALS",
+            "Root": {
+              "Unlockable": "PROTECT",
+              "Children": [
+                {
+                  "Unlockable": "ENERGY",
+                  "Children": {
+                    "Unlockable": "UT_ENERGY"
+                  }
+                },
+                {
+                  "Unlockable": "JET1",
+                  "Children": [
+                    {
+                      "Unlockable": "UT_JET",
+                      "Children": {
+                        "Unlockable": "UT_JUMP"
+                      }
+                    },
+                    {
+                      "Unlockable": "UT_WATERJET",
+                      "Children": {
+                        "Unlockable": "UT_WATERENERGY"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "POWERGLOVE",
+                  "Children": {
+                    "Unlockable": "ATLASSUIT",
+                    "Children": {
+                      "Unlockable": "STARSUIT"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "Currency test 1",
+            "CostTypeID": "PROD_TEST",
+            "Root": {
+              "Unlockable": "MAINROOM",
+              "Children": [
+                {
+                  "Unlockable": "BUILDLANDINGPAD",
+                  "Children": [
+                    {
+                      "Unlockable": "TELEPORTER",
+                      "Children": {
+                        "Unlockable": "DRESSING_TABLE"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILD_REFINER2",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILD_REFINER3"
+                        },
+                        {
+                          "Unlockable": "COOKER"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDDOOR",
+                  "Children": {
+                    "Unlockable": "DOOR2",
+                    "Children": [
+                      {
+                        "Unlockable": "HEALTHSTATION"
+                      },
+                      {
+                        "Unlockable": "BUILDTERMINAL"
+                      },
+                      {
+                        "Unlockable": "SHIELDSTATION"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Unlockable": "MAINROOMCUBE",
+                  "Children": [
+                    {
+                      "Unlockable": "MAINROOMFRAME"
+                    },
+                    {
+                      "Unlockable": "FOUNDATION"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CORRIDOR",
+                  "Children": [
+                    {
+                      "Unlockable": "CORRIDORT",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORX"
+                        },
+                        {
+                          "Unlockable": "CORRIDORL"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "GLASSCORRIDOR",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORC",
+                          "Children": [
+                            {
+                              "Unlockable": "BUILDWINDOW"
+                            },
+                            {
+                              "Unlockable": "PANEL_GLASS"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "BIOROOM",
+                          "Children": {
+                            "Unlockable": "VIEWSPHERE"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "Currency test 2",
+            "CostTypeID": "SUBST_TEST",
+            "Root": {
+              "Unlockable": "PROTECT",
+              "Children": [
+                {
+                  "Unlockable": "ENERGY",
+                  "Children": {
+                    "Unlockable": "UT_ENERGY"
+                  }
+                },
+                {
+                  "Unlockable": "JET1",
+                  "Children": [
+                    {
+                      "Unlockable": "UT_JET",
+                      "Children": {
+                        "Unlockable": "UT_JUMP"
+                      }
+                    },
+                    {
+                      "Unlockable": "UT_WATERJET",
+                      "Children": {
+                        "Unlockable": "UT_WATERENERGY"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "POWERGLOVE",
+                  "Children": {
+                    "Unlockable": "ATLASSUIT",
+                    "Children": {
+                      "Unlockable": "STARSUIT"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "BasicBaseParts": {
+        "Title": "UI_PURCHASABLE_BASICPARTS_TREE",
+        "Trees": [
+          {
+            "Title": "UI_BASIC_TIMBER_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "T_WALL",
+              "Children": [
+                {
+                  "Unlockable": "T_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "T_RAMP",
+                      "Children": {
+                        "Unlockable": "T_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "T_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "T_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "T_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "T_WALL_Q",
+                      "Children": {
+                        "Unlockable": "T_WALL_Q_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_CHEV_WIN0"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "T_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "T_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_ROOF6",
+                  "Children": [
+                    {
+                      "Unlockable": "T_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "T_ROOF_C",
+                      "Children": {
+                        "Unlockable": "T_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_ARCH",
+                      "Children": {
+                        "Unlockable": "T_ARCH_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_ROOF7"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_STONE_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_WALL",
+              "Children": [
+                {
+                  "Unlockable": "S_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "S_RAMP",
+                      "Children": {
+                        "Unlockable": "S_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "S_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "S_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "S_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "S_WALL_Q",
+                      "Children": {
+                        "Unlockable": "S_WALL_Q_H"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "S_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "S_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_ROOF3",
+                  "Children": [
+                    {
+                      "Unlockable": "S_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "S_ROOF_C",
+                      "Children": {
+                        "Unlockable": "S_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_ARCH",
+                      "Children": {
+                        "Unlockable": "S_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_FIBREGLASS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "F_WALL",
+              "Children": [
+                {
+                  "Unlockable": "F_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "F_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "F_RAMP",
+                      "Children": {
+                        "Unlockable": "F_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "F_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "F_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "F_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "F_WALL_Q",
+                      "Children": {
+                        "Unlockable": "F_WALL_Q_H"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "F_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "F_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "F_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_ROOF7",
+                  "Children": [
+                    {
+                      "Unlockable": "F_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "F_ROOF_C",
+                      "Children": {
+                        "Unlockable": "F_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_ARCH",
+                      "Children": {
+                        "Unlockable": "F_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_TECH_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "TELEPORTER",
+              "Children": [
+                {
+                  "Unlockable": "U_BIOGENERATOR",
+                  "Children": [
+                    {
+                      "Unlockable": "U_POWERLINE",
+                      "Children": [
+                        {
+                          "Unlockable": "U_BATTERY_S"
+                        },
+                        {
+                          "Unlockable": "U_SOLAR_S"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "HEALTHSTATION",
+                      "Children": {
+                        "Unlockable": "SHIELDSTATION"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDSIGNAL"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDBEACON"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "BasicTechParts": {
+        "Title": "UI_PURCHASABLE_BASICTECH_TREE",
+        "Trees": [
+          {
+            "Title": "UI_BASIC_TECH_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "TELEPORTER",
+              "Children": [
+                {
+                  "Unlockable": "U_BIOGENERATOR",
+                  "Children": [
+                    {
+                      "Unlockable": "U_POWERLINE",
+                      "Children": [
+                        {
+                          "Unlockable": "U_BATTERY_S"
+                        },
+                        {
+                          "Unlockable": "U_SOLAR_S"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "HEALTHSTATION",
+                      "Children": {
+                        "Unlockable": "SHIELDSTATION"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDSIGNAL"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDBEACON"
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_TIMBER_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "T_WALL",
+              "Children": [
+                {
+                  "Unlockable": "T_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "T_RAMP",
+                      "Children": {
+                        "Unlockable": "T_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "T_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "T_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "T_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "T_WALL_Q",
+                      "Children": {
+                        "Unlockable": "T_WALL_Q_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_CHEV_WIN0"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "T_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "T_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_ROOF6",
+                  "Children": [
+                    {
+                      "Unlockable": "T_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "T_ROOF_C",
+                      "Children": {
+                        "Unlockable": "T_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_ARCH",
+                      "Children": {
+                        "Unlockable": "T_ARCH_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_ROOF7"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_STONE_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_WALL",
+              "Children": [
+                {
+                  "Unlockable": "S_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "S_RAMP",
+                      "Children": {
+                        "Unlockable": "S_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "S_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "S_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "S_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "S_WALL_Q",
+                      "Children": {
+                        "Unlockable": "S_WALL_Q_H"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "S_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "S_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_ROOF3",
+                  "Children": [
+                    {
+                      "Unlockable": "S_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "S_ROOF_C",
+                      "Children": {
+                        "Unlockable": "S_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_ARCH",
+                      "Children": {
+                        "Unlockable": "S_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_FIBREGLASS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "F_WALL",
+              "Children": [
+                {
+                  "Unlockable": "F_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "F_GFLOOR"
+                    },
+                    {
+                      "Unlockable": "F_RAMP",
+                      "Children": {
+                        "Unlockable": "F_RAMP_H"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "F_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "F_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "F_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "F_WALL_Q",
+                      "Children": {
+                        "Unlockable": "F_WALL_Q_H"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_DOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "F_WALL_WINDOW",
+                      "Children": {
+                        "Unlockable": "F_DOORWINDOW"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_DOOR_H"
+                    },
+                    {
+                      "Unlockable": "F_GDOOR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_ROOF7",
+                  "Children": [
+                    {
+                      "Unlockable": "F_ROOF_M"
+                    },
+                    {
+                      "Unlockable": "F_ROOF_C",
+                      "Children": {
+                        "Unlockable": "F_ROOF_IC"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_ARCH",
+                      "Children": {
+                        "Unlockable": "F_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "BaseParts": {
+        "Title": "UI_PURCHASABLE_BASEPARTS_TREE",
+        "Trees": [
+          {
+            "Title": "UI_MAINROOM_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "MAINROOM",
+              "Children": [
+                {
+                  "Unlockable": "MAINROOMCUBE",
+                  "Children": {
+                    "Unlockable": "FOUNDATION",
+                    "Children": [
+                      {
+                        "Unlockable": "BUILDPAVING",
+                        "Children": [
+                          {
+                            "Unlockable": "BUILDPAVING_BIG"
+                          },
+                          {
+                            "Unlockable": "BUILDPAVINGTALL"
+                          }
+                        ]
+                      },
+                      {
+                        "Unlockable": "MAINROOMFRAME"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Unlockable": "CORRIDOR",
+                  "Children": [
+                    {
+                      "Unlockable": "CORRIDORL",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORT"
+                        },
+                        {
+                          "Unlockable": "CORRIDORX"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "GLASSCORRIDOR",
+                      "Children": [
+                        {
+                          "Unlockable": "CUBEWINDOW"
+                        },
+                        {
+                          "Unlockable": "BUILDWINDOW",
+                          "Children": {
+                            "Unlockable": "PANEL_GLASS"
+                          }
+                        },
+                        {
+                          "Unlockable": "BIOROOM",
+                          "Children": {
+                            "Unlockable": "VIEWSPHERE"
+                          }
+                        },
+                        {
+                          "Unlockable": "CORRIDORC"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDDOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "DOOR2"
+                    },
+                    {
+                      "Unlockable": "BUILDRAMP",
+                      "Children": {
+                        "Unlockable": "BUILDLADDER"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_CUBEROOM_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "CUBEROOM",
+              "Children": [
+                {
+                  "Unlockable": "CUBEFOUND",
+                  "Children": [
+                    {
+                      "Unlockable": "CUBEFRAME"
+                    },
+                    {
+                      "Unlockable": "CUBEFLOOR"
+                    },
+                    {
+                      "Unlockable": "CUBEFOUND4"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CUBEROOMCURVED",
+                  "Children": [
+                    {
+                      "Unlockable": "CUBESTAIRS",
+                      "Children": {
+                        "Unlockable": "WALLFLOORLADDER"
+                      }
+                    },
+                    {
+                      "Unlockable": "CUBEWALL",
+                      "Children": {
+                        "Unlockable": "CUBEINNERDOOR"
+                      }
+                    },
+                    {
+                      "Unlockable": "CUBEROOF"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CUBEGLASS",
+                  "Children": [
+                    {
+                      "Unlockable": "CURVEDCUBEROOF"
+                    },
+                    {
+                      "Unlockable": "CUBEWINDOWSMALL"
+                    },
+                    {
+                      "Unlockable": "CUBEWINDOWOVAL"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASETECH_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "BUILDBEACON",
+              "Children": [
+                {
+                  "Unlockable": "MESSAGEMODULE",
+                  "Children": {
+                    "Unlockable": "MESSAGE"
+                  }
+                },
+                {
+                  "Unlockable": "HEALTHSTATION",
+                  "Children": {
+                    "Unlockable": "SHIELDSTATION"
+                  }
+                },
+                {
+                  "Unlockable": "TELEPORTER",
+                  "Children": [
+                    {
+                      "Unlockable": "O2_HARVESTER",
+                      "Children": {
+                        "Unlockable": "BUILDHARVESTER",
+                        "Children": {
+                          "Unlockable": "BUILDGASHARVEST"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "DRESSING_TABLE"
+                    },
+                    {
+                      "Unlockable": "BUILDLANDINGPAD",
+                      "Children": {
+                        "Unlockable": "S_LANDINGZONE",
+                        "Children": [
+                          {
+                            "Unlockable": "U_MINIPORTAL"
+                          },
+                          {
+                            "Unlockable": "U_PORTALLINE"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDTERMINAL"
+                    },
+                    {
+                      "Unlockable": "BUILD_REFINER1",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILDSIGNAL"
+                        },
+                        {
+                          "Unlockable": "BUILD_REFINER2",
+                          "Children": [
+                            {
+                              "Unlockable": "BUILD_REFINER3"
+                            },
+                            {
+                              "Unlockable": "BUILDANTIMATTER"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "COOKER",
+                          "Children": [
+                            {
+                              "Unlockable": "CREATURE_FARM"
+                            },
+                            {
+                              "Unlockable": "CREATURE_FEED"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "LIGHTBOX",
+                  "Children": [
+                    {
+                      "Unlockable": "L_FLOOR_Q"
+                    },
+                    {
+                      "Unlockable": "NOISEBOX",
+                      "Children": {
+                        "Unlockable": "BYTEBEAT",
+                        "Children": [
+                          {
+                            "Unlockable": "BYTEBEATSWITCH"
+                          },
+                          {
+                            "Unlockable": "U_BYTEBEATLINE"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Unlockable": "SPAWNER_BALL"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_EXOCRAFT_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "GARAGE_M",
+              "Children": [
+                {
+                  "Unlockable": "SUMMON_GARAGE",
+                  "Children": {
+                    "Unlockable": "GARAGE_FREIGHT"
+                  }
+                },
+                {
+                  "Unlockable": "GARAGE_S"
+                },
+                {
+                  "Unlockable": "GARAGE_MECH"
+                },
+                {
+                  "Unlockable": "GARAGE_SUB"
+                },
+                {
+                  "Unlockable": "GARAGE_B"
+                },
+                {
+                  "Unlockable": "GARAGE_L"
+                },
+                {
+                  "Unlockable": "RACE_START",
+                  "Children": [
+                    {
+                      "Unlockable": "RACE_RAMP"
+                    },
+                    {
+                      "Unlockable": "RACE_BOOSTER"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_WATER_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "MAINROOM_WATER",
+              "Children": [
+                {
+                  "Unlockable": "WATERBUBBLE"
+                },
+                {
+                  "Unlockable": "CORRIDOR_WATER",
+                  "Children": [
+                    {
+                      "Unlockable": "PANEL_GLASS"
+                    },
+                    {
+                      "Unlockable": "CORRIDORL_WATER",
+                      "Children": [
+                        {
+                          "Unlockable": "CORRIDORT_WATER"
+                        },
+                        {
+                          "Unlockable": "CORRIDORX_WATER"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "CORRIDORV_WATER"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "MAINROOMCUBE_W"
+                },
+                {
+                  "Unlockable": "BUILDDOOR_WATER",
+                  "Children": {
+                    "Unlockable": "MOONPOOL",
+                    "Children": {
+                      "Unlockable": "GARAGE_SUB"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECALS_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "BUILDDECAL",
+              "Children": [
+                {
+                  "Unlockable": "BUILDDECALSIMP1",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDDECALSIMP2"
+                    },
+                    {
+                      "Unlockable": "BUILDDECALSIMP3"
+                    },
+                    {
+                      "Unlockable": "BUILDDECALSIMP4"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDDECAL2",
+                  "Children": {
+                    "Unlockable": "BUILDDECALNMS"
+                  }
+                },
+                {
+                  "Unlockable": "BUILDDECALNUM0",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDDECALNUM1",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILDDECALNUM3"
+                        },
+                        {
+                          "Unlockable": "BUILDDECALNUM5"
+                        },
+                        {
+                          "Unlockable": "BUILDDECALNUM7"
+                        },
+                        {
+                          "Unlockable": "BUILDDECALNUM9"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "BUILDDECALNUM2",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILDDECALNUM4"
+                        },
+                        {
+                          "Unlockable": "BUILDDECALNUM6"
+                        },
+                        {
+                          "Unlockable": "BUILDDECALNUM8"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDDECALVIS1",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDDECALVIS2",
+                      "Children": {
+                        "Unlockable": "BUILDDECALVIS4"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDDECALVIS3",
+                      "Children": {
+                        "Unlockable": "BUILDDECALVIS5"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_POSTERS_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_POSTER0",
+              "Children": [
+                {
+                  "Unlockable": "S_POSTER1",
+                  "Children": [
+                    {
+                      "Unlockable": "S_POSTER4"
+                    },
+                    {
+                      "Unlockable": "S_POSTER5"
+                    },
+                    {
+                      "Unlockable": "S_POSTER6"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_POSTER2",
+                  "Children": [
+                    {
+                      "Unlockable": "S_POSTER7"
+                    },
+                    {
+                      "Unlockable": "S_POSTER8"
+                    },
+                    {
+                      "Unlockable": "S_POSTER9"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_POSTER3",
+                  "Children": [
+                    {
+                      "Unlockable": "S_POSTER10"
+                    },
+                    {
+                      "Unlockable": "S_POSTER11"
+                    },
+                    {
+                      "Unlockable": "S_POSTER13"
+                    },
+                    {
+                      "Unlockable": "S_POSTER15"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECORATION_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "WALLSCREEN",
+              "Children": [
+                {
+                  "Unlockable": "WALLFAN",
+                  "Children": [
+                    {
+                      "Unlockable": "BLDWALLUNIT",
+                      "Children": {
+                        "Unlockable": "S_SHELVINGUNIT0"
+                      }
+                    },
+                    {
+                      "Unlockable": "STORAGEPANEL",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILDFLATPANEL"
+                        },
+                        {
+                          "Unlockable": "BUILDSIDEPANEL"
+                        },
+                        {
+                          "Unlockable": "SHELFPANEL"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "WALLSCREENB",
+                  "Children": [
+                    {
+                      "Unlockable": "WALLSCREENB2",
+                      "Children": {
+                        "Unlockable": "ROOFMONITOR",
+                        "Children": {
+                          "Unlockable": "ROBOTICARM"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "TECHPANEL",
+                      "Children": {
+                        "Unlockable": "WEAPONRACK"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "DRAWS",
+                  "Children": [
+                    {
+                      "Unlockable": "SERVERSTACK",
+                      "Children": {
+                        "Unlockable": "BOXEDSCREEN"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDCANRACK"
+                    },
+                    {
+                      "Unlockable": "BUILDAMCRATE",
+                      "Children": [
+                        {
+                          "Unlockable": "OCTACABINET"
+                        },
+                        {
+                          "Unlockable": "CRATELCYLINDER"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "BUILDLOCKER",
+                      "Children": {
+                        "Unlockable": "BUILDHCABINET"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDLCRATE",
+                      "Children": {
+                        "Unlockable": "S_MILKCRATE",
+                        "Children": {
+                          "Unlockable": "CRATELRARE"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "S_CRATE0",
+                      "Children": [
+                        {
+                          "Unlockable": "S_CRATE2",
+                          "Children": {
+                            "Unlockable": "S_CRATE1"
+                          }
+                        },
+                        {
+                          "Unlockable": "S_CRATE3",
+                          "Children": {
+                            "Unlockable": "S_CRATE3OPEN"
+                          }
+                        },
+                        {
+                          "Unlockable": "S_CRATE4",
+                          "Children": {
+                            "Unlockable": "S_CRATE4OPEN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECORATION_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "BUILDCHAIR",
+              "Children": [
+                {
+                  "Unlockable": "BUILDCHAIR2",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDBED"
+                    },
+                    {
+                      "Unlockable": "BUILDCHAIR3",
+                      "Children": {
+                        "Unlockable": "S_CHAIR0"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDSOFA",
+                      "Children": [
+                        {
+                          "Unlockable": "BUILDSOFA2"
+                        },
+                        {
+                          "Unlockable": "BUILDSOFA2L"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "FLAG1",
+                  "Children": [
+                    {
+                      "Unlockable": "FLAG2",
+                      "Children": [
+                        {
+                          "Unlockable": "FLAG3"
+                        },
+                        {
+                          "Unlockable": "FLAG4"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "WALLFLAG1",
+                      "Children": [
+                        {
+                          "Unlockable": "WALLFLAG2",
+                          "Children": {
+                            "Unlockable": "S_FLAG5"
+                          }
+                        },
+                        {
+                          "Unlockable": "WALLFLAG3",
+                          "Children": {
+                            "Unlockable": "S_FLAG6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "S_WALLHANGING1",
+                      "Children": [
+                        {
+                          "Unlockable": "S_WALLHANGING2"
+                        },
+                        {
+                          "Unlockable": "S_WALLHANGING3"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDTABLE",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDTABLE2",
+                      "Children": {
+                        "Unlockable": "FLOORMAT1"
+                      }
+                    },
+                    {
+                      "Unlockable": "BUILDSIMPLEDESK",
+                      "Children": [
+                        {
+                          "Unlockable": "LARGEDESK",
+                          "Children": {
+                            "Unlockable": "BUILDLIGHTTABLE"
+                          }
+                        },
+                        {
+                          "Unlockable": "CURVEDDESK",
+                          "Children": {
+                            "Unlockable": "BUILDTABLE3"
+                          }
+                        },
+                        {
+                          "Unlockable": "MONITORDESK"
+                        },
+                        {
+                          "Unlockable": "BUILDWORKTOP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECORATION_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_BARSTOOL0",
+              "Children": [
+                {
+                  "Unlockable": "S_BAR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_BAR_C"
+                    },
+                    {
+                      "Unlockable": "S_BAR_H"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_BARTABLE0",
+                  "Children": {
+                    "Unlockable": "S_GLOWGLOBE"
+                  }
+                },
+                {
+                  "Unlockable": "S_BURNER0",
+                  "Children": [
+                    {
+                      "Unlockable": "S_TRAY0",
+                      "Children": {
+                        "Unlockable": "S_PAN0"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_CUP0",
+                      "Children": {
+                        "Unlockable": "S_TABLEPOT0"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_POT0"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_BARTAPS0"
+                },
+                {
+                  "Unlockable": "S_GAZEBO0",
+                  "Children": [
+                    {
+                      "Unlockable": "S_CURTAIN0",
+                      "Children": {
+                        "Unlockable": "S_DRAPE0"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_RUG0",
+                      "Children": {
+                        "Unlockable": "S_RUG1"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_FABROLL0",
+                      "Children": {
+                        "Unlockable": "S_FABROLLPILE0"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_CANOPY_WALL0",
+                      "Children": [
+                        {
+                          "Unlockable": "S_CANOPY_WALL1"
+                        },
+                        {
+                          "Unlockable": "S_CANOPY_WALL2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECORATION_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_STEPLADDER",
+              "Children": [
+                {
+                  "Unlockable": "S_TROUGH0",
+                  "Children": {
+                    "Unlockable": "S_PLANTER_M"
+                  }
+                },
+                {
+                  "Unlockable": "S_SCISSORLIFT",
+                  "Children": [
+                    {
+                      "Unlockable": "S_SCAFFOLD_M"
+                    },
+                    {
+                      "Unlockable": "S_SCAFFOLD_L"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_CEMENTMIXER",
+                  "Children": [
+                    {
+                      "Unlockable": "S_CEMENTBAG"
+                    },
+                    {
+                      "Unlockable": "S_WHEELBARROW"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_PALLET",
+                  "Children": [
+                    {
+                      "Unlockable": "S_PALLET_BRICK",
+                      "Children": {
+                        "Unlockable": "S_BRICKSWRAPPED"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_RSJSTACK"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_BARRIER",
+                  "Children": [
+                    {
+                      "Unlockable": "S_FENCE0",
+                      "Children": {
+                        "Unlockable": "S_FENCE1"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_FENCE2",
+                      "Children": {
+                        "Unlockable": "S_FENCE3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_LARGETRYE0",
+                  "Children": [
+                    {
+                      "Unlockable": "S_CARRIAGE"
+                    },
+                    {
+                      "Unlockable": "S_CARRIAGEWHEEL"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_SHOVEL",
+                  "Children": [
+                    {
+                      "Unlockable": "S_BUCKET_S",
+                      "Children": {
+                        "Unlockable": "S_BUCKET_M"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_EXCBUCKET"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_DECORATION_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_SPARKPLUG",
+              "Children": [
+                {
+                  "Unlockable": "S_COMPOSTBIN",
+                  "Children": {
+                    "Unlockable": "S_FURNACE"
+                  }
+                },
+                {
+                  "Unlockable": "S_GENERATOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_PUMP",
+                      "Children": {
+                        "Unlockable": "S_WATERTOWER"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_MACHINE0"
+                    },
+                    {
+                      "Unlockable": "S_CANISTER0",
+                      "Children": [
+                        {
+                          "Unlockable": "S_CANISTER1"
+                        },
+                        {
+                          "Unlockable": "S_MILKBOTTLE"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_ANTENNA0",
+                  "Children": [
+                    {
+                      "Unlockable": "S_ANTENNA1"
+                    },
+                    {
+                      "Unlockable": "S_ANTENNA2"
+                    },
+                    {
+                      "Unlockable": "S_ANTENNA3"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_BARREL1",
+                  "Children": {
+                    "Unlockable": "S_WATERVALVE0"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_LIGHTS_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "SMALLLIGHT",
+              "Children": [
+                {
+                  "Unlockable": "WALLLIGHTWHITE",
+                  "Children": [
+                    {
+                      "Unlockable": "WALLLIGHTBLUE",
+                      "Children": [
+                        {
+                          "Unlockable": "WALLLIGHTYELLOW"
+                        },
+                        {
+                          "Unlockable": "WALLLIGHTGREEN"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "WALLLIGHTRED",
+                      "Children": {
+                        "Unlockable": "WALLLIGHTPINK"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDLIGHT",
+                  "Children": [
+                    {
+                      "Unlockable": "BUILDLIGHT2"
+                    },
+                    {
+                      "Unlockable": "BUILDLIGHT3",
+                      "Children": {
+                        "Unlockable": "S_STREETLAMP0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "BUILDLABLAMP"
+                },
+                {
+                  "Unlockable": "S_TABLELAMP0"
+                },
+                {
+                  "Unlockable": "S_WALLLIGHT0",
+                  "Children": {
+                    "Unlockable": "S_SIGN_BAR0"
+                  }
+                },
+                {
+                  "Unlockable": "CEILINGLIGHT",
+                  "Children": [
+                    {
+                      "Unlockable": "S_HANGLAMP0",
+                      "Children": [
+                        {
+                          "Unlockable": "S_HANGLAMP1"
+                        },
+                        {
+                          "Unlockable": "S_HANGLAMP2"
+                        },
+                        {
+                          "Unlockable": "S_HANGLAMP3"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "S_LIGHTSTRIP0"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_POWER_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "U_POWERLINE",
+              "Children": [
+                {
+                  "Unlockable": "U_BIOGENERATOR",
+                  "Children": [
+                    {
+                      "Unlockable": "POWERLINE_HIDER"
+                    },
+                    {
+                      "Unlockable": "U_SOLAR_S",
+                      "Children": {
+                        "Unlockable": "U_GENERATOR_S"
+                      }
+                    },
+                    {
+                      "Unlockable": "U_BATTERY_S"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "U_EXTRACTOR_S",
+                  "Children": [
+                    {
+                      "Unlockable": "U_GASEXTRACTOR"
+                    },
+                    {
+                      "Unlockable": "U_SILO_S"
+                    },
+                    {
+                      "Unlockable": "U_PIPELINE"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "U_SWITCHWALL",
+                  "Children": [
+                    {
+                      "Unlockable": "U_SWITCHPRESS"
+                    },
+                    {
+                      "Unlockable": "U_SWITCHPROX"
+                    },
+                    {
+                      "Unlockable": "U_SWITCHBUTTON"
+                    },
+                    {
+                      "Unlockable": "U_TRANSISTOR1"
+                    },
+                    {
+                      "Unlockable": "U_TRANSISTOR2"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_FARMING_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "PLANTER",
+              "Children": [
+                {
+                  "Unlockable": "PLANTPOT",
+                  "Children": [
+                    {
+                      "Unlockable": "CARBONPLANTER"
+                    },
+                    {
+                      "Unlockable": "PLANTPOT1"
+                    },
+                    {
+                      "Unlockable": "PLANTPOT2"
+                    },
+                    {
+                      "Unlockable": "PLANTPOT3"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "PLANTERMEGA"
+                },
+                {
+                  "Unlockable": "TOXICPLANT",
+                  "Children": {
+                    "Unlockable": "SACVENOMPLANT"
+                  }
+                },
+                {
+                  "Unlockable": "SNOWPLANT",
+                  "Children": {
+                    "Unlockable": "GRAVPLANT"
+                  }
+                },
+                {
+                  "Unlockable": "RADIOPLANT",
+                  "Children": {
+                    "Unlockable": "POOPPLANT"
+                  }
+                },
+                {
+                  "Unlockable": "BARRENPLANT",
+                  "Children": {
+                    "Unlockable": "CREATUREPLANT"
+                  }
+                },
+                {
+                  "Unlockable": "LUSHPLANT",
+                  "Children": {
+                    "Unlockable": "PEARLPLANT"
+                  }
+                },
+                {
+                  "Unlockable": "SCORCHEDPLANT",
+                  "Children": {
+                    "Unlockable": "NIPPLANT"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_TIMBER_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "T_WALL",
+              "Children": [
+                {
+                  "Unlockable": "T_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "T_GFLOOR",
+                      "Children": {
+                        "Unlockable": "T_FLOOR_Q"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_RAMP",
+                      "Children": {
+                        "Unlockable": "T_RAMP_H",
+                        "Children": {
+                          "Unlockable": "T_RAMP_Q_TOP"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "T_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "T_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "T_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "T_WALL_Q",
+                      "Children": {
+                        "Unlockable": "T_WALL_Q1"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_WALL_Q_H",
+                      "Children": {
+                        "Unlockable": "T_WALL_Q_H1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_CHEV_WALL",
+                  "Children": [
+                    {
+                      "Unlockable": "T_CHEV_DOOR"
+                    },
+                    {
+                      "Unlockable": "T_CHEV_WALL_H_C"
+                    },
+                    {
+                      "Unlockable": "T_CHEV_WIN0",
+                      "Children": {
+                        "Unlockable": "T_CHEV_WIN1",
+                        "Children": {
+                          "Unlockable": "T_CHEV_WIN2"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "T_DOOR_H",
+                  "Children": [
+                    {
+                      "Unlockable": "T_DOORWINDOW",
+                      "Children": [
+                        {
+                          "Unlockable": "T_WALL_WIN1",
+                          "Children": [
+                            {
+                              "Unlockable": "T_WALL_WIN2"
+                            },
+                            {
+                              "Unlockable": "T_WALL_WIN3"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "T_WALL_WINDOW"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "T_DOOR",
+                      "Children": {
+                        "Unlockable": "T_DOOR1"
+                      }
+                    },
+                    {
+                      "Unlockable": "T_GDOOR"
+                    },
+                    {
+                      "Unlockable": "T_ARCH",
+                      "Children": {
+                        "Unlockable": "T_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_TIMBER_ROOFS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "T_ROOF6",
+              "Children": [
+                {
+                  "Unlockable": "T_ROOF_M",
+                  "Children": {
+                    "Unlockable": "T_ROOF_M_Q",
+                    "Children": {
+                      "Unlockable": "T_ROOF_E_Q"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "T_ROOF_C",
+                  "Children": {
+                    "Unlockable": "T_ROOF_IC"
+                  }
+                },
+                {
+                  "Unlockable": "T_ROOF_M_CAP",
+                  "Children": {
+                    "Unlockable": "T_ROOF_E_CAP"
+                  }
+                },
+                {
+                  "Unlockable": "T_ROOF1",
+                  "Children": {
+                    "Unlockable": "T_ROOF2",
+                    "Children": {
+                      "Unlockable": "T_ROOF4"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "T_ROOF0",
+                  "Children": {
+                    "Unlockable": "T_ROOF7"
+                  }
+                },
+                {
+                  "Unlockable": "T_ROOF3",
+                  "Children": {
+                    "Unlockable": "T_ROOF5"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_STONE_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_WALL",
+              "Children": [
+                {
+                  "Unlockable": "S_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "S_GFLOOR",
+                      "Children": {
+                        "Unlockable": "S_FLOOR_Q"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_RAMP",
+                      "Children": {
+                        "Unlockable": "S_RAMP_H",
+                        "Children": {
+                          "Unlockable": "S_RAMP_Q_TOP"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "S_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "S_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "S_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "S_WALL_Q",
+                      "Children": {
+                        "Unlockable": "S_WALL_Q1"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_WALL_Q_H",
+                      "Children": {
+                        "Unlockable": "S_WALL_Q_H1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_CHEV_WALL",
+                  "Children": [
+                    {
+                      "Unlockable": "S_CHEV_DOOR"
+                    },
+                    {
+                      "Unlockable": "S_CHEV_WALL_H_C",
+                      "Children": {
+                        "Unlockable": "S_WALL_SUPPORTS"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_CHEV_WIN0",
+                      "Children": {
+                        "Unlockable": "S_CHEV_WIN2",
+                        "Children": {
+                          "Unlockable": "S_CHEV_WIN1"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "S_DOOR_H",
+                  "Children": [
+                    {
+                      "Unlockable": "S_DOORWINDOW",
+                      "Children": [
+                        {
+                          "Unlockable": "S_WALL_WIN1",
+                          "Children": [
+                            {
+                              "Unlockable": "S_WALL_WIN2"
+                            },
+                            {
+                              "Unlockable": "S_WALL_WIN3"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "S_WALL_WINDOW"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "S_DOOR",
+                      "Children": {
+                        "Unlockable": "S_DOOR1"
+                      }
+                    },
+                    {
+                      "Unlockable": "S_GDOOR"
+                    },
+                    {
+                      "Unlockable": "S_ARCH",
+                      "Children": {
+                        "Unlockable": "S_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_STONE_ROOFS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "S_ROOF3",
+              "Children": [
+                {
+                  "Unlockable": "S_ROOF_M",
+                  "Children": {
+                    "Unlockable": "S_ROOF_M_Q",
+                    "Children": {
+                      "Unlockable": "S_ROOF_E_Q"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "S_ROOF_C",
+                  "Children": {
+                    "Unlockable": "S_ROOF_IC"
+                  }
+                },
+                {
+                  "Unlockable": "S_ROOF_M_CAP",
+                  "Children": {
+                    "Unlockable": "S_ROOF_E_CAP"
+                  }
+                },
+                {
+                  "Unlockable": "S_ROOF2",
+                  "Children": {
+                    "Unlockable": "S_ROOF1",
+                    "Children": {
+                      "Unlockable": "S_ROOF4"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "S_ROOF0"
+                },
+                {
+                  "Unlockable": "S_ROOF5"
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_FIBREGLASS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "F_WALL",
+              "Children": [
+                {
+                  "Unlockable": "F_FLOOR",
+                  "Children": [
+                    {
+                      "Unlockable": "F_GFLOOR",
+                      "Children": {
+                        "Unlockable": "F_FLOOR_Q"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_RAMP",
+                      "Children": {
+                        "Unlockable": "F_RAMP_H",
+                        "Children": {
+                          "Unlockable": "F_RAMP_Q_TOP"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "F_TRIFLOOR",
+                      "Children": {
+                        "Unlockable": "F_TRIFLOOR_Q"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_WALL_H",
+                  "Children": [
+                    {
+                      "Unlockable": "F_WALLDIAGONAL"
+                    },
+                    {
+                      "Unlockable": "F_WALL_Q",
+                      "Children": {
+                        "Unlockable": "F_WALL_Q1"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_WALL_Q_H",
+                      "Children": {
+                        "Unlockable": "F_WALL_Q_H1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_CHEV_WALL",
+                  "Children": [
+                    {
+                      "Unlockable": "F_CHEV_DOOR"
+                    },
+                    {
+                      "Unlockable": "F_CHEV_WALL_H_C"
+                    },
+                    {
+                      "Unlockable": "F_CHEV_WIN0",
+                      "Children": {
+                        "Unlockable": "F_CHEV_WIN1",
+                        "Children": {
+                          "Unlockable": "F_CHEV_WIN2"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_DOOR_H",
+                  "Children": [
+                    {
+                      "Unlockable": "F_DOORWINDOW",
+                      "Children": [
+                        {
+                          "Unlockable": "F_WALL_WIN1",
+                          "Children": [
+                            {
+                              "Unlockable": "F_WALL_WIN2"
+                            },
+                            {
+                              "Unlockable": "F_WALL_WIN3"
+                            }
+                          ]
+                        },
+                        {
+                          "Unlockable": "F_WALL_WINDOW"
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "F_DOOR",
+                      "Children": {
+                        "Unlockable": "F_DOOR1"
+                      }
+                    },
+                    {
+                      "Unlockable": "F_GDOOR"
+                    },
+                    {
+                      "Unlockable": "F_ARCH",
+                      "Children": {
+                        "Unlockable": "F_ARCH_H"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_BASIC_FIBREGLASS_ROOFS_SUB",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "F_ROOF7",
+              "Children": [
+                {
+                  "Unlockable": "F_ROOF_M",
+                  "Children": {
+                    "Unlockable": "F_ROOF_M_Q",
+                    "Children": {
+                      "Unlockable": "F_ROOF_E_Q"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "F_ROOF_C",
+                  "Children": {
+                    "Unlockable": "F_ROOF_IC"
+                  }
+                },
+                {
+                  "Unlockable": "F_ROOF_M_CAP",
+                  "Children": {
+                    "Unlockable": "F_ROOF_E_CAP"
+                  }
+                },
+                {
+                  "Unlockable": "F_ROOF1",
+                  "Children": {
+                    "Unlockable": "F_ROOF0",
+                    "Children": {
+                      "Unlockable": "F_ROOF3"
+                    }
+                  }
+                },
+                {
+                  "Unlockable": "F_ROOF2"
+                },
+                {
+                  "Unlockable": "F_ROOF5",
+                  "Children": [
+                    {
+                      "Unlockable": "F_ROOF6"
+                    },
+                    {
+                      "Unlockable": "F_ROOF8"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_ROOF4"
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_SHAPES_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "WEDGESHAPE",
+              "Children": [
+                {
+                  "Unlockable": "WEDGESMALLSHAPE",
+                  "Children": {
+                    "Unlockable": "PYRAMIDSHAPE"
+                  }
+                },
+                {
+                  "Unlockable": "PIPESHAPE",
+                  "Children": [
+                    {
+                      "Unlockable": "CURVEPIPESHAPE"
+                    },
+                    {
+                      "Unlockable": "CUBESOLID",
+                      "Children": {
+                        "Unlockable": "CUBESHAPE"
+                      }
+                    },
+                    {
+                      "Unlockable": "CYLINDERSHAPE",
+                      "Children": {
+                        "Unlockable": "SPHERESHAPE"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_STORAGE_TREE",
+            "CostTypeID": "SALVAGE",
+            "Root": {
+              "Unlockable": "CONTAINER0",
+              "Children": [
+                {
+                  "Unlockable": "CONTAINER1",
+                  "Children": [
+                    {
+                      "Unlockable": "CONTAINER2"
+                    },
+                    {
+                      "Unlockable": "CONTAINER3"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CONTAINER4",
+                  "Children": [
+                    {
+                      "Unlockable": "CONTAINER5"
+                    },
+                    {
+                      "Unlockable": "CONTAINER6"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "CONTAINER7",
+                  "Children": [
+                    {
+                      "Unlockable": "CONTAINER8"
+                    },
+                    {
+                      "Unlockable": "CONTAINER9"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SpecialBaseParts": {
+        "Title": "UI_SPECIAL_BASEPARTS_TREE",
+        "Trees": {
+          "Root": {
+            "Unlockable": "CONTAINER0"
+          }
+        }
+      }
+    },
+    {
+      "SuitTech": {
+        "Title": "UI_SUIT_TECH_TREE",
+        "Trees": {
+          "Title": "UI_TECH_TREE_SUB",
+          "CostTypeID": "NANITES",
+          "Root": {
+            "Unlockable": "ENERGY",
+            "Children": [
+              {
+                "Unlockable": "POWERGLOVE",
+                "Children": {
+                  "Unlockable": "SUIT_REFINER"
+                }
+              },
+              {
+                "Unlockable": "PROTECT",
+                "Children": [
+                  {
+                    "Unlockable": "UT_HOT"
+                  },
+                  {
+                    "Unlockable": "UT_COLD"
+                  },
+                  {
+                    "Unlockable": "UT_TOX"
+                  },
+                  {
+                    "Unlockable": "UT_RAD"
+                  },
+                  {
+                    "Unlockable": "UT_WATER"
+                  },
+                  {
+                    "Unlockable": "UT_PROTECT"
+                  }
+                ]
+              },
+              {
+                "Unlockable": "UT_ENERGY",
+                "Children": {
+                  "Unlockable": "UT_WATERENERGY"
+                }
+              },
+              {
+                "Unlockable": "JET1",
+                "Children": [
+                  {
+                    "Unlockable": "UT_JET",
+                    "Children": {
+                      "Unlockable": "UT_MIDAIR"
+                    }
+                  },
+                  {
+                    "Unlockable": "UT_JUMP"
+                  },
+                  {
+                    "Unlockable": "UT_WATERJET"
+                  }
+                ]
+              },
+              {
+                "Unlockable": "UT_TRANSLATE1",
+                "Children": {
+                  "Unlockable": "UT_TRANSLATE2",
+                  "Children": {
+                    "Unlockable": "UT_TRANSLATE3"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "ShipTech": {
+        "Title": "UI_SHIP_TECH_TREE",
+        "Trees": {
+          "Title": "UI_TECH_TREE_SUB",
+          "CostTypeID": "NANITES",
+          "Root": {
+            "Unlockable": "SHIPJUMP1",
+            "Children": [
+              {
+                "Unlockable": "UT_PULSEFUEL",
+                "Children": {
+                  "Unlockable": "UT_PULSESPEED"
+                }
+              },
+              {
+                "Unlockable": "SHIP_TELEPORT",
+                "Children": [
+                  {
+                    "Unlockable": "SHIPSCAN_COMBAT"
+                  },
+                  {
+                    "Unlockable": "SHIPSCAN_ECON"
+                  }
+                ]
+              },
+              {
+                "Unlockable": "HYPERDRIVE",
+                "Children": [
+                  {
+                    "Unlockable": "UT_QUICKWARP"
+                  },
+                  {
+                    "Unlockable": "HDRIVEBOOST1",
+                    "Children": {
+                      "Unlockable": "HDRIVEBOOST2",
+                      "Children": {
+                        "Unlockable": "HDRIVEBOOST3"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Unlockable": "LAUNCHER",
+                "Children": {
+                  "Unlockable": "UT_LAUNCHER",
+                  "Children": {
+                    "Unlockable": "UT_LAUNCHCHARGE"
+                  }
+                }
+              },
+              {
+                "Unlockable": "SHIPSHIELD",
+                "Children": {
+                  "Unlockable": "UT_SHIPSHIELD"
+                }
+              },
+              {
+                "Unlockable": "SHIPGUN1",
+                "Children": [
+                  {
+                    "Unlockable": "UT_SHIPGUN"
+                  },
+                  {
+                    "Unlockable": "SHIPROCKETS",
+                    "Children": {
+                      "Unlockable": "UT_ROCKETS"
+                    }
+                  },
+                  {
+                    "Unlockable": "SHIPLAS1",
+                    "Children": {
+                      "Unlockable": "UT_SHIPLAS"
+                    }
+                  },
+                  {
+                    "Unlockable": "SHIPSHOTGUN",
+                    "Children": {
+                      "Unlockable": "UT_SHIPSHOT"
+                    }
+                  },
+                  {
+                    "Unlockable": "SHIPMINIGUN",
+                    "Children": {
+                      "Unlockable": "UT_SHIPMINI"
+                    }
+                  },
+                  {
+                    "Unlockable": "SHIPPLASMA",
+                    "Children": {
+                      "Unlockable": "UT_SHIPBLOB"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "WeapTech": {
+        "Title": "UI_WEAP_TECH_TREE",
+        "Trees": {
+          "Title": "UI_TECH_TREE_SUB",
+          "CostTypeID": "NANITES",
+          "Root": {
+            "Unlockable": "LASER",
+            "Children": [
+              {
+                "Unlockable": "BOLT",
+                "Children": [
+                  {
+                    "Unlockable": "UT_BOLT",
+                    "Children": {
+                      "Unlockable": "UT_BOLTBOUNCE"
+                    }
+                  },
+                  {
+                    "Unlockable": "GRENADE",
+                    "Children": {
+                      "Unlockable": "TERRAIN_GREN"
+                    }
+                  },
+                  {
+                    "Unlockable": "RAILGUN",
+                    "Children": {
+                      "Unlockable": "UT_RAIL"
+                    }
+                  },
+                  {
+                    "Unlockable": "SHOTGUN",
+                    "Children": {
+                      "Unlockable": "UT_SHOT"
+                    }
+                  },
+                  {
+                    "Unlockable": "SMG",
+                    "Children": {
+                      "Unlockable": "UT_SMG",
+                      "Children": {
+                        "Unlockable": "UT_SMGBOUNCE"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Unlockable": "GROUND_SHIELD",
+                "Children": {
+                  "Unlockable": "SCOPE"
+                }
+              },
+              {
+                "Unlockable": "STRONGLASER",
+                "Children": {
+                  "Unlockable": "UT_MINER"
+                }
+              },
+              {
+                "Unlockable": "UT_SCAN",
+                "Children": {
+                  "Unlockable": "UT_SURVEY"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "ExocraftTech": {
+        "Title": "UI_EXOCRAFT_TECH_TREE",
+        "Trees": {
+          "Title": "UI_TECH_TREE_SUB",
+          "CostTypeID": "NANITES",
+          "Root": {
+            "Unlockable": "VEHICLE_ENGINE",
+            "Children": [
+              {
+                "Unlockable": "SUB_ENGINE",
+                "Children": {
+                  "Unlockable": "SUB_BINOCS",
+                  "Children": [
+                    {
+                      "Unlockable": "SUB_RECHARGE"
+                    },
+                    {
+                      "Unlockable": "SUB_LASER"
+                    },
+                    {
+                      "Unlockable": "SUB_GUN"
+                    }
+                  ]
+                }
+              },
+              {
+                "Unlockable": "EXO_PROT_COLD"
+              },
+              {
+                "Unlockable": "EXO_PROT_TOX"
+              },
+              {
+                "Unlockable": "EXO_PROT_RAD"
+              },
+              {
+                "Unlockable": "EXO_PROT_HOT"
+              },
+              {
+                "Unlockable": "VEHICLE_SCAN",
+                "Children": {
+                  "Unlockable": "VEHICLE_SCAN1",
+                  "Children": {
+                    "Unlockable": "VEHICLE_SCAN2"
+                  }
+                }
+              },
+              {
+                "Unlockable": "VEHICLE_BOOST",
+                "Children": {
+                  "Unlockable": "EXO_RECHARGE"
+                }
+              },
+              {
+                "Unlockable": "VEHICLE_LASER",
+                "Children": [
+                  {
+                    "Unlockable": "VEHICLE_LASER1"
+                  },
+                  {
+                    "Unlockable": "VEHICLE_GUN"
+                  }
+                ]
+              },
+              {
+                "Unlockable": "MECH_ENGINE",
+                "Children": [
+                  {
+                    "Unlockable": "MECH_PROT",
+                    "Children": {
+                      "Unlockable": "MECH_BOOST",
+                      "Children": {
+                        "Unlockable": "MECH_FUEL"
+                      }
+                    }
+                  },
+                  {
+                    "Unlockable": "MECH_SCAN"
+                  },
+                  {
+                    "Unlockable": "MECH_LASER",
+                    "Children": [
+                      {
+                        "Unlockable": "MECH_LASER1"
+                      },
+                      {
+                        "Unlockable": "MECH_GUN"
+                      },
+                      {
+                        "Unlockable": "MECH_MINER"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "CraftProducts": {
+        "Title": "UI_PRODUCT_TREE",
+        "Trees": [
+          {
+            "Title": "UI_PRODUCT_TREE_CRAFT",
+            "CostTypeID": "FACTORY",
+            "Root": {
+              "Unlockable": "PRODFUEL2",
+              "Children": [
+                {
+                  "Unlockable": "JELLY",
+                  "Children": [
+                    {
+                      "Unlockable": "NANOTUBES",
+                      "Children": {
+                        "Unlockable": "HYDRALIC"
+                      }
+                    },
+                    {
+                      "Unlockable": "MICROCHIP",
+                      "Children": {
+                        "Unlockable": "COMPUTER"
+                      }
+                    },
+                    {
+                      "Unlockable": "CARBON_SEAL",
+                      "Children": {
+                        "Unlockable": "BIO"
+                      }
+                    },
+                    {
+                      "Unlockable": "CASING",
+                      "Children": {
+                        "Unlockable": "MAGNET"
+                      }
+                    },
+                    {
+                      "Unlockable": "MIRROR"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "POWERCELL",
+                  "Children": [
+                    {
+                      "Unlockable": "SHIPCHARGE"
+                    },
+                    {
+                      "Unlockable": "LAUNCHFUEL",
+                      "Children": {
+                        "Unlockable": "SUBFUEL"
+                      }
+                    },
+                    {
+                      "Unlockable": "GRENFUEL1"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "HYPERFUEL1",
+                  "Children": {
+                    "Unlockable": "ACCESS1",
+                    "Children": {
+                      "Unlockable": "ACCESS2",
+                      "Children": [
+                        {
+                          "Unlockable": "HYPERFUEL2"
+                        },
+                        {
+                          "Unlockable": "ACCESS3"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_PRODUCT_TREE_FARM",
+            "CostTypeID": "FACTORY",
+            "Root": {
+              "Unlockable": "FARMPROD1",
+              "Children": [
+                {
+                  "Unlockable": "FARMPROD2",
+                  "Children": [
+                    {
+                      "Unlockable": "FARMPROD6",
+                      "Children": {
+                        "Unlockable": "FARMPROD7"
+                      }
+                    },
+                    {
+                      "Unlockable": "FARMPROD3",
+                      "Children": {
+                        "Unlockable": "FARMPROD8"
+                      }
+                    },
+                    {
+                      "Unlockable": "FARMPROD5",
+                      "Children": [
+                        {
+                          "Unlockable": "FARMPROD4"
+                        },
+                        {
+                          "Unlockable": "FARMPROD9"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "REACTION1",
+                  "Children": [
+                    {
+                      "Unlockable": "REACTION2",
+                      "Children": {
+                        "Unlockable": "COMPOUND1",
+                        "Children": {
+                          "Unlockable": "COMPOUND4"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "REACTION3",
+                      "Children": [
+                        {
+                          "Unlockable": "COMPOUND2",
+                          "Children": {
+                            "Unlockable": "COMPOUND5"
+                          }
+                        },
+                        {
+                          "Unlockable": "COMPOUND3",
+                          "Children": {
+                            "Unlockable": "COMPOUND6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "Unlockable": "ALLOY1",
+                      "Children": [
+                        {
+                          "Unlockable": "ALLOY2"
+                        },
+                        {
+                          "Unlockable": "ALLOY3"
+                        },
+                        {
+                          "Unlockable": "ALLOY4"
+                        },
+                        {
+                          "Unlockable": "ALLOY5",
+                          "Children": {
+                            "Unlockable": "ALLOY8"
+                          }
+                        },
+                        {
+                          "Unlockable": "ALLOY6",
+                          "Children": {
+                            "Unlockable": "ALLOY7"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "MEGAPROD1",
+                  "Children": [
+                    {
+                      "Unlockable": "MEGAPROD2",
+                      "Children": {
+                        "Unlockable": "ULTRAPROD1"
+                      }
+                    },
+                    {
+                      "Unlockable": "MEGAPROD3",
+                      "Children": {
+                        "Unlockable": "ULTRAPROD2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "FreighterTech": {
+        "Title": "UI_FREIGHTER_TREE",
+        "Trees": [
+          {
+            "Title": "UI_TECH_TREE_SUB",
+            "CostTypeID": "FRIGATE",
+            "Root": {
+              "Unlockable": "FRIGATE_FUEL_1",
+              "Children": [
+                {
+                  "Unlockable": "FRIG_BOOST_SPD",
+                  "Children": [
+                    {
+                      "Unlockable": "FRIG_BOOST_TRA"
+                    },
+                    {
+                      "Unlockable": "FRIG_BOOST_EXP"
+                    },
+                    {
+                      "Unlockable": "FRIG_BOOST_MIN"
+                    },
+                    {
+                      "Unlockable": "FRIG_BOOST_COM"
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_HDRIVEBOOST1",
+                  "Children": [
+                    {
+                      "Unlockable": "F_HACCESS1",
+                      "Children": {
+                        "Unlockable": "F_HACCESS2",
+                        "Children": {
+                          "Unlockable": "F_HACCESS3"
+                        }
+                      }
+                    },
+                    {
+                      "Unlockable": "F_HDRIVEBOOST2",
+                      "Children": {
+                        "Unlockable": "F_HDRIVEBOOST3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Unlockable": "F_TELEPORT"
+                }
+              ]
+            }
+          },
+          {
+            "Title": "UI_FREIGHT_PAINT_NAME_L",
+            "CostTypeID": "NANITES",
+            "Root": {
+              "Unlockable": "FREIGHT_PAINT",
+              "Children": [
+                {
+                  "Unlockable": "FREIGHT_RED"
+                },
+                {
+                  "Unlockable": "FREIGHT_ORANGE"
+                },
+                {
+                  "Unlockable": "FREIGHT_YELLOW"
+                },
+                {
+                  "Unlockable": "FREIGHT_GREEN"
+                },
+                {
+                  "Unlockable": "FREIGHT_CYAN"
+                },
+                {
+                  "Unlockable": "FREIGHT_BLUE"
+                },
+                {
+                  "Unlockable": "FREIGHT_PURPLE"
+                },
+                {
+                  "Unlockable": "FREIGHT_PINK"
+                },
+                {
+                  "Unlockable": "FREIGHT_WHITE"
+                },
+                {
+                  "Unlockable": "FREIGHT_BLACK"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "CostTypes": [
+    {
+      "CostTypeID": "UNITS",
+      "TypeOfCost": "Currency",
+      "CurrencyType": {
+        "Currency": "Units"
+      }
+    },
+    {
+      "CostTypeID": "NANITES",
+      "TypeOfCost": "Currency",
+      "CurrencyType": {
+        "Currency": "Nanites"
+      }
+    },
+    {
+      "CostTypeID": "SPECIALS",
+      "TypeOfCost": "Currency",
+      "CurrencyType": {
+        "Currency": "Specials"
+      }
+    },
+    {
+      "CostTypeID": "SALVAGE",
+      "TypeOfCost": "Product",
+      "CurrencyType": {
+        "Currency": "Units"
+      },
+      "TypeID": "BP_SALVAGE",
+      "CantAffordString": "TRADE_BUY_BUILDING_NO_ITEMS"
+    },
+    {
+      "CostTypeID": "SUBST_TEST",
+      "TypeOfCost": "Substance",
+      "CurrencyType": {
+        "Currency": "Units"
+      },
+      "TypeID": "FUEL1"
+    },
+    {
+      "CostTypeID": "FACTORY",
+      "TypeOfCost": "Product",
+      "CurrencyType": {
+        "Currency": "Units"
+      },
+      "TypeID": "FACT_TOKEN",
+      "CantAffordString": "TRADE_BUY_RESEARCH_NO_TOKEN"
+    },
+    {
+      "CostTypeID": "FRIGATE",
+      "TypeOfCost": "Product",
+      "CurrencyType": {
+        "Currency": "Units"
+      },
+      "TypeID": "FRIG_TOKEN",
+      "CantAffordString": "TRADE_BUY_RESEARCH_NO_TOKEN"
+    }
+  ]
+}

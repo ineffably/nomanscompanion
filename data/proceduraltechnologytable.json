@@ -1,0 +1,2323 @@
+{
+  "Table": [
+    {
+      "ID": "UP_LASER1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_LASER2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_LASER3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_LASER4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SCAN1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SCAN2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SCAN3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SCAN4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_BOLT1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_BOLT2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_BOLT3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_BOLT4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_GREN1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_GREN2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_GREN3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_GREN4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TGREN1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TGREN2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TGREN3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TGREN4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAIL1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAIL2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAIL3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAIL4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHOT1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHOT2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHOT3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHOT4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMG1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMG2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMG3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMG4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_ENGY1",
+      "Template": "ENERGYBOOST1",
+      "Name": "ENERGY_NAME",
+      "NameLower": "ENERGY_NAME_L",
+      "Subtitle": "ENERGYBOOST1_SUBTITLE",
+      "Description": "ENERGYBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_ENGY2",
+      "Template": "ENERGYBOOST1",
+      "Name": "ENERGY_NAME",
+      "NameLower": "ENERGY_NAME_L",
+      "Subtitle": "ENERGYBOOST1_SUBTITLE",
+      "Description": "ENERGYBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_ENGY3",
+      "Template": "ENERGYBOOST1",
+      "Name": "ENERGY_NAME",
+      "NameLower": "ENERGY_NAME_L",
+      "Subtitle": "ENERGYBOOST1_SUBTITLE",
+      "Description": "ENERGYBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_ENGY4",
+      "Template": "ENERGYBOOST1",
+      "Name": "ENERGY_NAME",
+      "NameLower": "ENERGY_NAME_L",
+      "Subtitle": "ENERGYBOOST1_SUBTITLE",
+      "Description": "ENERGYBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_JET1",
+      "Template": "JETBOOST1",
+      "Name": "JET1_NAME",
+      "NameLower": "JET1_NAME_L",
+      "Subtitle": "JETBOOST1_SUBTITLE",
+      "Description": "JETBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_JET2",
+      "Template": "JETBOOST1",
+      "Name": "JET1_NAME",
+      "NameLower": "JET1_NAME_L",
+      "Subtitle": "JETBOOST1_SUBTITLE",
+      "Description": "JETBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_JET3",
+      "Template": "JETBOOST1",
+      "Name": "JET1_NAME",
+      "NameLower": "JET1_NAME_L",
+      "Subtitle": "JETBOOST1_SUBTITLE",
+      "Description": "JETBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_JET4",
+      "Template": "JETBOOST1",
+      "Name": "JET1_NAME",
+      "NameLower": "JET1_NAME_L",
+      "Subtitle": "JETBOOST1_SUBTITLE",
+      "Description": "JETBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHLD1",
+      "Template": "SHIELDBOOST1",
+      "Name": "SHIELD_NAME",
+      "NameLower": "SHIELD_NAME_L",
+      "Subtitle": "SHIELDBOOST1_SUBTITLE",
+      "Description": "SHIELDBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHLD2",
+      "Template": "SHIELDBOOST1",
+      "Name": "SHIELD_NAME",
+      "NameLower": "SHIELD_NAME_L",
+      "Subtitle": "SHIELDBOOST1_SUBTITLE",
+      "Description": "SHIELDBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHLD3",
+      "Template": "SHIELDBOOST1",
+      "Name": "SHIELD_NAME",
+      "NameLower": "SHIELD_NAME_L",
+      "Subtitle": "SHIELDBOOST1_SUBTITLE",
+      "Description": "SHIELDBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SHLD4",
+      "Template": "SHIELDBOOST1",
+      "Name": "SHIELD_NAME",
+      "NameLower": "SHIELD_NAME_L",
+      "Subtitle": "SHIELDBOOST1_SUBTITLE",
+      "Description": "SHIELDBOOST1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_UNW1",
+      "Template": "UNW2",
+      "Name": "UWN_NAME",
+      "NameLower": "UWN_NAME_L",
+      "Subtitle": "UNW1_SUBTITLE",
+      "Description": "UNW1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_UNW2",
+      "Template": "UNW2",
+      "Name": "UWN_NAME",
+      "NameLower": "UWN_NAME_L",
+      "Subtitle": "UNW1_SUBTITLE",
+      "Description": "UNW1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_UNW3",
+      "Template": "UNW2",
+      "Name": "UWN_NAME",
+      "NameLower": "UWN_NAME_L",
+      "Subtitle": "UNW1_SUBTITLE",
+      "Description": "UNW1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAD1",
+      "Template": "RAD2",
+      "Name": "RAD_NAME",
+      "NameLower": "RAD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "RAD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAD2",
+      "Template": "RAD2",
+      "Name": "RAD_NAME",
+      "NameLower": "RAD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "RAD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_RAD3",
+      "Template": "RAD2",
+      "Name": "RAD_NAME",
+      "NameLower": "RAD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "RAD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TOX1",
+      "Template": "TOX2",
+      "Name": "TOX_NAME",
+      "NameLower": "TOX_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "TOX1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TOX2",
+      "Template": "TOX2",
+      "Name": "TOX_NAME",
+      "NameLower": "TOX_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "TOX1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_TOX3",
+      "Template": "TOX2",
+      "Name": "TOX_NAME",
+      "NameLower": "TOX_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "TOX1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_COLD1",
+      "Template": "COLDPROT2",
+      "Name": "COLD_NAME",
+      "NameLower": "COLD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "COLD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_COLD2",
+      "Template": "COLDPROT2",
+      "Name": "COLD_NAME",
+      "NameLower": "COLD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "COLD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_COLD3",
+      "Template": "COLDPROT2",
+      "Name": "COLD_NAME",
+      "NameLower": "COLD_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "COLD1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HOT1",
+      "Template": "HOTPROT2",
+      "Name": "HOT_NAME",
+      "NameLower": "HOT_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "HOT1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HOT2",
+      "Template": "HOTPROT2",
+      "Name": "HOT_NAME",
+      "NameLower": "HOT_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "HOT1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HOT3",
+      "Template": "HOTPROT2",
+      "Name": "HOT_NAME",
+      "NameLower": "HOT_NAME_L",
+      "Subtitle": "HAZARD_UNIT_SUBTITLE",
+      "Description": "HOT1_DESCRIPTION",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "Protection"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_PULSE1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_PULSE2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_PULSE3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_PULSE4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HYP1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HYP2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HYP3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_HYP4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_S_SHL1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_S_SHL2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_S_SHL3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_S_SHL4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SGUN1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SGUN2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SGUN3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SGUN4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SLASR1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SLASR2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SLASR3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SLASR4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SSHOT1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SSHOT2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SSHOT3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SSHOT4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMINI1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMINI2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMINI3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SMINI4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SBLOB1",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SBLOB2",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SBLOB3",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    },
+    {
+      "ID": "UP_SBLOB4",
+      "Colour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      },
+      "Quality": "Normal",
+      "Category": {
+        "ProceduralTechnologyCategory": "None"
+      },
+      "NumStatsMin": "1",
+      "NumStatsMax": "1",
+      "WeightingCurve": {
+        "WeightingCurve": "NoWeighting"
+      },
+      "UpgradeColour": {
+        "R": "1",
+        "G": "1",
+        "B": "1",
+        "A": "1"
+      }
+    }
+  ]
+}

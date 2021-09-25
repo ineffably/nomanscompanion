@@ -1,0 +1,442 @@
+{
+  "Groups": {
+    "Custom": {},
+    "Farming": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FARM1",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FARM2",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FARM3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FARM4",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FARM5",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    },
+    "Fuelling": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FUEL1",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FUEL2",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FUEL3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FUEL4",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FUEL5",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    },
+    "Repairing": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH1",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH2",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH4",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH5",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH6",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH7",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH8",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH9",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH10",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH11",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH12",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH13",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH14",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH15",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH16",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH17",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH18",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH19",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH20",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH21",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH22",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH23",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH24",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH25",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    },
+    "EasyRepairing": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH1",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH2",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH4",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH5",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH9",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH12",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH16",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_TECH18",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    },
+    "Cleaning": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Substance"
+          },
+          "Id": "SPACEGUNK1",
+          "ProbabilityWeighting": "3"
+        },
+        {
+          "Type": {
+            "InventoryType": "Substance"
+          },
+          "Id": "SPACEGUNK4",
+          "ProbabilityWeighting": "3"
+        },
+        {
+          "Type": {
+            "InventoryType": "Substance"
+          },
+          "Id": "SPACEGUNK5",
+          "ProbabilityWeighting": "3"
+        },
+        {
+          "Type": {
+            "InventoryType": "Substance"
+          },
+          "Id": "SPACEGUNK3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Substance"
+          },
+          "Id": "PLANT_POOP",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    },
+    "Frigate": {
+      "Table": [
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG1",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG2",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG3",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG4",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG5",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG6",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG7",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG8",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG9",
+          "ProbabilityWeighting": "1"
+        },
+        {
+          "Type": {
+            "InventoryType": "Technology"
+          },
+          "Id": "MAINT_FRIG10",
+          "ProbabilityWeighting": "1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Entries": [
+    {
+      "FlybyType": {
+        "FrigateFlybyType": "SingleShip"
+      },
+      "Frigate": {
+        "FrigateClass": {
+          "FrigateClass": "Normandy"
+        },
+        "MinCount": "1",
+        "MaxCount": "1",
+        "Weight": "1"
+      }
+    },
+    {
+      "FlybyType": {
+        "FrigateFlybyType": "Diplomatic"
+      },
+      "Frigate": [
+        {
+          "FrigateClass": {
+            "FrigateClass": "Combat"
+          },
+          "MinCount": "1",
+          "MaxCount": "5",
+          "Weight": "2"
+        },
+        {
+          "FrigateClass": {
+            "FrigateClass": "Diplomacy"
+          },
+          "MinCount": "1",
+          "MaxCount": "3",
+          "Weight": "1"
+        }
+      ]
+    },
+    {
+      "FlybyType": {
+        "FrigateFlybyType": "Diplomatic"
+      },
+      "Frigate": {
+        "FrigateClass": {
+          "FrigateClass": "Diplomacy"
+        },
+        "MinCount": "3",
+        "MaxCount": "5",
+        "Weight": "1"
+      }
+    },
+    {
+      "FlybyType": {
+        "FrigateFlybyType": "Diplomatic"
+      },
+      "Frigate": [
+        {
+          "FrigateClass": {
+            "FrigateClass": "Support"
+          },
+          "MinCount": "1",
+          "MaxCount": "5",
+          "Weight": "0.5"
+        },
+        {
+          "FrigateClass": {
+            "FrigateClass": "Combat"
+          },
+          "MinCount": "1",
+          "MaxCount": "1",
+          "Weight": "1"
+        },
+        {
+          "FrigateClass": {
+            "FrigateClass": "Diplomacy"
+          },
+          "MinCount": "1",
+          "MaxCount": "3",
+          "Weight": "1"
+        }
+      ]
+    }
+  ]
+}
