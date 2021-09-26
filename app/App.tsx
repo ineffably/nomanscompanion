@@ -5,7 +5,7 @@ import { GCProductEntry, DebrisFile } from '../types/gcproduct';
 import { MinProductCard } from './MinProductCard';
 import './App.css';
 import languageTokens from '../assets/data/all_usenglish.json';
-import { getIconUrlFromDebrisFile } from './utils';
+import { colorFromEntry, getIconUrlFromDebrisFile } from './utils';
 
 const transformProductTable = (entries: GCProductEntry[]) => {
   return entries.map(row => {
@@ -16,12 +16,9 @@ const transformProductTable = (entries: GCProductEntry[]) => {
     if(row.ID){
       row.Id = row.ID;
     }
-    row.ext = {};
-    if(row.Icon){
-      const iconUrl = getIconUrlFromDebrisFile(row.Icon as DebrisFile);
-      row.ext = {
-        iconUrl
-      }
+    row.ext = {
+      iconUrl: row.Icon ? getIconUrlFromDebrisFile(row.Icon as DebrisFile) : null,
+      linkColor: row.LinkColour ? colorFromEntry(row.LinkColour) : null
     }
     return row;
   })
@@ -40,11 +37,11 @@ export const App: FunctionComponent = () => {
 
   const fetchData = async () => {
     const incomingProductTable = [];
-    fetchDataAsset('./assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+    fetchDataAsset('/assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
       incomingProductTable.push(transformProductTable(Table));
-      fetchDataAsset('./assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+      fetchDataAsset('/assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
         incomingProductTable.push(transformProductTable(Table));
-        fetchDataAsset('./assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+        fetchDataAsset('/assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
           incomingProductTable.push(transformProductTable(Table));
           setProductTable(incomingProductTable.flat());
         });

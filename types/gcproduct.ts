@@ -15,6 +15,7 @@ export interface GCProductEntry {
   Type?:                       Type;
   Rarity?:                     Rarity;
   Legality?:                   Legality;
+  LinkColour?:                 Colour;
   Consumable?:                 string;
   ChargeValue?:                string;
   StackMultiplier?:            string;
@@ -42,6 +43,7 @@ export interface GCProductEntry {
 
 export interface ExtendedProductData {
   iconUrl?: string;
+  linkColor?: string;
 }
 
 export interface Category {

@@ -15,7 +15,7 @@ export interface ProductCardProps {
 export const MinProductCard = ({ entry }: ProductCardProps): ReactElement  => {
   const { ext, Name, Id } = entry;
   const title = Name && Name.length > 0 ? Name : Id;
-  const { iconUrl } = ext;
+  const { iconUrl, linkColor } = ext;
   const backgroundColor = entry.Colour ? colorFromEntry(entry.Colour) : '';
   return (
     <Popover content={JsonPreview(entry)} title="JSON">
