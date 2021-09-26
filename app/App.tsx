@@ -34,37 +34,37 @@ export const App: FunctionComponent = () => {
     }
   }
 
-  const fetchData = async () => {
-    const fetchProductTables = (tokens: Record<string, string>) => {
-      const incomingProductTable = [];
-      fetchDataAsset('/assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+  const fetchProductTables = (tokens: Record<string, string>) => {
+    const incomingProductTable = [];
+    fetchDataAsset('/assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+      incomingProductTable.push(transformProductTable(Table, tokens));
+      fetchDataAsset('/assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
         incomingProductTable.push(transformProductTable(Table, tokens));
-        fetchDataAsset('/assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+        fetchDataAsset('/assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
           incomingProductTable.push(transformProductTable(Table, tokens));
-          fetchDataAsset('/assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
-            incomingProductTable.push(transformProductTable(Table, tokens));
-            setProductTable(incomingProductTable.flat());
-          });
+          setProductTable(incomingProductTable.flat());
         });
       });
-    }
-
-    fetchDataAsset('/assets/data/all_usenglish.json', (language) => {
-      setLanguageTokens(language);
-      fetchProductTables(language);
-    })
-
+    });
   }
+
+  const fetchData = async () => {
+    fetchDataAsset('/assets/data/all_usenglish.json', setLanguageTokens)
+  }
+
+  useEffect(() => {
+    fetchProductTables(languageTokens);
+  }, [languageTokens])
 
   useEffect(() => {
     fetchData();
   }, [])
 
-  console.log('=== App Render ===', productTable.length);
+  console.log('=== App Render ===');
 
   return (
     <div >
-      <h1>GCProductTable ({productTable.length})</h1>
+      <h2>ProductTable ({productTable.length})</h2>
       {/* <ProductTable { ...{ productTable, languageTokens } } /> */}
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
         {productTable.map((entry, index) => <MinProductCard key={entry.ID} {...{ entry }} />)}
