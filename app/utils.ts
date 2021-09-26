@@ -12,7 +12,8 @@ export const getIconUrlFromDebrisFile = (fileNameEntry: DebrisFile): string => {
   const { Filename } = fileNameEntry;
   if(!Filename) return '';
   const iconPath = 'TEXTURES/UI/FRONTEND/ICONS';
-  const imagePath = Filename.replace(iconPath, './assets/images').replace('.DDS', '.webp').toLowerCase();
+  const iconPath2 = 'TEXTURES/UI/FRONTEND';
+  const imagePath = Filename.replace(iconPath, './assets/images').replace(iconPath2, './assets/images').replace('.DDS', '.webp').toLowerCase();
   return imagePath;
 }
 

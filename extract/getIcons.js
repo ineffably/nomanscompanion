@@ -28,11 +28,12 @@ function readFolderTree(path) {
 
 readFolderTree(fullIconPath);
 
-flattened.forEach(contents => {
+flattened.filter(entry => entry.path.includes('FRONTEND\\ICONS\\MISSIONS')).forEach(contents => {
   const { path, ddsFiles } = contents;
   const ddsFileNames = [...ddsFiles];
   const relativeIconPath = path.replace(fullIconPath, '').toLocaleLowerCase();
   const targetFolder = `${__dirname.replace('\\extract', '')}\\${imageFolder}\\${relativeIconPath}`;
+  console.log(path);
   fs.mkdirSync(targetFolder, { recursive: true });
   // console.log('path', path);
   const convertFile = async (ddsFileName) => {
@@ -44,10 +45,10 @@ flattened.forEach(contents => {
       if(fs.statSync(fullpngPath)){
         console.log('== file exists', fullpngPath);
 
-        // const del_cmd = `del ${fullpngPath}`;
-        // console.log(`== runnning ${del_cmd}`);
-        // const del_cmd_stdout = execSync(del_cmd, {'encoding': 'UTF-8'});
-        // console.log(del_cmd_stdout);
+        const del_cmd = `del ${fullpngPath}`;
+        console.log(`== runnning ${del_cmd}`);
+        const del_cmd_stdout = execSync(del_cmd, {'encoding': 'UTF-8'});
+        console.log(del_cmd_stdout);
 
         // const cwebp_cmd = `cwebp -q 80 ${fullpngPath} -o ${targetFolder}${pngname.replace('.png','.webp')}`;
         // console.log(`== runnning ${cwebp_cmd}`);
@@ -67,6 +68,7 @@ flattened.forEach(contents => {
       }
       catch(innerError){
         console.error(innerError);
+        return await convertFile(ddsFileNames.pop());
       }
     }
   }
