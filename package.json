@@ -16,22 +16,34 @@
     "extractXml": "node ./extract/extractXml.js",
     "exmlToJson": "node ./extract/exmlToJson.js",
     "cookJson": "node ./extract/cookJson.js",
-    "finalizeJson": "node ./extract/finalizeJson.js"
+    "finalizeJson": "node ./extract/finalizeJson.js",
+    "fixLangFile": "node ./extract/fixLangFile.js",
+    "getIcons": "node ./extract/getIcons.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/download": "^8.0.1",
+    "@types/react": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "cpy": "^8.1.2",
     "download": "^8.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.25.3",
+    "html-webpack-plugin": "^5.3.2",
+    "imagemagick-convert": "^1.0.3",
+    "ts-loader": "^9.2.6",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
     "xml-js": "^1.6.11",
     "xml2json": "^0.12.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
