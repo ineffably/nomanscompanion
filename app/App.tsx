@@ -49,7 +49,7 @@ export const App: FunctionComponent = () => {
   }
 
   const fetchData = async () => {
-    fetchDataAsset('/assets/data/all_usenglish.json', setLanguageTokens)
+    fetchDataAsset('./assets/data/all_usenglish.json', setLanguageTokens)
   }
 
   useEffect(() => {
