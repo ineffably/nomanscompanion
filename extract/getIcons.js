@@ -43,6 +43,14 @@ flattened.forEach(contents => {
     try{
       if(fs.statSync(fullpngPath)){
         console.log('== file exists', fullpngPath);
+        const del_cmd = `del ${fullpngPath}`;
+        console.log(`== runnning ${del_cmd}`);
+        const del_cmd_stdout = execSync(del_cmd, {'encoding': 'UTF-8'});
+        console.log(del_cmd_stdout);
+        // const cwebp_cmd = `cwebp -q 80 ${fullpngPath} -o ${targetFolder}${pngname.replace('.png','.webp')}`;
+        // console.log(`== runnning ${cwebp_cmd}`);
+        // const cwebp_stdout = execSync(cwebp_cmd, {'encoding': 'UTF-8'});
+        // console.log(cwebp_stdout);
         return await convertFile(ddsFileNames.pop());
       }
     }
