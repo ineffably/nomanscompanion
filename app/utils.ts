@@ -13,7 +13,7 @@ export const getIconUrlFromDebrisFile = (fileNameEntry: DebrisFile): string => {
   if(!Filename) return '';
   const iconPath = 'TEXTURES/UI/FRONTEND/ICONS';
   const iconPath2 = 'TEXTURES/UI/FRONTEND'; // jank image pathing fix, apparnetly lazy me needs to re-import images one path up
-  const imagePath = Filename.replace(iconPath, '/assets/images').replace(iconPath2, '/assets/images').replace('.DDS', '.webp').toLowerCase();
+  const imagePath = Filename.replace(iconPath, './assets/images').replace(iconPath2, './assets/images').replace('.DDS', '.webp').toLowerCase();
   return imagePath;
 }
 

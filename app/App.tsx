@@ -36,11 +36,11 @@ export const App: FunctionComponent = () => {
 
   const fetchProductTables = (tokens: Record<string, string>) => {
     const incomingProductTable = [];
-    fetchDataAsset('/assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+    fetchDataAsset('./assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
       incomingProductTable.push(transformProductTable(Table, tokens));
-      fetchDataAsset('/assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+      fetchDataAsset('./assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
         incomingProductTable.push(transformProductTable(Table, tokens));
-        fetchDataAsset('/assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
+        fetchDataAsset('./assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
           incomingProductTable.push(transformProductTable(Table, tokens));
           setProductTable(incomingProductTable.flat());
         });
