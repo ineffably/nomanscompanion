@@ -1,6 +1,23 @@
+import { Colour, DebrisFile } from '../types/gcproduct';
+
+export const colorFromEntry = (colorValue: Colour): string => {
+  const { R, G, B, A } = colorValue;
+  const colorEntry = (value) => {
+    return Math.round(parseFloat(value) * 255);
+  }
+  return `rgba(${colorEntry(R)}, ${colorEntry(G)}, ${colorEntry(B)}, ${A})`;
+}
+
+export const getIconUrlFromDebrisFile = (fileNameEntry: DebrisFile): string => {
+  const { Filename } = fileNameEntry;
+  if(!Filename) return '';
+  const iconPath = 'TEXTURES/UI/FRONTEND/ICONS';
+  const imagePath = Filename.replace(iconPath, './assets/images').replace('.DDS', '.webp').toLowerCase();
+  return imagePath;
+}
 
 export const GCProductKeys = [
-  "ID",
+  "Id",
   "Name",
   "NameLower",
   "Subtitle",

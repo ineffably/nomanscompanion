@@ -25,18 +25,20 @@
 
 </html>
 <script language="JavaScript">
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('sw.js')
-      .then(function () { console.log("Service Worker Registered"); });
-  }
-  
-  window.setTimeout(function () {
+  // if ('serviceWorker' in navigator) {
+  //   navigator.serviceWorker
+  //     .register('sw.js')
+  //     .then(function () { console.log("Service Worker Registered"); });
+  // }
+  window.onload = function() {
+    window.setTimeout(function () {
     if (!window.__APP_LOADED__) {
       console.log('Attempting to load bundle');
       var el = document.createElement("script");
       el.setAttribute('src', 'dist/bundle.js');
       document.body.appendChild(el);
     }
-  }, 500)
+  }, 100)
+  }
+
 </script>

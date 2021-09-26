@@ -1,4 +1,5 @@
 export interface GCProductEntry {
+  ID?:                         string;
   Id?:                         string;
   Name?:                       string;
   NameLower?:                  string;
@@ -36,6 +37,11 @@ export interface GCProductEntry {
   CookingValue?:               string;
   GoodForSelling?:             string;
   EggModifierIngredient?:      string;
+  ext?:                        ExtendedProductData; // added for app processing
+}
+
+export interface ExtendedProductData {
+  iconUrl?: string;
 }
 
 export interface Category {
