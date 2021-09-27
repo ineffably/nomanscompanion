@@ -10,13 +10,16 @@ const JsonPreview = (json) => {
 
 export interface ProductCardProps {
   entry: GCProductEntry;
+  history?: any;
 }
 
-export const MinProductCard = ({ entry }: ProductCardProps): ReactElement  => {
+export const MinProductCard = ({ entry, history }: ProductCardProps): ReactElement  => {
+  if(!entry) return null;
   const { ext, Name, Id } = entry;
   const title = Name && Name.length > 0 ? Name : Id;
-  const { iconUrl, linkColor } = ext;
+  const { iconUrl } = ext;
   const backgroundColor = entry.Colour ? colorFromEntry(entry.Colour) : '';
+  
   return (
     <Popover content={JsonPreview(entry)} title="JSON">
       <Card 
@@ -26,6 +29,10 @@ export const MinProductCard = ({ entry }: ProductCardProps): ReactElement  => {
         style={{width: '140px'}} 
         headStyle={{textAlign: 'center', fontSize: '12px'}}
         bodyStyle={{display:'flex', alignItems: 'center', justifyContent: 'center'}}
+        onClick={() => {
+          console.log('onclick', history);
+          history?.push(`/items/${entry.Name}`);
+        }}
         >
          <img style={{ width: '100px', backgroundColor, padding: '20px'}} src={iconUrl }  /> 
       </Card>
