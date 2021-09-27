@@ -39,7 +39,7 @@ const transformProductTable = (entries: GCProductEntry[], languageTokens: Record
 }
 
 export const App: FunctionComponent = () => {
-  const [languageTokens, setLanguageTokens] = useState({} as Record<string, string>);
+  const [, setLanguageTokens] = useState({} as Record<string, string>);
   const [entriesbyName, setEntriesByName] = useState({} as Record<string, GCProductEntry>);
   const [productNameTable, setProductNameTable] = useState([] as string[])
 
@@ -47,19 +47,19 @@ export const App: FunctionComponent = () => {
     const response = await window.fetch(location);
     const json = await response.json();
     if (json) {
-      onSuccess(json)
+      return onSuccess(json)
     }
   }
 
   const fetchProductTables = (tokens: Record<string, string>) => {
-    const incomingProductTable = [];
+    const incomingProductTable = [] as GCProductEntry[][];
     fetchDataAsset('./assets/data/nms_reality_gctechnologytable.json', ({ Table }: { Table: GCProductEntry[] }) => {
-      incomingProductTable.push(transformProductTable(Table, tokens));
+      incomingProductTable.push(Table);
       fetchDataAsset('./assets/data/nms_u3reality_gcproducttable.json', ({ Table }: { Table: GCProductEntry[] }) => {
-        incomingProductTable.push(transformProductTable(Table, tokens));
+        incomingProductTable.push(Table);
         fetchDataAsset('./assets/data/nms_reality_gcsubstancetable.json', ({ Table }: { Table: GCProductEntry[] }) => {
-          incomingProductTable.push(transformProductTable(Table, tokens));
-          const finalTable = incomingProductTable.flat() as GCProductEntry[];
+          incomingProductTable.push(Table);
+          const finalTable = transformProductTable((incomingProductTable.flat()), tokens)
           const { records, fieldTable } = createLookupEntries(finalTable, 'Name');
           setProductNameTable(fieldTable);
           setEntriesByName(records);
@@ -69,12 +69,11 @@ export const App: FunctionComponent = () => {
   }
 
   const fetchData = async () => {
-    fetchDataAsset('./assets/data/all_usenglish.json', setLanguageTokens)
+    fetchDataAsset('./assets/data/all_usenglish.json', tokens => {
+      setLanguageTokens(tokens);
+      fetchProductTables(tokens);
+    })
   }
-
-  useEffect(() => {
-    fetchProductTables(languageTokens);
-  }, [languageTokens])
 
   useEffect(() => {
     fetchData();
